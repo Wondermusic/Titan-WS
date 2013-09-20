@@ -1,0 +1,1755 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XmlPropertyInfo xmlns:x="http://www.w3.org/2001/XMLSchema-instance">
+  <Properties>
+    <XmlProperty>
+      <SkinTag>#MPD2.fanart.movie</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Anime3.Fanart.1" />
+        <XmlMediaPortalTag Tag="#fanarthandler.movie.backdrop1.selected" />
+        <XmlMediaPortalTag Tag="#fanarthandler.movie.backdrop2.selected" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.RecordedTV.thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.RecordedTV.thumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#RadioTime.Selected.Logo</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#RadioTime.Selected.Logo" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.logos_id2012</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue />
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.logos_id2012" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.picture</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.picture" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD2.fanart.MyFilms</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.fanart" />
+        <XmlMediaPortalTag Tag="#myfilms.fanart2" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Emulators2.CurrentItem.coverpath</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.coverpath" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD2.fanart.Emu</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.fanartpath" />
+        <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.fanartpath2" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.VideoCodec.Texture</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.VideoCodec.Texture" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Anime3.Episode.Image</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Anime3.Episode.Image" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Anime3.Fanart.1</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Anime3.Fanart.1" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.Video.Thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.Video.Thumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.Thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.Thumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD2.fanart.MovingPictures</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.Backdrop" />
+        <XmlMediaPortalTag Tag="#MovingPictures.Backdrop2" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.SelectedMovie.score.rounded</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.score.rounded" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.UserMovieSettings.watched</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.UserMovieSettings.watched" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.Coverart</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.Coverart" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPE.Selected.Icon</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MPE.Selected.Icon" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#selectedthumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#selectedthumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPDisplay.HoverImage</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="New...." />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.View.thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.View.thumb" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD2.fanart.TVSeries</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TVSeries.Fanart.1" />
+        <XmlMediaPortalTag Tag="#TVSeries.Fanart.2" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD2.Thumb.TVSeries</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TVSeries.SeriesPoster" />
+        <XmlMediaPortalTag Tag="#TVSeries.SeasonPoster" />
+        <XmlMediaPortalTag Tag="#TVSeries.EpisodeImage" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD2.TVSeries.RatingPath</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TVSeries.Episode.RatingPath" />
+        <XmlMediaPortalTag Tag="#TVSeries.Series.RatingPath2" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#UpdateControl.UpdateSeverityImage</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#UpdateControl.UpdateSeverityImage" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.TodayIconImage</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.TodayIconImage" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.LocationMoonPhaseImage</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.LocationMoonPhaseImage" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay0IconImage</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay0IconImage" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay1IconImage</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay1IconImage" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay2IconImage</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay2IconImage" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay3IconImage</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay3IconImage" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD2.fanart.music</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#fanarthandler.music.backdrop1.selected" />
+        <XmlMediaPortalTag Tag="#fanarthandler.music.backdrop2.selected" />
+        <XmlMediaPortalTag Tag="#fanarthandler.music.backdrop1.play" />
+        <XmlMediaPortalTag Tag="#fanarthandler.music.backdrop2.play" />
+        <XmlMediaPortalTag Tag="#fanarthandler.music.overlay.play" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD2.fanartBH</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#fanarthandler.music.scraper.backdrop1.any" />
+        <XmlMediaPortalTag Tag="#fanarthandler.music.scraper.backdrop2.any" />
+        <XmlMediaPortalTag Tag="#fanarthandler.tvseries.backdrop1.any" />
+        <XmlMediaPortalTag Tag="#fanarthandler.tvseries.backdrop2.any" />
+        <XmlMediaPortalTag Tag="#fanarthandler.tv.userdef.backdrop1.any" />
+        <XmlMediaPortalTag Tag="#fanarthandler.tv.userdef.backdrop2.any" />
+        <XmlMediaPortalTag Tag="#fanarthandler.movingpicture.backdrop1.any" />
+        <XmlMediaPortalTag Tag="#fanarthandler.movingpicture.backdrop2.any" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#percentage</SkinTag>
+      <PropertyType>Number</PropertyType>
+      <DesignerValue>25</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#percentage" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.Record.percent3</SkinTag>
+      <PropertyType>Number</PropertyType>
+      <DesignerValue>50</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.Record.percent3" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.View.Percentage</SkinTag>
+      <PropertyType>Number</PropertyType>
+      <DesignerValue>80</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.View.Percentage" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.Record.percent2</SkinTag>
+      <PropertyType>Number</PropertyType>
+      <DesignerValue>50</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.Record.percent2" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Rockstar.SelectedTrack.TrackDuration</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>03:28</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Rockstar.SelectedTrack.TrackDuration" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Rockstar.SelectedTrack.AlbumYear</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>2012</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Rockstar.SelectedTrack.AlbumYear" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.Album</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Living Things</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.Album" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Rockstar.PluginName</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Spotify</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Rockstar.PluginName" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.RecordedTV.Description</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Der Fahrer sucht sich nicht das Auto aus, sondern das Auto den Fahrer", sülzt der Gebrauchtwagenhändler. Der gelbe Camaro und Sam (Shia LaBeouf) scheinen wirklich wie füreinander geschaffen. Der Teenie ahnt nicht, dass die Rostlaube ein Roboter ist und zu den Autobots gehört, die sich einen Krieg mit den Blechmonstern der Decepticons liefern. Ehe Sam und die süße Mikaela (Megan Fox) sich versehen, stecken sie mittendrin... </DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.RecordedTV.Description" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.RecordedTV.Time</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>29.05.2013, 20:15</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.RecordedTV.Time" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#RadioTime.Play.Description</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>HitRadio - Top 40</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#RadioTime.Play.Description" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#RadioTime.Play.Location</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Wuppertal, Germany</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#RadioTime.Play.Location" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#RadioTime.Play.Station</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Radio Wuppertal 107,4</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#RadioTime.Play.Station" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#RadioTime.Presets.Folder.Name</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Favorites</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#RadioTime.Presets.Folder.Name" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#RadioTime.Translation.Folders.Label</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Folders</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#RadioTime.Translation.Folders.Label" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#RadioTime.Translation.Home.Label</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Home</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#RadioTime.Translation.Home.Label" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#RadioTime.Presets.10.Name</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>&lt; EMPTY &gt;</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#RadioTime.Presets.10.Name" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#RadioTime.Presets.9.Name</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>&lt; EMPTY &gt;</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#RadioTime.Presets.9.Name" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#RadioTime.Presets.8.Name</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>&lt; EMPTY &gt;</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#RadioTime.Presets.8.Name" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#RadioTime.Presets.7.Name</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>&lt; EMPTY &gt;</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#RadioTime.Presets.7.Name" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#RadioTime.Presets.6.Name</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>&lt; EMPTY &gt;</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#RadioTime.Presets.6.Name" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#RadioTime.Presets.5.Name</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>&lt; EMPTY &gt;</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#RadioTime.Presets.5.Name" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#RadioTime.Presets.4.Name</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>WDR 2</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#RadioTime.Presets.4.Name" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#RadioTime.Presets.3.Name</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Radio Wuppertal 107,4</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#RadioTime.Presets.3.Name" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#RadioTime.Presets.2.Name</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Sunshine Radio</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#RadioTime.Presets.2.Name" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#RadioTime.Presets.1.Name</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>1LIVE</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#RadioTime.Presets.1.Name" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.db.framerate.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>23,947</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.db.framerate.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.db.url.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>http://de.wikipedia.org/wiki/Stirb_langsam:_Jetzt_erst_recht</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.db.url.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.db.size.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>2500</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.db.size.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.db.audiobitrate.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>1532</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.db.audiobitrate.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.db.resolution.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>1920x1080</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.db.resolution.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.db.videobitrate.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>5321</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.db.videobitrate.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.db.comments.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.db.comments.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.db.actors.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Bruce Willis: John McClane, Samuel L. Jackson: Zeus Carver, Jeremy Irons: Simon Peter Gruber, Graham Greene: Joe Lambert</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.db.actors.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.user.item5.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>12.12.2012</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.user.item5.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.user.item4.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>German</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.user.item4.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.user.item3.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Action</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.user.item3.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.user.item2.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Armin Becker</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.user.item2.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.user.item1.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>USA</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.user.item1.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.db.director.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Peter Becker</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.db.director.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.db.length.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>187</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.db.length.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.db.year.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>2011</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.db.year.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.db.rating.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>8,9</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.db.rating.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.db.audioformat.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>mp3</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.db.audioformat.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.db.calc.aspectratio.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>2.71</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.db.calc.aspectratio.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.db.videoformat.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>H264</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.db.videoformat.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.db.description.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>When his brother is killed in a robbery, paraplegic Marine Jake Sully decides to take his place in a mission on the distant world of Pandora. There he learns of greedy corporate figurehead Parker Selfridge's intentions of driving off the native humanoid "Na'vi" in order to mine for the precious material scattered throughout their rich woodland. In exchange for the spinal surgery that will fix his legs, Jake gathers intel for the cooperating military unit spearheaded by gung-ho Colonel Quaritch, while simultaneously attempting to infiltrate the Na'vi people with the use of an "avatar" identity. While Jake begins to bond with the native tribe and quickly falls in love with the beautiful alien Neytiri, the restless Colonel moves forward with his ruthless extermination tactics, forcing the soldier to take a stand - and fight back in an epic battle for the fate of Pandora.</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.db.description.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.db.rating.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>5,6</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.db.rating.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.view</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.view" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#myfilms.user.mastertitle.value</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Stirb Langsam 3</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#myfilms.user.mastertitle.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Emulators2.CurrentItem.latestplaydate</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>25.05.2013</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.latestplaydate" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Emulators2.CurrentItem.genre</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>3D Ego- Shooter</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.genre" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Emulators2.CurrentItem.year</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>2011</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.year" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Emulators2.CurrentItem.description</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Battlefield 3 (abgekürzt: BF3) ist ein Ego-Shooter, der von dem Computerspielhersteller DICE entwickelt und am 27. Oktober 2011 von Electronic Arts veröffentlicht wurde. Es ist der direkte Nachfolger des 2005 publizierten Spiels Battlefield 2. Battlefield 3 ist das erste Spiel, das auf Grundlage der hauseigenen Grafikengine Frostbite 2 entwickelt wurde. Als Nachfolger wurde Battlefield 4 für den Herbst 2013 angekündigt.[1][2]</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.description" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Emulators2.CurrentItem.company</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>DICE</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.company" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Emulators2.CurrentItem.title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Battlefield 3</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Emulators2.CurrentItem.title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Battlefield 3</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.AudioChannels</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.AudioChannels" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.AudioCodec.Texture</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.AudioCodec.Texture" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.AspectRatio</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.AspectRatio" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.VideoResolution</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.VideoResolution" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD2.myAnime.Description</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue />
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Anime3.Description" />
+        <XmlMediaPortalTag Tag="#Anime3.Episode.Description" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD2.myAnime.Rating</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Anime3.Episode.Rating" />
+        <XmlMediaPortalTag Tag="#Anime3.SeriesGroup.Rating" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#selectedindex</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#selectedindex" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#mvCentral.LocalMedia.audiochannels</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>5.1</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#mvCentral.LocalMedia.audiochannels" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#mvCentral.LocalMedia.audiocodec</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>DTS</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#mvCentral.LocalMedia.audiocodec" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#mvCentral.LocalMedia.videoaspectratio</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>16x9</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#mvCentral.LocalMedia.videoaspectratio" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#mvCentral.LocalMedia.videoresolution</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>720p</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#mvCentral.LocalMedia.videoresolution" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#mvCentral.LocalMedia.videocodec</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#mvCentral.LocalMedia.videocodec" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.mvVideo</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Powerless</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.mvVideo" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#mvCentral.ArtistName</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Linkin Park</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#mvCentral.ArtistName" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#mvCentral.Hierachy</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Artist</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#mvCentral.Hierachy" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#itemtype</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>#itemtype</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#itemtype" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#mvCentral.ViewAs</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Artist</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#mvCentral.ViewAs" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.Duration</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>00:03:56</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.Duration" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Next.Duration</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>03:45</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Next.Duration" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Next.Title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Wonderworld</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Next.Title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Next.Artist</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Madonna</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Next.Artist" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.Title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Powerless</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.Title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.Artist</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Linkin Park</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.Artist" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#itemcount</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>521</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#itemcount" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#currentremaining</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>01:25:23</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#currentremaining" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#currentplaytime</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>00:01:57</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#currentplaytime" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.LocalMedia.videoheight</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>1080</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.videoheight" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.LocalMedia.videowidth</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>1920</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.videowidth" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.SelectedMovie.details_url</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>http://www.imdb.com/</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.details_url" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.SelectedMovie.date_added</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>22.05.2013</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.date_added" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.LocalMedia.audiochannels</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>5.1</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.audiochannels" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.LocalMedia.audiocodec</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>DTS</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.audiocodec" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.LocalMedia.videoresolution</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>1920 x 1080</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.videoresolution" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.LocalMedia.videoframerate</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>25</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.videoframerate" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.LocalMedia.videocodec</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>H264</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.videocodec" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.SelectedMovie.runtime.localized.long</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>02:35:45</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.runtime.localized.long" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.SelectedMovie.year</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>2013</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.year" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.SelectedMovie.actors</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Bruce Willis, Arnold Schwarzenegger, Brad, Pitt, Nicole Kidman, Sylvester Stalone</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.actors" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.SelectedMovie.writers</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Peter Becker</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.writers" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.SelectedMovie.directors</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>John Carpenter</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.directors" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.Translation.Votes.Label</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>2342</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.Translation.Votes.Label" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.SelectedMovie.popularity.localized</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>2513</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.popularity.localized" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.SelectedMovie.score.localized</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>5,6</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.score.localized" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.SelectedMovie.genres</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Action</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.genres" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD2.Video.Subs</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.Subtitles" />
+        <XmlMediaPortalTag Tag="#Play.Current.HasSubtitles" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.SelectedMovie.summary</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>When his brother is killed in a robbery, paraplegic Marine Jake Sully decides to take his place in a mission on the distant world of Pandora. There he learns of greedy corporate figurehead Parker Selfridge's intentions of driving off the native humanoid "Na'vi" in order to mine for the precious material scattered throughout their rich woodland. In exchange for the spinal surgery that will fix his legs, Jake gathers intel for the cooperating military unit spearheaded by gung-ho Colonel Quaritch, while simultaneously attempting to infiltrate the Na'vi people with the use of an "avatar" identity. While Jake begins to bond with the native tribe and quickly falls in love with the beautiful alien Neytiri, the restless Colonel moves forward with his ruthless extermination tactics, forcing the soldier to take a stand - and fight back in an epic battle for the fate of Pandora.</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.summary" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.SelectedMovie.score.localized</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>8,2</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.score.localized" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.general.itemcount</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>25</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.general.itemcount" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.SelectedMovie.title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Avatar</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#selecteditem2</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>23.04.2013, 15:45</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#selecteditem2" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#selecteditem</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Richard Lassmann</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#selecteditem" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPE.Selected.Description</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... bla... </DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MPE.Selected.Description" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPE.Selected.Id</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>sdf6sd5f76d5gf678fda56g564dafg</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MPE.Selected.Id" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPE.Selected.ReleaseDate</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>05.01.2013</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MPE.Selected.ReleaseDate" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPE.Selected.Author</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>sa_ddam213, Wondermusic</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MPE.Selected.Author" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPE.Selected.Version</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>0.9.0.0</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MPE.Selected.Version" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPE.Selected.Name</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>MPDisplay++</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MPE.Selected.Name" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.TodayTemperature</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>15°C</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.TodayTemperature" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#currentmodule</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Home</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#currentmodule" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Dialog.Label1</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Header</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Dialog.Label1" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Dialog.Label2</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Line 2</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Dialog.Label2" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Dialog.Label3</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Line 1</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Dialog.Label62" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Dialog.Label4</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Line 2</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Dialog.Label6" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Dialog.Label5</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Line 1</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Dialog.Label5" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Dialog.Label6</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>ChannelList</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Dialog.Label4" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#infoservice.feed.1.titles</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>TEST... test... TEST... test... TEST... test... TEST... test... TEST... test... TEST... test... TEST... test... TEST... test... TEST... test... TEST... test... TEST... test... TEST... test... </DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#infoservice.feed.1.titles" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#highlightedbutton</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Shutdown</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#highlightedbutton" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#date</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>25.03.2013</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#date" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#time</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>20:15</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#time" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.Search.Title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Tatort</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.Search.Title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.Search.Time</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>20:15 - 22:00</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.Search.Time" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.Search.Description</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... </DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.Search.Description" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.View.title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Tatort</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.View.title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.View.channel</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Das Erste HD</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.View.channel" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.View.genre</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Krimi</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.View.genre" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.Next.start</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>20:15</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.Next.start" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.Next.stop</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>22:00</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.Next.stop" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.Next.title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Ein Fall für zwei</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.Next.title" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.View.start</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>19:15</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.View.start" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.View.stop</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>20:15</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.View.stop" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.Next.genre</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Drama</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.Next.genre" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TVSeries.CurrentView</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Season</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TVSeries.CurrentView" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD2.TVSeries.Rating</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>8,6</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TVSeries.Episode.InfoPanelLine1Value" />
+        <XmlMediaPortalTag Tag="#TVSeries.Series.InfoPanelLine1Value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD2.TVSeries.Rating2</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>/ 5426</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TVSeries.Episode.InfoPanelLine8Value" />
+        <XmlMediaPortalTag Tag="#TVSeries.Series.InfoPanelLine9Value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD2.TVSeries.Summary</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... </DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TVSeries.Description" />
+        <XmlMediaPortalTag Tag="#TVSeries.Series.Summary" />
+        <XmlMediaPortalTag Tag="#TVSeries.Episode.Summary" />
+        <XmlMediaPortalTag Tag="#Play.Current.Plot" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#UpdateControl.UpdateTitle</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>MPDisplay++</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#UpdateControl.UpdateTitle" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#UpdateControl.UpdateSize</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>31,5 MB</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#UpdateControl.UpdateSize" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#UpdateControl.UpdateSeverity</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>???</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#UpdateControl.UpdateSeverity" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#UpdateControl.UpdateDescription</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... </DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#UpdateControl.UpdateDescription" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#UpdateControl.Action</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#UpdateControl.Action" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#UpdateControl.DownloadOverallProgress</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>37</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#UpdateControl.DownloadOverallProgress" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#UpdateControl.InstallOverallProgress</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>0</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#UpdateControl.InstallOverallProgress" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.TodayCondition</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>sunny</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.TodayCondition" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.TodayWindDirection</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>NE</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.TodayWindDirection" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.TodayWindDirectionDegree</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>51°</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.TodayWindDirectionDegree" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.TodayWindSpeed</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>6 km/h</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.TodayWindSpeed" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.LocationSunriseTime</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>06:21</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.LocationSunriseTime" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.LocationSunsetTime</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>21:56</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.LocationSunsetTime" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.LocationMoonPhase</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Rising</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.LocationMoonPhase" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay0Day</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Monday</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay0Day" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay0High</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>18°C</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay0High" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay0Low</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>11°C</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay0Low" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay0Condition</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>sunny</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay0Condition" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay1Day</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Tuesday</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay1Day" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay1High</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>20°C</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay1High" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay1Low</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>13°C</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay1Low" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay1Condition</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>sunny</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay1Condition" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay2Day</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Wednesday</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay2Day" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay2High</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>19°C</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay2High" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay2Low</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>9°C</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay2Low" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay2Condition</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>cloudy</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay2Condition" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay3Day</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Thursday</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay3Day" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay3High</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>17°C</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay3High" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay3Low</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>9°C</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay3Low" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay3Condition</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>raining</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay3Condition" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay4Day</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Friday</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay4Day" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay4High</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>22°C</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay4High" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay4Low</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>13°C</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay4Low" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay4Condition</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>sunny</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay4Condition" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay4IconImage</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay4IconImage" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD2.BrowseStatus</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#webbrowser.status" />
+        <XmlMediaPortalTag Tag="#btWeb.status" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD2.Browseurl</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#webbrowser.shorturl" />
+        <XmlMediaPortalTag Tag="#btWeb.linkid" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TVSeries.Episode.LocalEpisodeName</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Mr. Monk Meets the Candidate (1)</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TVSeries.Episode.LocalEpisodeName" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPE.Selected.VersionDescription</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... </DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MPE.Selected.VersionDescription" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#duration</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>02:35:42</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#duration" />
+      </MediaPortalTags>
+    </XmlProperty>
+  </Properties>
+</XmlPropertyInfo>

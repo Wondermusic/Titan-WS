@@ -1,0 +1,1510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window xmlns:x="http://www.w3.org/2001/XMLSchema-instance" x:type="MediaPortalWindow">
+  <IsDefault>false</IsDefault>
+  <Width>1280</Width>
+  <Height>720</Height>
+  <Name>myFilms</Name>
+  <Id>11</Id>
+  <BackgroundBrush />
+  <WindowAnimations />
+  <WindowControls>
+    <Control x:type="Image">
+      <Name>Background Image</Name>
+      <Id>1</Id>
+      <Width>1280</Width>
+      <Height>720</Height>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <ImageStyle StyleId="Background" />
+      <ImageStretch>None</ImageStretch>
+      <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+    </Control>
+    <Control x:type="Group">
+      <Name>ListControl Screen</Name>
+      <Id>101</Id>
+      <Width>1280</Width>
+      <Height>720</Height>
+      <VisibleCondition>IsMediaPortalWindow(7986)</VisibleCondition>
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <Animations />
+      <MediaPortalFocusControls />
+      <GroupStyle StyleId="Empty" />
+      <GroupControls>
+        <Control x:type="Image">
+          <Name>Fanart</Name>
+          <Id>102</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle StyleId="Logo_Image" />
+          <Image>#MPD2.fanart.MyFilms</Image>
+          <ImageStretch>Fill</ImageStretch>
+          <CoverImage x:type="ImageBrush" Image="\fanart_overlay.png" Stretch="Fill" />
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Image">
+          <Name>Overlay</Name>
+          <Id>103</Id>
+          <Width>1280</Width>
+          <Height>600</Height>
+          <PosY>100</PosY>
+          <VisibleCondition>IsMediaPortalListLayout(Vertical)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle StyleId="Logo_Image" />
+          <Image>\panel_video_actors.png</Image>
+          <ImageStretch>Fill</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Image">
+          <Name>Overlay CF+H</Name>
+          <Id>198</Id>
+          <Width>1280</Width>
+          <Height>600</Height>
+          <PosY>100</PosY>
+          <VisibleCondition>!IsMediaPortalListLayout(Vertical)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle StyleId="Logo_Image" />
+          <Image>\panel_video_actors.png</Image>
+          <ImageStretch>Fill</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Image">
+          <Name>Cover</Name>
+          <Id>104</Id>
+          <Width>250</Width>
+          <Height>352</Height>
+          <PosX>55</PosX>
+          <PosY>160</PosY>
+          <VisibleCondition>IsControlVisible(103)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle StyleId="VideoCover" />
+          <Image>#myfilms.picture</Image>
+          <ImageStretch>None</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="List">
+          <Name>List</Name>
+          <Id>105</Id>
+          <Width>1210</Width>
+          <Height>518</Height>
+          <PosX>38</PosX>
+          <PosY>153</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ListControlStyle StyleId="empty" />
+          <ListType>MediaPortalListControl</ListType>
+          <ListLayout>Auto</ListLayout>
+          <VerticalItemStyle StyleId="VideoList" />
+          <HorizontalItemStyle StyleId="VideoList Horizontal" />
+          <CoverFlowItemStyle StyleId="VideoList CoverFlow" />
+        </Control>
+        <Control x:type="Label">
+          <Name>Title</Name>
+          <Id>106</Id>
+          <Width>750</Width>
+          <Height>50</Height>
+          <PosX>496</PosX>
+          <PosY>655</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan 40">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>#myfilms.user.mastertitle.value</LabelText>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Current Module+itemcount</Name>
+          <Id>107</Id>
+          <Width>435</Width>
+          <Height>40</Height>
+          <PosX>29</PosX>
+          <PosY>655</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan 40">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>Movies: +#itemcount+ / View: +#myfilms.view</LabelText>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Star Rating Label</Name>
+          <Id>108</Id>
+          <Width>300</Width>
+          <Height>45</Height>
+          <PosX>330</PosX>
+          <PosY>160</PosY>
+          <VisibleCondition>IsControlVisible(103)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan30_White">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>#myfilms.db.rating.value</LabelText>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Summary</Name>
+          <Id>109</Id>
+          <Width>340</Width>
+          <Height>420</Height>
+          <PosX>330</PosX>
+          <PosY>217</PosY>
+          <VisibleCondition>IsControlVisible(103)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan30_White">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>#myfilms.db.description.value</LabelText>
+          <IsVertical>true</IsVertical>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>5</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollSeperator>-------------------------------------</ScrollSeperator>
+        </Control>
+        <Control x:type="Image">
+          <Name>Video Codec</Name>
+          <Id>110</Id>
+          <Width>66</Width>
+          <Height>45</Height>
+          <PosX>70</PosX>
+          <PosY>530</PosY>
+          <VisibleCondition>IsControlVisible(103)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle StyleId="Logo_Image" />
+          <Image>\Logos\+#myfilms.db.videoformat.value+.png</Image>
+          <ImageStretch>None</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Image">
+          <Name>Video Resolution</Name>
+          <Id>111</Id>
+          <Width>66</Width>
+          <Height>45</Height>
+          <PosX>140</PosX>
+          <PosY>530</PosY>
+          <VisibleCondition>IsControlVisible(103)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle StyleId="Logo_Image" />
+          <Image>\Logos\+#Play.Current.VideoResolution+.png</Image>
+          <ImageStretch>None</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Image">
+          <Name>Video Aspect Ratio</Name>
+          <Id>112</Id>
+          <Width>66</Width>
+          <Height>45</Height>
+          <PosX>70</PosX>
+          <PosY>575</PosY>
+          <VisibleCondition>IsControlVisible(103)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle StyleId="Logo_Image" />
+          <Image>\Logos\+#myfilms.db.calc.aspectratio.value+.png</Image>
+          <ImageStretch>None</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Image">
+          <Name>Audio Codec</Name>
+          <Id>113</Id>
+          <Width>66</Width>
+          <Height>45</Height>
+          <PosX>140</PosX>
+          <PosY>575</PosY>
+          <VisibleCondition>IsControlVisible(103)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle StyleId="Logo_Image" />
+          <Image>\Logos\+#myfilms.db.audioformat.value+.png</Image>
+          <ImageStretch>None</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Image">
+          <Name>Audio Channels</Name>
+          <Id>114</Id>
+          <Width>66</Width>
+          <Height>45</Height>
+          <PosX>70</PosX>
+          <PosY>610</PosY>
+          <VisibleCondition>IsControlVisible(103)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle StyleId="Logo_Image" />
+          <Image>\Logos\+#Play.Current.AudioChannels+.png</Image>
+          <ImageStretch>None</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Image">
+          <Name>Subtitles</Name>
+          <Id>115</Id>
+          <Width>66</Width>
+          <Height>45</Height>
+          <PosX>140</PosX>
+          <PosY>610</PosY>
+          <VisibleCondition>IsControlVisible(103)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle StyleId="Logo_Image" />
+          <Image>\Logos\+#MPD2.Video.Subs+.png</Image>
+          <ImageStretch>None</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+      </GroupControls>
+    </Control>
+    <Control x:type="Group">
+      <Name>Details Screen</Name>
+      <Id>116</Id>
+      <Width>1280</Width>
+      <Height>720</Height>
+      <VisibleCondition>IsMediaPortalWindow(7987)</VisibleCondition>
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <Animations />
+      <MediaPortalFocusControls />
+      <GroupStyle StyleId="Empty" />
+      <GroupControls>
+        <Control x:type="Image">
+          <Name>Fanart</Name>
+          <Id>117</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle StyleId="Logo_Image" />
+          <Image>#MPD2.fanart.MyFilms</Image>
+          <ImageStretch>Fill</ImageStretch>
+          <CoverImage x:type="ImageBrush" Image="\fanart_overlay.png" Stretch="Fill" />
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Image">
+          <Name>Overlay</Name>
+          <Id>118</Id>
+          <Width>1280</Width>
+          <Height>600</Height>
+          <PosY>100</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle StyleId="Logo_Image" />
+          <Image>\panel_thumbs_noinfo.png</Image>
+          <ImageStretch>Fill</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Button">
+          <Name>Play Button and Overview</Name>
+          <Id>119</Id>
+          <Width>240</Width>
+          <Height>45</Height>
+          <PosX>50</PosX>
+          <PosY>150</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls>
+            <MediaPortalControlId>10000</MediaPortalControlId>
+          </MediaPortalFocusControls>
+          <ButtonStyle StyleId="Standard Button" />
+          <LabelText>@Overview+:</LabelText>
+          <Actions />
+        </Control>
+        <Control x:type="Button">
+          <Name>Description</Name>
+          <Id>120</Id>
+          <Width>240</Width>
+          <Height>45</Height>
+          <PosX>50</PosX>
+          <PosY>200</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls>
+            <MediaPortalControlId>10001</MediaPortalControlId>
+          </MediaPortalFocusControls>
+          <ButtonStyle StyleId="Standard Button" />
+          <LabelText>@Description+:</LabelText>
+          <Actions />
+        </Control>
+        <Control x:type="Button">
+          <Name>Comment</Name>
+          <Id>121</Id>
+          <Width>240</Width>
+          <Height>45</Height>
+          <PosX>50</PosX>
+          <PosY>250</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls>
+            <MediaPortalControlId>10002</MediaPortalControlId>
+          </MediaPortalFocusControls>
+          <ButtonStyle StyleId="Standard Button" />
+          <LabelText>@Comments+:</LabelText>
+          <Actions />
+        </Control>
+        <Control x:type="Button">
+          <Name>Actor Details</Name>
+          <Id>122</Id>
+          <Width>240</Width>
+          <Height>45</Height>
+          <PosX>50</PosX>
+          <PosY>300</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls>
+            <MediaPortalControlId>10003</MediaPortalControlId>
+          </MediaPortalFocusControls>
+          <ButtonStyle StyleId="Standard Button" />
+          <LabelText>@Actors+:</LabelText>
+          <Actions />
+        </Control>
+        <Control x:type="Button">
+          <Name>Technical Details</Name>
+          <Id>123</Id>
+          <Width>240</Width>
+          <Height>45</Height>
+          <PosX>50</PosX>
+          <PosY>350</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls>
+            <MediaPortalControlId>20004</MediaPortalControlId>
+          </MediaPortalFocusControls>
+          <ButtonStyle StyleId="Standard Button" />
+          <LabelText>@Technical Details+:</LabelText>
+          <Actions />
+        </Control>
+        <Control x:type="Button">
+          <Name>Options</Name>
+          <Id>124</Id>
+          <Width>240</Width>
+          <Height>45</Height>
+          <PosX>50</PosX>
+          <PosY>400</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls>
+            <MediaPortalControlId>107</MediaPortalControlId>
+          </MediaPortalFocusControls>
+          <ButtonStyle StyleId="Standard Button" />
+          <LabelText>@Options+:</LabelText>
+          <Actions />
+        </Control>
+        <Control x:type="Group">
+          <Name>General Informations</Name>
+          <Id>125</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <GroupStyle StyleId="Empty" />
+          <GroupControls>
+            <Control x:type="Label">
+              <Name>Title</Name>
+              <Id>126</Id>
+              <Width>926</Width>
+              <Height>80</Height>
+              <PosX>300</PosX>
+              <PosY>150</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan60">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#myfilms.user.mastertitle.value</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Rating Label</Name>
+              <Id>127</Id>
+              <Width>350</Width>
+              <Height>50</Height>
+              <PosX>300</PosX>
+              <PosY>220</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan40 White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>(+#myfilms.db.rating.value+/10)</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Year and runtime</Name>
+              <Id>128</Id>
+              <Width>350</Width>
+              <Height>50</Height>
+              <PosX>875</PosX>
+              <PosY>220</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan40 White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#myfilms.db.year.value+ - +#myfilms.db.length.value+ min</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Image">
+              <Name>Logos</Name>
+              <Id>129</Id>
+              <Width>400</Width>
+              <Height>29</Height>
+              <PosX>50</PosX>
+              <PosY>627</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>#myfilms.logos_id2012</Image>
+              <ImageStretch>None</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Label">
+              <Name>Movie Title</Name>
+              <Id>130</Id>
+              <Width>1200</Width>
+              <Height>60</Height>
+              <PosX>42</PosX>
+              <PosY>652</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan 40">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#myfilms.user.mastertitle.value</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+          </GroupControls>
+        </Control>
+        <Control x:type="Group">
+          <Name>Overview</Name>
+          <Id>131</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition>IsMediaPortalControlFocused(10000)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <GroupStyle StyleId="Empty" />
+          <GroupControls>
+            <Control x:type="Label">
+              <Name>Director</Name>
+              <Id>132</Id>
+              <Width>290</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>270</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Director+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Director Label</Name>
+              <Id>133</Id>
+              <Width>635</Width>
+              <Height>40</Height>
+              <PosX>590</PosX>
+              <PosY>270</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#myfilms.db.director.value</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Country</Name>
+              <Id>134</Id>
+              <Width>290</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>310</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Country+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Country Label</Name>
+              <Id>135</Id>
+              <Width>635</Width>
+              <Height>40</Height>
+              <PosX>590</PosX>
+              <PosY>310</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#myfilms.user.item1.value</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Producer</Name>
+              <Id>136</Id>
+              <Width>290</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>350</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Producer+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Producer Label</Name>
+              <Id>137</Id>
+              <Width>635</Width>
+              <Height>40</Height>
+              <PosX>590</PosX>
+              <PosY>350</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#myfilms.user.item2.value</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Genre</Name>
+              <Id>138</Id>
+              <Width>290</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>390</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Genre+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Genre Label</Name>
+              <Id>139</Id>
+              <Width>635</Width>
+              <Height>40</Height>
+              <PosX>590</PosX>
+              <PosY>390</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#myfilms.user.item3.value</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Language</Name>
+              <Id>140</Id>
+              <Width>290</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>430</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Language+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Language Label</Name>
+              <Id>141</Id>
+              <Width>635</Width>
+              <Height>40</Height>
+              <PosX>590</PosX>
+              <PosY>430</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#myfilms.user.item4.value</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Date</Name>
+              <Id>142</Id>
+              <Width>290</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>470</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Date+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Date Label</Name>
+              <Id>143</Id>
+              <Width>635</Width>
+              <Height>40</Height>
+              <PosX>590</PosX>
+              <PosY>470</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#myfilms.user.item5.value</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Actor</Name>
+              <Id>144</Id>
+              <Width>290</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>510</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Actors+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Actor Label</Name>
+              <Id>145</Id>
+              <Width>635</Width>
+              <Height>40</Height>
+              <PosX>590</PosX>
+              <PosY>510</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#myfilms.db.actors.value</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollSeperator>  |  </ScrollSeperator>
+            </Control>
+            <Control x:type="Label">
+              <Name>Summary</Name>
+              <Id>146</Id>
+              <Width>926</Width>
+              <Height>90</Height>
+              <PosX>300</PosX>
+              <PosY>562</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#myfilms.db.description.value</LabelText>
+              <IsVertical>true</IsVertical>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollSeperator>------------------------------------------------------------------------------------------------------</ScrollSeperator>
+            </Control>
+          </GroupControls>
+        </Control>
+        <Control x:type="Group">
+          <Name>Description</Name>
+          <Id>147</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition>IsMediaPortalControlFocused(10001)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <GroupStyle StyleId="Empty" />
+          <GroupControls>
+            <Control x:type="Label">
+              <Name>Description </Name>
+              <Id>148</Id>
+              <Width>500</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>275</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Description+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Description Label</Name>
+              <Id>149</Id>
+              <Width>925</Width>
+              <Height>300</Height>
+              <PosX>300</PosX>
+              <PosY>324</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#myfilms.db.description.value</LabelText>
+              <IsVertical>true</IsVertical>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollSeperator>------------------------------------------------------------------------------------------------------</ScrollSeperator>
+            </Control>
+          </GroupControls>
+        </Control>
+        <Control x:type="Group">
+          <Name>Comment</Name>
+          <Id>150</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition>IsMediaPortalControlFocused(10002)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <GroupStyle StyleId="Empty" />
+          <GroupControls>
+            <Control x:type="Label">
+              <Name>Comments</Name>
+              <Id>151</Id>
+              <Width>500</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>275</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Comments+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Comments Label</Name>
+              <Id>152</Id>
+              <Width>925</Width>
+              <Height>300</Height>
+              <PosX>300</PosX>
+              <PosY>324</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#myfilms.db.comments.value</LabelText>
+              <IsVertical>true</IsVertical>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollSeperator>------------------------------------------------------------------------------------------------------</ScrollSeperator>
+            </Control>
+          </GroupControls>
+        </Control>
+        <Control x:type="Group">
+          <Name>Actor Details</Name>
+          <Id>153</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition>IsMediaPortalControlFocused(10003)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <GroupStyle StyleId="Empty" />
+          <GroupControls>
+            <Control x:type="Label">
+              <Name>Actors</Name>
+              <Id>154</Id>
+              <Width>500</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>275</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Actors+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Actors Label</Name>
+              <Id>155</Id>
+              <Width>925</Width>
+              <Height>300</Height>
+              <PosX>300</PosX>
+              <PosY>324</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#myfilms.db.actors.value</LabelText>
+              <IsVertical>true</IsVertical>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollSeperator>------------------------------------------------------------------------------------------------------</ScrollSeperator>
+            </Control>
+          </GroupControls>
+        </Control>
+        <Control x:type="Group">
+          <Name>Technical Details</Name>
+          <Id>156</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition>IsMediaPortalControlFocused(20004)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <GroupStyle StyleId="Empty" />
+          <GroupControls>
+            <Control x:type="Label">
+              <Name>Video Format</Name>
+              <Id>157</Id>
+              <Width>290</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>270</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Video Format+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Video Format Label</Name>
+              <Id>158</Id>
+              <Width>635</Width>
+              <Height>40</Height>
+              <PosX>590</PosX>
+              <PosY>270</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#myfilms.db.videoformat.value</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Video Bitrate</Name>
+              <Id>159</Id>
+              <Width>290</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>310</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Video Bitrate+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Video Bitrate Label</Name>
+              <Id>160</Id>
+              <Width>635</Width>
+              <Height>40</Height>
+              <PosX>590</PosX>
+              <PosY>310</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#myfilms.db.videobitrate.value+ kbit/sec.</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Resolution</Name>
+              <Id>161</Id>
+              <Width>290</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>350</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Resolution+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Resolution Label</Name>
+              <Id>162</Id>
+              <Width>635</Width>
+              <Height>40</Height>
+              <PosX>590</PosX>
+              <PosY>350</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#myfilms.db.resolution.value</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Audio Format</Name>
+              <Id>163</Id>
+              <Width>290</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>390</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Audio Format+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Audio Format Label</Name>
+              <Id>164</Id>
+              <Width>635</Width>
+              <Height>40</Height>
+              <PosX>590</PosX>
+              <PosY>390</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#myfilms.db.audioformat.value</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Audio Bitrate</Name>
+              <Id>165</Id>
+              <Width>290</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>430</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Audio Bitrate+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Audio Bitrate Label</Name>
+              <Id>166</Id>
+              <Width>635</Width>
+              <Height>40</Height>
+              <PosX>590</PosX>
+              <PosY>430</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#myfilms.db.audiobitrate.value+ kbit/sec.</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Filesize</Name>
+              <Id>167</Id>
+              <Width>290</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>470</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Filesize+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Filesize Label</Name>
+              <Id>168</Id>
+              <Width>635</Width>
+              <Height>40</Height>
+              <PosX>590</PosX>
+              <PosY>470</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#myfilms.db.size.value+ MB</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Info URL</Name>
+              <Id>169</Id>
+              <Width>290</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>510</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Info URL+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Info URL Label</Name>
+              <Id>170</Id>
+              <Width>635</Width>
+              <Height>40</Height>
+              <PosX>590</PosX>
+              <PosY>510</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#myfilms.db.url.value</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollSeperator>   |   </ScrollSeperator>
+            </Control>
+          </GroupControls>
+        </Control>
+      </GroupControls>
+    </Control>
+    <Control x:type="Group">
+      <Name>Window Name</Name>
+      <Id>192</Id>
+      <Width>1280</Width>
+      <Height>156</Height>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <GroupStyle>
+        <BorderThickness>0,0,0,0</BorderThickness>
+        <CornerRadius>0,0,0,0</CornerRadius>
+      </GroupStyle>
+      <GroupControls>
+        <Control x:type="Image">
+          <Name>Icon</Name>
+          <Id>193</Id>
+          <Width>60</Width>
+          <Height>60</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>0,0,0,0</CornerRadius>
+          </ImageStyle>
+          <Image>\icon_movies.png</Image>
+          <ImageStretch>Uniform</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Label">
+          <Name>Name of Window</Name>
+          <Id>194</Id>
+          <Width>563</Width>
+          <Height>60</Height>
+          <PosX>68</PosX>
+          <PosY>9</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle>
+            <FontType>Titan</FontType>
+            <FontWeight>Black</FontWeight>
+            <FontSize>50</FontSize>
+            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          </LabelStyle>
+          <LabelText>#currentmodule</LabelText>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Time</Name>
+          <Id>195</Id>
+          <Width>426</Width>
+          <Height>110</Height>
+          <PosX>855</PosX>
+          <PosY>-10</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle>
+            <FontType>Titan</FontType>
+            <FontWeight>Black</FontWeight>
+            <FontSize>70</FontSize>
+            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          </LabelStyle>
+          <LabelText>#time</LabelText>
+          <LabelTextAlignment>Right</LabelTextAlignment>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Date</Name>
+          <Id>196</Id>
+          <Width>694</Width>
+          <Height>70</Height>
+          <PosX>580</PosX>
+          <PosY>80</PosY>
+          <VisibleCondition>!IsPluginEnabled(World Weather)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle>
+            <FontType>Titan</FontType>
+            <FontWeight>Black</FontWeight>
+            <FontSize>60</FontSize>
+            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          </LabelStyle>
+          <LabelText>#date</LabelText>
+          <LabelTextAlignment>Right</LabelTextAlignment>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Date</Name>
+          <Id>197</Id>
+          <Width>694</Width>
+          <Height>70</Height>
+          <PosX>580</PosX>
+          <PosY>80</PosY>
+          <VisibleCondition>IsPluginEnabled(World Weather)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle>
+            <FontType>Titan</FontType>
+            <FontWeight>Black</FontWeight>
+            <FontSize>60</FontSize>
+            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          </LabelStyle>
+          <LabelText>#date+ | +#World Weather.TodayTemperature</LabelText>
+          <LabelTextAlignment>Right</LabelTextAlignment>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+      </GroupControls>
+    </Control>
+    <Control x:type="Button">
+      <Name>Menu</Name>
+      <Id>199</Id>
+      <Width>1280</Width>
+      <Height>130</Height>
+      <VisibleCondition>IsPlayer(None)</VisibleCondition>
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <Animations />
+      <MediaPortalFocusControls />
+      <ButtonStyle>
+        <NoFocusBrush />
+        <NoFocusBorderBrush />
+        <FocusBrush />
+        <FocusBorderBrush />
+        <ShadeBrush />
+        <GlossBrush />
+        <EnableLabel>false</EnableLabel>
+        <FontType>Titan</FontType>
+        <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+        <NoFocusFontBrush x:type="ColorBrush" Color="#FF00B7FF" />
+      </ButtonStyle>
+      <LabelText>NewButton</LabelText>
+      <Actions>
+        <Action Action="OpenDialog" Param="903" />
+      </Actions>
+    </Control>
+    <Control x:type="Group">
+      <Name>Action Menu</Name>
+      <Id>97</Id>
+      <Width>400</Width>
+      <Height>605</Height>
+      <PosX>-15</PosX>
+      <PosY>76</PosY>
+      <VisibleCondition>IsControlVisible(11) ++ (IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(3) || IsMediaPortalControlFocused(4) || IsMediaPortalControlFocused(5) || IsMediaPortalControlFocused(6) || IsMediaPortalControlFocused(7) || IsMediaPortalControlFocused(66610))</VisibleCondition>
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <Animations />
+      <MediaPortalFocusControls />
+      <GroupStyle StyleId="ActionMenu BG" />
+      <GroupControls>
+        <Control x:type="List">
+          <Name>List</Name>
+          <Id>98</Id>
+          <Width>310</Width>
+          <Height>480</Height>
+          <PosX>57</PosX>
+          <PosY>50</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ListControlStyle StyleId="empty" />
+          <ListType>MediaPortalButtonGroup</ListType>
+          <ListLayout>Auto</ListLayout>
+          <VerticalItemStyle StyleId="ActionMenu ListControl" />
+          <HorizontalItemStyle>
+            <BorderThickness>1,1,1,1</BorderThickness>
+            <CornerRadius>4,4,4,4</CornerRadius>
+            <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
+            <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
+            <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
+            <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
+            <FontSize>18</FontSize>
+            <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+            <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
+            <LabelMargin>3,3,3,3</LabelMargin>
+            <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+            <EnableImage>true</EnableImage>
+            <ImageMargin>3,3,3,33</ImageMargin>
+            <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+            <Width>135</Width>
+            <Height>207</Height>
+            <ItemMargin>1,1,1,1</ItemMargin>
+          </HorizontalItemStyle>
+          <CoverFlowItemStyle>
+            <BorderThickness>1,1,1,1</BorderThickness>
+            <CornerRadius>4,4,4,4</CornerRadius>
+            <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
+            <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
+            <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
+            <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
+            <FontSize>18</FontSize>
+            <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+            <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
+            <LabelMargin>3,3,3,3</LabelMargin>
+            <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+            <EnableImage>true</EnableImage>
+            <ImageMargin>3,3,3,33</ImageMargin>
+            <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+            <Width>135</Width>
+            <Height>207</Height>
+          </CoverFlowItemStyle>
+        </Control>
+      </GroupControls>
+    </Control>
+    <Control x:type="Group">
+      <Name>Action Menu Details</Name>
+      <Id>99</Id>
+      <Width>400</Width>
+      <Height>605</Height>
+      <PosX>-15</PosX>
+      <PosY>76</PosY>
+      <VisibleCondition>IsMediaPortalWindow(7987) ++ IsMediaPortalControlFocused(3)</VisibleCondition>
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <Animations />
+      <MediaPortalFocusControls />
+      <GroupStyle StyleId="ActionMenu BG" />
+      <GroupControls>
+        <Control x:type="List">
+          <Name>List</Name>
+          <Id>100</Id>
+          <Width>310</Width>
+          <Height>480</Height>
+          <PosX>57</PosX>
+          <PosY>50</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ListControlStyle StyleId="empty" />
+          <ListType>MediaPortalButtonGroup</ListType>
+          <ListLayout>Auto</ListLayout>
+          <VerticalItemStyle StyleId="ActionMenu ListControl" />
+          <HorizontalItemStyle>
+            <BorderThickness>1,1,1,1</BorderThickness>
+            <CornerRadius>4,4,4,4</CornerRadius>
+            <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
+            <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
+            <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
+            <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
+            <FontSize>18</FontSize>
+            <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+            <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
+            <LabelMargin>3,3,3,3</LabelMargin>
+            <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+            <EnableImage>true</EnableImage>
+            <ImageMargin>3,3,3,33</ImageMargin>
+            <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+            <Width>135</Width>
+            <Height>207</Height>
+            <ItemMargin>1,1,1,1</ItemMargin>
+          </HorizontalItemStyle>
+          <CoverFlowItemStyle>
+            <BorderThickness>1,1,1,1</BorderThickness>
+            <CornerRadius>4,4,4,4</CornerRadius>
+            <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
+            <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
+            <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
+            <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
+            <FontSize>18</FontSize>
+            <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+            <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
+            <LabelMargin>3,3,3,3</LabelMargin>
+            <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+            <EnableImage>true</EnableImage>
+            <ImageMargin>3,3,3,33</ImageMargin>
+            <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+            <Width>135</Width>
+            <Height>207</Height>
+          </CoverFlowItemStyle>
+        </Control>
+      </GroupControls>
+    </Control>
+  </WindowControls>
+  <VisibleCondition>IsMediaPortalWindow(7986) || IsMediaPortalWindow(7987)</VisibleCondition>
+</Window>

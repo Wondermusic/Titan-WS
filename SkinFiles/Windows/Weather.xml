@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window xmlns:x="http://www.w3.org/2001/XMLSchema-instance" x:type="MediaPortalWindow">
+  <IsDefault>false</IsDefault>
+  <Width>1280</Width>
+  <Height>720</Height>
+  <Name>Weather</Name>
+  <Id>21</Id>
+  <BackgroundBrush />
+  <WindowAnimations />
+  <WindowControls>
+    <Control x:type="Image">
+      <Name>Background Image</Name>
+      <Id>1</Id>
+      <Width>1280</Width>
+      <Height>720</Height>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <ImageStyle StyleId="Background" />
+      <ImageStretch>None</ImageStretch>
+      <CoverImage x:type="ImageBrush" Image="\fanart_overlay.png" Stretch="Fill" />
+      <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+    </Control>
+    <Control x:type="Group">
+      <Name>Weather</Name>
+      <Id>65</Id>
+      <Width>1280</Width>
+      <Height>720</Height>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <GroupStyle StyleId="Empty" />
+      <GroupControls>
+        <Control x:type="Group">
+          <Name>Today Condition</Name>
+          <Id>66</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <GroupStyle StyleId="Empty" />
+          <GroupControls>
+            <Control x:type="Image">
+              <Name>current weather icon</Name>
+              <Id>67</Id>
+              <Width>187</Width>
+              <Height>187</Height>
+              <PosX>1050</PosX>
+              <PosY>89</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>#World Weather.TodayIconImage</Image>
+              <ImageStretch>Uniform</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Label">
+              <Name>Temperature1</Name>
+              <Id>68</Id>
+              <Width>250</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>100</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Temperature+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Temperature2</Name>
+              <Id>69</Id>
+              <Width>450</Width>
+              <Height>40</Height>
+              <PosX>560</PosX>
+              <PosY>100</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#World Weather.TodayTemperature</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Image">
+              <Name>current Moonphase image</Name>
+              <Id>70</Id>
+              <Width>80</Width>
+              <Height>80</Height>
+              <PosX>1024</PosX>
+              <PosY>290</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>#World Weather.LocationMoonPhaseImage</Image>
+              <ImageStretch>Uniform</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Label">
+              <Name>Condition1</Name>
+              <Id>71</Id>
+              <Width>250</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>150</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Condition+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Condition2</Name>
+              <Id>72</Id>
+              <Width>450</Width>
+              <Height>40</Height>
+              <PosX>560</PosX>
+              <PosY>150</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#World Weather.TodayCondition</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Wind1</Name>
+              <Id>73</Id>
+              <Width>250</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>200</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Wind+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Wind2</Name>
+              <Id>74</Id>
+              <Width>450</Width>
+              <Height>40</Height>
+              <PosX>560</PosX>
+              <PosY>200</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#World Weather.TodayWindDirection+ (+#World Weather.TodayWindDirectionDegree+) - +#World Weather.TodayWindSpeed</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Sunrise1</Name>
+              <Id>75</Id>
+              <Width>250</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>250</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Sundial+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Sunrise2</Name>
+              <Id>76</Id>
+              <Width>450</Width>
+              <Height>40</Height>
+              <PosX>560</PosX>
+              <PosY>250</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#World Weather.LocationSunriseTime+ - +#World Weather.LocationSunsetTime</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Moonphase1</Name>
+              <Id>77</Id>
+              <Width>250</Width>
+              <Height>40</Height>
+              <PosX>300</PosX>
+              <PosY>300</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>@Moonphase+:</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Moonphase2</Name>
+              <Id>78</Id>
+              <Width>450</Width>
+              <Height>40</Height>
+              <PosX>560</PosX>
+              <PosY>300</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#World Weather.LocationMoonPhase</LabelText>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+          </GroupControls>
+        </Control>
+        <Control x:type="Group">
+          <Name>Devider</Name>
+          <Id>79</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <GroupStyle StyleId="Empty" />
+          <GroupControls>
+            <Control x:type="Image">
+              <Name>Devider horizontal</Name>
+              <Id>80</Id>
+              <Width>710</Width>
+              <Height>2</Height>
+              <PosX>300</PosX>
+              <PosY>150</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>\hbar1.png</Image>
+              <ImageStretch>Fill</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Image">
+              <Name>Devider horizontal</Name>
+              <Id>81</Id>
+              <Width>710</Width>
+              <Height>2</Height>
+              <PosX>300</PosX>
+              <PosY>200</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>\hbar1.png</Image>
+              <ImageStretch>Fill</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Image">
+              <Name>Devider horizontal</Name>
+              <Id>82</Id>
+              <Width>710</Width>
+              <Height>2</Height>
+              <PosX>300</PosX>
+              <PosY>250</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>\hbar1.png</Image>
+              <ImageStretch>Fill</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Image">
+              <Name>Devider horizontal</Name>
+              <Id>83</Id>
+              <Width>710</Width>
+              <Height>2</Height>
+              <PosX>300</PosX>
+              <PosY>300</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>\hbar1.png</Image>
+              <ImageStretch>Fill</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Image">
+              <Name>Devider vertical</Name>
+              <Id>84</Id>
+              <Width>3</Width>
+              <Height>336</Height>
+              <PosX>73</PosX>
+              <PosY>346</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>\hbar2.png</Image>
+              <ImageStretch>Fill</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Image">
+              <Name>Devider vertical</Name>
+              <Id>85</Id>
+              <Width>3</Width>
+              <Height>336</Height>
+              <PosX>305</PosX>
+              <PosY>346</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>\hbar2.png</Image>
+              <ImageStretch>Fill</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Image">
+              <Name>Devider vertical</Name>
+              <Id>86</Id>
+              <Width>3</Width>
+              <Height>336</Height>
+              <PosX>539</PosX>
+              <PosY>346</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>\hbar2.png</Image>
+              <ImageStretch>Fill</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Image">
+              <Name>Devider vertical</Name>
+              <Id>87</Id>
+              <Width>3</Width>
+              <Height>336</Height>
+              <PosX>773</PosX>
+              <PosY>346</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>\hbar2.png</Image>
+              <ImageStretch>Fill</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Image">
+              <Name>Devider vertical</Name>
+              <Id>88</Id>
+              <Width>3</Width>
+              <Height>336</Height>
+              <PosX>1008</PosX>
+              <PosY>346</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>\hbar2.png</Image>
+              <ImageStretch>Fill</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Image">
+              <Name>Devider vertical</Name>
+              <Id>89</Id>
+              <Width>3</Width>
+              <Height>336</Height>
+              <PosX>1242</PosX>
+              <PosY>346</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>\hbar2.png</Image>
+              <ImageStretch>Fill</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+          </GroupControls>
+        </Control>
+        <Control x:type="Group">
+          <Name>Forecast Day 0</Name>
+          <Id>90</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <GroupStyle StyleId="Empty" />
+          <GroupControls>
+            <Control x:type="Button">
+              <Name>Day 0 label</Name>
+              <Id>91</Id>
+              <Width>206</Width>
+              <Height>50</Height>
+              <PosX>85</PosX>
+              <PosY>346</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ButtonStyle StyleId="Weather" />
+              <LabelText>#World Weather.ForecastDay0Day</LabelText>
+              <Actions />
+            </Control>
+            <Control x:type="Label">
+              <Name>Day 0 Hi label</Name>
+              <Id>92</Id>
+              <Width>206</Width>
+              <Height>40</Height>
+              <PosX>85</PosX>
+              <PosY>404</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#World Weather.ForecastDay0High</LabelText>
+              <LabelTextAlignment>Center</LabelTextAlignment>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Day 0 Lo label</Name>
+              <Id>93</Id>
+              <Width>206</Width>
+              <Height>40</Height>
+              <PosX>85</PosX>
+              <PosY>450</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#World Weather.ForecastDay0Low</LabelText>
+              <LabelTextAlignment>Center</LabelTextAlignment>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Day 0 general weather label</Name>
+              <Id>94</Id>
+              <Width>206</Width>
+              <Height>40</Height>
+              <PosX>85</PosX>
+              <PosY>632</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#World Weather.ForecastDay0Condition</LabelText>
+              <LabelTextAlignment>Center</LabelTextAlignment>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Image">
+              <Name>Day 0 icon</Name>
+              <Id>95</Id>
+              <Width>140</Width>
+              <Height>140</Height>
+              <PosX>115</PosX>
+              <PosY>490</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>#World Weather.ForecastDay0IconImage</Image>
+              <ImageStretch>Uniform</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+          </GroupControls>
+        </Control>
+        <Control x:type="Group">
+          <Name>Forecast Day 1</Name>
+          <Id>96</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <GroupStyle StyleId="Empty" />
+          <GroupControls>
+            <Control x:type="Button">
+              <Name>Day 1 label</Name>
+              <Id>97</Id>
+              <Width>206</Width>
+              <Height>50</Height>
+              <PosX>319</PosX>
+              <PosY>346</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ButtonStyle StyleId="Weather" />
+              <LabelText>#World Weather.ForecastDay1Day</LabelText>
+              <Actions />
+            </Control>
+            <Control x:type="Label">
+              <Name>Day 1 Hi label</Name>
+              <Id>98</Id>
+              <Width>206</Width>
+              <Height>40</Height>
+              <PosX>319</PosX>
+              <PosY>404</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#World Weather.ForecastDay1High</LabelText>
+              <LabelTextAlignment>Center</LabelTextAlignment>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Day 1 Lo label</Name>
+              <Id>99</Id>
+              <Width>206</Width>
+              <Height>40</Height>
+              <PosX>319</PosX>
+              <PosY>450</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#World Weather.ForecastDay1Low</LabelText>
+              <LabelTextAlignment>Center</LabelTextAlignment>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Day 1 general weather label</Name>
+              <Id>100</Id>
+              <Width>206</Width>
+              <Height>40</Height>
+              <PosX>319</PosX>
+              <PosY>632</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#World Weather.ForecastDay1Condition</LabelText>
+              <LabelTextAlignment>Center</LabelTextAlignment>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Image">
+              <Name>Day 1 icon</Name>
+              <Id>101</Id>
+              <Width>140</Width>
+              <Height>140</Height>
+              <PosX>349</PosX>
+              <PosY>490</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>#World Weather.ForecastDay1IconImage</Image>
+              <ImageStretch>Uniform</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+          </GroupControls>
+        </Control>
+        <Control x:type="Group">
+          <Name>Forecast Day 2</Name>
+          <Id>102</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <GroupStyle StyleId="Empty" />
+          <GroupControls>
+            <Control x:type="Button">
+              <Name>Day 2 label</Name>
+              <Id>103</Id>
+              <Width>206</Width>
+              <Height>50</Height>
+              <PosX>553</PosX>
+              <PosY>346</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ButtonStyle StyleId="Weather" />
+              <LabelText>#World Weather.ForecastDay2Day</LabelText>
+              <Actions />
+            </Control>
+            <Control x:type="Label">
+              <Name>Day 2 Hi label</Name>
+              <Id>104</Id>
+              <Width>206</Width>
+              <Height>40</Height>
+              <PosX>553</PosX>
+              <PosY>404</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#World Weather.ForecastDay2High</LabelText>
+              <LabelTextAlignment>Center</LabelTextAlignment>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Day 2 Lo label</Name>
+              <Id>105</Id>
+              <Width>206</Width>
+              <Height>40</Height>
+              <PosX>553</PosX>
+              <PosY>450</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#World Weather.ForecastDay2Low</LabelText>
+              <LabelTextAlignment>Center</LabelTextAlignment>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Day 2 general weather label</Name>
+              <Id>106</Id>
+              <Width>206</Width>
+              <Height>40</Height>
+              <PosX>553</PosX>
+              <PosY>632</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#World Weather.ForecastDay2Condition</LabelText>
+              <LabelTextAlignment>Center</LabelTextAlignment>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Image">
+              <Name>Day 2 icon</Name>
+              <Id>107</Id>
+              <Width>140</Width>
+              <Height>140</Height>
+              <PosX>583</PosX>
+              <PosY>490</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>#World Weather.ForecastDay2IconImage</Image>
+              <ImageStretch>Uniform</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+          </GroupControls>
+        </Control>
+        <Control x:type="Group">
+          <Name>Forecast Day 3</Name>
+          <Id>108</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <GroupStyle StyleId="Empty" />
+          <GroupControls>
+            <Control x:type="Button">
+              <Name>Day 3 label</Name>
+              <Id>109</Id>
+              <Width>206</Width>
+              <Height>50</Height>
+              <PosX>788</PosX>
+              <PosY>346</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ButtonStyle StyleId="Weather" />
+              <LabelText>#World Weather.ForecastDay3Day</LabelText>
+              <Actions />
+            </Control>
+            <Control x:type="Label">
+              <Name>Day 3 Hi label</Name>
+              <Id>110</Id>
+              <Width>206</Width>
+              <Height>40</Height>
+              <PosX>788</PosX>
+              <PosY>404</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#World Weather.ForecastDay3High</LabelText>
+              <LabelTextAlignment>Center</LabelTextAlignment>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Day 3 Lo label</Name>
+              <Id>111</Id>
+              <Width>206</Width>
+              <Height>40</Height>
+              <PosX>788</PosX>
+              <PosY>450</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#World Weather.ForecastDay3Low</LabelText>
+              <LabelTextAlignment>Center</LabelTextAlignment>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Day 3 general weather label</Name>
+              <Id>112</Id>
+              <Width>206</Width>
+              <Height>40</Height>
+              <PosX>788</PosX>
+              <PosY>632</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#World Weather.ForecastDay3Condition</LabelText>
+              <LabelTextAlignment>Center</LabelTextAlignment>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Image">
+              <Name>Day 3 icon</Name>
+              <Id>113</Id>
+              <Width>140</Width>
+              <Height>140</Height>
+              <PosX>818</PosX>
+              <PosY>490</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>#World Weather.ForecastDay3IconImage</Image>
+              <ImageStretch>Uniform</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+          </GroupControls>
+        </Control>
+        <Control x:type="Group">
+          <Name>Forecast Day 4</Name>
+          <Id>114</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <GroupStyle StyleId="Empty" />
+          <GroupControls>
+            <Control x:type="Button">
+              <Name>Day 4 label</Name>
+              <Id>115</Id>
+              <Width>206</Width>
+              <Height>50</Height>
+              <PosX>1022</PosX>
+              <PosY>346</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ButtonStyle StyleId="Weather" />
+              <LabelText>#World Weather.ForecastDay4Day</LabelText>
+              <Actions />
+            </Control>
+            <Control x:type="Label">
+              <Name>Day 4 Hi label</Name>
+              <Id>116</Id>
+              <Width>206</Width>
+              <Height>40</Height>
+              <PosX>1022</PosX>
+              <PosY>404</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#World Weather.ForecastDay4High</LabelText>
+              <LabelTextAlignment>Center</LabelTextAlignment>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Day 4 Lo label</Name>
+              <Id>117</Id>
+              <Width>206</Width>
+              <Height>40</Height>
+              <PosX>1022</PosX>
+              <PosY>450</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_Blue">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#World Weather.ForecastDay4Low</LabelText>
+              <LabelTextAlignment>Center</LabelTextAlignment>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Label">
+              <Name>Day 4 general weather label</Name>
+              <Id>118</Id>
+              <Width>206</Width>
+              <Height>40</Height>
+              <PosX>1022</PosX>
+              <PosY>632</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan30_White">
+                <FontSize>20</FontSize>
+              </LabelStyle>
+              <LabelText>#World Weather.ForecastDay4Condition</LabelText>
+              <LabelTextAlignment>Center</LabelTextAlignment>
+              <IsScrollingEnabled>false</IsScrollingEnabled>
+              <ScrollSpeed>2</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Image">
+              <Name>Day 4 icon</Name>
+              <Id>119</Id>
+              <Width>140</Width>
+              <Height>140</Height>
+              <PosX>1052</PosX>
+              <PosY>490</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>#World Weather.ForecastDay4IconImage</Image>
+              <ImageStretch>Uniform</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+          </GroupControls>
+        </Control>
+      </GroupControls>
+    </Control>
+    <Control x:type="Group">
+      <Name>Window Name</Name>
+      <Id>2</Id>
+      <Width>1280</Width>
+      <Height>156</Height>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <GroupStyle>
+        <BorderThickness>0,0,0,0</BorderThickness>
+        <CornerRadius>0,0,0,0</CornerRadius>
+      </GroupStyle>
+      <GroupControls>
+        <Control x:type="Image">
+          <Name>Icon</Name>
+          <Id>3</Id>
+          <Width>60</Width>
+          <Height>60</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>0,0,0,0</CornerRadius>
+          </ImageStyle>
+          <Image>\icon_plugin.png</Image>
+          <ImageStretch>Uniform</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Label">
+          <Name>Name of Window</Name>
+          <Id>4</Id>
+          <Width>563</Width>
+          <Height>60</Height>
+          <PosX>68</PosX>
+          <PosY>9</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle>
+            <FontType>Titan</FontType>
+            <FontWeight>Black</FontWeight>
+            <FontSize>50</FontSize>
+            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          </LabelStyle>
+          <LabelText>#currentmodule</LabelText>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Time</Name>
+          <Id>5</Id>
+          <Width>426</Width>
+          <Height>110</Height>
+          <PosX>855</PosX>
+          <PosY>-10</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle>
+            <FontType>Titan</FontType>
+            <FontWeight>Black</FontWeight>
+            <FontSize>70</FontSize>
+            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          </LabelStyle>
+          <LabelText>#time</LabelText>
+          <LabelTextAlignment>Right</LabelTextAlignment>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Date</Name>
+          <Id>6</Id>
+          <Width>694</Width>
+          <Height>70</Height>
+          <PosX>580</PosX>
+          <PosY>80</PosY>
+          <VisibleCondition>!IsPluginEnabled(World Weather)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle>
+            <FontType>Titan</FontType>
+            <FontWeight>Black</FontWeight>
+            <FontSize>60</FontSize>
+            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          </LabelStyle>
+          <LabelText>#date</LabelText>
+          <LabelTextAlignment>Right</LabelTextAlignment>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Date</Name>
+          <Id>7</Id>
+          <Width>694</Width>
+          <Height>70</Height>
+          <PosX>580</PosX>
+          <PosY>80</PosY>
+          <VisibleCondition>IsPluginEnabled(World Weather)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle>
+            <FontType>Titan</FontType>
+            <FontWeight>Black</FontWeight>
+            <FontSize>60</FontSize>
+            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          </LabelStyle>
+          <LabelText>#date+ | +#World Weather.TodayTemperature</LabelText>
+          <LabelTextAlignment>Right</LabelTextAlignment>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+      </GroupControls>
+    </Control>
+    <Control x:type="Button">
+      <Name>Menu</Name>
+      <Id>121</Id>
+      <Width>1280</Width>
+      <Height>130</Height>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <ButtonStyle>
+        <NoFocusBrush />
+        <NoFocusBorderBrush />
+        <FocusBrush />
+        <FocusBorderBrush />
+        <ShadeBrush />
+        <GlossBrush />
+        <EnableLabel>false</EnableLabel>
+        <FontType>Titan</FontType>
+        <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+        <NoFocusFontBrush x:type="ColorBrush" Color="#FF00B7FF" />
+      </ButtonStyle>
+      <LabelText>NewButton</LabelText>
+      <Actions>
+        <Action Action="OpenDialog" Param="903" />
+      </Actions>
+    </Control>
+    <Control x:type="List">
+      <Name>List</Name>
+      <Id>120</Id>
+      <Width>250</Width>
+      <Height>220</Height>
+      <PosX>25</PosX>
+      <PosY>100</PosY>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <ListControlStyle StyleId="empty" />
+      <ListType>MediaPortalButtonGroup</ListType>
+      <ListLayout>Auto</ListLayout>
+      <VerticalItemStyle>
+        <BorderThickness>1,1,1,1</BorderThickness>
+        <CornerRadius>4,4,4,4</CornerRadius>
+        <NoFocusBrush x:type="ImageBrush" Image="\button-nofocus.png" Stretch="Fill" />
+        <NoFocusBorderBrush />
+        <FocusBrush x:type="ImageBrush" Image="\button-focus.png" Stretch="Fill" />
+        <FocusBorderBrush />
+        <FontSize>24</FontSize>
+        <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+        <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
+        <LabelMargin>5,0,0,0</LabelMargin>
+        <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+        <EnableImage>true</EnableImage>
+        <ImageMargin>3,3,3,3</ImageMargin>
+        <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
+        <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+        <ImageCornerRadius>4</ImageCornerRadius>
+        <Width>250</Width>
+        <Height>50</Height>
+        <ItemMargin>1,1,1,1</ItemMargin>
+      </VerticalItemStyle>
+      <HorizontalItemStyle>
+        <BorderThickness>1,1,1,1</BorderThickness>
+        <CornerRadius>4,4,4,4</CornerRadius>
+        <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
+        <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
+        <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
+        <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
+        <FontSize>18</FontSize>
+        <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+        <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
+        <LabelMargin>3,3,3,3</LabelMargin>
+        <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+        <EnableImage>true</EnableImage>
+        <ImageMargin>3,3,3,33</ImageMargin>
+        <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+        <Width>135</Width>
+        <Height>207</Height>
+        <ItemMargin>1,1,1,1</ItemMargin>
+      </HorizontalItemStyle>
+      <CoverFlowItemStyle>
+        <BorderThickness>1,1,1,1</BorderThickness>
+        <CornerRadius>4,4,4,4</CornerRadius>
+        <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
+        <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
+        <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
+        <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
+        <FontSize>18</FontSize>
+        <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+        <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
+        <LabelMargin>3,3,3,3</LabelMargin>
+        <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+        <EnableImage>true</EnableImage>
+        <ImageMargin>3,3,3,33</ImageMargin>
+        <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+        <Width>135</Width>
+        <Height>207</Height>
+      </CoverFlowItemStyle>
+    </Control>
+  </WindowControls>
+  <VisibleCondition>IsMediaPortalWindow(7977)</VisibleCondition>
+</Window>

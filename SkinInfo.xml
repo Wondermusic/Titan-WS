@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XmlSkinInfo xmlns:x="http://www.w3.org/2001/XMLSchema-instance">
+  <SkinWidth>1280</SkinWidth>
+  <SkinHeight>720</SkinHeight>
+  <CurrentStyle>Default</CurrentStyle>
+  <CurrentLanguage>English</CurrentLanguage>
+  <TextEnableScrolling>false</TextEnableScrolling>
+  <TextHorizontalScrollDelay>3</TextHorizontalScrollDelay>
+  <TextHorizontalScrollSpeed>20</TextHorizontalScrollSpeed>
+  <TextHorizontalScrollWrap>true</TextHorizontalScrollWrap>
+  <TextHorizontalScrollSeperator> | </TextHorizontalScrollSeperator>
+  <TextVerticalScrollDelay>6</TextVerticalScrollDelay>
+  <TextVerticalScrollSpeed>20</TextVerticalScrollSpeed>
+  <TextVerticalScrollWrap>true</TextVerticalScrollWrap>
+  <TextVerticalScrollSeperator>---------------------------------</TextVerticalScrollSeperator>
+  <SkinOptions>
+    <SkinOption Name="Default" Group="BasicHome" IsEnabled="true" IsPreviewImageEnabled="true" PreviewImage="\Preview_Default.png" />
+    <SkinOption Name="Extended" Group="BasicHome" IsPreviewImageEnabled="true" PreviewImage="\Preview_Extended.png" />
+  </SkinOptions>
+  <SkinName>Titan-WS</SkinName>
+  <Author>Wondermusic</Author>
+</XmlSkinInfo>
