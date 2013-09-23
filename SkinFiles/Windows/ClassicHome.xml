@@ -17,7 +17,8 @@
       <Animations />
       <MediaPortalFocusControls />
       <ImageStyle StyleId="Background" />
-      <ImageStretch>None</ImageStretch>
+      <Image>#MPD2.fanartBH</Image>
+      <ImageStretch>Fill</ImageStretch>
       <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
     </Control>
     <Control x:type="Group">
@@ -132,7 +133,7 @@
             <FontSize>60</FontSize>
             <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
           </LabelStyle>
-          <LabelText>#date+ | +#World Weather.TodayTemperature</LabelText>
+          <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
@@ -245,9 +246,9 @@
             <FontBrush x:type="ColorBrush" Color="#FF000000" />
           </LabelStyle>
           <LabelText>#infoservice.feed.1.titles</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>4</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>8</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
       </GroupControls>
     </Control>

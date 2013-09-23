@@ -52,7 +52,7 @@
               <Animations />
               <MediaPortalFocusControls />
               <ImageStyle StyleId="Logo_Image" />
-              <Image>#World Weather.TodayIconImage</Image>
+              <Image>#WorldWeather.TodayIconImage</Image>
               <ImageStretch>Uniform</ImageStretch>
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
             </Control>
@@ -87,7 +87,7 @@
               <LabelStyle StyleId="Titan30_White">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#World Weather.TodayTemperature</LabelText>
+              <LabelText>#WorldWeather.TodayTemperature</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
               <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -103,7 +103,7 @@
               <Animations />
               <MediaPortalFocusControls />
               <ImageStyle StyleId="Logo_Image" />
-              <Image>#World Weather.LocationMoonPhaseImage</Image>
+              <Image>#WorldWeather.LocationMoonPhaseImage</Image>
               <ImageStretch>Uniform</ImageStretch>
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
             </Control>
@@ -138,7 +138,7 @@
               <LabelStyle StyleId="Titan30_White">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#World Weather.TodayCondition</LabelText>
+              <LabelText>#WorldWeather.TodayCondition</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
               <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -174,7 +174,7 @@
               <LabelStyle StyleId="Titan30_White">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#World Weather.TodayWindDirection+ (+#World Weather.TodayWindDirectionDegree+) - +#World Weather.TodayWindSpeed</LabelText>
+              <LabelText>#WorldWeather.TodayWindDirection+ (+#WorldWeather.TodayWindDirectionDegree+) - +#WorldWeather.TodayWindSpeed</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
               <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -210,7 +210,7 @@
               <LabelStyle StyleId="Titan30_White">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#World Weather.LocationSunriseTime+ - +#World Weather.LocationSunsetTime</LabelText>
+              <LabelText>#WorldWeather.LocationSunriseTime+ - +#WorldWeather.LocationSunsetTime</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
               <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -246,7 +246,7 @@
               <LabelStyle StyleId="Titan30_White">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#World Weather.LocationMoonPhase</LabelText>
+              <LabelText>#WorldWeather.LocationMoonPhase</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
               <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -436,7 +436,7 @@
               <Animations />
               <MediaPortalFocusControls />
               <ButtonStyle StyleId="Weather" />
-              <LabelText>#World Weather.ForecastDay0Day</LabelText>
+              <LabelText>#WorldWeather.ForecastDay0Day</LabelText>
               <Actions />
             </Control>
             <Control x:type="Label">
@@ -452,7 +452,7 @@
               <LabelStyle StyleId="Titan30_White">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#World Weather.ForecastDay0High</LabelText>
+              <LabelText>#WorldWeather.ForecastDay0High</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -471,7 +471,7 @@
               <LabelStyle StyleId="Titan30_Blue">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#World Weather.ForecastDay0Low</LabelText>
+              <LabelText>#WorldWeather.ForecastDay0Low</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -490,7 +490,7 @@
               <LabelStyle StyleId="Titan30_White">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#World Weather.ForecastDay0Condition</LabelText>
+              <LabelText>#WorldWeather.ForecastDay0Condition</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -507,7 +507,7 @@
               <Animations />
               <MediaPortalFocusControls />
               <ImageStyle StyleId="Logo_Image" />
-              <Image>#World Weather.ForecastDay0IconImage</Image>
+              <Image>#WorldWeather.ForecastDay0IconImage</Image>
               <ImageStretch>Uniform</ImageStretch>
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
             </Control>
@@ -534,7 +534,7 @@
               <Animations />
               <MediaPortalFocusControls />
               <ButtonStyle StyleId="Weather" />
-              <LabelText>#World Weather.ForecastDay1Day</LabelText>
+              <LabelText>#WorldWeather.ForecastDay1Day</LabelText>
               <Actions />
             </Control>
             <Control x:type="Label">
@@ -550,7 +550,7 @@
               <LabelStyle StyleId="Titan30_White">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#World Weather.ForecastDay1High</LabelText>
+              <LabelText>#WorldWeather.ForecastDay1High</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -569,7 +569,7 @@
               <LabelStyle StyleId="Titan30_Blue">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#World Weather.ForecastDay1Low</LabelText>
+              <LabelText>#WorldWeather.ForecastDay1Low</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -588,7 +588,7 @@
               <LabelStyle StyleId="Titan30_White">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#World Weather.ForecastDay1Condition</LabelText>
+              <LabelText>#WorldWeather.ForecastDay1Condition</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -605,7 +605,7 @@
               <Animations />
               <MediaPortalFocusControls />
               <ImageStyle StyleId="Logo_Image" />
-              <Image>#World Weather.ForecastDay1IconImage</Image>
+              <Image>#WorldWeather.ForecastDay1IconImage</Image>
               <ImageStretch>Uniform</ImageStretch>
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
             </Control>
@@ -632,7 +632,7 @@
               <Animations />
               <MediaPortalFocusControls />
               <ButtonStyle StyleId="Weather" />
-              <LabelText>#World Weather.ForecastDay2Day</LabelText>
+              <LabelText>#WorldWeather.ForecastDay2Day</LabelText>
               <Actions />
             </Control>
             <Control x:type="Label">
@@ -648,7 +648,7 @@
               <LabelStyle StyleId="Titan30_White">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#World Weather.ForecastDay2High</LabelText>
+              <LabelText>#WorldWeather.ForecastDay2High</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -667,7 +667,7 @@
               <LabelStyle StyleId="Titan30_Blue">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#World Weather.ForecastDay2Low</LabelText>
+              <LabelText>#WorldWeather.ForecastDay2Low</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -686,7 +686,7 @@
               <LabelStyle StyleId="Titan30_White">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#World Weather.ForecastDay2Condition</LabelText>
+              <LabelText>#WorldWeather.ForecastDay2Condition</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -703,7 +703,7 @@
               <Animations />
               <MediaPortalFocusControls />
               <ImageStyle StyleId="Logo_Image" />
-              <Image>#World Weather.ForecastDay2IconImage</Image>
+              <Image>#WorldWeather.ForecastDay2IconImage</Image>
               <ImageStretch>Uniform</ImageStretch>
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
             </Control>
@@ -730,7 +730,7 @@
               <Animations />
               <MediaPortalFocusControls />
               <ButtonStyle StyleId="Weather" />
-              <LabelText>#World Weather.ForecastDay3Day</LabelText>
+              <LabelText>#WorldWeather.ForecastDay3Day</LabelText>
               <Actions />
             </Control>
             <Control x:type="Label">
@@ -746,7 +746,7 @@
               <LabelStyle StyleId="Titan30_White">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#World Weather.ForecastDay3High</LabelText>
+              <LabelText>#WorldWeather.ForecastDay3High</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -765,7 +765,7 @@
               <LabelStyle StyleId="Titan30_Blue">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#World Weather.ForecastDay3Low</LabelText>
+              <LabelText>#WorldWeather.ForecastDay3Low</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -784,7 +784,7 @@
               <LabelStyle StyleId="Titan30_White">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#World Weather.ForecastDay3Condition</LabelText>
+              <LabelText>#WorldWeather.ForecastDay3Condition</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -801,7 +801,7 @@
               <Animations />
               <MediaPortalFocusControls />
               <ImageStyle StyleId="Logo_Image" />
-              <Image>#World Weather.ForecastDay3IconImage</Image>
+              <Image>#WorldWeather.ForecastDay3IconImage</Image>
               <ImageStretch>Uniform</ImageStretch>
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
             </Control>
@@ -828,7 +828,7 @@
               <Animations />
               <MediaPortalFocusControls />
               <ButtonStyle StyleId="Weather" />
-              <LabelText>#World Weather.ForecastDay4Day</LabelText>
+              <LabelText>#WorldWeather.ForecastDay4Day</LabelText>
               <Actions />
             </Control>
             <Control x:type="Label">
@@ -844,7 +844,7 @@
               <LabelStyle StyleId="Titan30_White">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#World Weather.ForecastDay4High</LabelText>
+              <LabelText>#WorldWeather.ForecastDay4High</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -863,7 +863,7 @@
               <LabelStyle StyleId="Titan30_Blue">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#World Weather.ForecastDay4Low</LabelText>
+              <LabelText>#WorldWeather.ForecastDay4Low</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -882,7 +882,7 @@
               <LabelStyle StyleId="Titan30_White">
                 <FontSize>20</FontSize>
               </LabelStyle>
-              <LabelText>#World Weather.ForecastDay4Condition</LabelText>
+              <LabelText>#WorldWeather.ForecastDay4Condition</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -899,7 +899,7 @@
               <Animations />
               <MediaPortalFocusControls />
               <ImageStyle StyleId="Logo_Image" />
-              <Image>#World Weather.ForecastDay4IconImage</Image>
+              <Image>#WorldWeather.ForecastDay4IconImage</Image>
               <ImageStretch>Uniform</ImageStretch>
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
             </Control>
@@ -1019,7 +1019,7 @@
             <FontSize>60</FontSize>
             <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
           </LabelStyle>
-          <LabelText>#date+ | +#World Weather.TodayTemperature</LabelText>
+          <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>

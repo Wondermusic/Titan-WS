@@ -99,9 +99,8 @@
           </LabelStyle>
           <LabelText>#Play.Current.Artist</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
           <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
@@ -122,9 +121,8 @@
           </LabelStyle>
           <LabelText>#Play.Current.Title</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
           <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
@@ -145,9 +143,8 @@
           </LabelStyle>
           <LabelText>@Next+: +#Play.Next.Artist+ - +#Play.Next.Title+ / +#Play.Next.Duration</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
           <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="ProgressBar">

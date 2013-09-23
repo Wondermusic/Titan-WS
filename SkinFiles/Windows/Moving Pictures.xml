@@ -52,7 +52,7 @@
             <BackgroundBrush />
             <BorderBrush />
           </ImageStyle>
-          <Image>#MPD2.fanart.Moving Pictures</Image>
+          <Image>#MPD2.fanart.MovingPictures</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -232,7 +232,7 @@
             <BackgroundBrush />
             <BorderBrush />
           </ImageStyle>
-          <Image>#MPD2.fanart.Moving Pictures</Image>
+          <Image>#MPD2.fanart.MovingPictures</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -292,7 +292,7 @@
             <BackgroundBrush x:type="ImageBrush" Image="\defaultVideoBig.png" Stretch="Uniform" />
             <BorderBrush />
           </ImageStyle>
-          <Image>#Moving Pictures.Coverart</Image>
+          <Image>#MovingPictures.Coverart</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -313,7 +313,7 @@
             <BackgroundBrush />
             <BorderBrush />
           </ImageStyle>
-          <Image>#Moving Pictures.UserMovieSettings.watched+png</Image>
+          <Image>#MovingPictures.UserMovieSettings.watched+.png</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -367,10 +367,10 @@
           <LabelStyle StyleId="Titan 40">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.SelectedMovie.title</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <LabelText>#MovingPictures.SelectedMovie.title</LabelText>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
           <Name>Current Module + itemcount</Name>
@@ -385,7 +385,7 @@
           <LabelStyle StyleId="Titan 40">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.general.itemcount</LabelText>
+          <LabelText>#MovingPictures.general.itemcount</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -407,7 +407,7 @@
             <BackgroundBrush />
             <BorderBrush />
           </ImageStyle>
-          <Image>\Logos\Stars\MoPi\star+#Moving Pictures.SelectedMovie.score.rounded+.png</Image>
+          <Image>\Logos\Stars\MoPi\star+#MovingPictures.SelectedMovie.score.rounded+.png</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -425,7 +425,7 @@
           <LabelStyle StyleId="Titan25">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.SelectedMovie.score.localized</LabelText>
+          <LabelText>#MovingPictures.SelectedMovie.score.localized</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -444,11 +444,10 @@
           <LabelStyle StyleId="Titan25">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.SelectedMovie.summary</LabelText>
+          <LabelText>#MovingPictures.SelectedMovie.summary</LabelText>
           <IsVertical>true</IsVertical>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
           <ScrollSeperator>------------------------------------</ScrollSeperator>
         </Control>
         <Control x:type="Image">
@@ -463,7 +462,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#Moving Pictures.LocalMedia.videocodec+.png</Image>
+          <Image>\Logos\+#MovingPictures.LocalMedia.videocodec+.png</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -479,7 +478,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#Moving Pictures.LocalMedia.videoresolution+.png</Image>
+          <Image>\Logos\+#MovingPictures.LocalMedia.videoresolution+.png</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -495,7 +494,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#Moving Pictures.LocalMedia.videoaspectratio+.png</Image>
+          <Image>\Logos\+#MovingPictures.LocalMedia.videoaspectratio+.png</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -511,7 +510,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#Moving Pictures.LocalMedia.audiocodec+.png</Image>
+          <Image>\Logos\+#MovingPictures.LocalMedia.audiocodec+.png</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -527,7 +526,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#Moving Pictures.LocalMedia.audiochannels+.png</Image>
+          <Image>\Logos\+#MovingPictures.LocalMedia.audiochannels+.png</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -575,7 +574,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>#MPD2.fanart.Moving Pictures</Image>
+          <Image>#MPD2.fanart.MovingPictures</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverImage x:type="ImageBrush" Image="\fanart_overlay.png" Stretch="Fill" />
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
@@ -615,7 +614,7 @@
             <BackgroundBrush x:type="ImageBrush" Image="\defaultVideoBig.png" Stretch="Uniform" />
             <BorderBrush />
           </ImageStyle>
-          <Image>#Moving Pictures.Coverart</Image>
+          <Image>#MovingPictures.Coverart</Image>
           <ImageStretch>None</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -635,7 +634,7 @@
             <BackgroundBrush />
             <BorderBrush />
           </ImageStyle>
-          <Image>#Moving Pictures.UserMovieSettings.watched+png</Image>
+          <Image>#MovingPictures.UserMovieSettings.watched+png</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -652,10 +651,10 @@
           <LabelStyle StyleId="Titan40 White">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.SelectedMovie.title</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <LabelText>#MovingPictures.SelectedMovie.title</LabelText>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
           <Name>Genres</Name>
@@ -670,10 +669,8 @@
           <LabelStyle StyleId="Titan 40">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.SelectedMovie.genres</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <LabelText>#MovingPictures.SelectedMovie.genres</LabelText>
           <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
         <Control x:type="Image">
           <Name>StarRating</Name>
@@ -686,7 +683,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\Stars\MoPi\star+#Moving Pictures.SelectedMovie.score.rounded+.png</Image>
+          <Image>\Logos\Stars\MoPi\star+#MovingPictures.SelectedMovie.score.rounded+.png</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -703,7 +700,7 @@
           <LabelStyle StyleId="Titan25">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.SelectedMovie.score.localized+ / 10 (+#Moving Pictures.SelectedMovie.popularity.localized+/+#Moving Pictures.Translation.Votes.Label+)</LabelText>
+          <LabelText>#MovingPictures.SelectedMovie.score.localized+ / 10 (+#MovingPictures.SelectedMovie.popularity.localized+/+#MovingPictures.Translation.Votes.Label+)</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -721,11 +718,10 @@
           <LabelStyle StyleId="Titan25">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.SelectedMovie.summary</LabelText>
+          <LabelText>#MovingPictures.SelectedMovie.summary</LabelText>
           <IsVertical>true</IsVertical>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
           <ScrollSeperator>-----------------------------------------------------------------------</ScrollSeperator>
         </Control>
         <Control x:type="Label">
@@ -759,10 +755,8 @@
           <LabelStyle StyleId="Titan25">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.SelectedMovie.directors</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <LabelText>#MovingPictures.SelectedMovie.directors</LabelText>
           <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
         <Control x:type="Label">
           <Name>Writer Label</Name>
@@ -795,10 +789,8 @@
           <LabelStyle StyleId="Titan25">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.SelectedMovie.writers</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <LabelText>#MovingPictures.SelectedMovie.writers</LabelText>
           <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
         <Control x:type="Label">
           <Name>Actors Label</Name>
@@ -831,10 +823,8 @@
           <LabelStyle StyleId="Titan25">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.SelectedMovie.actors</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <LabelText>#MovingPictures.SelectedMovie.actors</LabelText>
           <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
         <Control x:type="Label">
           <Name>Year Label</Name>
@@ -867,10 +857,8 @@
           <LabelStyle StyleId="Titan25">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.SelectedMovie.year</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <LabelText>#MovingPictures.SelectedMovie.year</LabelText>
           <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
         <Control x:type="Label">
           <Name>Runtime Label</Name>
@@ -903,10 +891,8 @@
           <LabelStyle StyleId="Titan25">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.SelectedMovie.runtime.localized.long</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <LabelText>#MovingPictures.SelectedMovie.runtime.localized.long</LabelText>
           <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
         <Control x:type="Image">
           <Name>Video Codec</Name>
@@ -920,7 +906,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#Moving Pictures.LocalMedia.videocodec+.png</Image>
+          <Image>\Logos\+#MovingPictures.LocalMedia.videocodec+.png</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -936,7 +922,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#Moving Pictures.LocalMedia.videoresolution+.png</Image>
+          <Image>\Logos\+#MovingPictures.LocalMedia.videoresolution+.png</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -952,7 +938,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#Moving Pictures.LocalMedia.videoaspectratio+.png</Image>
+          <Image>\Logos\+#MovingPictures.LocalMedia.videoaspectratio+.png</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -968,7 +954,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#Moving Pictures.LocalMedia.audiocodec+.png</Image>
+          <Image>\Logos\+#MovingPictures.LocalMedia.audiocodec+.png</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -984,7 +970,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#Moving Pictures.LocalMedia.audiochannels+.png</Image>
+          <Image>\Logos\+#MovingPictures.LocalMedia.audiochannels+.png</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -1017,10 +1003,10 @@
           <LabelStyle StyleId="Titan 40">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.SelectedMovie.title</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <LabelText>#MovingPictures.SelectedMovie.title</LabelText>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
           <Name>itemcount</Name>
@@ -1035,7 +1021,7 @@
           <LabelStyle StyleId="Titan 40">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.general.itemcount</LabelText>
+          <LabelText>#MovingPictures.general.itemcount</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -1103,7 +1089,7 @@
             <BackgroundBrush x:type="ImageBrush" Image="\defaultVideoBig.png" Stretch="Uniform" />
             <BorderBrush />
           </ImageStyle>
-          <Image>#Moving Pictures.Coverart</Image>
+          <Image>#MovingPictures.Coverart</Image>
           <ImageStretch>None</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -1123,7 +1109,7 @@
             <BackgroundBrush />
             <BorderBrush />
           </ImageStyle>
-          <Image>#Moving Pictures.UserMovieSettings.watched+png</Image>
+          <Image>#MovingPictures.UserMovieSettings.watched+png</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -1140,10 +1126,10 @@
           <LabelStyle StyleId="Titan40 White">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.SelectedMovie.title</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <LabelText>#MovingPictures.SelectedMovie.title</LabelText>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
           <Name>Description</Name>
@@ -1176,12 +1162,10 @@
           <LabelStyle StyleId="Titan40 White">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.SelectedMovie.summary</LabelText>
+          <LabelText>#MovingPictures.SelectedMovie.summary</LabelText>
           <IsVertical>true</IsVertical>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollDelay>2</ScrollDelay>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollSpeed>4</ScrollSpeed>
           <ScrollSeperator>---------------------------------------------------------------------------</ScrollSeperator>
         </Control>
       </GroupControls>
@@ -1247,7 +1231,7 @@
             <BackgroundBrush x:type="ImageBrush" Image="\defaultVideoBig.png" Stretch="Uniform" />
             <BorderBrush />
           </ImageStyle>
-          <Image>#Moving Pictures.Coverart</Image>
+          <Image>#MovingPictures.Coverart</Image>
           <ImageStretch>None</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -1267,7 +1251,7 @@
             <BackgroundBrush />
             <BorderBrush />
           </ImageStyle>
-          <Image>#Moving Pictures.UserMovieSettings.watched+png</Image>
+          <Image>#MovingPictures.UserMovieSettings.watched+png</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -1284,10 +1268,11 @@
           <LabelStyle StyleId="Titan40 White">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.SelectedMovie.title</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
+          <LabelText>#MovingPictures.SelectedMovie.title</LabelText>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
           <Name>Video Format</Name>
@@ -1320,10 +1305,10 @@
           <LabelStyle StyleId="Titan30_White">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.LocalMedia.videocodec</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <LabelText>#MovingPictures.LocalMedia.videocodec</LabelText>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
           <Name>Video Framerate</Name>
@@ -1356,10 +1341,10 @@
           <LabelStyle StyleId="Titan30_White">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.LocalMedia.videoframerate+ fps</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <LabelText>#MovingPictures.LocalMedia.videoframerate+ fps</LabelText>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
           <Name>Resolution</Name>
@@ -1392,10 +1377,10 @@
           <LabelStyle StyleId="Titan30_White">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.LocalMedia.videoresolution</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <LabelText>#MovingPictures.LocalMedia.videoresolution</LabelText>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
           <Name>Audio Format</Name>
@@ -1428,10 +1413,10 @@
           <LabelStyle StyleId="Titan30_White">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.LocalMedia.audiocodec</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <LabelText>#MovingPictures.LocalMedia.audiocodec</LabelText>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
           <Name>Audio Channels</Name>
@@ -1464,10 +1449,10 @@
           <LabelStyle StyleId="Titan30_White">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.LocalMedia.audiochannels</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <LabelText>#MovingPictures.LocalMedia.audiochannels</LabelText>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
           <Name>Date added</Name>
@@ -1500,10 +1485,10 @@
           <LabelStyle StyleId="Titan30_White">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.SelectedMovie.date_added</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <LabelText>#MovingPictures.SelectedMovie.date_added</LabelText>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
           <Name>Info URL</Name>
@@ -1536,10 +1521,10 @@
           <LabelStyle StyleId="Titan30_White">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.SelectedMovie.details_url</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <LabelText>#MovingPictures.SelectedMovie.details_url</LabelText>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
       </GroupControls>
     </Control>
@@ -1601,10 +1586,10 @@
           <LabelStyle StyleId="Titan 40">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.SelectedMovie.title</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <LabelText>#MovingPictures.SelectedMovie.title</LabelText>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Image">
           <Name>StarRating</Name>
@@ -1617,7 +1602,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\Stars\MoPi\star+#Moving Pictures.SelectedMovie.score.rounded+.png</Image>
+          <Image>\Logos\Stars\MoPi\star+#MovingPictures.SelectedMovie.score.rounded+.png</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -1634,7 +1619,7 @@
           <LabelStyle StyleId="Titan 40">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Moving Pictures.SelectedMovie.score.localized+ / 10</LabelText>
+          <LabelText>#MovingPictures.SelectedMovie.score.localized+ / 10</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -1753,7 +1738,7 @@
             <FontSize>60</FontSize>
             <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
           </LabelStyle>
-          <LabelText>#date+ | +#World Weather.TodayTemperature</LabelText>
+          <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>

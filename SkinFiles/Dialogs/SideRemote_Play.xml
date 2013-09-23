@@ -503,5 +503,32 @@
         </Control>
       </GroupControls>
     </Control>
+    <Control x:type="Button">
+      <Name>Exit Button</Name>
+      <Id>19</Id>
+      <Width>86</Width>
+      <Height>75</Height>
+      <PosX>418</PosX>
+      <PosY>2</PosY>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <ButtonStyle>
+        <NoFocusBrush />
+        <NoFocusBorderBrush />
+        <FocusBrush />
+        <FocusBorderBrush />
+        <ShadeBrush />
+        <GlossBrush />
+        <EnableLabel>false</EnableLabel>
+        <FontType>Titan</FontType>
+        <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+        <NoFocusFontBrush x:type="ColorBrush" Color="#FF00B7FF" />
+        <EnableImage>true</EnableImage>
+      </ButtonStyle>
+      <Image>\Remote\exit_button_focus.png</Image>
+      <LabelText>NewButton</LabelText>
+      <Actions />
+    </Control>
   </DialogControls>
 </Dialog>

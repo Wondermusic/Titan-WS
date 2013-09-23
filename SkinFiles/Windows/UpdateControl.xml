@@ -79,9 +79,9 @@
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#UpdateControl.UpdateTitle+ - +#UpdateControl.UpdateSize+ - +#UpdateControl.UpdateSeverity</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Image">
           <Name>Thumb</Name>
@@ -428,7 +428,7 @@
             <FontSize>60</FontSize>
             <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
           </LabelStyle>
-          <LabelText>#date+ | +#World Weather.TodayTemperature</LabelText>
+          <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>

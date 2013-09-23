@@ -64,9 +64,7 @@
           </LabelStyle>
           <LabelText>@EPG Info</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>10</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
           <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
       </GroupControls>
@@ -218,10 +216,8 @@
           </LabelStyle>
           <LabelText>#TV.Search.Description</LabelText>
           <IsVertical>true</IsVertical>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollDelay>1</ScrollDelay>
-          <ScrollSpeed>10</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>5</ScrollSpeed>
           <ScrollSeperator>------------------------------------------------------------------------</ScrollSeperator>
         </Control>
         <Control x:type="List">
@@ -417,7 +413,7 @@
             <FontSize>60</FontSize>
             <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
           </LabelStyle>
-          <LabelText>#date+ | +#World Weather.TodayTemperature</LabelText>
+          <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>

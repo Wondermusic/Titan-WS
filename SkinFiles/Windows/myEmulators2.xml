@@ -192,9 +192,9 @@
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#Emulators2.CurrentItem.title</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
           <Name>Company</Name>
@@ -210,9 +210,9 @@
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#Emulators2.CurrentItem.company</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
           <Name>Summary</Name>
@@ -229,9 +229,8 @@
           </LabelStyle>
           <LabelText>#Emulators2.CurrentItem.description</LabelText>
           <IsVertical>true</IsVertical>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
           <ScrollSeperator>-----------------------------------------------------------------------------------------------</ScrollSeperator>
         </Control>
         <Control x:type="Label">
@@ -266,9 +265,9 @@
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#Emulators2.CurrentItem.year</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
           <Name>Genre Label</Name>
@@ -302,9 +301,9 @@
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#Emulators2.CurrentItem.genre</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
           <Name>Last Played Label</Name>
@@ -338,9 +337,9 @@
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#Emulators2.CurrentItem.latestplaydate</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
       </GroupControls>
     </Control>
@@ -453,7 +452,7 @@
             <FontSize>60</FontSize>
             <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
           </LabelStyle>
-          <LabelText>#date+ | +#World Weather.TodayTemperature</LabelText>
+          <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>

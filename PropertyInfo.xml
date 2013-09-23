@@ -283,6 +283,26 @@
         <XmlMediaPortalTag Tag="#fanarthandler.tv.userdef.backdrop2.any" />
         <XmlMediaPortalTag Tag="#fanarthandler.movingpicture.backdrop1.any" />
         <XmlMediaPortalTag Tag="#fanarthandler.movingpicture.backdrop2.any" />
+        <XmlMediaPortalTag Tag="#fanarthandler.picture.userdef.backdrop2.any" />
+        <XmlMediaPortalTag Tag="#fanarthandler.picture.userdef.backdrop1.any" />
+        <XmlMediaPortalTag Tag="#fanarthandler.movie.scraper.backdrop1.any" />
+        <XmlMediaPortalTag Tag="#fanarthandler.movie.scraper.backdrop2.any" />
+        <XmlMediaPortalTag Tag="#fanarthandler.scorecenter.userdef.backdrop2.any" />
+        <XmlMediaPortalTag Tag="#fanarthandler.scorecenter.userdef.backdrop1.any" />
+        <XmlMediaPortalTag Tag="#fanarthandler.movie.userdef.backdrop2.any" />
+        <XmlMediaPortalTag Tag="#fanarthandler.movie.userdef.backdrop1.any" />
+        <XmlMediaPortalTag Tag="#fanarthandler.plugins.userdef.backdrop2.any" />
+        <XmlMediaPortalTag Tag="#fanarthandler.plugins.userdef.backdrop1.any" />
+        <XmlMediaPortalTag Tag="#fanarthandler.games.userdef.backdrop1.any" />
+        <XmlMediaPortalTag Tag="#fanarthandler.games.userdef.backdrop2.any" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.ForecastDay4IconImage</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay4IconImage" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
@@ -1702,14 +1722,6 @@
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#WorldWeather.ForecastDay4IconImage</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay4IconImage" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
       <SkinTag>#MPD2.BrowseStatus</SkinTag>
       <PropertyType>Label</PropertyType>
       <DesignerValue>New....</DesignerValue>
@@ -1749,6 +1761,30 @@
       <DesignerValue>02:35:42</DesignerValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#duration" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Rockstar.CurrentModule</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Wiedergabelisten</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Rockstar.CurrentModule" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Dialog.Label10</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Dialog.Label10" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Dialog.Label11</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Dialog.Label11" />
       </MediaPortalTags>
     </XmlProperty>
   </Properties>

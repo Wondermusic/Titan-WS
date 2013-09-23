@@ -82,7 +82,7 @@
           <Width>1200</Width>
           <Height>90</Height>
           <PosX>40</PosX>
-          <PosY>439</PosY>
+          <PosY>430</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
@@ -91,10 +91,8 @@
           </LabelStyle>
           <LabelText>#Play.Current.Title</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>4</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
           <ScrollSeperator>   |   </ScrollSeperator>
         </Control>
         <Control x:type="Label">
@@ -103,7 +101,7 @@
           <Width>1200</Width>
           <Height>70</Height>
           <PosX>40</PosX>
-          <PosY>525</PosY>
+          <PosY>528</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
@@ -112,10 +110,8 @@
           </LabelStyle>
           <LabelText>#Play.Current.Artist+ - +#Play.Current.Album</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>4</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
           <ScrollSeperator>   |   </ScrollSeperator>
         </Control>
         <Control x:type="Label">
@@ -152,9 +148,9 @@
           </LabelStyle>
           <LabelText>#Rockstar.SelectedTrack.AlbumYear</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
           <Name>Duration Label</Name>
@@ -405,32 +401,6 @@
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
       </GroupControls>
-    </Control>
-    <Control x:type="Button">
-      <Name>Play_Menu</Name>
-      <Id>23</Id>
-      <Width>1280</Width>
-      <Height>130</Height>
-      <VisibleCondition>!IsPlayer(None)</VisibleCondition>
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
-      <Animations />
-      <MediaPortalFocusControls />
-      <ButtonStyle>
-        <NoFocusBrush />
-        <NoFocusBorderBrush />
-        <FocusBrush />
-        <FocusBorderBrush />
-        <ShadeBrush />
-        <GlossBrush />
-        <EnableLabel>false</EnableLabel>
-        <FontType>Titan</FontType>
-        <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-        <NoFocusFontBrush x:type="ColorBrush" Color="#FF00B7FF" />
-      </ButtonStyle>
-      <LabelText>NewButton</LabelText>
-      <Actions>
-        <Action Action="OpenDialog" Param="904" />
-      </Actions>
     </Control>
   </WindowControls>
   <VisibleCondition>IsPlayer(Rockstar)</VisibleCondition>

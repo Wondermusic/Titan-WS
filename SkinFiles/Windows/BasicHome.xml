@@ -128,7 +128,6 @@
               <PosX>867</PosX>
               <PosY>24</PosY>
               <VisibleCondition>!IsPluginEnabled(Moving Pictures) ++ !IsPluginEnabled(MyFilms)</VisibleCondition>
-              <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Zoom" Condition="FocusTrue" Duration="100" From="100" To="105" />
                 <Animation x:type="Zoom" Condition="FocusFalse" Duration="100" From="105" />
@@ -273,7 +272,6 @@
               <PosX>867</PosX>
               <PosY>24</PosY>
               <VisibleCondition>IsPluginEnabled(Moving Pictures)</VisibleCondition>
-              <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Zoom" Condition="FocusTrue" Duration="100" From="100" To="105" />
                 <Animation x:type="Zoom" Condition="FocusFalse" Duration="100" From="105" />
@@ -310,7 +308,6 @@
               <PosX>867</PosX>
               <PosY>24</PosY>
               <VisibleCondition>IsPluginEnabled(MyFilms)</VisibleCondition>
-              <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Zoom" Condition="FocusTrue" Duration="100" From="100" To="105" />
                 <Animation x:type="Zoom" Condition="FocusFalse" Duration="100" From="105" />
@@ -347,7 +344,6 @@
               <PosX>867</PosX>
               <PosY>255</PosY>
               <VisibleCondition>!IsPluginEnabled(MP-TV Series)</VisibleCondition>
-              <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations>
                 <Animation x:type="Zoom" Condition="FocusTrue" Duration="100" From="100" To="105" />
                 <Animation x:type="Zoom" Condition="FocusFalse" Duration="100" From="105" />
@@ -1342,9 +1338,9 @@
         <Control x:type="Label">
           <Name>Date</Name>
           <Id>47</Id>
-          <Width>694</Width>
+          <Width>800</Width>
           <Height>70</Height>
-          <PosX>580</PosX>
+          <PosX>474</PosX>
           <PosY>80</PosY>
           <VisibleCondition>IsPluginEnabled(World Weather)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
@@ -1356,10 +1352,11 @@
             <FontSize>60</FontSize>
             <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
           </LabelStyle>
-          <LabelText>#date+ | +#World Weather.TodayTemperature</LabelText>
+          <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>5</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
       </GroupControls>
@@ -1372,7 +1369,6 @@
       <PosX>28</PosX>
       <PosY>650</PosY>
       <VisibleCondition>IsPluginEnabled(InfoService)</VisibleCondition>
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations />
       <MediaPortalFocusControls />
       <GroupStyle>
@@ -1414,9 +1410,9 @@
             <FontBrush x:type="ColorBrush" Color="#FF000000" />
           </LabelStyle>
           <LabelText>#infoservice.feed.1.titles</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>4</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>8</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
       </GroupControls>
     </Control>

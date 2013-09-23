@@ -111,10 +111,8 @@
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#Play.Current.Title</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>8</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
         <Control x:type="Label">
           <Name>RadioTime Station</Name>
@@ -131,10 +129,8 @@
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#RadioTime.Play.Station</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>8</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
         <Control x:type="Label">
           <Name>RadioTime Location</Name>
@@ -151,10 +147,8 @@
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#RadioTime.Play.Location</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>8</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
         <Control x:type="Label">
           <Name>RadioTime Description</Name>
@@ -171,10 +165,8 @@
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#RadioTime.Play.Description</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>8</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
         <Control x:type="Label">
           <Name>Playtime Label</Name>

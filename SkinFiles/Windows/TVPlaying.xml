@@ -91,10 +91,8 @@
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#TV.View.title</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>4</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
           <ScrollSeperator>  |   </ScrollSeperator>
         </Control>
         <Control x:type="Label">
@@ -111,9 +109,9 @@
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#TV.View.channel</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
           <Name>Genre</Name>
@@ -129,10 +127,8 @@
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#TV.View.genre</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>4</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
           <ScrollSeperator>  |   </ScrollSeperator>
         </Control>
         <Control x:type="Label">
@@ -205,10 +201,8 @@
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#TV.Next.genre</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>4</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
           <ScrollSeperator>   |   </ScrollSeperator>
         </Control>
         <Control x:type="Label">

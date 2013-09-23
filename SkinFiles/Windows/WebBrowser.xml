@@ -34,9 +34,9 @@
         <FontSize>20</FontSize>
       </LabelStyle>
       <LabelText>#MPD2.BrowseStatus</LabelText>
-      <IsScrollingEnabled>false</IsScrollingEnabled>
-      <ScrollSpeed>2</ScrollSpeed>
-      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+      <ScrollDelay>2</ScrollDelay>
+      <ScrollSpeed>5</ScrollSpeed>
+      <ScrollSeperator>  |  </ScrollSeperator>
     </Control>
     <Control x:type="Label">
       <Name>URL</Name>
@@ -51,10 +51,8 @@
         <FontSize>20</FontSize>
       </LabelStyle>
       <LabelText>#MPD2.Browseurl</LabelText>
-      <IsScrollingEnabled>false</IsScrollingEnabled>
       <ScrollDelay>2</ScrollDelay>
       <ScrollSpeed>10</ScrollSpeed>
-      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
       <ScrollSeperator>  |  </ScrollSeperator>
     </Control>
     <Control x:type="Group">
@@ -169,7 +167,7 @@
             <FontSize>60</FontSize>
             <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
           </LabelStyle>
-          <LabelText>#date+ | +#World Weather.TodayTemperature</LabelText>
+          <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>

@@ -122,9 +122,9 @@
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#myfilms.user.mastertitle.value</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
           <Name>Current Module+itemcount</Name>
@@ -179,10 +179,8 @@
           </LabelStyle>
           <LabelText>#myfilms.db.description.value</LabelText>
           <IsVertical>true</IsVertical>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>5</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
           <ScrollSeperator>-------------------------------------</ScrollSeperator>
         </Control>
         <Control x:type="Image">
@@ -442,9 +440,9 @@
                 <FontSize>20</FontSize>
               </LabelStyle>
               <LabelText>#myfilms.user.mastertitle.value</LabelText>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
+              <ScrollSeperator>  |  </ScrollSeperator>
             </Control>
             <Control x:type="Label">
               <Name>Rating Label</Name>
@@ -478,9 +476,9 @@
                 <FontSize>20</FontSize>
               </LabelStyle>
               <LabelText>#myfilms.db.year.value+ - +#myfilms.db.length.value+ min</LabelText>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
+              <ScrollSeperator>  |  </ScrollSeperator>
             </Control>
             <Control x:type="Image">
               <Name>Logos</Name>
@@ -511,9 +509,9 @@
                 <FontSize>20</FontSize>
               </LabelStyle>
               <LabelText>#myfilms.user.mastertitle.value</LabelText>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
+              <ScrollSeperator>  |  </ScrollSeperator>
             </Control>
           </GroupControls>
         </Control>
@@ -560,9 +558,9 @@
                 <FontSize>20</FontSize>
               </LabelStyle>
               <LabelText>#myfilms.db.director.value</LabelText>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
+              <ScrollSeperator>  |  </ScrollSeperator>
             </Control>
             <Control x:type="Label">
               <Name>Country</Name>
@@ -596,9 +594,9 @@
                 <FontSize>20</FontSize>
               </LabelStyle>
               <LabelText>#myfilms.user.item1.value</LabelText>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
+              <ScrollSeperator>  |  </ScrollSeperator>
             </Control>
             <Control x:type="Label">
               <Name>Producer</Name>
@@ -632,9 +630,9 @@
                 <FontSize>20</FontSize>
               </LabelStyle>
               <LabelText>#myfilms.user.item2.value</LabelText>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
+              <ScrollSeperator>  |  </ScrollSeperator>
             </Control>
             <Control x:type="Label">
               <Name>Genre</Name>
@@ -668,9 +666,9 @@
                 <FontSize>20</FontSize>
               </LabelStyle>
               <LabelText>#myfilms.user.item3.value</LabelText>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
+              <ScrollSeperator>  |  </ScrollSeperator>
             </Control>
             <Control x:type="Label">
               <Name>Language</Name>
@@ -704,9 +702,9 @@
                 <FontSize>20</FontSize>
               </LabelStyle>
               <LabelText>#myfilms.user.item4.value</LabelText>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
+              <ScrollSeperator>  |  </ScrollSeperator>
             </Control>
             <Control x:type="Label">
               <Name>Date</Name>
@@ -740,9 +738,9 @@
                 <FontSize>20</FontSize>
               </LabelStyle>
               <LabelText>#myfilms.user.item5.value</LabelText>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
+              <ScrollSeperator>  |  </ScrollSeperator>
             </Control>
             <Control x:type="Label">
               <Name>Actor</Name>
@@ -776,9 +774,8 @@
                 <FontSize>20</FontSize>
               </LabelStyle>
               <LabelText>#myfilms.db.actors.value</LabelText>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
               <ScrollSeperator>  |  </ScrollSeperator>
             </Control>
             <Control x:type="Label">
@@ -796,10 +793,7 @@
               </LabelStyle>
               <LabelText>#myfilms.db.description.value</LabelText>
               <IsVertical>true</IsVertical>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollDelay>2</ScrollDelay>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
               <ScrollSeperator>------------------------------------------------------------------------------------------------------</ScrollSeperator>
             </Control>
           </GroupControls>
@@ -848,9 +842,8 @@
               </LabelStyle>
               <LabelText>#myfilms.db.description.value</LabelText>
               <IsVertical>true</IsVertical>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
               <ScrollSeperator>------------------------------------------------------------------------------------------------------</ScrollSeperator>
             </Control>
           </GroupControls>
@@ -899,9 +892,8 @@
               </LabelStyle>
               <LabelText>#myfilms.db.comments.value</LabelText>
               <IsVertical>true</IsVertical>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
               <ScrollSeperator>------------------------------------------------------------------------------------------------------</ScrollSeperator>
             </Control>
           </GroupControls>
@@ -950,9 +942,8 @@
               </LabelStyle>
               <LabelText>#myfilms.db.actors.value</LabelText>
               <IsVertical>true</IsVertical>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
               <ScrollSeperator>------------------------------------------------------------------------------------------------------</ScrollSeperator>
             </Control>
           </GroupControls>
@@ -1000,9 +991,9 @@
                 <FontSize>20</FontSize>
               </LabelStyle>
               <LabelText>#myfilms.db.videoformat.value</LabelText>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
+              <ScrollSeperator>  |  </ScrollSeperator>
             </Control>
             <Control x:type="Label">
               <Name>Video Bitrate</Name>
@@ -1036,9 +1027,9 @@
                 <FontSize>20</FontSize>
               </LabelStyle>
               <LabelText>#myfilms.db.videobitrate.value+ kbit/sec.</LabelText>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
+              <ScrollSeperator>  |  </ScrollSeperator>
             </Control>
             <Control x:type="Label">
               <Name>Resolution</Name>
@@ -1072,9 +1063,9 @@
                 <FontSize>20</FontSize>
               </LabelStyle>
               <LabelText>#myfilms.db.resolution.value</LabelText>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
+              <ScrollSeperator>  |  </ScrollSeperator>
             </Control>
             <Control x:type="Label">
               <Name>Audio Format</Name>
@@ -1108,9 +1099,9 @@
                 <FontSize>20</FontSize>
               </LabelStyle>
               <LabelText>#myfilms.db.audioformat.value</LabelText>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
+              <ScrollSeperator>  |  </ScrollSeperator>
             </Control>
             <Control x:type="Label">
               <Name>Audio Bitrate</Name>
@@ -1144,9 +1135,9 @@
                 <FontSize>20</FontSize>
               </LabelStyle>
               <LabelText>#myfilms.db.audiobitrate.value+ kbit/sec.</LabelText>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
+              <ScrollSeperator>  |  </ScrollSeperator>
             </Control>
             <Control x:type="Label">
               <Name>Filesize</Name>
@@ -1180,9 +1171,9 @@
                 <FontSize>20</FontSize>
               </LabelStyle>
               <LabelText>#myfilms.db.size.value+ MB</LabelText>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
+              <ScrollSeperator>  |  </ScrollSeperator>
             </Control>
             <Control x:type="Label">
               <Name>Info URL</Name>
@@ -1216,9 +1207,8 @@
                 <FontSize>20</FontSize>
               </LabelStyle>
               <LabelText>#myfilms.db.url.value</LabelText>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
               <ScrollSeperator>   |   </ScrollSeperator>
             </Control>
           </GroupControls>
@@ -1337,7 +1327,7 @@
             <FontSize>60</FontSize>
             <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
           </LabelStyle>
-          <LabelText>#date+ | +#World Weather.TodayTemperature</LabelText>
+          <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>

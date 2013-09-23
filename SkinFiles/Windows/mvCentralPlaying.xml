@@ -79,10 +79,8 @@
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#mvCentral.ArtistName</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>4</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
           <ScrollSeperator>   |   </ScrollSeperator>
         </Control>
         <Control x:type="Label">
@@ -98,10 +96,8 @@
           <LabelStyle StyleId="Titan60">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>4</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
           <ScrollSeperator>   |   </ScrollSeperator>
         </Control>
         <Control x:type="Image">

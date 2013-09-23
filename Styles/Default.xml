@@ -538,22 +538,18 @@
       <FallOffColor x:type="ColorBrush" Color="#FF00BFFF" />
     </ControlStyle>
     <ControlStyle x:type="ListItemStyle" StyleId="DialogList Horizontal">
-      <BorderThickness>1,1,1,1</BorderThickness>
-      <CornerRadius>4,4,4,4</CornerRadius>
-      <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
-      <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
-      <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
-      <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
+      <CornerRadius>15,15,15,15</CornerRadius>
+      <NoFocusBrush />
+      <NoFocusBorderBrush />
+      <FocusBrush x:type="ColorBrush" Color="#ABF40D10" />
+      <FocusBorderBrush />
+      <FontType>Roboto</FontType>
       <FontSize>18</FontSize>
-      <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
-      <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
-      <LabelMargin>3,3,3,3</LabelMargin>
-      <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
-      <EnableImage>true</EnableImage>
-      <ImageMargin>3,3,3,33</ImageMargin>
+      <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FF000000" />
       <ImageVerticalAlignment>Top</ImageVerticalAlignment>
       <Width>135</Width>
-      <Height>207</Height>
+      <Height>80</Height>
     </ControlStyle>
   </ControlStyles>
 </StyleCollection>

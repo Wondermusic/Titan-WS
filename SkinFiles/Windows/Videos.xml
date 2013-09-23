@@ -119,9 +119,9 @@
                 <FontSize>20</FontSize>
               </LabelStyle>
               <LabelText>#highlightedbutton</LabelText>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
+              <ScrollSeperator>  |  </ScrollSeperator>
             </Control>
             <Control x:type="Label">
               <Name>Itemcount</Name>
@@ -176,9 +176,8 @@
               </LabelStyle>
               <LabelText>#TV.RecordedTV.Description</LabelText>
               <IsVertical>true</IsVertical>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>30</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
               <ScrollSeperator>---------------------------------------------</ScrollSeperator>
             </Control>
           </GroupControls>
@@ -295,7 +294,7 @@
                 <FontSize>60</FontSize>
                 <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
               </LabelStyle>
-              <LabelText>#date+ | +#World Weather.TodayTemperature</LabelText>
+              <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
               <LabelTextAlignment>Right</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -510,9 +509,9 @@
                 <FontSize>20</FontSize>
               </LabelStyle>
               <LabelText>#highlightedbutton</LabelText>
-              <IsScrollingEnabled>false</IsScrollingEnabled>
-              <ScrollSpeed>2</ScrollSpeed>
-              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>4</ScrollSpeed>
+              <ScrollSeperator>  |  </ScrollSeperator>
             </Control>
             <Control x:type="Label">
               <Name>Itemcount</Name>
@@ -646,7 +645,7 @@
                 <FontSize>60</FontSize>
                 <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
               </LabelStyle>
-              <LabelText>#date+ | +#World Weather.TodayTemperature</LabelText>
+              <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
               <LabelTextAlignment>Right</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>

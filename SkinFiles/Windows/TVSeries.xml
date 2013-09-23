@@ -122,9 +122,9 @@
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#highlightedbutton</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
           <Name>Itemcount</Name>
@@ -179,9 +179,7 @@
           </LabelStyle>
           <LabelText>#MPD2.TVSeries.Summary</LabelText>
           <IsVertical>true</IsVertical>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>4</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
           <ScrollSeperator>----------------------------------------</ScrollSeperator>
         </Control>
         <Control x:type="Image">
@@ -314,7 +312,7 @@
             <FontSize>60</FontSize>
             <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
           </LabelStyle>
-          <LabelText>#date+ | +#World Weather.TodayTemperature</LabelText>
+          <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>

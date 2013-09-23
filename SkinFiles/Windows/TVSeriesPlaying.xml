@@ -74,10 +74,8 @@
           </LabelStyle>
           <LabelText>#Play.Current.Title</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>4</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
           <ScrollSeperator>   |   </ScrollSeperator>
         </Control>
         <Control x:type="Label">
@@ -95,10 +93,8 @@
           </LabelStyle>
           <LabelText>#TVSeries.Episode.LocalEpisodeName</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>4</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
           <ScrollSeperator>   |   </ScrollSeperator>
         </Control>
         <Control x:type="Image">

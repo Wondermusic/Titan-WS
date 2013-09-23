@@ -33,7 +33,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Background" />
-          <Image>#MPD2.fanart.Moving Pictures</Image>
+          <Image>#MPD2.fanart.MovingPictures</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverImage StyleId="Background Play" />
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
@@ -85,10 +85,8 @@
           </LabelStyle>
           <LabelText>#Play.Current.Title</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>4</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
           <ScrollSeperator>   |   </ScrollSeperator>
         </Control>
         <Control x:type="Image">
@@ -516,5 +514,5 @@
       </Actions>
     </Control>
   </WindowControls>
-  <VisibleCondition>IsPlayer(Moving Pictures)</VisibleCondition>
+  <VisibleCondition>IsPlayer(MovingPictures)</VisibleCondition>
 </Window>

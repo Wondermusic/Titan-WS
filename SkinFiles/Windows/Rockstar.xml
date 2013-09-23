@@ -96,9 +96,9 @@
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#selecteditem</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Image">
           <Name>selctedthumb</Name>
@@ -121,7 +121,7 @@
           <Name>List</Name>
           <Id>32</Id>
           <Width>1210</Width>
-          <Height>518</Height>
+          <Height>469</Height>
           <PosX>25</PosX>
           <PosY>180</PosY>
           <VisibleCondition />
@@ -168,7 +168,7 @@
         <Control x:type="Label">
           <Name>Name of Window</Name>
           <Id>6</Id>
-          <Width>563</Width>
+          <Width>800</Width>
           <Height>60</Height>
           <PosX>68</PosX>
           <PosY>9</PosY>
@@ -181,10 +181,12 @@
             <FontSize>50</FontSize>
             <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
           </LabelStyle>
-          <LabelText>#Rockstar.PluginName</LabelText>
+          <LabelText>#Rockstar.PluginName+ / +#Rockstar.CurrentModule</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
           <Name>Time</Name>
@@ -248,7 +250,7 @@
             <FontSize>60</FontSize>
             <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
           </LabelStyle>
-          <LabelText>#date+ | +#World Weather.TodayTemperature</LabelText>
+          <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
