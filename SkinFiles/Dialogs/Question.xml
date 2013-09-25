@@ -146,47 +146,33 @@
       <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
     </Control>
     <Control x:type="List">
-      <Name>NewList</Name>
+      <Name>List</Name>
       <Id>7</Id>
       <Width>287</Width>
-      <Height>80</Height>
+      <Height>117</Height>
       <PosX>253</PosX>
-      <PosY>410</PosY>
+      <PosY>373</PosY>
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
-      <ListControlStyle>
-        <BorderThickness>1,1,1,1</BorderThickness>
-        <CornerRadius>4,4,4,4</CornerRadius>
-        <BackgroundBrush />
-        <BorderBrush />
-        <GlossBrush />
-      </ListControlStyle>
+      <ListControlStyle StyleId="empty" />
       <ListType>MediaPortalDialogList</ListType>
-      <ListLayout>Horizontal</ListLayout>
-      <VerticalItemStyle>
+      <ListLayout>Auto</ListLayout>
+      <VerticalItemStyle StyleId="DialogList Vertical" />
+      <HorizontalItemStyle>
         <CornerRadius>15,15,15,15</CornerRadius>
         <NoFocusBrush />
         <NoFocusBorderBrush />
-        <FocusBrush x:type="ColorBrush" Color="#FF00B7FF" />
+        <FocusBrush x:type="ColorBrush" Color="#ABF40D10" />
         <FocusBorderBrush />
-        <ShadeBrush />
-        <FontType>Titan</FontType>
-        <FontSize>35</FontSize>
+        <FontType>Roboto</FontType>
+        <FontSize>18</FontSize>
         <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-        <NoFocusFontBrush x:type="ColorBrush" Color="#FF00B7FF" />
-        <LabelMargin>10,0,0,0</LabelMargin>
-        <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
-        <ImageMargin>3,3,3,3</ImageMargin>
-        <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
+        <NoFocusFontBrush x:type="ColorBrush" Color="#FF000000" />
         <ImageVerticalAlignment>Top</ImageVerticalAlignment>
-        <ImageCornerRadius>4</ImageCornerRadius>
-        <Width>630</Width>
-        <Height>53</Height>
-        <ItemMargin>1,1,1,1</ItemMargin>
-        <HorizontalAlignment>Left</HorizontalAlignment>
-      </VerticalItemStyle>
-      <HorizontalItemStyle StyleId="DialogList Horizontal" />
+        <Width>135</Width>
+        <Height>80</Height>
+      </HorizontalItemStyle>
       <CoverFlowItemStyle>
         <BorderThickness>1,1,1,1</BorderThickness>
         <CornerRadius>4,4,4,4</CornerRadius>

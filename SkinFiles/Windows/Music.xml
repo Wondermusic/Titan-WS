@@ -26,25 +26,13 @@
       <GroupControls>
         <Control x:type="Image">
           <Name>Background</Name>
-          <Id>32</Id>
-          <Width>1280</Width>
-          <Height>720</Height>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle StyleId="Background" />
-          <ImageStretch>None</ImageStretch>
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
-        <Control x:type="Image">
-          <Name>Background</Name>
           <Id>33</Id>
           <Width>1280</Width>
           <Height>720</Height>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle StyleId="Logo_Image" />
+          <ImageStyle StyleId="Background" />
           <Image>#MPD2.fanart.music</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverImage x:type="ImageBrush" Image="\fanart_overlay.png" Stretch="Fill" />
@@ -149,7 +137,7 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle StyleId="Music Cover" />
+          <ImageStyle StyleId="Logo_Image" />
           <Image>#selectedthumb</Image>
           <ImageStretch>Uniform</ImageStretch>
           <ImageCornerRadius>10</ImageCornerRadius>

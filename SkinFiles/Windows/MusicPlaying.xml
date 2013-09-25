@@ -88,9 +88,9 @@
           <Name>Artist</Name>
           <Id>6</Id>
           <Width>1205</Width>
-          <Height>100</Height>
+          <Height>110</Height>
           <PosX>38</PosX>
-          <PosY>439</PosY>
+          <PosY>425</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
@@ -107,9 +107,9 @@
           <Name>Title</Name>
           <Id>7</Id>
           <Width>1205</Width>
-          <Height>70</Height>
+          <Height>75</Height>
           <PosX>38</PosX>
-          <PosY>525</PosY>
+          <PosY>530</PosY>
           <VisibleCondition />
           <Animations>
             <Animation x:type="Rotate" Condition="PropertyChanging" Duration="300" Pos3DXTo="-90" />
@@ -131,7 +131,7 @@
           <Width>1205</Width>
           <Height>50</Height>
           <PosX>38</PosX>
-          <PosY>670</PosY>
+          <PosY>672</PosY>
           <VisibleCondition />
           <Animations>
             <Animation x:type="Rotate" Condition="PropertyChanging" Duration="300" Pos3DXTo="90" />
@@ -151,7 +151,7 @@
           <Name>ProgressBar</Name>
           <Id>9</Id>
           <Width>550</Width>
-          <Height>27</Height>
+          <Height>30</Height>
           <PosX>365</PosX>
           <PosY>620</PosY>
           <VisibleCondition />
@@ -237,8 +237,8 @@
           <BandSpacing>1</BandSpacing>
           <BandBorderSize>0</BandBorderSize>
           <BandCornerRadius>0</BandCornerRadius>
-          <FalloffSpeed>4</FalloffSpeed>
-          <FallOffHeight>2</FallOffHeight>
+          <FalloffSpeed>1</FalloffSpeed>
+          <FallOffHeight>1</FallOffHeight>
         </Control>
         <Control x:type="Equalizer">
           <Name>Equalizer</Name>
@@ -255,8 +255,8 @@
           <BandSpacing>1</BandSpacing>
           <BandBorderSize>0</BandBorderSize>
           <BandCornerRadius>0</BandCornerRadius>
-          <FalloffSpeed>4</FalloffSpeed>
-          <FallOffHeight>2</FallOffHeight>
+          <FalloffSpeed>1</FalloffSpeed>
+          <FallOffHeight>1</FallOffHeight>
         </Control>
       </GroupControls>
     </Control>
@@ -285,7 +285,7 @@
             <BorderThickness>0,0,0,0</BorderThickness>
             <CornerRadius>0,0,0,0</CornerRadius>
           </ImageStyle>
-          <Image>\icon_home.png</Image>
+          <Image>\icon_music.png</Image>
           <ImageStretch>None</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -305,7 +305,7 @@
             <FontSize>50</FontSize>
             <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
           </LabelStyle>
-          <LabelText>#currentmodule</LabelText>
+          <LabelText>@Music</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -372,7 +372,7 @@
             <FontSize>60</FontSize>
             <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
           </LabelStyle>
-          <LabelText>#date+ | +#World Weather.TodayTemperature</LabelText>
+          <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>

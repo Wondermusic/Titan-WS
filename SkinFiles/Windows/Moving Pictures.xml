@@ -17,7 +17,7 @@
       <Animations />
       <MediaPortalFocusControls />
       <ImageStyle StyleId="Background" />
-      <ImageStretch>None</ImageStretch>
+      <ImageStretch>Fill</ImageStretch>
       <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
     </Control>
     <Control x:type="Group">
@@ -42,8 +42,7 @@
           <Id>121</Id>
           <Width>1280</Width>
           <Height>720</Height>
-          <VisibleCondition>IsControlVisible(4)</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle>
@@ -53,26 +52,8 @@
             <BorderBrush />
           </ImageStyle>
           <Image>#MPD2.fanart.MovingPictures</Image>
-          <ImageStretch>Uniform</ImageStretch>
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
-        <Control x:type="Image">
-          <Name>Cover</Name>
-          <Id>122</Id>
-          <Width>1280</Width>
-          <Height>720</Height>
-          <VisibleCondition>IsControlVisible(4)</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
-            <BackgroundBrush />
-            <BorderBrush />
-          </ImageStyle>
-          <Image>\fanart_overlay.png</Image>
           <ImageStretch>Fill</ImageStretch>
+          <CoverImage x:type="ImageBrush" Image="\fanart_overlay.png" Stretch="Fill" />
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="Image">
@@ -103,17 +84,16 @@
           <Height>60</Height>
           <PosX>20</PosX>
           <PosY>660</PosY>
-          <VisibleCondition>IsControlVisible(4)</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="Titan 40">
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#highlightedbutton</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="List">
           <Name>List</Name>
@@ -122,8 +102,7 @@
           <Height>461</Height>
           <PosX>62</PosX>
           <PosY>125</PosY>
-          <VisibleCondition>IsControlVisible(4)</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
           <ListControlStyle StyleId="empty" />
@@ -233,35 +212,17 @@
             <BorderBrush />
           </ImageStyle>
           <Image>#MPD2.fanart.MovingPictures</Image>
-          <ImageStretch>Uniform</ImageStretch>
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
-        <Control x:type="Image">
-          <Name>Cover</Name>
-          <Id>128</Id>
-          <Width>1280</Width>
-          <Height>720</Height>
-          <VisibleCondition>IsMediaPortalListLayout(Vertical)</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
-            <BackgroundBrush />
-            <BorderBrush />
-          </ImageStyle>
-          <Image>\fanart_overlay.png</Image>
           <ImageStretch>Fill</ImageStretch>
+          <CoverImage x:type="ImageBrush" Image="\fanart_overlay.png" Stretch="Fill" />
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="Image">
           <Name>Movielist BG</Name>
-          <Id>129</Id>
+          <Id>128</Id>
           <Width>1280</Width>
           <Height>600</Height>
           <PosY>116</PosY>
-          <VisibleCondition>IsControlVisible(128)</VisibleCondition>
+          <VisibleCondition>IsMediaPortalListLayout(Vertical)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
@@ -276,6 +237,26 @@
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="Image">
+          <Name>Movielist BG CF+H</Name>
+          <Id>231</Id>
+          <Width>1280</Width>
+          <Height>600</Height>
+          <PosY>116</PosY>
+          <VisibleCondition>!IsControlVisible(128)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>0,0,0,0</CornerRadius>
+            <BackgroundBrush />
+            <BorderBrush />
+          </ImageStyle>
+          <Image>\panel_thumbs_noinfo.png</Image>
+          <ImageStretch>Fill</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Image">
           <Name>SelectedThumb Moving Pictures</Name>
           <Id>130</Id>
           <Width>250</Width>
@@ -286,12 +267,7 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>1,1,1,1</BorderThickness>
-            <CornerRadius>10,10,10,10</CornerRadius>
-            <BackgroundBrush x:type="ImageBrush" Image="\defaultVideoBig.png" Stretch="Uniform" />
-            <BorderBrush />
-          </ImageStyle>
+          <ImageStyle StyleId="Logo_Image" />
           <Image>#MovingPictures.Coverart</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
@@ -315,26 +291,6 @@
           </ImageStyle>
           <Image>#MovingPictures.UserMovieSettings.watched+.png</Image>
           <ImageStretch>Uniform</ImageStretch>
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
-        <Control x:type="Image">
-          <Name>Movielist BG CF+H</Name>
-          <Id>231</Id>
-          <Width>1280</Width>
-          <Height>600</Height>
-          <PosY>116</PosY>
-          <VisibleCondition>!IsMediaPortalListLayout(Vertical)</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
-            <BackgroundBrush />
-            <BorderBrush />
-          </ImageStyle>
-          <Image>\panel_thumbs_noinfo.png</Image>
-          <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="List">
@@ -385,7 +341,7 @@
           <LabelStyle StyleId="Titan 40">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#MovingPictures.general.itemcount</LabelText>
+          <LabelText>Items: +#MovingPictures.general.itemcount</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -608,14 +564,9 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>1,1,1,1</BorderThickness>
-            <CornerRadius>10,10,10,10</CornerRadius>
-            <BackgroundBrush x:type="ImageBrush" Image="\defaultVideoBig.png" Stretch="Uniform" />
-            <BorderBrush />
-          </ImageStyle>
+          <ImageStyle StyleId="VideoCover" />
           <Image>#MovingPictures.Coverart</Image>
-          <ImageStretch>None</ImageStretch>
+          <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="Image">
@@ -642,13 +593,13 @@
           <Name>Title</Name>
           <Id>149</Id>
           <Width>931</Width>
-          <Height>58</Height>
+          <Height>70</Height>
           <PosX>320</PosX>
-          <PosY>160</PosY>
+          <PosY>143</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan40 White">
+          <LabelStyle StyleId="Titan60">
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#MovingPictures.SelectedMovie.title</LabelText>
@@ -666,7 +617,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan 40">
+          <LabelStyle StyleId="Titan40 White">
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#MovingPictures.SelectedMovie.genres</LabelText>
@@ -1021,7 +972,7 @@
           <LabelStyle StyleId="Titan 40">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#MovingPictures.general.itemcount</LabelText>
+          <LabelText>Items: +#MovingPictures.general.itemcount</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -1054,7 +1005,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>#MPD2.fanart.Moving Pictures</Image>
+          <Image>#MPD2.fanart.MovingPictures</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverImage x:type="ImageBrush" Image="\fanart_overlay.png" Stretch="Fill" />
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
@@ -1083,14 +1034,9 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>1,1,1,1</BorderThickness>
-            <CornerRadius>10,10,10,10</CornerRadius>
-            <BackgroundBrush x:type="ImageBrush" Image="\defaultVideoBig.png" Stretch="Uniform" />
-            <BorderBrush />
-          </ImageStyle>
+          <ImageStyle StyleId="VideoCover" />
           <Image>#MovingPictures.Coverart</Image>
-          <ImageStretch>None</ImageStretch>
+          <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="Image">
@@ -1117,13 +1063,13 @@
           <Name>Title</Name>
           <Id>177</Id>
           <Width>931</Width>
-          <Height>58</Height>
+          <Height>70</Height>
           <PosX>320</PosX>
-          <PosY>160</PosY>
+          <PosY>145</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan40 White">
+          <LabelStyle StyleId="Titan60">
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#MovingPictures.SelectedMovie.title</LabelText>
@@ -1159,7 +1105,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan40 White">
+          <LabelStyle StyleId="Titan30_White">
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#MovingPictures.SelectedMovie.summary</LabelText>
@@ -1195,8 +1141,13 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle StyleId="Logo_Image" />
-          <Image>#MPD2.fanart.Moving Pictures</Image>
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>0,0,0,0</CornerRadius>
+            <BackgroundBrush />
+            <BorderBrush />
+          </ImageStyle>
+          <Image>#MPD2.fanart.MovingPictures</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverImage x:type="ImageBrush" Image="\fanart_overlay.png" Stretch="Fill" />
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
@@ -1225,14 +1176,9 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>1,1,1,1</BorderThickness>
-            <CornerRadius>10,10,10,10</CornerRadius>
-            <BackgroundBrush x:type="ImageBrush" Image="\defaultVideoBig.png" Stretch="Uniform" />
-            <BorderBrush />
-          </ImageStyle>
+          <ImageStyle StyleId="VideoCover" />
           <Image>#MovingPictures.Coverart</Image>
-          <ImageStretch>None</ImageStretch>
+          <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="Image">
@@ -1554,75 +1500,10 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>#MPD2.fanart.Moving Pictures</Image>
+          <Image>#MPD2.fanart.MovingPictures</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverImage x:type="ImageBrush" Image="\fanart_overlay.png" Stretch="Fill" />
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
-        <Control x:type="Image">
-          <Name>BG</Name>
-          <Id>202</Id>
-          <Width>1280</Width>
-          <Height>600</Height>
-          <PosY>100</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle StyleId="Logo_Image" />
-          <Image>\panel_thumbs_noinfo.png</Image>
-          <ImageStretch>Fill</ImageStretch>
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
-        <Control x:type="Label">
-          <Name>Title</Name>
-          <Id>203</Id>
-          <Width>700</Width>
-          <Height>58</Height>
-          <PosX>533</PosX>
-          <PosY>657</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan 40">
-            <FontSize>20</FontSize>
-          </LabelStyle>
-          <LabelText>#MovingPictures.SelectedMovie.title</LabelText>
-          <ScrollDelay>2</ScrollDelay>
-          <ScrollSpeed>4</ScrollSpeed>
-          <ScrollSeperator>  |  </ScrollSeperator>
-        </Control>
-        <Control x:type="Image">
-          <Name>StarRating</Name>
-          <Id>204</Id>
-          <Width>300</Width>
-          <Height>30</Height>
-          <PosX>35</PosX>
-          <PosY>664</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\Stars\MoPi\star+#MovingPictures.SelectedMovie.score.rounded+.png</Image>
-          <ImageStretch>Fill</ImageStretch>
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
-        <Control x:type="Label">
-          <Name>StarRating Label</Name>
-          <Id>205</Id>
-          <Width>200</Width>
-          <Height>60</Height>
-          <PosX>334</PosX>
-          <PosY>657</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan 40">
-            <FontSize>20</FontSize>
-          </LabelStyle>
-          <LabelText>#MovingPictures.SelectedMovie.score.localized+ / 10</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
       </GroupControls>
     </Control>
@@ -1704,7 +1585,7 @@
           <Width>694</Width>
           <Height>70</Height>
           <PosX>580</PosX>
-          <PosY>80</PosY>
+          <PosY>70</PosY>
           <VisibleCondition>!IsPluginEnabled(World Weather)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
@@ -1727,7 +1608,7 @@
           <Width>694</Width>
           <Height>70</Height>
           <PosX>580</PosX>
-          <PosY>80</PosY>
+          <PosY>70</PosY>
           <VisibleCondition>IsPluginEnabled(World Weather)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />

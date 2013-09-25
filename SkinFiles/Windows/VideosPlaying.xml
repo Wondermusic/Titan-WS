@@ -313,7 +313,7 @@
                 <FontSize>50</FontSize>
                 <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
               </LabelStyle>
-              <LabelText>#currentmodule</LabelText>
+              <LabelText>Recordings</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
               <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -380,7 +380,7 @@
                 <FontSize>60</FontSize>
                 <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
               </LabelStyle>
-              <LabelText>#date+ | +#World Weather.TodayTemperature</LabelText>
+              <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
               <LabelTextAlignment>Right</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -696,7 +696,7 @@
                 <FontSize>50</FontSize>
                 <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
               </LabelStyle>
-              <LabelText>#currentmodule</LabelText>
+              <LabelText>Video</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
               <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -763,7 +763,7 @@
                 <FontSize>60</FontSize>
                 <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
               </LabelStyle>
-              <LabelText>#date+ | +#World Weather.TodayTemperature</LabelText>
+              <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
               <LabelTextAlignment>Right</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>

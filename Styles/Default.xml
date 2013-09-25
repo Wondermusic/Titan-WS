@@ -551,5 +551,25 @@
       <Width>135</Width>
       <Height>80</Height>
     </ControlStyle>
+    <ControlStyle x:type="ListItemStyle" StyleId="DialogList Vertical">
+      <NoFocusBrush />
+      <NoFocusBorderBrush />
+      <FocusBrush x:type="ColorBrush" Color="#ABF40D10" />
+      <FocusBorderBrush />
+      <ShadeBrush />
+      <FontType>Titan</FontType>
+      <FontSize>35</FontSize>
+      <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FF00B7FF" />
+      <LabelMargin>10,0,0,0</LabelMargin>
+      <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+      <ImageMargin>3,3,3,3</ImageMargin>
+      <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
+      <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+      <ImageCornerRadius>4</ImageCornerRadius>
+      <Width>260</Width>
+      <Height>53</Height>
+      <ItemMargin>1,1,1,1</ItemMargin>
+    </ControlStyle>
   </ControlStyles>
 </StyleCollection>

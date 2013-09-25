@@ -25,10 +25,10 @@
         <FontSize>50</FontSize>
         <FontBrush x:type="ColorBrush" Color="#FF000000" />
       </LabelStyle>
-      <LabelText>#Dialog.Label4</LabelText>
-      <IsScrollingEnabled>false</IsScrollingEnabled>
-      <ScrollSpeed>2</ScrollSpeed>
-      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+      <LabelText>#Dialog.Label1</LabelText>
+      <ScrollDelay>2</ScrollDelay>
+      <ScrollSpeed>5</ScrollSpeed>
+      <ScrollSeperator>  |  </ScrollSeperator>
     </Control>
     <Control x:type="Button">
       <Name>ExitButton</Name>
@@ -62,43 +62,55 @@
       <Name>TextArea1</Name>
       <Id>3</Id>
       <Width>668</Width>
-      <Height>60</Height>
+      <Height>50</Height>
       <PosX>61</PosX>
-      <PosY>137</PosY>
+      <PosY>140</PosY>
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
-      <LabelStyle>
-        <FontType>Titan</FontType>
-        <FontWeight>Black</FontWeight>
-        <FontSize>34</FontSize>
-        <FontBrush x:type="ColorBrush" Color="#FF000000" />
+      <LabelStyle StyleId="Titan 40">
+        <FontSize>20</FontSize>
       </LabelStyle>
       <LabelText>#Dialog.Label2</LabelText>
-      <IsScrollingEnabled>false</IsScrollingEnabled>
-      <ScrollSpeed>2</ScrollSpeed>
-      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+      <ScrollDelay>2</ScrollDelay>
+      <ScrollSpeed>4</ScrollSpeed>
+      <ScrollSeperator>  |  </ScrollSeperator>
     </Control>
     <Control x:type="Label">
       <Name>TextArea2</Name>
       <Id>4</Id>
       <Width>668</Width>
-      <Height>60</Height>
+      <Height>50</Height>
       <PosX>61</PosX>
       <PosY>200</PosY>
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
-      <LabelStyle>
-        <FontType>Titan</FontType>
-        <FontWeight>Black</FontWeight>
-        <FontSize>34</FontSize>
-        <FontBrush x:type="ColorBrush" Color="#FF000000" />
+      <LabelStyle StyleId="Titan 40">
+        <FontSize>20</FontSize>
       </LabelStyle>
       <LabelText>#Dialog.Label3</LabelText>
-      <IsScrollingEnabled>false</IsScrollingEnabled>
-      <ScrollSpeed>2</ScrollSpeed>
-      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+      <ScrollDelay>2</ScrollDelay>
+      <ScrollSpeed>4</ScrollSpeed>
+      <ScrollSeperator>  |  </ScrollSeperator>
+    </Control>
+    <Control x:type="Label">
+      <Name>TextArea3</Name>
+      <Id>6</Id>
+      <Width>668</Width>
+      <Height>50</Height>
+      <PosX>61</PosX>
+      <PosY>260</PosY>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <LabelStyle StyleId="Titan 40">
+        <FontSize>20</FontSize>
+      </LabelStyle>
+      <LabelText>#Dialog.Label4</LabelText>
+      <ScrollDelay>2</ScrollDelay>
+      <ScrollSpeed>4</ScrollSpeed>
+      <ScrollSeperator>  |  </ScrollSeperator>
     </Control>
     <Control x:type="Image">
       <Name>CommonWaiting</Name>
@@ -106,7 +118,7 @@
       <Width>150</Width>
       <Height>150</Height>
       <PosX>309</PosX>
-      <PosY>296</PosY>
+      <PosY>338</PosY>
       <VisibleCondition />
       <Animations>
         <Animation x:type="Rotate" Condition="VisibleTrue" Duration="5000" Repeat="1000" Pos3DZTo="-360" />

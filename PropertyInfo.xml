@@ -96,7 +96,8 @@
     <XmlProperty>
       <SkinTag>#Play.Current.Video.Thumb</SkinTag>
       <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
+      <DesignerValue>\defaultVideoBig.png</DesignerValue>
+      <DefaultValue>\defaultVideoBig.png</DefaultValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Play.Current.Video.Thumb" />
       </MediaPortalTags>
@@ -104,7 +105,8 @@
     <XmlProperty>
       <SkinTag>#Play.Current.Thumb</SkinTag>
       <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
+      <DesignerValue>\defaultVideoBig.png</DesignerValue>
+      <DefaultValue>\defaultVideoBig.png</DefaultValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Play.Current.Thumb" />
       </MediaPortalTags>
@@ -119,14 +121,6 @@
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#MovingPictures.SelectedMovie.score.rounded</SkinTag>
-      <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.score.rounded" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
       <SkinTag>#MovingPictures.UserMovieSettings.watched</SkinTag>
       <PropertyType>Image</PropertyType>
       <DesignerValue>New....</DesignerValue>
@@ -137,7 +131,8 @@
     <XmlProperty>
       <SkinTag>#MovingPictures.Coverart</SkinTag>
       <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
+      <DesignerValue>\defaultVideoBig.png</DesignerValue>
+      <DefaultValue>\defaultVideoBig.png</DefaultValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.Coverart" />
       </MediaPortalTags>
@@ -153,7 +148,8 @@
     <XmlProperty>
       <SkinTag>#selectedthumb</SkinTag>
       <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
+      <DesignerValue>\defaultAudioBig.png</DesignerValue>
+      <DefaultValue>\defaultAudioBig.png</DefaultValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#selectedthumb" />
       </MediaPortalTags>
@@ -191,15 +187,6 @@
         <XmlMediaPortalTag Tag="#TVSeries.SeriesPoster" />
         <XmlMediaPortalTag Tag="#TVSeries.SeasonPoster" />
         <XmlMediaPortalTag Tag="#TVSeries.EpisodeImage" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MPD2.TVSeries.RatingPath</SkinTag>
-      <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#TVSeries.Episode.RatingPath" />
-        <XmlMediaPortalTag Tag="#TVSeries.Series.RatingPath2" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
@@ -335,6 +322,23 @@
       <DesignerValue>50</DesignerValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.Record.percent2" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD2.TVSeries.RatingPath</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>\Logos\Stars\star2_80.png</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TVSeries.Episode.RatingPath" />
+        <XmlMediaPortalTag Tag="#TVSeries.Series.RatingPath2" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.SelectedMovie.score.rounded</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>8</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.score.rounded" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>

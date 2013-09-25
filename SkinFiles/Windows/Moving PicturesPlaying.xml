@@ -136,7 +136,7 @@
           <LabelStyle StyleId="Titan30_White">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Play.Current.VideoResolution</LabelText>
+          <LabelText>#MovingPictures.LocalMedia.videoheight+x+#MovingPictures.LocalMedia.videowidth</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
@@ -170,7 +170,7 @@
           <LabelStyle StyleId="Titan30_Blue">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>@Duration</LabelText>
+          <LabelText>@FPS</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
@@ -189,7 +189,7 @@
           <LabelStyle StyleId="Titan30_White">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#duration</LabelText>
+          <LabelText>#MovingPictures.LocalMedia.videoframerate</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
@@ -412,7 +412,7 @@
             <FontSize>50</FontSize>
             <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
           </LabelStyle>
-          <LabelText>#currentmodule</LabelText>
+          <LabelText>Moving Pictures</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -479,7 +479,7 @@
             <FontSize>60</FontSize>
             <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
           </LabelStyle>
-          <LabelText>#date+ | +#World Weather.TodayTemperature</LabelText>
+          <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
