@@ -81,7 +81,7 @@
           <LabelText>#Play.Current.Title</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
           <ScrollDelay>2</ScrollDelay>
-          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSpeed>10</ScrollSpeed>
           <ScrollSeperator>   |   </ScrollSeperator>
         </Control>
         <Control x:type="ProgressBar">
@@ -94,7 +94,25 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <ProgressBarStyle StyleId="default" />
+          <ProgressBarStyle>
+            <BorderThickness>2,2,2,2</BorderThickness>
+            <CornerRadius>15,15,15,15</CornerRadius>
+            <BackgroundBrush />
+            <BorderBrush x:type="ColorBrush" Color="#FFC0C0C0" />
+            <ShadeBrush />
+            <GlossBrush />
+            <BarMargin>2,2,2,2</BarMargin>
+            <BarBorderThickness>2,2,2,2</BarBorderThickness>
+            <BarCornerRadius>11,11,11,11</BarCornerRadius>
+            <BarBorderBrush x:type="ColorBrush" Color="#FFC0C0C0" />
+            <BarBackgroundBrush x:type="GradientBrush">
+              <Angle>Vertical</Angle>
+              <GradientStops>
+                <GradientStop Color="#FF556B2F" Offset="0.194" />
+                <GradientStop Color="#FF32CD32" Offset="1" />
+              </GradientStops>
+            </BarBackgroundBrush>
+          </ProgressBarStyle>
           <ProgressValue>#TV.Record.percent3</ProgressValue>
         </Control>
         <Control x:type="ProgressBar">
@@ -150,10 +168,10 @@
         <Control x:type="Image">
           <Name>Cover</Name>
           <Id>10</Id>
-          <Width>350</Width>
-          <Height>350</Height>
-          <PosX>465</PosX>
-          <PosY>81</PosY>
+          <Width>280</Width>
+          <Height>280</Height>
+          <PosX>500</PosX>
+          <PosY>134</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
@@ -343,7 +361,7 @@
           <Width>694</Width>
           <Height>70</Height>
           <PosX>580</PosX>
-          <PosY>80</PosY>
+          <PosY>60</PosY>
           <VisibleCondition>!IsPluginEnabled(World Weather)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
@@ -366,7 +384,7 @@
           <Width>694</Width>
           <Height>70</Height>
           <PosX>580</PosX>
-          <PosY>80</PosY>
+          <PosY>60</PosY>
           <VisibleCondition>IsPluginEnabled(World Weather)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />

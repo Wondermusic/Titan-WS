@@ -71,14 +71,6 @@
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#Play.Current.VideoCodec.Texture</SkinTag>
-      <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#Play.Current.VideoCodec.Texture" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
       <SkinTag>#Anime3.Episode.Image</SkinTag>
       <PropertyType>Image</PropertyType>
       <DesignerValue>New....</DesignerValue>
@@ -364,6 +356,14 @@
       <DesignerValue>90</DesignerValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MPD.SystemInfo.Number.Drive1.PercentFree" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.VideoCodec.Texture</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.VideoCodec.Texture" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
@@ -1908,6 +1908,14 @@
       <DesignerValue>Monk</DesignerValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TVSeries.Series.Pretty_Name" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MovingPictures.LocalMedia.videoaspectratio</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.videoaspectratio" />
       </MediaPortalTags>
     </XmlProperty>
   </Properties>

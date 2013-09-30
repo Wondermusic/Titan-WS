@@ -13,7 +13,7 @@
       <Id>1</Id>
       <Width>1280</Width>
       <Height>720</Height>
-      <VisibleCondition>IsPlayer(IsTVRecording)</VisibleCondition>
+      <VisibleCondition>IsPlayer(IsTVRecording) || IsMediaPortalWindow(602)</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations />
       <MediaPortalFocusControls />
@@ -104,14 +104,19 @@
             <Control x:type="Image">
               <Name>Cover</Name>
               <Id>19</Id>
-              <Width>350</Width>
-              <Height>350</Height>
-              <PosX>465</PosX>
-              <PosY>81</PosY>
+              <Width>280</Width>
+              <Height>280</Height>
+              <PosX>500</PosX>
+              <PosY>140</PosY>
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <ImageStyle StyleId="VideoCover" />
+              <ImageStyle>
+                <BorderThickness>0,0,0,0</BorderThickness>
+                <CornerRadius>10,10,10,10</CornerRadius>
+                <BackgroundBrush />
+                <BorderBrush />
+              </ImageStyle>
               <Image>#TV.RecordedTV.thumb</Image>
               <ImageStretch>Uniform</ImageStretch>
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
@@ -346,7 +351,7 @@
               <Width>694</Width>
               <Height>70</Height>
               <PosX>580</PosX>
-              <PosY>80</PosY>
+              <PosY>60</PosY>
               <VisibleCondition>!IsPluginEnabled(World Weather)</VisibleCondition>
               <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations />
@@ -369,7 +374,7 @@
               <Width>694</Width>
               <Height>70</Height>
               <PosX>580</PosX>
-              <PosY>80</PosY>
+              <PosY>60</PosY>
               <VisibleCondition>IsPluginEnabled(World Weather)</VisibleCondition>
               <IsWindowOpenVisible>false</IsWindowOpenVisible>
               <Animations />
@@ -401,19 +406,6 @@
       <MediaPortalFocusControls />
       <GroupStyle StyleId="Empty" />
       <GroupControls>
-        <Control x:type="Image">
-          <Name>Background Image</Name>
-          <Id>36</Id>
-          <Width>1280</Width>
-          <Height>720</Height>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle StyleId="Background" />
-          <ImageStretch>Fill</ImageStretch>
-          <CoverImage />
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
         <Control x:type="Group">
           <Name>Playing Screen</Name>
           <Id>46</Id>
@@ -494,8 +486,13 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <ImageStyle StyleId="VideoCover" />
-              <Image>#TV.RecordedTV.thumb</Image>
+              <ImageStyle>
+                <BorderThickness>0,0,0,0</BorderThickness>
+                <CornerRadius>10,10,10,10</CornerRadius>
+                <BackgroundBrush />
+                <BorderBrush />
+              </ImageStyle>
+              <Image>#Play.Current.Thumb</Image>
               <ImageStretch>Uniform</ImageStretch>
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
             </Control>
@@ -800,5 +797,5 @@
       </Actions>
     </Control>
   </WindowControls>
-  <VisibleCondition>IsPlayer(IsDVD) || IsPlayer(IsVideo) || IsPlayer(IsTVRecording)</VisibleCondition>
+  <VisibleCondition>IsPlayer(IsDVD) || IsPlayer(IsVideo) || IsPlayer(IsTVRecording) || IsMediaPortalWindow(602)</VisibleCondition>
 </Window>

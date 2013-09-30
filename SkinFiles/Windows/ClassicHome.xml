@@ -147,7 +147,7 @@
       <Width>1225</Width>
       <Height>118</Height>
       <PosX>28</PosX>
-      <PosY>548</PosY>
+      <PosY>569</PosY>
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
@@ -182,14 +182,14 @@
           <HorizontalItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
             <CornerRadius>8,8,8,8</CornerRadius>
-            <NoFocusBrush x:type="ImageBrush" Image="\button-nofocus.png" Stretch="Fill" />
-            <FocusBrush x:type="ImageBrush" Image="\button-focus.png" />
+            <NoFocusBrush />
+            <FocusBrush />
             <FontType>Titan</FontType>
             <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
             <NoFocusFontBrush x:type="ColorBrush" Color="#FF4682B4" />
             <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
             <ImageVerticalAlignment>Top</ImageVerticalAlignment>
-            <Width>200</Width>
+            <Width>216</Width>
             <Height>53</Height>
             <SelectedZoomX>1</SelectedZoomX>
             <SelectedZoomY>1</SelectedZoomY>

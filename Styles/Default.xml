@@ -306,7 +306,7 @@
       <FontType>Titan</FontType>
       <FontSize>35</FontSize>
       <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-      <NoFocusFontBrush x:type="ColorBrush" Color="#FF00B7FF" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FF000000" />
       <LabelMargin>10,0,0,0</LabelMargin>
       <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
       <ImageMargin>3,3,3,3</ImageMargin>

@@ -256,7 +256,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#Moving Pictures.LocalMedia.videocodec+.png</Image>
+          <Image>\Logos\+#Play.Current.VideoCodec.Texture+.png</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -271,7 +271,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#Moving Pictures.LocalMedia.videoresolution+.png</Image>
+          <Image>\Logos\+#Play.Current.VideoResolution+.png</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -286,7 +286,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#Moving Pictures.LocalMedia.videoaspectratio+.png</Image>
+          <Image>\Logos\+#Play.Current.AspectRatio+.png</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -301,7 +301,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#Moving Pictures.LocalMedia.audiocodec+.png</Image>
+          <Image>\Logos\+#Play.Current.AudioCodec.Texture+.png</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -316,7 +316,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#Moving Pictures.LocalMedia.audiochannels+.png</Image>
+          <Image>\Logos\+#Play.Current.AudioChannels+.png</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -330,12 +330,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>1,1,1,1</BorderThickness>
-            <CornerRadius>10,10,10,10</CornerRadius>
-            <BackgroundBrush x:type="ImageBrush" Image="\defaultVideoBig.png" Stretch="Uniform" />
-            <BorderBrush />
-          </ImageStyle>
+          <ImageStyle StyleId="Logo_Image" />
           <Image>#Play.Current.Thumb</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>

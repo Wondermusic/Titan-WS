@@ -65,14 +65,19 @@
         <Control x:type="Image">
           <Name>TV Logo</Name>
           <Id>4</Id>
-          <Width>240</Width>
-          <Height>240</Height>
-          <PosX>15</PosX>
-          <PosY>479</PosY>
+          <Width>220</Width>
+          <Height>220</Height>
+          <PosX>25</PosX>
+          <PosY>489</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle StyleId="TV Logo" />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>10,10,10,10</CornerRadius>
+            <BackgroundBrush />
+            <BorderBrush />
+          </ImageStyle>
           <Image>#TV.View.thumb</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
@@ -110,7 +115,8 @@
           </LabelStyle>
           <LabelText>#TV.View.channel</LabelText>
           <ScrollDelay>2</ScrollDelay>
-          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSpeed>10</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
           <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
         <Control x:type="Label">
@@ -181,10 +187,8 @@
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#TV.Next.title</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>4</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
           <ScrollSeperator>   |   </ScrollSeperator>
         </Control>
         <Control x:type="Label">

@@ -74,9 +74,14 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle StyleId="Radio Cover" />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>10,10,10,10</CornerRadius>
+            <BackgroundBrush />
+            <BorderBrush />
+          </ImageStyle>
           <Image>#selectedthumb</Image>
-          <ImageStretch>None</ImageStretch>
+          <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="Image">
@@ -90,9 +95,14 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle StyleId="Radio Cover" />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>10,10,10,10</CornerRadius>
+            <BackgroundBrush />
+            <BorderBrush />
+          </ImageStyle>
           <Image>#RadioTime.Selected.Logo</Image>
-          <ImageStretch>None</ImageStretch>
+          <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="List">
@@ -593,7 +603,7 @@
       <Height>605</Height>
       <PosX>-15</PosX>
       <PosY>76</PosY>
-      <VisibleCondition>IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(3) || IsMediaPortalControlFocused(6) || IsMediaPortalControlFocused(7) || IsMediaPortalControlFocused(8) || IsMediaPortalControlFocused(9) || IsMediaPortalControlFocused(10) || IsMediaPortalControlFocused(11) || IsMediaPortalControlFocused(1142)</VisibleCondition>
+      <VisibleCondition>IsControlVisible(9) ++ (IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(3) || IsMediaPortalControlFocused(6) || IsMediaPortalControlFocused(7) || IsMediaPortalControlFocused(8) || IsMediaPortalControlFocused(9) || IsMediaPortalControlFocused(10) || IsMediaPortalControlFocused(11) || IsMediaPortalControlFocused(1142))</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations />
       <MediaPortalFocusControls />
@@ -667,7 +677,7 @@
       <Height>605</Height>
       <PosX>-15</PosX>
       <PosY>76</PosY>
-      <VisibleCondition>!IsMediaPortalControlFocused(2) || !IsMediaPortalControlFocused(3) || !IsMediaPortalControlFocused(101) || !IsMediaPortalControlFocused(102) || !IsMediaPortalControlFocused(103) || !IsMediaPortalControlFocused(104) || !IsMediaPortalControlFocused(105) || !IsMediaPortalControlFocused(106) || !IsMediaPortalControlFocused(107) || !IsMediaPortalControlFocused(108) || !IsMediaPortalControlFocused(109) || !IsMediaPortalControlFocused(110)</VisibleCondition>
+      <VisibleCondition>IsControlVisible(48) ++ (!IsMediaPortalControlFocused(2) || !IsMediaPortalControlFocused(3) || !IsMediaPortalControlFocused(101) || !IsMediaPortalControlFocused(102) || !IsMediaPortalControlFocused(103) || !IsMediaPortalControlFocused(104) || !IsMediaPortalControlFocused(105) || !IsMediaPortalControlFocused(106) || !IsMediaPortalControlFocused(107) || !IsMediaPortalControlFocused(108) || !IsMediaPortalControlFocused(109) || !IsMediaPortalControlFocused(110))</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations />
       <MediaPortalFocusControls />

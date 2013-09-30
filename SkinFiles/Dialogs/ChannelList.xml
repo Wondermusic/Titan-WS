@@ -55,7 +55,7 @@
       <Image>exit_button_focus</Image>
       <LabelText>NewButton</LabelText>
       <Actions>
-        <Action Action="OpenDialog" Param="3009" />
+        <Action Action="CloseWindow" Param="3009" />
       </Actions>
     </Control>
     <Control x:type="List">
@@ -71,7 +71,27 @@
       <ListControlStyle StyleId="empty" />
       <ListType>MediaPortalDialogList</ListType>
       <ListLayout>Auto</ListLayout>
-      <VerticalItemStyle StyleId="Dialog ListControl">
+      <VerticalItemStyle>
+        <CornerRadius>15,15,15,15</CornerRadius>
+        <NoFocusBrush />
+        <NoFocusBorderBrush />
+        <FocusBrush x:type="ColorBrush" Color="#FF00B7FF" />
+        <FocusBorderBrush />
+        <ShadeBrush />
+        <FontType>Titan</FontType>
+        <FontSize>35</FontSize>
+        <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+        <NoFocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+        <LabelMargin>50,0,0,0</LabelMargin>
+        <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+        <EnableImage>true</EnableImage>
+        <ImageMargin>3,3,3,3</ImageMargin>
+        <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
+        <ImageCornerRadius>4</ImageCornerRadius>
+        <Width>630</Width>
+        <Height>53</Height>
+        <ItemMargin>1,1,1,1</ItemMargin>
+        <HorizontalAlignment>Left</HorizontalAlignment>
         <SelectedZoomX>1</SelectedZoomX>
         <SelectedZoomY>1</SelectedZoomY>
       </VerticalItemStyle>
