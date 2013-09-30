@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:x="http://www.w3.org/2001/XMLSchema-instance">
   <LanguageEntries>
+    <LanguageEntry Tag="@scheduled">
+      <Values>
+        <LanguageValue Language="Deutsch" Value="geplante Aufnahmen" />
+        <LanguageValue Language="English" Value="scheduled Recordings" />
+        <LanguageValue Language="Francais" Value="scheduled Recordings" />
+      </Values>
+    </LanguageEntry>
+    <LanguageEntry Tag="@EPG">
+      <Values>
+        <LanguageValue Language="Deutsch" Value="EPG" />
+        <LanguageValue Language="English" Value="TV Guide" />
+        <LanguageValue Language="Francais" Value="TV Guide" />
+      </Values>
+    </LanguageEntry>
+    <LanguageEntry Tag="@Recordings">
+      <Values>
+        <LanguageValue Language="Deutsch" Value="Aufnahmen" />
+        <LanguageValue Language="English" Value="Recordings" />
+        <LanguageValue Language="Francais" Value="Recordings" />
+      </Values>
+    </LanguageEntry>
     <LanguageEntry Tag="@SystemTime">
       <Values>
         <LanguageValue Language="Deutsch" Value="Uhrzeit" />

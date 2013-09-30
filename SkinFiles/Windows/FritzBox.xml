@@ -21,6 +21,126 @@
       <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
     </Control>
     <Control x:type="Group">
+      <Name>Details</Name>
+      <Id>17</Id>
+      <Width>1280</Width>
+      <Height>720</Height>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <GroupStyle StyleId="Empty" />
+      <GroupControls>
+        <Control x:type="Image">
+          <Name>Background</Name>
+          <Id>18</Id>
+          <Width>1311</Width>
+          <Height>543</Height>
+          <PosX>-16</PosX>
+          <PosY>150</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>0,0,0,0</CornerRadius>
+            <BackgroundBrush />
+            <BorderBrush />
+          </ImageStyle>
+          <Image>\panel_list_music.png</Image>
+          <ImageStretch>Fill</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Image">
+          <Name>Thumb</Name>
+          <Id>19</Id>
+          <Width>435</Width>
+          <Height>435</Height>
+          <PosX>29</PosX>
+          <PosY>195</PosY>
+          <VisibleCondition>IsMediaPortalListLayout(Vertical)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>0,0,0,0</CornerRadius>
+            <BackgroundBrush x:type="ImageBrush" Image="\CallMonitor.Unknown.png" Stretch="Uniform" />
+            <BorderBrush />
+          </ImageStyle>
+          <Image>#selectedthumb</Image>
+          <ImageStretch>Uniform</ImageStretch>
+          <CoverCornerRadius>10,10,10,10</CoverCornerRadius>
+        </Control>
+        <Control x:type="List">
+          <Name>List</Name>
+          <Id>20</Id>
+          <Width>1233</Width>
+          <Height>474</Height>
+          <PosX>25</PosX>
+          <PosY>180</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ListControlStyle StyleId="empty" />
+          <ListType>MediaPortalListControl</ListType>
+          <ListLayout>Auto</ListLayout>
+          <VerticalItemStyle StyleId="MusicList">
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
+          </VerticalItemStyle>
+          <HorizontalItemStyle StyleId="MusicList Horizontal">
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
+          </HorizontalItemStyle>
+          <CoverFlowItemStyle StyleId="MusicList CoverFlow">
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
+          </CoverFlowItemStyle>
+        </Control>
+        <Control x:type="Label">
+          <Name>Info</Name>
+          <Id>21</Id>
+          <Width>688</Width>
+          <Height>45</Height>
+          <PosX>25</PosX>
+          <PosY>652</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle>
+            <FontType>TitanMedium</FontType>
+            <FontSize>35</FontSize>
+            <FontBrush x:type="ColorBrush" Color="#FF000000" />
+          </LabelStyle>
+          <LabelText>#selecteditem</LabelText>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>TimeCode</Name>
+          <Id>22</Id>
+          <Width>464</Width>
+          <Height>45</Height>
+          <PosX>780</PosX>
+          <PosY>652</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle>
+            <FontType>TitanMedium</FontType>
+            <FontSize>35</FontSize>
+            <FontBrush x:type="ColorBrush" Color="#FF000000" />
+          </LabelStyle>
+          <LabelText>#selecteditem2</LabelText>
+          <LabelTextAlignment>Right</LabelTextAlignment>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+      </GroupControls>
+    </Control>
+    <Control x:type="Group">
       <Name>Window Name</Name>
       <Id>2</Id>
       <Width>1280</Width>
@@ -59,13 +179,10 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>50</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          <LabelStyle StyleId="Titan50_White">
+            <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#currentmodule</LabelText>
+          <LabelText>Fritz!Box Manager</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -140,117 +257,6 @@
         </Control>
       </GroupControls>
     </Control>
-    <Control x:type="Group">
-      <Name>Details</Name>
-      <Id>17</Id>
-      <Width>1280</Width>
-      <Height>720</Height>
-      <VisibleCondition />
-      <Animations />
-      <MediaPortalFocusControls />
-      <GroupStyle StyleId="Empty" />
-      <GroupControls>
-        <Control x:type="Image">
-          <Name>Background</Name>
-          <Id>18</Id>
-          <Width>1311</Width>
-          <Height>543</Height>
-          <PosX>-16</PosX>
-          <PosY>150</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
-            <BackgroundBrush />
-            <BorderBrush />
-          </ImageStyle>
-          <Image>\panel_list_music.png</Image>
-          <ImageStretch>Fill</ImageStretch>
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
-        <Control x:type="Image">
-          <Name>Thumb</Name>
-          <Id>19</Id>
-          <Width>435</Width>
-          <Height>435</Height>
-          <PosX>29</PosX>
-          <PosY>195</PosY>
-          <VisibleCondition>IsMediaPortalListLayout(Vertical)</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
-            <BackgroundBrush x:type="ImageBrush" Image="\CallMonitor.Unknown.png" Stretch="Uniform" />
-            <BorderBrush />
-          </ImageStyle>
-          <Image>#selectedthumb</Image>
-          <ImageStretch>None</ImageStretch>
-          <CoverCornerRadius>10,10,10,10</CoverCornerRadius>
-        </Control>
-        <Control x:type="List">
-          <Name>List</Name>
-          <Id>20</Id>
-          <Width>1233</Width>
-          <Height>474</Height>
-          <PosX>25</PosX>
-          <PosY>180</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <ListControlStyle StyleId="empty" />
-          <ListType>MediaPortalListControl</ListType>
-          <ListLayout>Auto</ListLayout>
-          <VerticalItemStyle StyleId="MusicList" />
-          <HorizontalItemStyle StyleId="MusicList Horizontal" />
-          <CoverFlowItemStyle StyleId="MusicList CoverFlow" />
-        </Control>
-        <Control x:type="Label">
-          <Name>Info</Name>
-          <Id>21</Id>
-          <Width>688</Width>
-          <Height>45</Height>
-          <PosX>25</PosX>
-          <PosY>652</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>TitanMedium</FontType>
-            <FontSize>35</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FF000000" />
-          </LabelStyle>
-          <LabelText>#selecteditem</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-        </Control>
-        <Control x:type="Label">
-          <Name>TimeCode</Name>
-          <Id>22</Id>
-          <Width>464</Width>
-          <Height>45</Height>
-          <PosX>780</PosX>
-          <PosY>652</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>TitanMedium</FontType>
-            <FontSize>35</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FF000000" />
-          </LabelStyle>
-          <LabelText>#selecteditem2</LabelText>
-          <LabelTextAlignment>Right</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-        </Control>
-      </GroupControls>
-    </Control>
     <Control x:type="Button">
       <Name>Menu</Name>
       <Id>23</Id>
@@ -306,9 +312,18 @@
           <ListControlStyle StyleId="empty" />
           <ListType>MediaPortalButtonGroup</ListType>
           <ListLayout>Auto</ListLayout>
-          <VerticalItemStyle StyleId="ActionMenu ListControl" />
-          <HorizontalItemStyle />
-          <CoverFlowItemStyle />
+          <VerticalItemStyle StyleId="ActionMenu ListControl">
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
+          </VerticalItemStyle>
+          <HorizontalItemStyle>
+            <SelectedZoomX>0</SelectedZoomX>
+            <SelectedZoomY>0</SelectedZoomY>
+          </HorizontalItemStyle>
+          <CoverFlowItemStyle>
+            <SelectedZoomX>0</SelectedZoomX>
+            <SelectedZoomY>0</SelectedZoomY>
+          </CoverFlowItemStyle>
         </Control>
       </GroupControls>
     </Control>

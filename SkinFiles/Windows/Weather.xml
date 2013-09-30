@@ -1085,6 +1085,8 @@
         <Width>250</Width>
         <Height>50</Height>
         <ItemMargin>1,1,1,1</ItemMargin>
+        <SelectedZoomX>1</SelectedZoomX>
+        <SelectedZoomY>1</SelectedZoomY>
       </VerticalItemStyle>
       <HorizontalItemStyle>
         <BorderThickness>1,1,1,1</BorderThickness>
@@ -1104,6 +1106,8 @@
         <Width>135</Width>
         <Height>207</Height>
         <ItemMargin>1,1,1,1</ItemMargin>
+        <SelectedZoomX>1</SelectedZoomX>
+        <SelectedZoomY>1</SelectedZoomY>
       </HorizontalItemStyle>
       <CoverFlowItemStyle>
         <BorderThickness>1,1,1,1</BorderThickness>
@@ -1122,6 +1126,8 @@
         <ImageVerticalAlignment>Top</ImageVerticalAlignment>
         <Width>135</Width>
         <Height>207</Height>
+        <SelectedZoomX>1</SelectedZoomX>
+        <SelectedZoomY>1</SelectedZoomY>
       </CoverFlowItemStyle>
     </Control>
   </WindowControls>

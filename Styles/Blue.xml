@@ -273,6 +273,8 @@
       <Width>280</Width>
       <Height>50</Height>
       <ItemMargin>1,1,1,1</ItemMargin>
+      <SelectedZoomX>1</SelectedZoomX>
+      <SelectedZoomY>1.5</SelectedZoomY>
     </ControlStyle>
     <ControlStyle x:type="ImageStyle" StyleId="TV Logo">
       <BorderThickness>0,0,0,0</BorderThickness>
@@ -314,6 +316,8 @@
       <Height>53</Height>
       <ItemMargin>1,1,1,1</ItemMargin>
       <HorizontalAlignment>Left</HorizontalAlignment>
+      <SelectedZoomX>1</SelectedZoomX>
+      <SelectedZoomY>1.5</SelectedZoomY>
     </ControlStyle>
     <ControlStyle x:type="GroupStyle" StyleId="ActionMenu BG">
       <BorderThickness>0,0,0,0</BorderThickness>
@@ -340,6 +344,8 @@
       <Height>50</Height>
       <ItemMargin>1,1,1,1</ItemMargin>
       <HorizontalAlignment>Left</HorizontalAlignment>
+      <SelectedZoomX>1</SelectedZoomX>
+      <SelectedZoomY>1.5</SelectedZoomY>
     </ControlStyle>
     <ControlStyle x:type="ListItemStyle" StyleId="MusicList">
       <NoFocusBrush />
@@ -372,6 +378,8 @@
       <Height>50</Height>
       <ItemMargin>1,1,1,1</ItemMargin>
       <HorizontalAlignment>Right</HorizontalAlignment>
+      <SelectedZoomX>1</SelectedZoomX>
+      <SelectedZoomY>1.5</SelectedZoomY>
     </ControlStyle>
     <ControlStyle x:type="ListItemStyle" StyleId="VideoList">
       <NoFocusBrush />
@@ -404,6 +412,8 @@
       <Height>50</Height>
       <ItemMargin>1,1,1,1</ItemMargin>
       <HorizontalAlignment>Right</HorizontalAlignment>
+      <SelectedZoomX>1</SelectedZoomX>
+      <SelectedZoomY>1.5</SelectedZoomY>
     </ControlStyle>
     <ControlStyle x:type="ListItemStyle" StyleId="VideoList Horizontal">
       <BorderThickness>1,1,1,1</BorderThickness>
@@ -425,6 +435,8 @@
       <Width>224</Width>
       <Height>383</Height>
       <ItemMargin>1,1,1,1</ItemMargin>
+      <SelectedZoomX>1</SelectedZoomX>
+      <SelectedZoomY>1.5</SelectedZoomY>
     </ControlStyle>
     <ControlStyle x:type="ListItemStyle" StyleId="VideoList CoverFlow">
       <BorderThickness>1,1,1,1</BorderThickness>
@@ -445,6 +457,8 @@
       <ImageCornerRadius>10</ImageCornerRadius>
       <Width>216</Width>
       <Height>329</Height>
+      <SelectedZoomX>1</SelectedZoomX>
+      <SelectedZoomY>1.5</SelectedZoomY>
     </ControlStyle>
     <ControlStyle x:type="ListItemStyle" StyleId="MusicList Horizontal">
       <BorderThickness>1,1,1,1</BorderThickness>
@@ -465,6 +479,8 @@
       <Width>228</Width>
       <Height>369</Height>
       <ItemMargin>1,1,1,1</ItemMargin>
+      <SelectedZoomX>1</SelectedZoomX>
+      <SelectedZoomY>1.5</SelectedZoomY>
     </ControlStyle>
     <ControlStyle x:type="ListItemStyle" StyleId="MusicList CoverFlow">
       <BorderThickness>1,1,1,1</BorderThickness>
@@ -485,6 +501,8 @@
       <ImageCornerRadius>10</ImageCornerRadius>
       <Width>219</Width>
       <Height>300</Height>
+      <SelectedZoomX>1</SelectedZoomX>
+      <SelectedZoomY>1.5</SelectedZoomY>
     </ControlStyle>
     <ControlStyle x:type="ButtonStyle" StyleId="MPDHome Button">
       <BorderThickness>4,4,4,4</BorderThickness>
@@ -548,6 +566,8 @@
       <ImageVerticalAlignment>Top</ImageVerticalAlignment>
       <Width>135</Width>
       <Height>80</Height>
+      <SelectedZoomX>1</SelectedZoomX>
+      <SelectedZoomY>1.5</SelectedZoomY>
     </ControlStyle>
     <ControlStyle x:type="ListItemStyle" StyleId="DialogList Vertical">
       <NoFocusBrush />
@@ -568,6 +588,46 @@
       <Width>260</Width>
       <Height>53</Height>
       <ItemMargin>1,1,1,1</ItemMargin>
+      <SelectedZoomX>1</SelectedZoomX>
+      <SelectedZoomY>1.5</SelectedZoomY>
+    </ControlStyle>
+    <ControlStyle x:type="ButtonStyle" StyleId="Submenu Button">
+      <NoFocusBrush />
+      <NoFocusBorderBrush />
+      <FocusBrush />
+      <FocusBorderBrush />
+      <ShadeBrush />
+      <GlossBrush />
+      <FontType>Roboto</FontType>
+      <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+      <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+    </ControlStyle>
+    <ControlStyle x:type="ProgressBarStyle" StyleId="SysInfo Bar">
+      <BorderThickness>1,1,1,1</BorderThickness>
+      <CornerRadius>20,20,20,20</CornerRadius>
+      <BackgroundBrush x:type="ColorBrush" Color="#FF000000" />
+      <BorderBrush x:type="ColorBrush" Color="#FFC0C0C0" />
+      <ShadeBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#00000000" Offset="0" />
+          <GradientStop Color="#FF000000" Offset="1" />
+        </GradientStops>
+      </ShadeBrush>
+      <BarMargin>2,2,2,2</BarMargin>
+      <BarBorderThickness>1,1,1,1</BarBorderThickness>
+      <BarCornerRadius>20,20,20,20</BarCornerRadius>
+      <BarBorderBrush x:type="ColorBrush" Color="#FFC0C0C0" />
+      <BarBackgroundBrush x:type="GradientBrush">
+        <Angle>Horizontal</Angle>
+        <GradientStops>
+          <GradientStop Color="#FF32CD32" Offset="0.261" />
+          <GradientStop Color="#FF32CD32" Offset="0.36" />
+          <GradientStop Color="#FFFFFF00" Offset="0.561" />
+          <GradientStop Color="#FFDC143C" Offset="1" />
+        </GradientStops>
+      </BarBackgroundBrush>
     </ControlStyle>
   </ControlStyles>
 </StyleCollection>

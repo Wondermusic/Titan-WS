@@ -101,9 +101,18 @@
               <ListControlStyle StyleId="empty" />
               <ListType>MediaPortalListControl</ListType>
               <ListLayout>Auto</ListLayout>
-              <VerticalItemStyle StyleId="VideoList" />
-              <HorizontalItemStyle StyleId="VideoList Horizontal" />
-              <CoverFlowItemStyle StyleId="VideoList CoverFlow" />
+              <VerticalItemStyle StyleId="VideoList">
+                <SelectedZoomX>1</SelectedZoomX>
+                <SelectedZoomY>1</SelectedZoomY>
+              </VerticalItemStyle>
+              <HorizontalItemStyle StyleId="VideoList Horizontal">
+                <SelectedZoomX>1</SelectedZoomX>
+                <SelectedZoomY>1</SelectedZoomY>
+              </HorizontalItemStyle>
+              <CoverFlowItemStyle StyleId="VideoList CoverFlow">
+                <SelectedZoomX>1</SelectedZoomX>
+                <SelectedZoomY>1</SelectedZoomY>
+              </CoverFlowItemStyle>
             </Control>
             <Control x:type="Label">
               <Name>Title</Name>
@@ -354,7 +363,10 @@
               <ListControlStyle StyleId="empty" />
               <ListType>MediaPortalButtonGroup</ListType>
               <ListLayout>Auto</ListLayout>
-              <VerticalItemStyle StyleId="ActionMenu ListControl" />
+              <VerticalItemStyle StyleId="ActionMenu ListControl">
+                <SelectedZoomX>1</SelectedZoomX>
+                <SelectedZoomY>1</SelectedZoomY>
+              </VerticalItemStyle>
               <HorizontalItemStyle>
                 <BorderThickness>1,1,1,1</BorderThickness>
                 <CornerRadius>4,4,4,4</CornerRadius>
@@ -373,6 +385,8 @@
                 <Width>135</Width>
                 <Height>207</Height>
                 <ItemMargin>1,1,1,1</ItemMargin>
+                <SelectedZoomX>1</SelectedZoomX>
+                <SelectedZoomY>1</SelectedZoomY>
               </HorizontalItemStyle>
               <CoverFlowItemStyle>
                 <BorderThickness>1,1,1,1</BorderThickness>
@@ -391,6 +405,8 @@
                 <ImageVerticalAlignment>Top</ImageVerticalAlignment>
                 <Width>135</Width>
                 <Height>207</Height>
+                <SelectedZoomX>1</SelectedZoomX>
+                <SelectedZoomY>1</SelectedZoomY>
               </CoverFlowItemStyle>
             </Control>
           </GroupControls>
@@ -491,9 +507,18 @@
               <ListControlStyle StyleId="empty" />
               <ListType>MediaPortalListControl</ListType>
               <ListLayout>Auto</ListLayout>
-              <VerticalItemStyle StyleId="VideoList" />
-              <HorizontalItemStyle StyleId="VideoList Horizontal" />
-              <CoverFlowItemStyle StyleId="VideoList CoverFlow" />
+              <VerticalItemStyle StyleId="VideoList">
+                <SelectedZoomX>1</SelectedZoomX>
+                <SelectedZoomY>1</SelectedZoomY>
+              </VerticalItemStyle>
+              <HorizontalItemStyle StyleId="VideoList Horizontal">
+                <SelectedZoomX>1</SelectedZoomX>
+                <SelectedZoomY>1</SelectedZoomY>
+              </HorizontalItemStyle>
+              <CoverFlowItemStyle StyleId="VideoList CoverFlow">
+                <SelectedZoomX>1</SelectedZoomX>
+                <SelectedZoomY>1</SelectedZoomY>
+              </CoverFlowItemStyle>
             </Control>
             <Control x:type="Label">
               <Name>Title</Name>
@@ -705,7 +730,10 @@
               <ListControlStyle StyleId="empty" />
               <ListType>MediaPortalButtonGroup</ListType>
               <ListLayout>Auto</ListLayout>
-              <VerticalItemStyle StyleId="ActionMenu ListControl" />
+              <VerticalItemStyle StyleId="ActionMenu ListControl">
+                <SelectedZoomX>1</SelectedZoomX>
+                <SelectedZoomY>1</SelectedZoomY>
+              </VerticalItemStyle>
               <HorizontalItemStyle>
                 <BorderThickness>1,1,1,1</BorderThickness>
                 <CornerRadius>4,4,4,4</CornerRadius>
@@ -724,6 +752,8 @@
                 <Width>135</Width>
                 <Height>207</Height>
                 <ItemMargin>1,1,1,1</ItemMargin>
+                <SelectedZoomX>1</SelectedZoomX>
+                <SelectedZoomY>1</SelectedZoomY>
               </HorizontalItemStyle>
               <CoverFlowItemStyle>
                 <BorderThickness>1,1,1,1</BorderThickness>
@@ -742,6 +772,8 @@
                 <ImageVerticalAlignment>Top</ImageVerticalAlignment>
                 <Width>135</Width>
                 <Height>207</Height>
+                <SelectedZoomX>1</SelectedZoomX>
+                <SelectedZoomY>1</SelectedZoomY>
               </CoverFlowItemStyle>
             </Control>
           </GroupControls>

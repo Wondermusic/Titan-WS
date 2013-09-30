@@ -177,6 +177,8 @@
         <ImageCornerRadius>4</ImageCornerRadius>
         <Width>600</Width>
         <Height>50</Height>
+        <SelectedZoomX>1</SelectedZoomX>
+        <SelectedZoomY>1</SelectedZoomY>
       </VerticalItemStyle>
       <HorizontalItemStyle>
         <NoFocusBrush x:type="ImageBrush" Image="\button-nofocus.png" Stretch="Uniform" />
@@ -191,8 +193,13 @@
         <ImageVerticalAlignment>Top</ImageVerticalAlignment>
         <Width>141</Width>
         <Height>101</Height>
+        <SelectedZoomX>1</SelectedZoomX>
+        <SelectedZoomY>1</SelectedZoomY>
       </HorizontalItemStyle>
-      <CoverFlowItemStyle StyleId="DialogList Horizontal" />
+      <CoverFlowItemStyle StyleId="DialogList Horizontal">
+        <SelectedZoomX>1</SelectedZoomX>
+        <SelectedZoomY>1</SelectedZoomY>
+      </CoverFlowItemStyle>
     </Control>
   </DialogControls>
   <VisibleCondition>IsMediaPortalDialog(102)</VisibleCondition>

@@ -65,14 +65,14 @@
           <Width>1200</Width>
           <Height>90</Height>
           <PosX>40</PosX>
-          <PosY>450</PosY>
+          <PosY>430</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="Titan80">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Play.Current.Title</LabelText>
+          <LabelText>#TVSeries.Series.Pretty_Name</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>4</ScrollSpeed>
@@ -84,7 +84,7 @@
           <Width>1200</Width>
           <Height>80</Height>
           <PosX>40</PosX>
-          <PosY>530</PosY>
+          <PosY>522</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
@@ -100,15 +100,20 @@
         <Control x:type="Image">
           <Name>Cover</Name>
           <Id>6</Id>
-          <Width>350</Width>
-          <Height>350</Height>
-          <PosX>465</PosX>
-          <PosY>81</PosY>
+          <Width>500</Width>
+          <Height>300</Height>
+          <PosX>390</PosX>
+          <PosY>130</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle StyleId="VideoCover" />
-          <Image>#TV.RecordedTV.thumb</Image>
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>10,10,10,10</CornerRadius>
+            <BackgroundBrush />
+            <BorderBrush />
+          </ImageStyle>
+          <Image>#TVSeries.EpisodeImage</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -303,13 +308,10 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>50</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          <LabelStyle StyleId="Titan50_White">
+            <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#currentmodule</LabelText>
+          <LabelText>@Series</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>

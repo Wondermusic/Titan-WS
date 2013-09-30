@@ -19,6 +19,19 @@
       <GroupStyle StyleId="Empty" />
       <GroupControls>
         <Control x:type="Image">
+          <Name>Background</Name>
+          <Id>23</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle StyleId="Logo_Image" />
+          <Image>\Hovers\hover_my radio.jpg</Image>
+          <ImageStretch>Fill</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Image">
           <Name>Fanart</Name>
           <Id>2</Id>
           <Width>1280</Width>
@@ -184,7 +197,7 @@
           <LabelStyle StyleId="Titan50_White">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#Rockstar.SelectedTrack.TrackDuration</LabelText>
+          <LabelText>#duration</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
@@ -250,9 +263,10 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle StyleId="Music Cover" />
+          <ImageStyle StyleId="Logo_Image" />
           <Image>#Play.Current.Thumb</Image>
           <ImageStretch>Uniform</ImageStretch>
+          <ImageCornerRadius>20</ImageCornerRadius>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="Button">

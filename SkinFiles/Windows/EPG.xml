@@ -55,7 +55,7 @@
           <Id>21</Id>
           <Width>1280</Width>
           <Height>80</Height>
-          <PosY>600</PosY>
+          <PosY>550</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
@@ -123,7 +123,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle StyleId="TV Logo" />
+          <ImageStyle StyleId="Logo_Image" />
           <Image>#selectedthumb</Image>
           <ImageStretch>Uniform</ImageStretch>
           <ImageCornerRadius>7</ImageCornerRadius>
@@ -142,9 +142,18 @@
           <ListControlStyle StyleId="empty" />
           <ListType>MediaPortalListControl</ListType>
           <ListLayout>Auto</ListLayout>
-          <VerticalItemStyle StyleId="VideoList" />
-          <HorizontalItemStyle StyleId="VideoList Horizontal" />
-          <CoverFlowItemStyle />
+          <VerticalItemStyle StyleId="VideoList">
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
+          </VerticalItemStyle>
+          <HorizontalItemStyle StyleId="VideoList Horizontal">
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
+          </HorizontalItemStyle>
+          <CoverFlowItemStyle>
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
+          </CoverFlowItemStyle>
         </Control>
         <Control x:type="Label">
           <Name>Title</Name>
@@ -221,7 +230,7 @@
           <ScrollSeperator>------------------------------------------------------------------------</ScrollSeperator>
         </Control>
         <Control x:type="List">
-          <Name>NewList</Name>
+          <Name>List</Name>
           <Id>18</Id>
           <Width>500</Width>
           <Height>200</Height>
@@ -232,26 +241,40 @@
           <MediaPortalFocusControls />
           <ListControlStyle StyleId="empty" />
           <ListType>MediaPortalButtonGroup</ListType>
-          <ListLayout>Horizontal</ListLayout>
+          <ListLayout>Auto</ListLayout>
           <VerticalItemStyle>
-            <BorderThickness>1,1,1,1</BorderThickness>
-            <CornerRadius>4,4,4,4</CornerRadius>
-            <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
-            <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
-            <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
-            <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-            <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
-            <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
-            <LabelMargin>50,0,0,0</LabelMargin>
+            <NoFocusBrush />
+            <NoFocusBorderBrush />
+            <FocusBrush x:type="GradientBrush">
+              <Angle>Horizontal</Angle>
+              <GradientStops>
+                <GradientStop Color="#FF00B7FF" Offset="0" />
+                <GradientStop Color="#63000000" Offset="0.021" />
+                <GradientStop Color="#6400B7FF" Offset="0.043" />
+                <GradientStop Color="#6400B7FF" Offset="0.065" />
+                <GradientStop Color="#6400B7FF" Offset="0.086" />
+                <GradientStop Color="#8400B7FF" Offset="0.209" />
+                <GradientStop Color="#1A00B7FF" Offset="1" />
+              </GradientStops>
+            </FocusBrush>
+            <FocusBorderBrush />
+            <ShadeBrush />
+            <FontType>Titan</FontType>
+            <FontSize>35</FontSize>
+            <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+            <NoFocusFontBrush x:type="ColorBrush" Color="#FF00B7FF" />
+            <LabelMargin>30,0,0,0</LabelMargin>
             <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
-            <EnableImage>true</EnableImage>
             <ImageMargin>3,3,3,3</ImageMargin>
             <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
             <ImageVerticalAlignment>Top</ImageVerticalAlignment>
             <ImageCornerRadius>4</ImageCornerRadius>
-            <Width>500</Width>
+            <Width>450</Width>
             <Height>50</Height>
             <ItemMargin>1,1,1,1</ItemMargin>
+            <HorizontalAlignment>Right</HorizontalAlignment>
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
           </VerticalItemStyle>
           <HorizontalItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
@@ -279,6 +302,8 @@
             <Width>250</Width>
             <Height>66</Height>
             <ItemMargin>1,1,1,1</ItemMargin>
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
           </HorizontalItemStyle>
           <CoverFlowItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
@@ -297,6 +322,8 @@
             <ImageVerticalAlignment>Top</ImageVerticalAlignment>
             <Width>135</Width>
             <Height>207</Height>
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
           </CoverFlowItemStyle>
         </Control>
       </GroupControls>

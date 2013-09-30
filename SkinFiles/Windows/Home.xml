@@ -59,16 +59,15 @@
           <Name>Time</Name>
           <Id>123</Id>
           <Width>1280</Width>
-          <Height>80</Height>
-          <PosY>50</PosY>
+          <Height>70</Height>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan70">
+          <LabelStyle StyleId="Titan60">
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>23:45</LabelText>
-          <LabelTextAlignment>Center</LabelTextAlignment>
+          <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -77,16 +76,16 @@
           <Name>Date</Name>
           <Id>124</Id>
           <Width>1280</Width>
-          <Height>80</Height>
-          <PosY>130</PosY>
+          <Height>70</Height>
+          <PosY>65</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan70">
+          <LabelStyle StyleId="Titan60">
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>16. September 2013</LabelText>
-          <LabelTextAlignment>Center</LabelTextAlignment>
+          <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -95,13 +94,13 @@
           <Name>CPU Label</Name>
           <Id>125</Id>
           <Width>300</Width>
-          <Height>70</Height>
-          <PosX>160</PosX>
-          <PosY>300</PosY>
+          <Height>60</Height>
+          <PosX>10</PosX>
+          <PosY>150</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan60">
+          <LabelStyle StyleId="Titan50_White">
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>CPU Load:</LabelText>
@@ -109,17 +108,48 @@
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
+        <Control x:type="ProgressBar">
+          <Name>CPU Bar</Name>
+          <Id>130</Id>
+          <Width>400</Width>
+          <Height>60</Height>
+          <PosX>310</PosX>
+          <PosY>150</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ProgressBarStyle StyleId="SysInfo Bar" />
+          <ProgressValue>#MPD.SystemInfo.Number.CPU</ProgressValue>
+        </Control>
+        <Control x:type="Label">
+          <Name>CPU Load</Name>
+          <Id>137</Id>
+          <Width>400</Width>
+          <Height>50</Height>
+          <PosX>310</PosX>
+          <PosY>156</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan40 White">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>#MPD.SystemInfo.Label.CPU</LabelText>
+          <LabelTextAlignment>Center</LabelTextAlignment>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
         <Control x:type="Label">
           <Name>RAM Label</Name>
           <Id>126</Id>
           <Width>300</Width>
           <Height>70</Height>
-          <PosX>160</PosX>
-          <PosY>370</PosY>
+          <PosX>10</PosX>
+          <PosY>215</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan60">
+          <LabelStyle StyleId="Titan50_White">
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>RAM:</LabelText>
@@ -127,41 +157,185 @@
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
-        <Control x:type="Label">
-          <Name>Disk Label</Name>
-          <Id>127</Id>
-          <Width>300</Width>
-          <Height>70</Height>
-          <PosX>160</PosX>
-          <PosY>440</PosY>
+        <Control x:type="ProgressBar">
+          <Name>RAM Bar</Name>
+          <Id>131</Id>
+          <Width>400</Width>
+          <Height>60</Height>
+          <PosX>310</PosX>
+          <PosY>215</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan60">
+          <ProgressBarStyle StyleId="SysInfo Bar" />
+          <ProgressValue>#MPD.SystemInfo.Number.VirtualPercent</ProgressValue>
+        </Control>
+        <Control x:type="Label">
+          <Name>RAM Load</Name>
+          <Id>138</Id>
+          <Width>400</Width>
+          <Height>50</Height>
+          <PosX>310</PosX>
+          <PosY>220</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan40 White">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>Disk:</LabelText>
+          <LabelText>#MPD.SystemInfo.Label.VirtualPercent</LabelText>
+          <LabelTextAlignment>Center</LabelTextAlignment>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Disk1 Label</Name>
+          <Id>127</Id>
+          <Width>300</Width>
+          <Height>60</Height>
+          <PosX>10</PosX>
+          <PosY>275</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan50_White">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>Disk 1:</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Disk1</Name>
+          <Id>129</Id>
+          <Width>970</Width>
+          <Height>60</Height>
+          <PosX>310</PosX>
+          <PosY>275</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan50_White">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>#MPD.SystemInfo.Label.Drive0.Name+ - +#MPD.SystemInfo.Label.Drive0.TotalSpace</LabelText>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="ProgressBar">
+          <Name>Disk1 Bar</Name>
+          <Id>132</Id>
+          <Width>400</Width>
+          <Height>40</Height>
+          <PosX>310</PosX>
+          <PosY>340</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ProgressBarStyle StyleId="SysInfo Bar" />
+          <ProgressValue>#MPD.SystemInfo.Number.Drive0.PercentFree</ProgressValue>
+        </Control>
+        <Control x:type="Label">
+          <Name>Disk2 Label</Name>
+          <Id>133</Id>
+          <Width>300</Width>
+          <Height>60</Height>
+          <PosX>10</PosX>
+          <PosY>385</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan50_White">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>Disk 2:</LabelText>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Disk2</Name>
+          <Id>134</Id>
+          <Width>970</Width>
+          <Height>60</Height>
+          <PosX>310</PosX>
+          <PosY>385</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan50_White">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>#MPD.SystemInfo.Label.Drive1.Name+ - +#MPD.SystemInfo.Label.Drive1.TotalSpace</LabelText>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="ProgressBar">
+          <Name>Disk2 Bar</Name>
+          <Id>135</Id>
+          <Width>400</Width>
+          <Height>40</Height>
+          <PosX>310</PosX>
+          <PosY>450</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ProgressBarStyle StyleId="SysInfo Bar" />
+          <ProgressValue>#MPD.SystemInfo.Number.Drive1.PercentFree</ProgressValue>
         </Control>
         <Control x:type="Label">
           <Name>OS Label</Name>
           <Id>128</Id>
           <Width>300</Width>
           <Height>70</Height>
-          <PosX>160</PosX>
-          <PosY>510</PosY>
+          <PosX>10</PosX>
+          <PosY>505</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan60">
+          <LabelStyle StyleId="Titan50_White">
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>OS:</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>OS</Name>
+          <Id>136</Id>
+          <Width>970</Width>
+          <Height>60</Height>
+          <PosX>310</PosX>
+          <PosY>505</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan50_White">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>#MPD.SystemInfo.Label.OSFullName+, +#MPD.SystemInfo.Label.OSPlatform+, Version: +#MPD.SystemInfo.Label.OSVersion</LabelText>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>20</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollSeperator>   | </ScrollSeperator>
+        </Control>
+        <Control x:type="Image">
+          <Name>Image</Name>
+          <Id>139</Id>
+          <Width>620</Width>
+          <Height>138</Height>
+          <PosX>10</PosX>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle StyleId="Logo_Image" />
+          <Image>\Settings\MP-Banner.png</Image>
+          <ImageStretch>Uniform</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
       </GroupControls>
     </Control>
@@ -304,7 +478,10 @@
           <ListControlStyle StyleId="empty" />
           <ListType>MPDisplaySkins</ListType>
           <ListLayout>Auto</ListLayout>
-          <VerticalItemStyle StyleId="Settings Lists" />
+          <VerticalItemStyle StyleId="Settings Lists">
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
+          </VerticalItemStyle>
           <HorizontalItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
             <CornerRadius>4,4,4,4</CornerRadius>
@@ -323,6 +500,8 @@
             <Width>135</Width>
             <Height>207</Height>
             <ItemMargin>1,1,1,1</ItemMargin>
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
           </HorizontalItemStyle>
           <CoverFlowItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
@@ -341,6 +520,8 @@
             <ImageVerticalAlignment>Top</ImageVerticalAlignment>
             <Width>135</Width>
             <Height>207</Height>
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
           </CoverFlowItemStyle>
         </Control>
         <Control x:type="Rectangle">
@@ -408,7 +589,10 @@
           <ListControlStyle StyleId="empty" />
           <ListType>MPDisplayStyles</ListType>
           <ListLayout>Auto</ListLayout>
-          <VerticalItemStyle StyleId="Settings Lists" />
+          <VerticalItemStyle StyleId="Settings Lists">
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
+          </VerticalItemStyle>
           <HorizontalItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
             <CornerRadius>4,4,4,4</CornerRadius>
@@ -427,6 +611,8 @@
             <Width>135</Width>
             <Height>207</Height>
             <ItemMargin>1,1,1,1</ItemMargin>
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
           </HorizontalItemStyle>
           <CoverFlowItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
@@ -445,6 +631,8 @@
             <ImageVerticalAlignment>Top</ImageVerticalAlignment>
             <Width>135</Width>
             <Height>207</Height>
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
           </CoverFlowItemStyle>
         </Control>
         <Control x:type="Rectangle">
@@ -510,7 +698,10 @@
           <ListControlStyle StyleId="empty" />
           <ListType>MPDisplayLanguages</ListType>
           <ListLayout>Auto</ListLayout>
-          <VerticalItemStyle StyleId="Settings Lists" />
+          <VerticalItemStyle StyleId="Settings Lists">
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
+          </VerticalItemStyle>
           <HorizontalItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
             <CornerRadius>4,4,4,4</CornerRadius>
@@ -529,6 +720,8 @@
             <Width>135</Width>
             <Height>207</Height>
             <ItemMargin>1,1,1,1</ItemMargin>
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
           </HorizontalItemStyle>
           <CoverFlowItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
@@ -547,6 +740,8 @@
             <ImageVerticalAlignment>Top</ImageVerticalAlignment>
             <Width>135</Width>
             <Height>207</Height>
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
           </CoverFlowItemStyle>
         </Control>
         <Control x:type="Label">
@@ -582,7 +777,10 @@
           <ListControlStyle StyleId="empty" />
           <ListType>MPDisplayStyles</ListType>
           <ListLayout>Auto</ListLayout>
-          <VerticalItemStyle StyleId="Settings Lists" />
+          <VerticalItemStyle StyleId="Settings Lists">
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
+          </VerticalItemStyle>
           <HorizontalItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
             <CornerRadius>4,4,4,4</CornerRadius>
@@ -601,6 +799,8 @@
             <Width>135</Width>
             <Height>207</Height>
             <ItemMargin>1,1,1,1</ItemMargin>
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
           </HorizontalItemStyle>
           <CoverFlowItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
@@ -619,6 +819,8 @@
             <ImageVerticalAlignment>Top</ImageVerticalAlignment>
             <Width>135</Width>
             <Height>207</Height>
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
           </CoverFlowItemStyle>
         </Control>
       </GroupControls>

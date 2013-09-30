@@ -86,8 +86,34 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle StyleId="VideoCover" />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>10,10,10,10</CornerRadius>
+            <BackgroundBrush />
+            <BorderBrush />
+          </ImageStyle>
           <Image>#MPD2.Thumb.TVSeries</Image>
+          <ImageStretch>Uniform</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Image">
+          <Name>Cover</Name>
+          <Id>61</Id>
+          <Width>250</Width>
+          <Height>163</Height>
+          <PosX>55</PosX>
+          <PosY>360</PosY>
+          <VisibleCondition>IsControlVisible(36)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>10,10,10,10</CornerRadius>
+            <BackgroundBrush />
+            <BorderBrush />
+          </ImageStyle>
+          <Image>#TVSeries.EpisodeImage</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -97,16 +123,25 @@
           <Width>1210</Width>
           <Height>518</Height>
           <PosX>38</PosX>
-          <PosY>153</PosY>
+          <PosY>137</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
           <ListControlStyle StyleId="empty" />
           <ListType>MediaPortalListControl</ListType>
           <ListLayout>Auto</ListLayout>
-          <VerticalItemStyle StyleId="VideoList" />
-          <HorizontalItemStyle StyleId="VideoList Horizontal" />
-          <CoverFlowItemStyle StyleId="VideoList CoverFlow" />
+          <VerticalItemStyle StyleId="VideoList">
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
+          </VerticalItemStyle>
+          <HorizontalItemStyle StyleId="VideoList Horizontal">
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
+          </HorizontalItemStyle>
+          <CoverFlowItemStyle StyleId="VideoList CoverFlow">
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
+          </CoverFlowItemStyle>
         </Control>
         <Control x:type="Label">
           <Name>Title</Name>
@@ -121,7 +156,7 @@
           <LabelStyle StyleId="Titan 40">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#highlightedbutton</LabelText>
+          <LabelText>#selecteditem</LabelText>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>4</ScrollSpeed>
           <ScrollSeperator>  |  </ScrollSeperator>
@@ -147,7 +182,7 @@
         <Control x:type="Label">
           <Name>Rating</Name>
           <Id>41</Id>
-          <Width>280</Width>
+          <Width>538</Width>
           <Height>40</Height>
           <PosX>55</PosX>
           <PosY>580</PosY>
@@ -167,7 +202,7 @@
           <Name>Summary</Name>
           <Id>42</Id>
           <Width>365</Width>
-          <Height>495</Height>
+          <Height>406</Height>
           <PosX>311</PosX>
           <PosY>160</PosY>
           <VisibleCondition>IsControlVisible(36)</VisibleCondition>
@@ -177,7 +212,7 @@
           <LabelStyle StyleId="Titan30_White">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#MPD2.TVSeries.Summary</LabelText>
+          <LabelText>#TVSeries.Description</LabelText>
           <IsVertical>true</IsVertical>
           <ScrollSpeed>4</ScrollSpeed>
           <ScrollSeperator>----------------------------------------</ScrollSeperator>
@@ -185,10 +220,10 @@
         <Control x:type="Image">
           <Name>Star Rating</Name>
           <Id>43</Id>
-          <Width>280</Width>
-          <Height>24</Height>
+          <Width>240</Width>
+          <Height>26</Height>
           <PosX>55</PosX>
-          <PosY>630</PosY>
+          <PosY>547</PosY>
           <VisibleCondition>IsControlVisible(36)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
@@ -278,7 +313,7 @@
           <Width>694</Width>
           <Height>70</Height>
           <PosX>580</PosX>
-          <PosY>80</PosY>
+          <PosY>62</PosY>
           <VisibleCondition>!IsPluginEnabled(World Weather)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
@@ -301,7 +336,7 @@
           <Width>694</Width>
           <Height>70</Height>
           <PosX>580</PosX>
-          <PosY>80</PosY>
+          <PosY>62</PosY>
           <VisibleCondition>IsPluginEnabled(World Weather)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
@@ -372,7 +407,10 @@
           <ListControlStyle StyleId="empty" />
           <ListType>MediaPortalButtonGroup</ListType>
           <ListLayout>Auto</ListLayout>
-          <VerticalItemStyle StyleId="ActionMenu ListControl" />
+          <VerticalItemStyle StyleId="ActionMenu ListControl">
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
+          </VerticalItemStyle>
           <HorizontalItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
             <CornerRadius>4,4,4,4</CornerRadius>
@@ -391,6 +429,8 @@
             <Width>135</Width>
             <Height>207</Height>
             <ItemMargin>1,1,1,1</ItemMargin>
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
           </HorizontalItemStyle>
           <CoverFlowItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
@@ -409,6 +449,8 @@
             <ImageVerticalAlignment>Top</ImageVerticalAlignment>
             <Width>135</Width>
             <Height>207</Height>
+            <SelectedZoomX>1</SelectedZoomX>
+            <SelectedZoomY>1</SelectedZoomY>
           </CoverFlowItemStyle>
         </Control>
       </GroupControls>

@@ -101,7 +101,7 @@
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
           <Image>\tv_info_bg.png</Image>
-          <ImageStretch>Fill</ImageStretch>
+          <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="Label">
@@ -133,7 +133,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan30_White">
+          <LabelStyle StyleId="Titan40 White">
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#MovingPictures.LocalMedia.videoheight+x+#MovingPictures.LocalMedia.videowidth</LabelText>
@@ -154,7 +154,7 @@
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
           <Image>\tv_info_bg.png</Image>
-          <ImageStretch>Fill</ImageStretch>
+          <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="Label">
@@ -186,7 +186,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan30_White">
+          <LabelStyle StyleId="Titan40 White">
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#MovingPictures.LocalMedia.videoframerate</LabelText>

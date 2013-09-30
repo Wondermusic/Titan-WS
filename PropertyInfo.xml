@@ -22,7 +22,8 @@
     <XmlProperty>
       <SkinTag>#RadioTime.Selected.Logo</SkinTag>
       <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
+      <DesignerValue>\defaultMyRadioBig.png</DesignerValue>
+      <DefaultValue>\defaultMyRadioBig.png</DefaultValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#RadioTime.Selected.Logo" />
       </MediaPortalTags>
@@ -140,7 +141,8 @@
     <XmlProperty>
       <SkinTag>#MPE.Selected.Icon</SkinTag>
       <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
+      <DesignerValue>\defaultExtensionBig.png</DesignerValue>
+      <DefaultValue>\defaultExtensionBig.png</DefaultValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MPE.Selected.Icon" />
       </MediaPortalTags>
@@ -182,11 +184,11 @@
     <XmlProperty>
       <SkinTag>#MPD2.Thumb.TVSeries</SkinTag>
       <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
+      <DesignerValue>\defaultVideoBig.png</DesignerValue>
+      <DefaultValue>\defaultVideoBig.png</DefaultValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TVSeries.SeriesPoster" />
         <XmlMediaPortalTag Tag="#TVSeries.SeasonPoster" />
-        <XmlMediaPortalTag Tag="#TVSeries.EpisodeImage" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
@@ -293,6 +295,14 @@
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
+      <SkinTag>#TVSeries.EpisodeImage</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TVSeries.EpisodeImage" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
       <SkinTag>#percentage</SkinTag>
       <PropertyType>Number</PropertyType>
       <DesignerValue>25</DesignerValue>
@@ -325,12 +335,44 @@
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
+      <SkinTag>#MPD.SystemInfo.Number.CPU</SkinTag>
+      <PropertyType>Number</PropertyType>
+      <DesignerValue>50</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Number.CPU" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD.SystemInfo.Number.VirtualPercent</SkinTag>
+      <PropertyType>Number</PropertyType>
+      <DesignerValue>35</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Number.VirtualPercent" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD.SystemInfo.Number.Drive0.PercentFree</SkinTag>
+      <PropertyType>Number</PropertyType>
+      <DesignerValue>75</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Number.Drive0.PercentFree" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD.SystemInfo.Number.Drive1.PercentFree</SkinTag>
+      <PropertyType>Number</PropertyType>
+      <DesignerValue>90</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Number.Drive1.PercentFree" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
       <SkinTag>#MPD2.TVSeries.RatingPath</SkinTag>
       <PropertyType>Label</PropertyType>
-      <DesignerValue>\Logos\Stars\star2_80.png</DesignerValue>
+      <DesignerValue>TVSeries\star2_90.png</DesignerValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TVSeries.Episode.RatingPath" />
-        <XmlMediaPortalTag Tag="#TVSeries.Series.RatingPath2" />
+        <XmlMediaPortalTag Tag="#TVSeries.Series.RatingPath" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
@@ -1443,17 +1485,6 @@
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#MPD2.TVSeries.Summary</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... </DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#TVSeries.Description" />
-        <XmlMediaPortalTag Tag="#TVSeries.Series.Summary" />
-        <XmlMediaPortalTag Tag="#TVSeries.Episode.Summary" />
-        <XmlMediaPortalTag Tag="#Play.Current.Plot" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
       <SkinTag>#UpdateControl.UpdateTitle</SkinTag>
       <PropertyType>Label</PropertyType>
       <DesignerValue>MPDisplay++</DesignerValue>
@@ -1789,6 +1820,94 @@
       <DesignerValue>New....</DesignerValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Dialog.Label11" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD.SystemInfo.Label.Drive0.Name</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>C:\</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Label.Drive0.Name" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD.SystemInfo.Label.Drive0.TotalSpace</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>120</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Label.Drive0.TotalSpace" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD.SystemInfo.Label.Drive1.Name</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>D:\</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Label.Drive1.Name" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD.SystemInfo.Label.Drive1.TotalSpace</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>500</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Label.Drive1.TotalSpace" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD.SystemInfo.Label.OSFullName</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Microsoft Windows 7 Ultimate</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Label.OSFullName" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD.SystemInfo.Label.OSPlatform</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Win32NT</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Label.OSPlatform" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD.SystemInfo.Label.OSVersion</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>6.1.7601.65536</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Label.OSVersion" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD.SystemInfo.Label.CPU</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>66 %</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Label.CPU" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD.SystemInfo.Label.VirtualPercent</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>33 %</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Label.VirtualPercent" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TVSeries.Description</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Sam is about to graduate from college and has an interview set up to join one of the most prestigious law schools in the country. His brother Dean, whom he has not seen since he went to college, shows up in the middle of the night and tells him their father is missing while on a hunting trip. Leaving his girlfriend behind to find their dad, Sam joins Dean in an effort to find their father in a little town called Jericho, where unmarried men disappear without a trace.</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TVSeries.Description" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TVSeries.Series.Pretty_Name</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Monk</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TVSeries.Series.Pretty_Name" />
       </MediaPortalTags>
     </XmlProperty>
   </Properties>
