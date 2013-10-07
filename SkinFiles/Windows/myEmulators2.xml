@@ -94,7 +94,12 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle StyleId="VideoCover" />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>10,10,10,10</CornerRadius>
+            <BackgroundBrush />
+            <BorderBrush />
+          </ImageStyle>
           <Image>#Emulators2.CurrentItem.coverpath</Image>
           <ImageStretch>Uniform</ImageStretch>
           <ImageCornerRadius>10</ImageCornerRadius>
@@ -388,11 +393,8 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>50</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          <LabelStyle StyleId="Titan50_White">
+            <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#currentmodule</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -409,11 +411,8 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>70</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          <LabelStyle StyleId="Titan70">
+            <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#time</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
@@ -427,16 +426,13 @@
           <Width>694</Width>
           <Height>70</Height>
           <PosX>580</PosX>
-          <PosY>80</PosY>
+          <PosY>60</PosY>
           <VisibleCondition>!IsPluginEnabled(World Weather)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>60</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          <LabelStyle StyleId="Titan60">
+            <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#date</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
@@ -450,16 +446,13 @@
           <Width>694</Width>
           <Height>70</Height>
           <PosX>580</PosX>
-          <PosY>80</PosY>
+          <PosY>60</PosY>
           <VisibleCondition>IsPluginEnabled(World Weather)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>60</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          <LabelStyle StyleId="Titan60">
+            <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>

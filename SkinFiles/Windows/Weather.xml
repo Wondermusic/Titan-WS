@@ -44,10 +44,10 @@
             <Control x:type="Image">
               <Name>current weather icon</Name>
               <Id>67</Id>
-              <Width>187</Width>
-              <Height>187</Height>
-              <PosX>1050</PosX>
-              <PosY>89</PosY>
+              <Width>150</Width>
+              <Height>150</Height>
+              <PosX>1108</PosX>
+              <PosY>137</PosY>
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
@@ -95,10 +95,10 @@
             <Control x:type="Image">
               <Name>current Moonphase image</Name>
               <Id>70</Id>
-              <Width>80</Width>
-              <Height>80</Height>
-              <PosX>1024</PosX>
-              <PosY>290</PosY>
+              <Width>50</Width>
+              <Height>50</Height>
+              <PosX>800</PosX>
+              <PosY>292</PosY>
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
@@ -932,7 +932,7 @@
             <BorderThickness>0,0,0,0</BorderThickness>
             <CornerRadius>0,0,0,0</CornerRadius>
           </ImageStyle>
-          <Image>\icon_plugin.png</Image>
+          <Image>#WorldWeather.TodayIconImage</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -946,15 +946,12 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>50</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          <LabelStyle StyleId="Titan50_White">
+            <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#currentmodule</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
+          <LabelText>#WorldWeather.Location</LabelText>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>10</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
         <Control x:type="Label">
@@ -967,11 +964,8 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>70</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          <LabelStyle StyleId="Titan70">
+            <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#time</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
@@ -985,16 +979,13 @@
           <Width>694</Width>
           <Height>70</Height>
           <PosX>580</PosX>
-          <PosY>80</PosY>
+          <PosY>60</PosY>
           <VisibleCondition>!IsPluginEnabled(World Weather)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>60</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          <LabelStyle StyleId="Titan60">
+            <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#date</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
@@ -1008,16 +999,13 @@
           <Width>694</Width>
           <Height>70</Height>
           <PosX>580</PosX>
-          <PosY>80</PosY>
+          <PosY>60</PosY>
           <VisibleCondition>IsPluginEnabled(World Weather)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>60</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          <LabelStyle StyleId="Titan60">
+            <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>

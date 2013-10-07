@@ -181,18 +181,18 @@
         <SelectedZoomY>1</SelectedZoomY>
       </VerticalItemStyle>
       <HorizontalItemStyle>
-        <NoFocusBrush x:type="ImageBrush" Image="\button-nofocus.png" Stretch="Uniform" />
+        <CornerRadius>15,15,15,15</CornerRadius>
+        <NoFocusBrush />
         <NoFocusBorderBrush />
-        <FocusBrush x:type="ImageBrush" Image="\button-focus.png" Stretch="Uniform" />
+        <FocusBrush x:type="ColorBrush" Color="#ABF40D10" />
         <FocusBorderBrush />
-        <FontType>Titan</FontType>
-        <FontSize>25</FontSize>
+        <FontType>Roboto</FontType>
+        <FontSize>18</FontSize>
         <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-        <NoFocusFontBrush x:type="ColorBrush" Color="#FF4682B4" />
-        <LabelMargin>0,0,0,5</LabelMargin>
+        <NoFocusFontBrush x:type="ColorBrush" Color="#FF000000" />
         <ImageVerticalAlignment>Top</ImageVerticalAlignment>
-        <Width>141</Width>
-        <Height>101</Height>
+        <Width>260</Width>
+        <Height>60</Height>
         <SelectedZoomX>1</SelectedZoomX>
         <SelectedZoomY>1</SelectedZoomY>
       </HorizontalItemStyle>

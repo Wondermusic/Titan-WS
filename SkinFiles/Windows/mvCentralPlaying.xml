@@ -78,9 +78,10 @@
           <LabelStyle StyleId="Titan90">
             <FontSize>20</FontSize>
           </LabelStyle>
-          <LabelText>#mvCentral.ArtistName</LabelText>
+          <LabelText>#Play.Current.mvArtist+ - +#Play.Current.mvAlbum</LabelText>
+          <LabelTextAlignment>Center</LabelTextAlignment>
           <ScrollDelay>2</ScrollDelay>
-          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSpeed>10</ScrollSpeed>
           <ScrollSeperator>   |   </ScrollSeperator>
         </Control>
         <Control x:type="Label">
@@ -96,21 +97,28 @@
           <LabelStyle StyleId="Titan60">
             <FontSize>20</FontSize>
           </LabelStyle>
+          <LabelText>#Play.Current.mvVideo</LabelText>
+          <LabelTextAlignment>Center</LabelTextAlignment>
           <ScrollDelay>2</ScrollDelay>
-          <ScrollSpeed>4</ScrollSpeed>
+          <ScrollSpeed>10</ScrollSpeed>
           <ScrollSeperator>   |   </ScrollSeperator>
         </Control>
         <Control x:type="Image">
           <Name>Cover</Name>
           <Id>7</Id>
-          <Width>350</Width>
-          <Height>350</Height>
-          <PosX>465</PosX>
-          <PosY>81</PosY>
+          <Width>280</Width>
+          <Height>280</Height>
+          <PosX>500</PosX>
+          <PosY>150</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle StyleId="VideoCover" />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>10,10,10,10</CornerRadius>
+            <BackgroundBrush />
+            <BorderBrush />
+          </ImageStyle>
           <Image>#Play.Current.Video.Thumb</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
@@ -175,7 +183,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#mvCentral.LocalMedia.videocodec+.png</Image>
+          <Image>\Logos\+#Play.Current.VideoCodec.Texture+.png</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -190,7 +198,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#mvCentral.LocalMedia.videoresolution+.png</Image>
+          <Image>\Logos\+#Play.Current.VideoResolution+.png</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -205,7 +213,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#mvCentral.LocalMedia.videoaspectratio+.png</Image>
+          <Image>\Logos\+#Play.Current.AspectRatio+.png</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -220,7 +228,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#mvCentral.LocalMedia.audiocodec+.png</Image>
+          <Image>\Logos\+#Play.Current.AudioCodec.Texture+.png</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -235,34 +243,9 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#mvCentral.LocalMedia.audiochannels+.png</Image>
+          <Image>\Logos\+#Play.Current.AudioChannels+.png</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
-        <Control x:type="Button">
-          <Name>Play Menu</Name>
-          <Id>16</Id>
-          <Width>1280</Width>
-          <Height>200</Height>
-          <PosY>520</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <ButtonStyle>
-            <NoFocusBrush />
-            <NoFocusBorderBrush />
-            <FocusBrush />
-            <FocusBorderBrush />
-            <ShadeBrush />
-            <GlossBrush />
-            <EnableLabel>false</EnableLabel>
-            <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
-            <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
-          </ButtonStyle>
-          <LabelText>NewButton</LabelText>
-          <Actions>
-            <Action Action="OpenWindow" Param="901" />
-          </Actions>
         </Control>
       </GroupControls>
     </Control>
@@ -305,11 +288,8 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>50</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          <LabelStyle StyleId="Titan50_White">
+            <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>Music Videos+ / +#mvCentral.ViewAs</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -326,11 +306,8 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>70</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          <LabelStyle StyleId="Titan70">
+            <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#time</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
@@ -344,16 +321,13 @@
           <Width>694</Width>
           <Height>70</Height>
           <PosX>580</PosX>
-          <PosY>80</PosY>
+          <PosY>60</PosY>
           <VisibleCondition>!IsPluginEnabled(World Weather)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>60</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          <LabelStyle StyleId="Titan60">
+            <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#date</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
@@ -367,37 +341,16 @@
           <Width>694</Width>
           <Height>70</Height>
           <PosX>580</PosX>
-          <PosY>80</PosY>
+          <PosY>60</PosY>
           <VisibleCondition>IsPluginEnabled(World Weather)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>60</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          <LabelStyle StyleId="Titan60">
+            <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-        </Control>
-        <Control x:type="Label">
-          <Name>Info</Name>
-          <Id>23</Id>
-          <Width>500</Width>
-          <Height>60</Height>
-          <PosX>75</PosX>
-          <PosY>72</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan40 White">
-            <FontSize>20</FontSize>
-          </LabelStyle>
-          <LabelText>#itemtype+ +#itemcount</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>

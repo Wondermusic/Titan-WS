@@ -22,126 +22,6 @@
       <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
     </Control>
     <Control x:type="Group">
-      <Name>Window Name</Name>
-      <Id>2</Id>
-      <Width>1280</Width>
-      <Height>156</Height>
-      <VisibleCondition />
-      <Animations />
-      <MediaPortalFocusControls />
-      <GroupStyle>
-        <BorderThickness>0,0,0,0</BorderThickness>
-        <CornerRadius>0,0,0,0</CornerRadius>
-      </GroupStyle>
-      <GroupControls>
-        <Control x:type="Image">
-          <Name>Icon</Name>
-          <Id>3</Id>
-          <Width>60</Width>
-          <Height>60</Height>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
-          </ImageStyle>
-          <Image>\icon_home.png</Image>
-          <ImageStretch>None</ImageStretch>
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
-        <Control x:type="Label">
-          <Name>Name of Window</Name>
-          <Id>4</Id>
-          <Width>563</Width>
-          <Height>60</Height>
-          <PosX>68</PosX>
-          <PosY>9</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>50</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-          </LabelStyle>
-          <LabelText>#currentmodule</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-        </Control>
-        <Control x:type="Label">
-          <Name>Time</Name>
-          <Id>5</Id>
-          <Width>426</Width>
-          <Height>110</Height>
-          <PosX>855</PosX>
-          <PosY>-10</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>70</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-          </LabelStyle>
-          <LabelText>#time</LabelText>
-          <LabelTextAlignment>Right</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-        </Control>
-        <Control x:type="Label">
-          <Name>Date</Name>
-          <Id>6</Id>
-          <Width>694</Width>
-          <Height>70</Height>
-          <PosX>580</PosX>
-          <PosY>80</PosY>
-          <VisibleCondition>!IsPluginEnabled(World Weather)</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>60</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-          </LabelStyle>
-          <LabelText>#date</LabelText>
-          <LabelTextAlignment>Right</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-        </Control>
-        <Control x:type="Label">
-          <Name>Date</Name>
-          <Id>7</Id>
-          <Width>694</Width>
-          <Height>70</Height>
-          <PosX>580</PosX>
-          <PosY>80</PosY>
-          <VisibleCondition>IsPluginEnabled(World Weather)</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>60</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-          </LabelStyle>
-          <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
-          <LabelTextAlignment>Right</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-        </Control>
-      </GroupControls>
-    </Control>
-    <Control x:type="Group">
       <Name>Menu</Name>
       <Id>8</Id>
       <Width>1225</Width>
@@ -257,6 +137,164 @@
           <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
       </GroupControls>
+    </Control>
+    <Control x:type="Group">
+      <Name>Window Name</Name>
+      <Id>2</Id>
+      <Width>1280</Width>
+      <Height>156</Height>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <GroupStyle>
+        <BorderThickness>0,0,0,0</BorderThickness>
+        <CornerRadius>0,0,0,0</CornerRadius>
+      </GroupStyle>
+      <GroupControls>
+        <Control x:type="Image">
+          <Name>Icon</Name>
+          <Id>3</Id>
+          <Width>60</Width>
+          <Height>60</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>0,0,0,0</CornerRadius>
+          </ImageStyle>
+          <Image>\icon_home.png</Image>
+          <ImageStretch>None</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Label">
+          <Name>Name of Window</Name>
+          <Id>4</Id>
+          <Width>563</Width>
+          <Height>60</Height>
+          <PosX>68</PosX>
+          <PosY>9</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan50_White">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>#currentmodule</LabelText>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Time</Name>
+          <Id>5</Id>
+          <Width>426</Width>
+          <Height>110</Height>
+          <PosX>855</PosX>
+          <PosY>-10</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan70">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>#time</LabelText>
+          <LabelTextAlignment>Right</LabelTextAlignment>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Date</Name>
+          <Id>6</Id>
+          <Width>694</Width>
+          <Height>70</Height>
+          <PosX>580</PosX>
+          <PosY>60</PosY>
+          <VisibleCondition>!IsPluginEnabled(World Weather)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan60">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>#date</LabelText>
+          <LabelTextAlignment>Right</LabelTextAlignment>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Date</Name>
+          <Id>7</Id>
+          <Width>694</Width>
+          <Height>70</Height>
+          <PosX>580</PosX>
+          <PosY>60</PosY>
+          <VisibleCondition>IsPluginEnabled(World Weather)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan60">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
+          <LabelTextAlignment>Right</LabelTextAlignment>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+      </GroupControls>
+    </Control>
+    <Control x:type="Button">
+      <Name>MPD++ Remote Button</Name>
+      <Id>13</Id>
+      <Width>640</Width>
+      <Height>150</Height>
+      <PosX>640</PosX>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <ButtonStyle>
+        <NoFocusBrush />
+        <NoFocusBorderBrush />
+        <FocusBrush />
+        <FocusBorderBrush />
+        <ShadeBrush />
+        <GlossBrush />
+        <EnableLabel>false</EnableLabel>
+        <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+        <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
+      </ButtonStyle>
+      <LabelText>NewButton</LabelText>
+      <Actions>
+        <Action Action="OpenWindow" Param="10000" />
+      </Actions>
+    </Control>
+    <Control x:type="Button">
+      <Name>Menu</Name>
+      <Id>25</Id>
+      <Width>640</Width>
+      <Height>150</Height>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <ButtonStyle>
+        <NoFocusBrush />
+        <NoFocusBorderBrush />
+        <FocusBrush />
+        <FocusBorderBrush />
+        <ShadeBrush />
+        <GlossBrush />
+        <EnableLabel>false</EnableLabel>
+        <FontType>Titan</FontType>
+        <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+        <NoFocusFontBrush x:type="ColorBrush" Color="#FF00B7FF" />
+      </ButtonStyle>
+      <LabelText>NewButton</LabelText>
+      <Actions>
+        <Action Action="OpenDialog" Param="903" />
+      </Actions>
     </Control>
     <Control x:type="Group">
       <Name>Action Menu</Name>
@@ -416,56 +454,6 @@
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
       </GroupControls>
-    </Control>
-    <Control x:type="Button">
-      <Name>MPD++ Remote Button</Name>
-      <Id>13</Id>
-      <Width>640</Width>
-      <Height>150</Height>
-      <PosX>640</PosX>
-      <VisibleCondition />
-      <Animations />
-      <MediaPortalFocusControls />
-      <ButtonStyle>
-        <NoFocusBrush />
-        <NoFocusBorderBrush />
-        <FocusBrush />
-        <FocusBorderBrush />
-        <ShadeBrush />
-        <GlossBrush />
-        <EnableLabel>false</EnableLabel>
-        <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
-        <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
-      </ButtonStyle>
-      <LabelText>NewButton</LabelText>
-      <Actions>
-        <Action Action="OpenWindow" Param="10000" />
-      </Actions>
-    </Control>
-    <Control x:type="Button">
-      <Name>Menu</Name>
-      <Id>25</Id>
-      <Width>640</Width>
-      <Height>150</Height>
-      <VisibleCondition />
-      <Animations />
-      <MediaPortalFocusControls />
-      <ButtonStyle>
-        <NoFocusBrush />
-        <NoFocusBorderBrush />
-        <FocusBrush />
-        <FocusBorderBrush />
-        <ShadeBrush />
-        <GlossBrush />
-        <EnableLabel>false</EnableLabel>
-        <FontType>Titan</FontType>
-        <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-        <NoFocusFontBrush x:type="ColorBrush" Color="#FF00B7FF" />
-      </ButtonStyle>
-      <LabelText>NewButton</LabelText>
-      <Actions>
-        <Action Action="OpenDialog" Param="903" />
-      </Actions>
     </Control>
   </WindowControls>
   <VisibleCondition>IsMediaPortalWindow(0) || IsMediaPortalWindow(34)</VisibleCondition>

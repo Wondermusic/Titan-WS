@@ -17,7 +17,8 @@
       <Animations />
       <MediaPortalFocusControls />
       <ImageStyle StyleId="Background" />
-      <ImageStretch>None</ImageStretch>
+      <Image>\Hovers\hover_my radio.jpg</Image>
+      <ImageStretch>Fill</ImageStretch>
       <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
     </Control>
     <Control x:type="Group">
@@ -26,7 +27,6 @@
       <Width>1280</Width>
       <Height>720</Height>
       <VisibleCondition>IsMediaPortalWindow(30) || IsMediaPortalWindow(2345) || IsMediaPortalWindow(7890) || IsMediaPortalWindow(25650) || IsMediaPortalWindow(15634330)</VisibleCondition>
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations />
       <MediaPortalFocusControls />
       <GroupStyle StyleId="Empty" />
@@ -66,9 +66,9 @@
         <Control x:type="Image">
           <Name>Image</Name>
           <Id>13</Id>
-          <Width>435</Width>
-          <Height>435</Height>
-          <PosX>29</PosX>
+          <Width>300</Width>
+          <Height>300</Height>
+          <PosX>105</PosX>
           <PosY>195</PosY>
           <VisibleCondition>IsMediaPortalWindow(30) ++ IsControlVisible(12)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
@@ -87,9 +87,9 @@
         <Control x:type="Image">
           <Name>Image</Name>
           <Id>14</Id>
-          <Width>435</Width>
-          <Height>435</Height>
-          <PosX>29</PosX>
+          <Width>300</Width>
+          <Height>300</Height>
+          <PosX>105</PosX>
           <PosY>195</PosY>
           <VisibleCondition>IsMediaPortalWindow(25650) ++ IsControlVisible(12)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
@@ -166,6 +166,62 @@
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>4</ScrollSpeed>
           <ScrollSeperator>  |  </ScrollSeperator>
+        </Control>
+        <Control x:type="Label">
+          <Name>Screen Name</Name>
+          <Id>84</Id>
+          <Width>487</Width>
+          <Height>50</Height>
+          <PosX>68</PosX>
+          <PosY>63</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan40 White">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>#header.label</LabelText>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>10</ScrollSpeed>
+          <ScrollSeperator>   |   </ScrollSeperator>
+        </Control>
+        <Control x:type="Label">
+          <Name>Info 1</Name>
+          <Id>85</Id>
+          <Width>475</Width>
+          <Height>50</Height>
+          <PosX>21</PosX>
+          <PosY>538</PosY>
+          <VisibleCondition>IsMediaPortalWindow(25650) ++ IsControlVisible(12)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan 40 Blue">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>#RadioTime.Selected.Subtext</LabelText>
+          <LabelTextAlignment>Center</LabelTextAlignment>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>10</ScrollSpeed>
+        </Control>
+        <Control x:type="Label">
+          <Name>Info 2</Name>
+          <Id>86</Id>
+          <Width>475</Width>
+          <Height>50</Height>
+          <PosX>21</PosX>
+          <PosY>588</PosY>
+          <VisibleCondition>IsMediaPortalWindow(25650) ++ IsControlVisible(12)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan 40 Blue">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>#RadioTime.Selected.Format</LabelText>
+          <LabelTextAlignment>Center</LabelTextAlignment>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>10</ScrollSpeed>
         </Control>
       </GroupControls>
     </Control>
@@ -510,11 +566,8 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>70</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          <LabelStyle StyleId="Titan70">
+            <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#time</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
@@ -528,16 +581,13 @@
           <Width>694</Width>
           <Height>70</Height>
           <PosX>580</PosX>
-          <PosY>80</PosY>
+          <PosY>60</PosY>
           <VisibleCondition>!IsPluginEnabled(World Weather)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>60</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          <LabelStyle StyleId="Titan60">
+            <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#date</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
@@ -551,16 +601,13 @@
           <Width>694</Width>
           <Height>70</Height>
           <PosX>580</PosX>
-          <PosY>80</PosY>
+          <PosY>60</PosY>
           <VisibleCondition>IsPluginEnabled(World Weather)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>60</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          <LabelStyle StyleId="Titan60">
+            <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>

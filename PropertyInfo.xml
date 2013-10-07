@@ -1918,5 +1918,53 @@
         <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.videoaspectratio" />
       </MediaPortalTags>
     </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.mvArtist</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Linkin Park</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.mvArtist" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.mvAlbum</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>A thousand suns</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.mvAlbum" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#WorldWeather.Location</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Wuppertal</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#WorldWeather.Location" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#header.label</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Durchsuchen / Favoriten von wondermusic</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#header.label" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#RadioTime.Selected.Subtext</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Wuppertal Pur Rund Um Die Uhr</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#RadioTime.Selected.Subtext" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#RadioTime.Selected.Format</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>standard MP3</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#RadioTime.Selected.Format" />
+      </MediaPortalTags>
+    </XmlProperty>
   </Properties>
 </XmlPropertyInfo>

@@ -13,7 +13,8 @@
       <Id>1</Id>
       <Width>1280</Width>
       <Height>720</Height>
-      <VisibleCondition />
+      <VisibleCondition>IsPlayer(IsRadio) || IsPlayer(Streamradio) || IsPlayer(PandoraMusicBox)</VisibleCondition>
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations />
       <MediaPortalFocusControls />
       <GroupStyle StyleId="Empty" />
@@ -26,7 +27,12 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle StyleId="Logo_Image" />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>0,0,0,0</CornerRadius>
+            <BackgroundBrush x:type="ImageBrush" Image="\Hovers\hover_my radio.jpg" Stretch="Fill" />
+            <BorderBrush />
+          </ImageStyle>
           <Image>#MPD2.fanart.music</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverImage StyleId="Background Play" />
@@ -61,24 +67,13 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle StyleId="Radio Cover" />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>10,10,10,10</CornerRadius>
+            <BackgroundBrush />
+            <BorderBrush />
+          </ImageStyle>
           <Image>#Play.Current.Thumb</Image>
-          <ImageStretch>Uniform</ImageStretch>
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
-        <Control x:type="Image">
-          <Name>RadioTime Thumb</Name>
-          <Id>5</Id>
-          <Width>280</Width>
-          <Height>280</Height>
-          <PosX>500</PosX>
-          <PosY>140</PosY>
-          <VisibleCondition>IsPlayer(RadioTime)</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle StyleId="Radio Cover" />
-          <Image>#RadioTime.Selected.Logo</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -104,76 +99,22 @@
           <PosX>38</PosX>
           <PosY>411</PosY>
           <VisibleCondition>IsPlayer(IsRadio)</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="Titan80">
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#Play.Current.Title</LabelText>
-          <ScrollDelay>2</ScrollDelay>
-          <ScrollSpeed>8</ScrollSpeed>
-        </Control>
-        <Control x:type="Label">
-          <Name>RadioTime Station</Name>
-          <Id>8</Id>
-          <Width>1205</Width>
-          <Height>90</Height>
-          <PosX>38</PosX>
-          <PosY>411</PosY>
-          <VisibleCondition>IsPlayer(RadioTime)</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan80">
-            <FontSize>20</FontSize>
-          </LabelStyle>
-          <LabelText>#RadioTime.Play.Station</LabelText>
-          <ScrollDelay>2</ScrollDelay>
-          <ScrollSpeed>8</ScrollSpeed>
-        </Control>
-        <Control x:type="Label">
-          <Name>RadioTime Location</Name>
-          <Id>9</Id>
-          <Width>750</Width>
-          <Height>80</Height>
-          <PosX>38</PosX>
-          <PosY>501</PosY>
-          <VisibleCondition>IsPlayer(RadioTime)</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan70">
-            <FontSize>20</FontSize>
-          </LabelStyle>
-          <LabelText>#RadioTime.Play.Location</LabelText>
-          <ScrollDelay>2</ScrollDelay>
-          <ScrollSpeed>8</ScrollSpeed>
-        </Control>
-        <Control x:type="Label">
-          <Name>RadioTime Description</Name>
-          <Id>10</Id>
-          <Width>750</Width>
-          <Height>80</Height>
-          <PosX>38</PosX>
-          <PosY>591</PosY>
-          <VisibleCondition>IsPlayer(RadioTime)</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan70">
-            <FontSize>20</FontSize>
-          </LabelStyle>
-          <LabelText>#RadioTime.Play.Description</LabelText>
+          <LabelTextAlignment>Center</LabelTextAlignment>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>8</ScrollSpeed>
         </Control>
         <Control x:type="Label">
           <Name>Playtime Label</Name>
           <Id>11</Id>
-          <Width>400</Width>
+          <Width>1205</Width>
           <Height>70</Height>
-          <PosX>838</PosX>
+          <PosX>38</PosX>
           <PosY>516</PosY>
           <VisibleCondition />
           <Animations />
@@ -182,7 +123,7 @@
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>Playtime:</LabelText>
-          <LabelTextAlignment>Right</LabelTextAlignment>
+          <LabelTextAlignment>Center</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -190,9 +131,9 @@
         <Control x:type="Label">
           <Name>Current Playtime</Name>
           <Id>12</Id>
-          <Width>400</Width>
+          <Width>1205</Width>
           <Height>90</Height>
-          <PosX>838</PosX>
+          <PosX>38</PosX>
           <PosY>589</PosY>
           <VisibleCondition />
           <Animations />
@@ -201,7 +142,7 @@
             <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#currentplaytime</LabelText>
-          <LabelTextAlignment>Right</LabelTextAlignment>
+          <LabelTextAlignment>Center</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -244,30 +185,219 @@
           <FalloffSpeed>4</FalloffSpeed>
           <FallOffHeight>2</FallOffHeight>
         </Control>
-        <Control x:type="Button">
-          <Name>Play Menu</Name>
-          <Id>15</Id>
+      </GroupControls>
+    </Control>
+    <Control x:type="Group">
+      <Name>RadioTime Playing</Name>
+      <Id>24</Id>
+      <Width>1280</Width>
+      <Height>720</Height>
+      <VisibleCondition>IsPlayer(RadioTime)</VisibleCondition>
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <Animations />
+      <MediaPortalFocusControls />
+      <GroupStyle StyleId="Empty" />
+      <GroupControls>
+        <Control x:type="Image">
+          <Name>Fanart</Name>
+          <Id>25</Id>
           <Width>1280</Width>
-          <Height>200</Height>
-          <PosY>520</PosY>
+          <Height>720</Height>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <ButtonStyle>
-            <NoFocusBrush />
-            <NoFocusBorderBrush />
-            <FocusBrush />
-            <FocusBorderBrush />
-            <ShadeBrush />
-            <GlossBrush />
-            <EnableLabel>false</EnableLabel>
-            <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
-            <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
-          </ButtonStyle>
-          <LabelText>NewButton</LabelText>
-          <Actions>
-            <Action Action="OpenWindow" Param="901" />
-          </Actions>
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>0,0,0,0</CornerRadius>
+            <BackgroundBrush x:type="ImageBrush" Image="\Hovers\hover_LastFmRadio.jpg" Stretch="Fill" />
+            <BorderBrush />
+          </ImageStyle>
+          <Image>#MPD2.fanart.music</Image>
+          <ImageStretch>Fill</ImageStretch>
+          <CoverImage StyleId="Background Play" />
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Image">
+          <Name>Overlay</Name>
+          <Id>26</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>0,0,0,0</CornerRadius>
+            <BackgroundBrush />
+          </ImageStyle>
+          <Image>\fanart_overlay.png</Image>
+          <ImageStretch>Fill</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Image">
+          <Name>RadioTime Thumb</Name>
+          <Id>28</Id>
+          <Width>280</Width>
+          <Height>280</Height>
+          <PosX>500</PosX>
+          <PosY>140</PosY>
+          <VisibleCondition>IsPlayer(RadioTime)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>10,10,10,10</CornerRadius>
+            <BackgroundBrush />
+            <BorderBrush />
+          </ImageStyle>
+          <Image>#RadioTime.Selected.Logo</Image>
+          <ImageStretch>Uniform</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Image">
+          <Name>OSD</Name>
+          <Id>29</Id>
+          <Width>1280</Width>
+          <Height>320</Height>
+          <PosY>405</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle StyleId="Logo_Image" />
+          <Image>\osd_bg.png</Image>
+          <ImageStretch>Fill</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Label">
+          <Name>RadioTime Station</Name>
+          <Id>31</Id>
+          <Width>1205</Width>
+          <Height>90</Height>
+          <PosX>38</PosX>
+          <PosY>411</PosY>
+          <VisibleCondition>IsPlayer(RadioTime)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan80">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>#RadioTime.Play.Station</LabelText>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>8</ScrollSpeed>
+        </Control>
+        <Control x:type="Label">
+          <Name>RadioTime Location</Name>
+          <Id>32</Id>
+          <Width>750</Width>
+          <Height>80</Height>
+          <PosX>38</PosX>
+          <PosY>501</PosY>
+          <VisibleCondition>IsPlayer(RadioTime)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan70">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>#RadioTime.Play.Location</LabelText>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>8</ScrollSpeed>
+        </Control>
+        <Control x:type="Label">
+          <Name>RadioTime Description</Name>
+          <Id>33</Id>
+          <Width>750</Width>
+          <Height>80</Height>
+          <PosX>38</PosX>
+          <PosY>591</PosY>
+          <VisibleCondition>IsPlayer(RadioTime)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan70">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>#RadioTime.Play.Description</LabelText>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>8</ScrollSpeed>
+        </Control>
+        <Control x:type="Label">
+          <Name>Playtime Label</Name>
+          <Id>34</Id>
+          <Width>400</Width>
+          <Height>70</Height>
+          <PosX>838</PosX>
+          <PosY>516</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan60">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>Playtime:</LabelText>
+          <LabelTextAlignment>Right</LabelTextAlignment>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Current Playtime</Name>
+          <Id>35</Id>
+          <Width>400</Width>
+          <Height>90</Height>
+          <PosX>838</PosX>
+          <PosY>589</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan80">
+            <FontSize>20</FontSize>
+          </LabelStyle>
+          <LabelText>#currentplaytime</LabelText>
+          <LabelTextAlignment>Right</LabelTextAlignment>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Equalizer">
+          <Name>Equalizer</Name>
+          <Id>36</Id>
+          <Width>430</Width>
+          <Height>280</Height>
+          <PosX>40</PosX>
+          <PosY>140</PosY>
+          <VisibleCondition>IsPlayer(RadioTime)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <EqualizerStyle StyleId="Equalizer" />
+          <BandCount>15</BandCount>
+          <BandSpacing>1</BandSpacing>
+          <BandBorderSize>0</BandBorderSize>
+          <BandCornerRadius>0</BandCornerRadius>
+          <FalloffSpeed>4</FalloffSpeed>
+          <FallOffHeight>2</FallOffHeight>
+        </Control>
+        <Control x:type="Equalizer">
+          <Name>Equalizer</Name>
+          <Id>37</Id>
+          <Width>430</Width>
+          <Height>280</Height>
+          <PosX>800</PosX>
+          <PosY>140</PosY>
+          <VisibleCondition>IsPlayer(RadioTime)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <EqualizerStyle StyleId="Equalizer" />
+          <BandCount>15</BandCount>
+          <BandSpacing>1</BandSpacing>
+          <BandBorderSize>0</BandBorderSize>
+          <BandCornerRadius>0</BandCornerRadius>
+          <FalloffSpeed>4</FalloffSpeed>
+          <FallOffHeight>2</FallOffHeight>
         </Control>
       </GroupControls>
     </Control>
@@ -345,11 +475,8 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>70</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          <LabelStyle StyleId="Titan70">
+            <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#time</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
@@ -363,16 +490,13 @@
           <Width>694</Width>
           <Height>70</Height>
           <PosX>580</PosX>
-          <PosY>80</PosY>
+          <PosY>60</PosY>
           <VisibleCondition>!IsPluginEnabled(World Weather)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>60</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          <LabelStyle StyleId="Titan60">
+            <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#date</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
@@ -386,16 +510,13 @@
           <Width>694</Width>
           <Height>70</Height>
           <PosX>580</PosX>
-          <PosY>80</PosY>
+          <PosY>60</PosY>
           <VisibleCondition>IsPluginEnabled(World Weather)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontWeight>Black</FontWeight>
-            <FontSize>60</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+          <LabelStyle StyleId="Titan60">
+            <FontSize>20</FontSize>
           </LabelStyle>
           <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
@@ -410,8 +531,7 @@
       <Id>23</Id>
       <Width>1280</Width>
       <Height>130</Height>
-      <VisibleCondition>!IsPlayer(None)</VisibleCondition>
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
       <ButtonStyle>
