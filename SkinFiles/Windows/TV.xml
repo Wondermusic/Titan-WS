@@ -69,9 +69,9 @@
         <Control x:type="List">
           <Name>NewList</Name>
           <Id>30</Id>
-          <Width>752</Width>
+          <Width>755</Width>
           <Height>452</Height>
-          <PosX>504</PosX>
+          <PosX>487</PosX>
           <PosY>192</PosY>
           <VisibleCondition />
           <Animations />
@@ -79,10 +79,7 @@
           <ListControlStyle StyleId="empty" />
           <ListType>MediaPortalButtonGroup</ListType>
           <ListLayout>Auto</ListLayout>
-          <VerticalItemStyle StyleId="Dialog ListControl">
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
-          </VerticalItemStyle>
+          <VerticalItemStyle StyleId="MusicList" />
           <HorizontalItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
             <CornerRadius>4,4,4,4</CornerRadius>
@@ -101,8 +98,6 @@
             <Width>135</Width>
             <Height>207</Height>
             <ItemMargin>1,1,1,1</ItemMargin>
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
           </HorizontalItemStyle>
           <CoverFlowItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
@@ -121,8 +116,6 @@
             <ImageVerticalAlignment>Top</ImageVerticalAlignment>
             <Width>135</Width>
             <Height>207</Height>
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
           </CoverFlowItemStyle>
         </Control>
       </GroupControls>
@@ -166,9 +159,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan50_White">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan50_White" />
           <LabelText>#currentmodule</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
@@ -184,9 +175,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan70">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan70" />
           <LabelText>#time</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -204,9 +193,7 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan60">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan60" />
           <LabelText>#date</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -224,9 +211,7 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan60">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan60" />
           <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>

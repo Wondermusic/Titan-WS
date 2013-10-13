@@ -29,9 +29,7 @@
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
-      <LabelStyle StyleId="Titan70">
-        <FontSize>20</FontSize>
-      </LabelStyle>
+      <LabelStyle StyleId="Titan70" />
       <LabelText>@notavailable</LabelText>
       <LabelTextAlignment>Center</LabelTextAlignment>
       <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -77,9 +75,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan50_White">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan50_White" />
           <LabelText>#currentmodule</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
@@ -95,9 +91,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan70">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan70" />
           <LabelText>#time</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -115,9 +109,7 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan60">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan60" />
           <LabelText>#date</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -135,9 +127,7 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan60">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan60" />
           <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>

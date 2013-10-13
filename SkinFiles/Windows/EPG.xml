@@ -59,9 +59,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan70">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan70" />
           <LabelText>@EPG Info</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
           <ScrollSpeed>10</ScrollSpeed>
@@ -142,18 +140,9 @@
           <ListControlStyle StyleId="empty" />
           <ListType>MediaPortalListControl</ListType>
           <ListLayout>Auto</ListLayout>
-          <VerticalItemStyle StyleId="VideoList">
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
-          </VerticalItemStyle>
-          <HorizontalItemStyle StyleId="VideoList Horizontal">
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
-          </HorizontalItemStyle>
-          <CoverFlowItemStyle>
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
-          </CoverFlowItemStyle>
+          <VerticalItemStyle StyleId="VideoList" />
+          <HorizontalItemStyle StyleId="VideoList Horizontal" />
+          <CoverFlowItemStyle />
         </Control>
         <Control x:type="Label">
           <Name>Title</Name>
@@ -165,9 +154,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan 40">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan 40" />
           <LabelText>#highlightedbutton</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -184,9 +171,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan40 White">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan40 White" />
           <LabelText>#TV.Search.Title</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
@@ -202,9 +187,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan40 White">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan40 White" />
           <LabelText>#TV.Search.Time</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
@@ -220,9 +203,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan30_White">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan30_White" />
           <LabelText>#TV.Search.Description</LabelText>
           <IsVertical>true</IsVertical>
           <ScrollDelay>2</ScrollDelay>
@@ -273,8 +254,6 @@
             <Height>50</Height>
             <ItemMargin>1,1,1,1</ItemMargin>
             <HorizontalAlignment>Right</HorizontalAlignment>
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
           </VerticalItemStyle>
           <HorizontalItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
@@ -302,8 +281,6 @@
             <Width>250</Width>
             <Height>66</Height>
             <ItemMargin>1,1,1,1</ItemMargin>
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
           </HorizontalItemStyle>
           <CoverFlowItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
@@ -322,8 +299,6 @@
             <ImageVerticalAlignment>Top</ImageVerticalAlignment>
             <Width>135</Width>
             <Height>207</Height>
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
           </CoverFlowItemStyle>
         </Control>
       </GroupControls>
@@ -367,9 +342,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan50_White">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan50_White" />
           <LabelText>#currentmodule</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
@@ -385,9 +358,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan70">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan70" />
           <LabelText>#time</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -405,9 +376,7 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan60">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan60" />
           <LabelText>#date</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -425,9 +394,7 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan60">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan60" />
           <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>

@@ -92,10 +92,7 @@
       <ListControlStyle StyleId="empty" />
       <ListType>MediaPortalDialogList</ListType>
       <ListLayout>Auto</ListLayout>
-      <VerticalItemStyle StyleId="Dialog ListControl">
-        <SelectedZoomX>1</SelectedZoomX>
-        <SelectedZoomY>1</SelectedZoomY>
-      </VerticalItemStyle>
+      <VerticalItemStyle StyleId="Dialog ListControl" />
       <HorizontalItemStyle>
         <BorderThickness>1,1,1,1</BorderThickness>
         <CornerRadius>4,4,4,4</CornerRadius>
@@ -114,8 +111,6 @@
         <Width>135</Width>
         <Height>207</Height>
         <ItemMargin>1,1,1,1</ItemMargin>
-        <SelectedZoomX>1</SelectedZoomX>
-        <SelectedZoomY>1</SelectedZoomY>
       </HorizontalItemStyle>
       <CoverFlowItemStyle>
         <BorderThickness>1,1,1,1</BorderThickness>
@@ -134,8 +129,6 @@
         <ImageVerticalAlignment>Top</ImageVerticalAlignment>
         <Width>135</Width>
         <Height>207</Height>
-        <SelectedZoomX>1</SelectedZoomX>
-        <SelectedZoomY>1</SelectedZoomY>
       </CoverFlowItemStyle>
     </Control>
   </DialogControls>

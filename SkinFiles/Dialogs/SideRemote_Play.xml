@@ -528,7 +528,107 @@
       </ButtonStyle>
       <Image>\Remote\exit_button_focus.png</Image>
       <LabelText>NewButton</LabelText>
-      <Actions />
+      <Actions>
+        <Action Action="OpenDialog" Param="904" />
+      </Actions>
+    </Control>
+    <Control x:type="Button">
+      <Name>Back Button</Name>
+      <Id>20</Id>
+      <Width>100</Width>
+      <Height>100</Height>
+      <PosX>-28</PosX>
+      <PosY>-21</PosY>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <ButtonStyle>
+        <NoFocusBrush x:type="ImageBrush" Image="\Remote\left_nf.png" Stretch="Uniform" />
+        <NoFocusBorderBrush />
+        <FocusBrush x:type="ImageBrush" Image="\Remote\left_f.png" Stretch="Uniform" />
+        <FocusBorderBrush />
+        <ShadeBrush />
+        <GlossBrush />
+        <EnableLabel>false</EnableLabel>
+        <FontType>Titan</FontType>
+        <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+        <NoFocusFontBrush x:type="ColorBrush" Color="#FF00B7FF" />
+        <EnableImage>true</EnableImage>
+      </ButtonStyle>
+      <LabelText>NewButton</LabelText>
+      <Actions>
+        <Action Action="MediaPortalAction" Param="ACTION_PREVIOUS_MENU" />
+      </Actions>
+    </Control>
+    <Control x:type="Button">
+      <Name>ChUp</Name>
+      <Id>21</Id>
+      <Width>120</Width>
+      <Height>80</Height>
+      <PosX>17</PosX>
+      <PosY>279</PosY>
+      <VisibleCondition>IsPlayer(IsTV)</VisibleCondition>
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <Animations />
+      <MediaPortalFocusControls />
+      <ButtonStyle>
+        <NoFocusBrush x:type="ColorBrush" Color="#FF272727" />
+        <NoFocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
+        <FocusBrush x:type="ColorBrush" Color="#FF272727" />
+        <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
+        <ShadeBrush x:type="GradientBrush">
+          <GradientStops>
+            <GradientStop Color="#1FF0F8FF" Offset="0" />
+            <GradientStop Color="#00FFFFFF" Offset="0.59" />
+            <GradientStop Color="#00FFFFFF" Offset="1" />
+          </GradientStops>
+          <Angle>Vertical</Angle>
+        </ShadeBrush>
+        <GlossBrush />
+        <FontType>Titan</FontType>
+        <FocusFontBrush x:type="ColorBrush" Color="#FFAFEEEE" />
+        <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+        <ImageStretch>None</ImageStretch>
+      </ButtonStyle>
+      <LabelText>Ch. Up</LabelText>
+      <Actions>
+        <Action Action="MediaPortalAction" Param="ACTION_NEXT_CHANNEL" />
+      </Actions>
+    </Control>
+    <Control x:type="Button">
+      <Name>ChDown</Name>
+      <Id>22</Id>
+      <Width>120</Width>
+      <Height>80</Height>
+      <PosX>385</PosX>
+      <PosY>279</PosY>
+      <VisibleCondition>IsPlayer(IsTV)</VisibleCondition>
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <Animations />
+      <MediaPortalFocusControls />
+      <ButtonStyle>
+        <NoFocusBrush x:type="ColorBrush" Color="#FF272727" />
+        <NoFocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
+        <FocusBrush x:type="ColorBrush" Color="#FF272727" />
+        <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
+        <ShadeBrush x:type="GradientBrush">
+          <GradientStops>
+            <GradientStop Color="#1FF0F8FF" Offset="0" />
+            <GradientStop Color="#00FFFFFF" Offset="0.59" />
+            <GradientStop Color="#00FFFFFF" Offset="1" />
+          </GradientStops>
+          <Angle>Vertical</Angle>
+        </ShadeBrush>
+        <GlossBrush />
+        <FontType>Titan</FontType>
+        <FocusFontBrush x:type="ColorBrush" Color="#FFAFEEEE" />
+        <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+        <ImageStretch>None</ImageStretch>
+      </ButtonStyle>
+      <LabelText>Ch. Dwn</LabelText>
+      <Actions>
+        <Action Action="MediaPortalAction" Param="ACTION_PREV_CHANNEL" />
+      </Actions>
     </Control>
   </DialogControls>
 </Dialog>

@@ -66,9 +66,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Temperature+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -84,9 +82,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#WorldWeather.TodayTemperature</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -117,9 +113,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Condition+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -135,9 +129,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#WorldWeather.TodayCondition</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -153,9 +145,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Wind+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -171,9 +161,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#WorldWeather.TodayWindDirection+ (+#WorldWeather.TodayWindDirectionDegree+) - +#WorldWeather.TodayWindSpeed</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -189,9 +177,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Sundial+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -207,9 +193,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#WorldWeather.LocationSunriseTime+ - +#WorldWeather.LocationSunsetTime</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -225,9 +209,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Moonphase+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -243,9 +225,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#WorldWeather.LocationMoonPhase</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -449,9 +429,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#WorldWeather.ForecastDay0High</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -468,9 +446,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>#WorldWeather.ForecastDay0Low</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -487,9 +463,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#WorldWeather.ForecastDay0Condition</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -547,9 +521,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#WorldWeather.ForecastDay1High</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -566,9 +538,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>#WorldWeather.ForecastDay1Low</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -585,9 +555,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#WorldWeather.ForecastDay1Condition</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -645,9 +613,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#WorldWeather.ForecastDay2High</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -664,9 +630,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>#WorldWeather.ForecastDay2Low</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -683,9 +647,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#WorldWeather.ForecastDay2Condition</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -743,9 +705,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#WorldWeather.ForecastDay3High</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -762,9 +722,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>#WorldWeather.ForecastDay3Low</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -781,9 +739,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#WorldWeather.ForecastDay3Condition</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -841,9 +797,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#WorldWeather.ForecastDay4High</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -860,9 +814,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>#WorldWeather.ForecastDay4Low</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -879,9 +831,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#WorldWeather.ForecastDay4Condition</LabelText>
               <LabelTextAlignment>Center</LabelTextAlignment>
               <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -946,9 +896,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan50_White">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan50_White" />
           <LabelText>#WorldWeather.Location</LabelText>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>10</ScrollSpeed>
@@ -964,9 +912,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan70">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan70" />
           <LabelText>#time</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -984,9 +930,7 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan60">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan60" />
           <LabelText>#date</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -1004,9 +948,7 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan60">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan60" />
           <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -1073,8 +1015,6 @@
         <Width>250</Width>
         <Height>50</Height>
         <ItemMargin>1,1,1,1</ItemMargin>
-        <SelectedZoomX>1</SelectedZoomX>
-        <SelectedZoomY>1</SelectedZoomY>
       </VerticalItemStyle>
       <HorizontalItemStyle>
         <BorderThickness>1,1,1,1</BorderThickness>
@@ -1094,8 +1034,6 @@
         <Width>135</Width>
         <Height>207</Height>
         <ItemMargin>1,1,1,1</ItemMargin>
-        <SelectedZoomX>1</SelectedZoomX>
-        <SelectedZoomY>1</SelectedZoomY>
       </HorizontalItemStyle>
       <CoverFlowItemStyle>
         <BorderThickness>1,1,1,1</BorderThickness>
@@ -1114,8 +1052,6 @@
         <ImageVerticalAlignment>Top</ImageVerticalAlignment>
         <Width>135</Width>
         <Height>207</Height>
-        <SelectedZoomX>1</SelectedZoomX>
-        <SelectedZoomY>1</SelectedZoomY>
       </CoverFlowItemStyle>
     </Control>
   </WindowControls>

@@ -84,18 +84,9 @@
           <ListControlStyle StyleId="empty" />
           <ListType>MediaPortalListControl</ListType>
           <ListLayout>Auto</ListLayout>
-          <VerticalItemStyle StyleId="MusicList">
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
-          </VerticalItemStyle>
-          <HorizontalItemStyle StyleId="MusicList Horizontal">
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
-          </HorizontalItemStyle>
-          <CoverFlowItemStyle StyleId="MusicList CoverFlow">
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
-          </CoverFlowItemStyle>
+          <VerticalItemStyle StyleId="MusicList" />
+          <HorizontalItemStyle StyleId="MusicList Horizontal" />
+          <CoverFlowItemStyle StyleId="MusicList CoverFlow" />
         </Control>
         <Control x:type="Label">
           <Name>Info</Name>
@@ -179,9 +170,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan50_White">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan50_White" />
           <LabelText>Fritz!Box Manager</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
@@ -197,9 +186,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan70">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan70" />
           <LabelText>#time</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -217,9 +204,7 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan60">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan60" />
           <LabelText>#date</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -237,9 +222,7 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan60">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan60" />
           <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -303,18 +286,9 @@
           <ListControlStyle StyleId="empty" />
           <ListType>MediaPortalButtonGroup</ListType>
           <ListLayout>Auto</ListLayout>
-          <VerticalItemStyle StyleId="ActionMenu ListControl">
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
-          </VerticalItemStyle>
-          <HorizontalItemStyle>
-            <SelectedZoomX>0</SelectedZoomX>
-            <SelectedZoomY>0</SelectedZoomY>
-          </HorizontalItemStyle>
-          <CoverFlowItemStyle>
-            <SelectedZoomX>0</SelectedZoomX>
-            <SelectedZoomY>0</SelectedZoomY>
-          </CoverFlowItemStyle>
+          <VerticalItemStyle StyleId="ActionMenu ListControl" />
+          <HorizontalItemStyle />
+          <CoverFlowItemStyle />
         </Control>
       </GroupControls>
     </Control>

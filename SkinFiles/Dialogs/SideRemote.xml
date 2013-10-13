@@ -217,5 +217,62 @@
         </Control>
       </GroupControls>
     </Control>
+    <Control x:type="Button">
+      <Name>Exit Button</Name>
+      <Id>10</Id>
+      <Width>70</Width>
+      <Height>70</Height>
+      <PosX>290</PosX>
+      <PosY>-2</PosY>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <ButtonStyle>
+        <NoFocusBrush />
+        <NoFocusBorderBrush />
+        <FocusBrush />
+        <FocusBorderBrush />
+        <ShadeBrush />
+        <GlossBrush />
+        <EnableLabel>false</EnableLabel>
+        <FontType>Titan</FontType>
+        <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+        <NoFocusFontBrush x:type="ColorBrush" Color="#FF00B7FF" />
+        <EnableImage>true</EnableImage>
+      </ButtonStyle>
+      <Image>\Remote\exit_button_focus.png</Image>
+      <LabelText>NewButton</LabelText>
+      <Actions>
+        <Action Action="OpenDialog" Param="903" />
+      </Actions>
+    </Control>
+    <Control x:type="Button">
+      <Name>Back Button</Name>
+      <Id>11</Id>
+      <Width>100</Width>
+      <Height>100</Height>
+      <PosX>-28</PosX>
+      <PosY>-21</PosY>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <ButtonStyle>
+        <NoFocusBrush x:type="ImageBrush" Image="\Remote\left_nf.png" Stretch="Uniform" />
+        <NoFocusBorderBrush />
+        <FocusBrush x:type="ImageBrush" Image="\Remote\left_f.png" Stretch="Uniform" />
+        <FocusBorderBrush />
+        <ShadeBrush />
+        <GlossBrush />
+        <EnableLabel>false</EnableLabel>
+        <FontType>Titan</FontType>
+        <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+        <NoFocusFontBrush x:type="ColorBrush" Color="#FF00B7FF" />
+        <EnableImage>true</EnableImage>
+      </ButtonStyle>
+      <LabelText>NewButton</LabelText>
+      <Actions>
+        <Action Action="MediaPortalAction" Param="ACTION_PREVIOUS_MENU" />
+      </Actions>
+    </Control>
   </DialogControls>
 </Dialog>

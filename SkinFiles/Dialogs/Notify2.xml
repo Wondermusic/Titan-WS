@@ -68,9 +68,7 @@
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
-      <LabelStyle StyleId="Titan 40">
-        <FontSize>20</FontSize>
-      </LabelStyle>
+      <LabelStyle StyleId="Titan 40" />
       <LabelText>#Dialog.Label2</LabelText>
       <ScrollDelay>2</ScrollDelay>
       <ScrollSpeed>4</ScrollSpeed>
@@ -86,9 +84,7 @@
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
-      <LabelStyle StyleId="Titan 40">
-        <FontSize>20</FontSize>
-      </LabelStyle>
+      <LabelStyle StyleId="Titan 40" />
       <LabelText>#Dialog.Label3</LabelText>
       <ScrollDelay>2</ScrollDelay>
       <ScrollSpeed>4</ScrollSpeed>
@@ -104,9 +100,7 @@
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
-      <LabelStyle StyleId="Titan 40">
-        <FontSize>20</FontSize>
-      </LabelStyle>
+      <LabelStyle StyleId="Titan 40" />
       <LabelText>#Dialog.Label4</LabelText>
       <ScrollDelay>2</ScrollDelay>
       <ScrollSpeed>4</ScrollSpeed>

@@ -86,9 +86,14 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle StyleId="VideoCover" />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>10,10,10,10</CornerRadius>
+            <BackgroundBrush />
+            <BorderBrush />
+          </ImageStyle>
           <Image>#myfilms.picture</Image>
-          <ImageStretch>None</ImageStretch>
+          <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="List">
@@ -104,18 +109,9 @@
           <ListControlStyle StyleId="empty" />
           <ListType>MediaPortalListControl</ListType>
           <ListLayout>Auto</ListLayout>
-          <VerticalItemStyle StyleId="VideoList">
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
-          </VerticalItemStyle>
-          <HorizontalItemStyle StyleId="VideoList Horizontal">
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
-          </HorizontalItemStyle>
-          <CoverFlowItemStyle StyleId="VideoList CoverFlow">
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
-          </CoverFlowItemStyle>
+          <VerticalItemStyle StyleId="VideoList" />
+          <HorizontalItemStyle StyleId="VideoList Horizontal" />
+          <CoverFlowItemStyle StyleId="VideoList CoverFlow" />
         </Control>
         <Control x:type="Label">
           <Name>Title</Name>
@@ -127,9 +123,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan 40">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan 40" />
           <LabelText>#myfilms.user.mastertitle.value</LabelText>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>4</ScrollSpeed>
@@ -145,18 +139,16 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan 40">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan 40" />
           <LabelText>Movies: +#itemcount+ / View: +#myfilms.view</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>15</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
         <Control x:type="Label">
           <Name>Star Rating Label</Name>
           <Id>108</Id>
-          <Width>300</Width>
+          <Width>73</Width>
           <Height>45</Height>
           <PosX>330</PosX>
           <PosY>160</PosY>
@@ -164,9 +156,7 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan30_White">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan30_White" />
           <LabelText>#myfilms.db.rating.value</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
@@ -183,9 +173,7 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan30_White">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan30_White" />
           <LabelText>#myfilms.db.description.value</LabelText>
           <IsVertical>true</IsVertical>
           <ScrollDelay>2</ScrollDelay>
@@ -195,97 +183,33 @@
         <Control x:type="Image">
           <Name>Video Codec</Name>
           <Id>110</Id>
-          <Width>66</Width>
+          <Width>223</Width>
           <Height>45</Height>
-          <PosX>70</PosX>
+          <PosX>67</PosX>
           <PosY>530</PosY>
           <VisibleCondition>IsControlVisible(103)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#myfilms.db.videoformat.value+.png</Image>
-          <ImageStretch>None</ImageStretch>
+          <Image>#myfilms.logos_id2012</Image>
+          <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="Image">
-          <Name>Video Resolution</Name>
-          <Id>111</Id>
-          <Width>66</Width>
-          <Height>45</Height>
-          <PosX>140</PosX>
-          <PosY>530</PosY>
+          <Name>Rating</Name>
+          <Id>200</Id>
+          <Width>70</Width>
+          <Height>70</Height>
+          <PosX>67</PosX>
+          <PosY>580</PosY>
           <VisibleCondition>IsControlVisible(103)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#Play.Current.VideoResolution+.png</Image>
-          <ImageStretch>None</ImageStretch>
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
-        <Control x:type="Image">
-          <Name>Video Aspect Ratio</Name>
-          <Id>112</Id>
-          <Width>66</Width>
-          <Height>45</Height>
-          <PosX>70</PosX>
-          <PosY>575</PosY>
-          <VisibleCondition>IsControlVisible(103)</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#myfilms.db.calc.aspectratio.value+.png</Image>
-          <ImageStretch>None</ImageStretch>
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
-        <Control x:type="Image">
-          <Name>Audio Codec</Name>
-          <Id>113</Id>
-          <Width>66</Width>
-          <Height>45</Height>
-          <PosX>140</PosX>
-          <PosY>575</PosY>
-          <VisibleCondition>IsControlVisible(103)</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#myfilms.db.audioformat.value+.png</Image>
-          <ImageStretch>None</ImageStretch>
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
-        <Control x:type="Image">
-          <Name>Audio Channels</Name>
-          <Id>114</Id>
-          <Width>66</Width>
-          <Height>45</Height>
-          <PosX>70</PosX>
-          <PosY>610</PosY>
-          <VisibleCondition>IsControlVisible(103)</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#Play.Current.AudioChannels+.png</Image>
-          <ImageStretch>None</ImageStretch>
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
-        <Control x:type="Image">
-          <Name>Subtitles</Name>
-          <Id>115</Id>
-          <Width>66</Width>
-          <Height>45</Height>
-          <PosX>140</PosX>
-          <PosY>610</PosY>
-          <VisibleCondition>IsControlVisible(103)</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle StyleId="Logo_Image" />
-          <Image>\Logos\+#MPD2.Video.Subs+.png</Image>
-          <ImageStretch>None</ImageStretch>
+          <Image>\Logos\Certification\+#myfilms.db.certification.value+.png</Image>
+          <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
       </GroupControls>
@@ -321,7 +245,7 @@
           <Width>1280</Width>
           <Height>600</Height>
           <PosY>100</PosY>
-          <VisibleCondition />
+          <VisibleCondition>!IsMediaPortalControlFocused(10099)</VisibleCondition>
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
@@ -336,13 +260,13 @@
           <Height>45</Height>
           <PosX>50</PosX>
           <PosY>150</PosY>
-          <VisibleCondition />
+          <VisibleCondition>IsControlVisible(118)</VisibleCondition>
           <Animations />
           <MediaPortalFocusControls>
             <MediaPortalControlId>10000</MediaPortalControlId>
           </MediaPortalFocusControls>
           <ButtonStyle StyleId="Standard Button" />
-          <LabelText>@Overview+:</LabelText>
+          <LabelText>@Overview</LabelText>
           <Actions />
         </Control>
         <Control x:type="Button">
@@ -352,13 +276,13 @@
           <Height>45</Height>
           <PosX>50</PosX>
           <PosY>200</PosY>
-          <VisibleCondition />
+          <VisibleCondition>IsControlVisible(118)</VisibleCondition>
           <Animations />
           <MediaPortalFocusControls>
             <MediaPortalControlId>10001</MediaPortalControlId>
           </MediaPortalFocusControls>
           <ButtonStyle StyleId="Standard Button" />
-          <LabelText>@Description+:</LabelText>
+          <LabelText>@Description</LabelText>
           <Actions />
         </Control>
         <Control x:type="Button">
@@ -368,13 +292,13 @@
           <Height>45</Height>
           <PosX>50</PosX>
           <PosY>250</PosY>
-          <VisibleCondition />
+          <VisibleCondition>IsControlVisible(118)</VisibleCondition>
           <Animations />
           <MediaPortalFocusControls>
             <MediaPortalControlId>10002</MediaPortalControlId>
           </MediaPortalFocusControls>
           <ButtonStyle StyleId="Standard Button" />
-          <LabelText>@Comments+:</LabelText>
+          <LabelText>@Comments</LabelText>
           <Actions />
         </Control>
         <Control x:type="Button">
@@ -384,13 +308,13 @@
           <Height>45</Height>
           <PosX>50</PosX>
           <PosY>300</PosY>
-          <VisibleCondition />
+          <VisibleCondition>IsControlVisible(118)</VisibleCondition>
           <Animations />
           <MediaPortalFocusControls>
             <MediaPortalControlId>10003</MediaPortalControlId>
           </MediaPortalFocusControls>
           <ButtonStyle StyleId="Standard Button" />
-          <LabelText>@Actors+:</LabelText>
+          <LabelText>@Actors</LabelText>
           <Actions />
         </Control>
         <Control x:type="Button">
@@ -400,13 +324,13 @@
           <Height>45</Height>
           <PosX>50</PosX>
           <PosY>350</PosY>
-          <VisibleCondition />
+          <VisibleCondition>IsControlVisible(118)</VisibleCondition>
           <Animations />
           <MediaPortalFocusControls>
             <MediaPortalControlId>20004</MediaPortalControlId>
           </MediaPortalFocusControls>
           <ButtonStyle StyleId="Standard Button" />
-          <LabelText>@Technical Details+:</LabelText>
+          <LabelText>@Technical Details</LabelText>
           <Actions />
         </Control>
         <Control x:type="Button">
@@ -416,13 +340,13 @@
           <Height>45</Height>
           <PosX>50</PosX>
           <PosY>400</PosY>
-          <VisibleCondition />
+          <VisibleCondition>IsControlVisible(118)</VisibleCondition>
           <Animations />
           <MediaPortalFocusControls>
             <MediaPortalControlId>107</MediaPortalControlId>
           </MediaPortalFocusControls>
           <ButtonStyle StyleId="Standard Button" />
-          <LabelText>@Options+:</LabelText>
+          <LabelText>@Options</LabelText>
           <Actions />
         </Control>
         <Control x:type="Group">
@@ -430,7 +354,7 @@
           <Id>125</Id>
           <Width>1280</Width>
           <Height>720</Height>
-          <VisibleCondition />
+          <VisibleCondition>IsControlVisible(118)</VisibleCondition>
           <Animations />
           <MediaPortalFocusControls />
           <GroupStyle StyleId="Empty" />
@@ -445,9 +369,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan60">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan60" />
               <LabelText>#myfilms.user.mastertitle.value</LabelText>
               <ScrollDelay>2</ScrollDelay>
               <ScrollSpeed>4</ScrollSpeed>
@@ -463,9 +385,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan40 White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan40 White" />
               <LabelText>(+#myfilms.db.rating.value+/10)</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -481,9 +401,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan40 White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan40 White" />
               <LabelText>#myfilms.db.year.value+ - +#myfilms.db.length.value+ min</LabelText>
               <ScrollDelay>2</ScrollDelay>
               <ScrollSpeed>4</ScrollSpeed>
@@ -492,16 +410,16 @@
             <Control x:type="Image">
               <Name>Logos</Name>
               <Id>129</Id>
-              <Width>400</Width>
-              <Height>29</Height>
+              <Width>235</Width>
+              <Height>55</Height>
               <PosX>50</PosX>
-              <PosY>627</PosY>
+              <PosY>573</PosY>
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
               <ImageStyle StyleId="Logo_Image" />
               <Image>#myfilms.logos_id2012</Image>
-              <ImageStretch>None</ImageStretch>
+              <ImageStretch>Uniform</ImageStretch>
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
             </Control>
             <Control x:type="Label">
@@ -514,9 +432,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan 40">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan 40" />
               <LabelText>#myfilms.user.mastertitle.value</LabelText>
               <ScrollDelay>2</ScrollDelay>
               <ScrollSpeed>4</ScrollSpeed>
@@ -529,7 +445,7 @@
           <Id>131</Id>
           <Width>1280</Width>
           <Height>720</Height>
-          <VisibleCondition>IsMediaPortalControlFocused(10000)</VisibleCondition>
+          <VisibleCondition>IsControlVisible(118) ++ (IsMediaPortalControlFocused(10000) || IsMediaPortalControlFocused(107))</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
@@ -545,9 +461,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Director+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -563,9 +477,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#myfilms.db.director.value</LabelText>
               <ScrollDelay>2</ScrollDelay>
               <ScrollSpeed>4</ScrollSpeed>
@@ -581,9 +493,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Country+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -599,9 +509,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#myfilms.user.item1.value</LabelText>
               <ScrollDelay>2</ScrollDelay>
               <ScrollSpeed>4</ScrollSpeed>
@@ -617,9 +525,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Producer+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -635,9 +541,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#myfilms.user.item2.value</LabelText>
               <ScrollDelay>2</ScrollDelay>
               <ScrollSpeed>4</ScrollSpeed>
@@ -653,9 +557,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Genre+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -671,9 +573,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#myfilms.user.item3.value</LabelText>
               <ScrollDelay>2</ScrollDelay>
               <ScrollSpeed>4</ScrollSpeed>
@@ -689,9 +589,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Language+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -707,9 +605,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#myfilms.user.item4.value</LabelText>
               <ScrollDelay>2</ScrollDelay>
               <ScrollSpeed>4</ScrollSpeed>
@@ -725,9 +621,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Date+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -743,9 +637,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#myfilms.user.item5.value</LabelText>
               <ScrollDelay>2</ScrollDelay>
               <ScrollSpeed>4</ScrollSpeed>
@@ -761,9 +653,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Actors+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -779,9 +669,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#myfilms.db.actors.value</LabelText>
               <ScrollDelay>2</ScrollDelay>
               <ScrollSpeed>4</ScrollSpeed>
@@ -797,9 +685,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#myfilms.db.description.value</LabelText>
               <IsVertical>true</IsVertical>
               <ScrollDelay>2</ScrollDelay>
@@ -812,7 +698,7 @@
           <Id>147</Id>
           <Width>1280</Width>
           <Height>720</Height>
-          <VisibleCondition>IsMediaPortalControlFocused(10001)</VisibleCondition>
+          <VisibleCondition>IsControlVisible(118) ++ IsMediaPortalControlFocused(10001)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
@@ -828,9 +714,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Description+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -846,9 +730,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#myfilms.db.description.value</LabelText>
               <IsVertical>true</IsVertical>
               <ScrollDelay>2</ScrollDelay>
@@ -862,7 +744,7 @@
           <Id>150</Id>
           <Width>1280</Width>
           <Height>720</Height>
-          <VisibleCondition>IsMediaPortalControlFocused(10002)</VisibleCondition>
+          <VisibleCondition>IsControlVisible(118) ++ IsMediaPortalControlFocused(10002)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
@@ -878,9 +760,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Comments+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -896,9 +776,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#myfilms.db.comments.value</LabelText>
               <IsVertical>true</IsVertical>
               <ScrollDelay>2</ScrollDelay>
@@ -912,7 +790,7 @@
           <Id>153</Id>
           <Width>1280</Width>
           <Height>720</Height>
-          <VisibleCondition>IsMediaPortalControlFocused(10003)</VisibleCondition>
+          <VisibleCondition>IsControlVisible(118) ++ IsMediaPortalControlFocused(10003)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
@@ -928,9 +806,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Actors+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -946,9 +822,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#myfilms.db.actors.value</LabelText>
               <IsVertical>true</IsVertical>
               <ScrollDelay>2</ScrollDelay>
@@ -962,7 +836,7 @@
           <Id>156</Id>
           <Width>1280</Width>
           <Height>720</Height>
-          <VisibleCondition>IsMediaPortalControlFocused(20004)</VisibleCondition>
+          <VisibleCondition>IsControlVisible(118) ++ IsMediaPortalControlFocused(20004)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
@@ -978,9 +852,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Video Format+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -996,9 +868,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#myfilms.db.videoformat.value</LabelText>
               <ScrollDelay>2</ScrollDelay>
               <ScrollSpeed>4</ScrollSpeed>
@@ -1014,9 +884,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Video Bitrate+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -1032,9 +900,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#myfilms.db.videobitrate.value+ kbit/sec.</LabelText>
               <ScrollDelay>2</ScrollDelay>
               <ScrollSpeed>4</ScrollSpeed>
@@ -1050,9 +916,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Resolution+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -1068,9 +932,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#myfilms.db.resolution.value</LabelText>
               <ScrollDelay>2</ScrollDelay>
               <ScrollSpeed>4</ScrollSpeed>
@@ -1086,9 +948,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Audio Format+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -1104,9 +964,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#myfilms.db.audioformat.value</LabelText>
               <ScrollDelay>2</ScrollDelay>
               <ScrollSpeed>4</ScrollSpeed>
@@ -1122,9 +980,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Audio Bitrate+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -1140,9 +996,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#myfilms.db.audiobitrate.value+ kbit/sec.</LabelText>
               <ScrollDelay>2</ScrollDelay>
               <ScrollSpeed>4</ScrollSpeed>
@@ -1158,9 +1012,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Filesize+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -1176,9 +1028,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#myfilms.db.size.value+ MB</LabelText>
               <ScrollDelay>2</ScrollDelay>
               <ScrollSpeed>4</ScrollSpeed>
@@ -1194,9 +1044,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_Blue">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_Blue" />
               <LabelText>@Info URL+:</LabelText>
               <IsScrollingEnabled>false</IsScrollingEnabled>
               <ScrollSpeed>2</ScrollSpeed>
@@ -1212,9 +1060,7 @@
               <VisibleCondition />
               <Animations />
               <MediaPortalFocusControls />
-              <LabelStyle StyleId="Titan30_White">
-                <FontSize>20</FontSize>
-              </LabelStyle>
+              <LabelStyle StyleId="Titan30_White" />
               <LabelText>#myfilms.db.url.value</LabelText>
               <ScrollDelay>2</ScrollDelay>
               <ScrollSpeed>4</ScrollSpeed>
@@ -1263,9 +1109,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan50_White">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan50_White" />
           <LabelText>#currentmodule</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
@@ -1281,9 +1125,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan70">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan70" />
           <LabelText>#time</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -1301,9 +1143,7 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan60">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan60" />
           <LabelText>#date</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -1321,9 +1161,7 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan60">
-            <FontSize>20</FontSize>
-          </LabelStyle>
+          <LabelStyle StyleId="Titan60" />
           <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
@@ -1384,10 +1222,7 @@
           <ListControlStyle StyleId="empty" />
           <ListType>MediaPortalButtonGroup</ListType>
           <ListLayout>Auto</ListLayout>
-          <VerticalItemStyle StyleId="ActionMenu ListControl">
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
-          </VerticalItemStyle>
+          <VerticalItemStyle StyleId="ActionMenu ListControl" />
           <HorizontalItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
             <CornerRadius>4,4,4,4</CornerRadius>
@@ -1406,8 +1241,6 @@
             <Width>135</Width>
             <Height>207</Height>
             <ItemMargin>1,1,1,1</ItemMargin>
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
           </HorizontalItemStyle>
           <CoverFlowItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
@@ -1426,8 +1259,6 @@
             <ImageVerticalAlignment>Top</ImageVerticalAlignment>
             <Width>135</Width>
             <Height>207</Height>
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
           </CoverFlowItemStyle>
         </Control>
       </GroupControls>
@@ -1458,10 +1289,7 @@
           <ListControlStyle StyleId="empty" />
           <ListType>MediaPortalButtonGroup</ListType>
           <ListLayout>Auto</ListLayout>
-          <VerticalItemStyle StyleId="ActionMenu ListControl">
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
-          </VerticalItemStyle>
+          <VerticalItemStyle StyleId="ActionMenu ListControl" />
           <HorizontalItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
             <CornerRadius>4,4,4,4</CornerRadius>
@@ -1480,8 +1308,6 @@
             <Width>135</Width>
             <Height>207</Height>
             <ItemMargin>1,1,1,1</ItemMargin>
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
           </HorizontalItemStyle>
           <CoverFlowItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
@@ -1500,8 +1326,6 @@
             <ImageVerticalAlignment>Top</ImageVerticalAlignment>
             <Width>135</Width>
             <Height>207</Height>
-            <SelectedZoomX>1</SelectedZoomX>
-            <SelectedZoomY>1</SelectedZoomY>
           </CoverFlowItemStyle>
         </Control>
       </GroupControls>
