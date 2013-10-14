@@ -262,6 +262,7 @@
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
           <Image>#MovingPictures.Coverart</Image>
+          <DefaultImage>\defaultVideoBig.png</DefaultImage>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -551,6 +552,7 @@
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
           <Image>#MovingPictures.Coverart</Image>
+          <DefaultImage>\defaultVideoBig.png</DefaultImage>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -989,6 +991,7 @@
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
           <Image>#MovingPictures.Coverart</Image>
+          <DefaultImage>\defaultVideoBig.png</DefaultImage>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -1125,6 +1128,7 @@
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
           <Image>#MovingPictures.Coverart</Image>
+          <DefaultImage>\defaultVideoBig.png</DefaultImage>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>

@@ -40,282 +40,6 @@
       </GroupControls>
     </Control>
     <Control x:type="Group">
-      <Name>SystemInfo</Name>
-      <Id>122</Id>
-      <Width>1280</Width>
-      <Height>580</Height>
-      <VisibleCondition />
-      <Animations />
-      <MediaPortalFocusControls />
-      <GroupStyle>
-        <BorderThickness>0,0,0,0</BorderThickness>
-        <CornerRadius>0,0,0,0</CornerRadius>
-        <BackgroundBrush x:type="ColorBrush" Color="#FF272727" />
-        <BorderBrush />
-        <GlossBrush />
-      </GroupStyle>
-      <GroupControls>
-        <Control x:type="Label">
-          <Name>Time</Name>
-          <Id>123</Id>
-          <Width>1280</Width>
-          <Height>70</Height>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan60" />
-          <LabelText>23:45</LabelText>
-          <LabelTextAlignment>Right</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-        </Control>
-        <Control x:type="Label">
-          <Name>Date</Name>
-          <Id>124</Id>
-          <Width>1280</Width>
-          <Height>70</Height>
-          <PosY>65</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan60" />
-          <LabelText>16. September 2013</LabelText>
-          <LabelTextAlignment>Right</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-        </Control>
-        <Control x:type="Label">
-          <Name>CPU Label</Name>
-          <Id>125</Id>
-          <Width>300</Width>
-          <Height>60</Height>
-          <PosX>10</PosX>
-          <PosY>150</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan50_White" />
-          <LabelText>CPU Load:</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-        </Control>
-        <Control x:type="ProgressBar">
-          <Name>CPU Bar</Name>
-          <Id>130</Id>
-          <Width>400</Width>
-          <Height>60</Height>
-          <PosX>310</PosX>
-          <PosY>150</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <ProgressBarStyle StyleId="SysInfo Bar" />
-          <ProgressValue>#MPD.SystemInfo.Number.CPU</ProgressValue>
-        </Control>
-        <Control x:type="Label">
-          <Name>CPU Load</Name>
-          <Id>137</Id>
-          <Width>400</Width>
-          <Height>50</Height>
-          <PosX>310</PosX>
-          <PosY>156</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan40 White" />
-          <LabelText>#MPD.SystemInfo.Label.CPU</LabelText>
-          <LabelTextAlignment>Center</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-        </Control>
-        <Control x:type="Label">
-          <Name>RAM Label</Name>
-          <Id>126</Id>
-          <Width>300</Width>
-          <Height>70</Height>
-          <PosX>10</PosX>
-          <PosY>215</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan50_White" />
-          <LabelText>RAM:</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-        </Control>
-        <Control x:type="ProgressBar">
-          <Name>RAM Bar</Name>
-          <Id>131</Id>
-          <Width>400</Width>
-          <Height>60</Height>
-          <PosX>310</PosX>
-          <PosY>215</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <ProgressBarStyle StyleId="SysInfo Bar" />
-          <ProgressValue>#MPD.SystemInfo.Number.VirtualPercent</ProgressValue>
-        </Control>
-        <Control x:type="Label">
-          <Name>RAM Load</Name>
-          <Id>138</Id>
-          <Width>400</Width>
-          <Height>50</Height>
-          <PosX>310</PosX>
-          <PosY>220</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan40 White" />
-          <LabelText>#MPD.SystemInfo.Label.VirtualPercent</LabelText>
-          <LabelTextAlignment>Center</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-        </Control>
-        <Control x:type="Label">
-          <Name>Disk1 Label</Name>
-          <Id>127</Id>
-          <Width>300</Width>
-          <Height>60</Height>
-          <PosX>10</PosX>
-          <PosY>275</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan50_White" />
-          <LabelText>Disk 1:</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-        </Control>
-        <Control x:type="Label">
-          <Name>Disk1</Name>
-          <Id>129</Id>
-          <Width>970</Width>
-          <Height>60</Height>
-          <PosX>310</PosX>
-          <PosY>275</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan50_White" />
-          <LabelText>#MPD.SystemInfo.Label.Drive0.Name+ - +#MPD.SystemInfo.Label.Drive0.TotalSpace</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-        </Control>
-        <Control x:type="ProgressBar">
-          <Name>Disk1 Bar</Name>
-          <Id>132</Id>
-          <Width>400</Width>
-          <Height>40</Height>
-          <PosX>310</PosX>
-          <PosY>340</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <ProgressBarStyle StyleId="SysInfo Bar" />
-          <ProgressValue>#MPD.SystemInfo.Number.Drive0.PercentFree</ProgressValue>
-        </Control>
-        <Control x:type="Label">
-          <Name>Disk2 Label</Name>
-          <Id>133</Id>
-          <Width>300</Width>
-          <Height>60</Height>
-          <PosX>10</PosX>
-          <PosY>385</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan50_White" />
-          <LabelText>Disk 2:</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-        </Control>
-        <Control x:type="Label">
-          <Name>Disk2</Name>
-          <Id>134</Id>
-          <Width>970</Width>
-          <Height>60</Height>
-          <PosX>310</PosX>
-          <PosY>385</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan50_White" />
-          <LabelText>#MPD.SystemInfo.Label.Drive1.Name+ - +#MPD.SystemInfo.Label.Drive1.TotalSpace</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-        </Control>
-        <Control x:type="ProgressBar">
-          <Name>Disk2 Bar</Name>
-          <Id>135</Id>
-          <Width>400</Width>
-          <Height>40</Height>
-          <PosX>310</PosX>
-          <PosY>450</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <ProgressBarStyle StyleId="SysInfo Bar" />
-          <ProgressValue>#MPD.SystemInfo.Number.Drive1.PercentFree</ProgressValue>
-        </Control>
-        <Control x:type="Label">
-          <Name>OS Label</Name>
-          <Id>128</Id>
-          <Width>300</Width>
-          <Height>70</Height>
-          <PosX>10</PosX>
-          <PosY>505</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan50_White" />
-          <LabelText>OS:</LabelText>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-        </Control>
-        <Control x:type="Label">
-          <Name>OS</Name>
-          <Id>136</Id>
-          <Width>970</Width>
-          <Height>60</Height>
-          <PosX>310</PosX>
-          <PosY>505</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan50_White" />
-          <LabelText>#MPD.SystemInfo.Label.OSFullName+, +#MPD.SystemInfo.Label.OSPlatform+, Version: +#MPD.SystemInfo.Label.OSVersion</LabelText>
-          <ScrollDelay>2</ScrollDelay>
-          <ScrollSpeed>20</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-          <ScrollSeperator>   | </ScrollSeperator>
-        </Control>
-        <Control x:type="Image">
-          <Name>Image</Name>
-          <Id>139</Id>
-          <Width>620</Width>
-          <Height>138</Height>
-          <PosX>10</PosX>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle StyleId="Logo_Image" />
-          <Image>\Settings\MP-Banner.png</Image>
-          <ImageStretch>Uniform</ImageStretch>
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
-      </GroupControls>
-    </Control>
-    <Control x:type="Group">
       <Name>Settings </Name>
       <Id>9</Id>
       <Width>1280</Width>
@@ -774,16 +498,12 @@
       </GroupControls>
     </Control>
     <Control x:type="Group">
-      <Name>Remote</Name>
-      <Id>54</Id>
+      <Name>SystemInfo</Name>
+      <Id>122</Id>
       <Width>1280</Width>
       <Height>580</Height>
       <VisibleCondition />
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
-      <Animations>
-        <Animation x:type="Slide" Condition="VisibleTrue" Duration="500" Delay="500" Easing="EaseOut" StartY="-580" />
-        <Animation x:type="Slide" Condition="VisibleFalse" Duration="500" Easing="EaseIn" EndY="-580" />
-      </Animations>
+      <Animations />
       <MediaPortalFocusControls />
       <GroupStyle>
         <BorderThickness>0,0,0,0</BorderThickness>
@@ -793,801 +513,263 @@
         <GlossBrush />
       </GroupStyle>
       <GroupControls>
+        <Control x:type="Label">
+          <Name>Time</Name>
+          <Id>123</Id>
+          <Width>1280</Width>
+          <Height>70</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan60" />
+          <LabelText>#MP.SystemInfo.Label.Time</LabelText>
+          <LabelTextAlignment>Right</LabelTextAlignment>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Date</Name>
+          <Id>124</Id>
+          <Width>1280</Width>
+          <Height>70</Height>
+          <PosY>65</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan60" />
+          <LabelText>#MP.SystemInfo.Label.Date2</LabelText>
+          <LabelTextAlignment>Right</LabelTextAlignment>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>CPU Label</Name>
+          <Id>125</Id>
+          <Width>300</Width>
+          <Height>60</Height>
+          <PosX>10</PosX>
+          <PosY>150</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan50_White" />
+          <LabelText>CPU Load:</LabelText>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="ProgressBar">
+          <Name>CPU Bar</Name>
+          <Id>130</Id>
+          <Width>400</Width>
+          <Height>60</Height>
+          <PosX>310</PosX>
+          <PosY>150</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ProgressBarStyle StyleId="SysInfo Bar" />
+          <ProgressValue>#MP.SystemInfo.Number.CPU</ProgressValue>
+        </Control>
+        <Control x:type="Label">
+          <Name>CPU Load</Name>
+          <Id>137</Id>
+          <Width>400</Width>
+          <Height>50</Height>
+          <PosX>310</PosX>
+          <PosY>156</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan40 White" />
+          <LabelText>#MP.SystemInfo.Label.CPU</LabelText>
+          <LabelTextAlignment>Center</LabelTextAlignment>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>RAM Label</Name>
+          <Id>126</Id>
+          <Width>300</Width>
+          <Height>70</Height>
+          <PosX>10</PosX>
+          <PosY>215</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan50_White" />
+          <LabelText>RAM:</LabelText>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="ProgressBar">
+          <Name>RAM Bar</Name>
+          <Id>131</Id>
+          <Width>400</Width>
+          <Height>60</Height>
+          <PosX>310</PosX>
+          <PosY>215</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ProgressBarStyle StyleId="SysInfo Bar" />
+          <ProgressValue>#MP.SystemInfo.Number.PhysicalPercent</ProgressValue>
+        </Control>
+        <Control x:type="Label">
+          <Name>RAM Load</Name>
+          <Id>138</Id>
+          <Width>400</Width>
+          <Height>50</Height>
+          <PosX>310</PosX>
+          <PosY>220</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan40 White" />
+          <LabelText>#MP.SystemInfo.Label.PhysicalPercent</LabelText>
+          <LabelTextAlignment>Center</LabelTextAlignment>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Disk1 Label</Name>
+          <Id>127</Id>
+          <Width>300</Width>
+          <Height>60</Height>
+          <PosX>10</PosX>
+          <PosY>275</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan50_White" />
+          <LabelText>Disk 1:</LabelText>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Disk1</Name>
+          <Id>129</Id>
+          <Width>970</Width>
+          <Height>60</Height>
+          <PosX>310</PosX>
+          <PosY>275</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan50_White" />
+          <LabelText>#MP.SystemInfo.Label.Drive0.Name+ - +#MP.SystemInfo.Label.Drive0.TotalSpace</LabelText>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="ProgressBar">
+          <Name>Disk1 Bar</Name>
+          <Id>132</Id>
+          <Width>400</Width>
+          <Height>40</Height>
+          <PosX>310</PosX>
+          <PosY>340</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ProgressBarStyle StyleId="SysInfo Bar" />
+          <ProgressValue>#MP.SystemInfo.Number.Drive0.PercentFree</ProgressValue>
+        </Control>
+        <Control x:type="Label">
+          <Name>Disk2 Label</Name>
+          <Id>133</Id>
+          <Width>300</Width>
+          <Height>60</Height>
+          <PosX>10</PosX>
+          <PosY>385</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan50_White" />
+          <LabelText>Disk 2:</LabelText>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Disk2</Name>
+          <Id>134</Id>
+          <Width>970</Width>
+          <Height>60</Height>
+          <PosX>310</PosX>
+          <PosY>385</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan50_White" />
+          <LabelText>#MP.SystemInfo.Label.Drive1.Name+ - +#MP.SystemInfo.Label.Drive1.TotalSpace</LabelText>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="ProgressBar">
+          <Name>Disk2 Bar</Name>
+          <Id>135</Id>
+          <Width>400</Width>
+          <Height>40</Height>
+          <PosX>310</PosX>
+          <PosY>450</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ProgressBarStyle StyleId="SysInfo Bar" />
+          <ProgressValue>#MP.SystemInfo.Number.Drive1.PercentFree</ProgressValue>
+        </Control>
+        <Control x:type="Label">
+          <Name>OS Label</Name>
+          <Id>128</Id>
+          <Width>300</Width>
+          <Height>70</Height>
+          <PosX>10</PosX>
+          <PosY>505</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan50_White" />
+          <LabelText>OS:</LabelText>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>OS</Name>
+          <Id>136</Id>
+          <Width>970</Width>
+          <Height>60</Height>
+          <PosX>310</PosX>
+          <PosY>505</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan50_White" />
+          <LabelText>#MP.SystemInfo.Label.OSFullName+, +#MP.SystemInfo.Label.OSPlatform+, Version: +#MP.SystemInfo.Label.OSVersion</LabelText>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>20</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <ScrollSeperator>   | </ScrollSeperator>
+        </Control>
         <Control x:type="Image">
-          <Name>Window Name</Name>
-          <Id>96</Id>
-          <Width>462</Width>
-          <Height>58</Height>
-          <PosX>20</PosX>
-          <PosY>10</PosY>
+          <Name>Image</Name>
+          <Id>139</Id>
+          <Width>620</Width>
+          <Height>138</Height>
+          <PosX>10</PosX>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>\Settings\Remote text.png</Image>
+          <Image>\Settings\MP-Banner.png</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
-        <Control x:type="Image">
-          <Name>Overlay</Name>
-          <Id>55</Id>
-          <Width>1091</Width>
-          <Height>370</Height>
-          <PosX>95</PosX>
-          <PosY>176</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
-          </ImageStyle>
-          <Image>\Settings\Background Overlay.png</Image>
-          <ImageStretch>Uniform</ImageStretch>
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
-        <Control x:type="Group">
-          <Name>KeyPad</Name>
-          <Id>59</Id>
-          <Width>1280</Width>
-          <Height>580</Height>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <GroupStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
-          </GroupStyle>
-          <GroupControls>
-            <Control x:type="Rectangle">
-              <Name>NewRectangle</Name>
-              <Id>113</Id>
-              <Width>372</Width>
-              <Height>335</Height>
-              <PosX>126</PosX>
-              <PosY>181</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <BorderThickness>0,0,0,0</BorderThickness>
-              <CornerRadius>12,12,12,12</CornerRadius>
-              <BackgroundBrush x:type="ColorBrush" Color="Black" />
-            </Control>
-            <Control x:type="Button">
-              <Name>1</Name>
-              <Id>103</Id>
-              <Width>120</Width>
-              <Height>80</Height>
-              <PosX>130</PosX>
-              <PosY>185</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle>
-                <CornerRadius>12,0,0,0</CornerRadius>
-                <NoFocusBrush x:type="ColorBrush" Color="#FF272727" />
-                <NoFocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                <FocusBrush x:type="ColorBrush" Color="#FF272727" />
-                <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                <ShadeBrush x:type="GradientBrush">
-                  <Angle>Vertical</Angle>
-                  <GradientStops>
-                    <GradientStop Color="#1FF0F8FF" Offset="0" />
-                    <GradientStop Color="#00FFFFFF" Offset="0.59" />
-                    <GradientStop Color="#00FFFFFF" Offset="1" />
-                  </GradientStops>
-                </ShadeBrush>
-                <GlossBrush />
-                <FontType>Titan</FontType>
-                <FontSize>40</FontSize>
-                <FocusFontBrush x:type="ColorBrush" Color="#FFAFEEEE" />
-                <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-              </ButtonStyle>
-              <LabelText>1</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="REMOTE_1" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>2</Name>
-              <Id>104</Id>
-              <Width>120</Width>
-              <Height>80</Height>
-              <PosX>252</PosX>
-              <PosY>185</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle StyleId="KeyPad Middle" />
-              <LabelText>2</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="REMOTE_2" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>3</Name>
-              <Id>105</Id>
-              <Width>120</Width>
-              <Height>80</Height>
-              <PosX>374</PosX>
-              <PosY>185</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle StyleId="KeyPad Upper right" />
-              <LabelText>3</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="REMOTE_3" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>4</Name>
-              <Id>68</Id>
-              <Width>120</Width>
-              <Height>80</Height>
-              <PosX>130</PosX>
-              <PosY>267</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle StyleId="KeyPad Middle" />
-              <LabelText>4</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="REMOTE_4" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>5</Name>
-              <Id>69</Id>
-              <Width>120</Width>
-              <Height>80</Height>
-              <PosX>252</PosX>
-              <PosY>267</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle StyleId="KeyPad Middle" />
-              <LabelText>5</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="REMOTE_5" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>6</Name>
-              <Id>70</Id>
-              <Width>120</Width>
-              <Height>80</Height>
-              <PosX>374</PosX>
-              <PosY>267</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle StyleId="KeyPad Middle" />
-              <LabelText>6</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="REMOTE_6" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>7</Name>
-              <Id>71</Id>
-              <Width>120</Width>
-              <Height>80</Height>
-              <PosX>130</PosX>
-              <PosY>349</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle StyleId="KeyPad Middle" />
-              <LabelText>7</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="REMOTE_7" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>8</Name>
-              <Id>72</Id>
-              <Width>120</Width>
-              <Height>80</Height>
-              <PosX>252</PosX>
-              <PosY>349</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle StyleId="KeyPad Middle" />
-              <LabelText>8</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="REMOTE_8" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>9</Name>
-              <Id>73</Id>
-              <Width>120</Width>
-              <Height>80</Height>
-              <PosX>374</PosX>
-              <PosY>349</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle StyleId="KeyPad Middle" />
-              <LabelText>9</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="REMOTE_9" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>0</Name>
-              <Id>74</Id>
-              <Width>120</Width>
-              <Height>80</Height>
-              <PosX>252</PosX>
-              <PosY>431</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle StyleId="KeyPad Middle" />
-              <LabelText>0</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="REMOTE_0" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>Channel UP</Name>
-              <Id>75</Id>
-              <Width>120</Width>
-              <Height>80</Height>
-              <PosX>130</PosX>
-              <PosY>431</PosY>
-              <VisibleCondition>IsPlayer(IsTV)</VisibleCondition>
-              <IsWindowOpenVisible>false</IsWindowOpenVisible>
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle StyleId="KeyPad Lower left" />
-              <LabelText>Ch. Up</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="ACTION_NEXT_CHANNEL" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>Channel UP_No TV</Name>
-              <Id>120</Id>
-              <Width>120</Width>
-              <Height>80</Height>
-              <PosX>130</PosX>
-              <PosY>431</PosY>
-              <VisibleCondition>!IsPlayer(IsTV)</VisibleCondition>
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle StyleId="KeyPad Lower left" />
-              <Actions />
-            </Control>
-            <Control x:type="Button">
-              <Name>Channel DOWN</Name>
-              <Id>76</Id>
-              <Width>120</Width>
-              <Height>80</Height>
-              <PosX>374</PosX>
-              <PosY>431</PosY>
-              <VisibleCondition>IsPlayer(IsTV)</VisibleCondition>
-              <IsWindowOpenVisible>false</IsWindowOpenVisible>
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle StyleId="KeyPad Lower right" />
-              <LabelText>Ch. down</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="ACTION_PREV_CHANNEL" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>Channel DOWN_No TV</Name>
-              <Id>121</Id>
-              <Width>120</Width>
-              <Height>80</Height>
-              <PosX>374</PosX>
-              <PosY>431</PosY>
-              <VisibleCondition>!IsPlayer(IsTV)</VisibleCondition>
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle StyleId="KeyPad Lower right" />
-              <Actions />
-            </Control>
-          </GroupControls>
-        </Control>
-        <Control x:type="Group">
-          <Name>Remotekey BG</Name>
-          <Id>61</Id>
-          <Width>1280</Width>
-          <Height>580</Height>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <GroupStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
-          </GroupStyle>
-          <GroupControls>
-            <Control x:type="Rectangle">
-              <Name>NewRectangle</Name>
-              <Id>112</Id>
-              <Width>496</Width>
-              <Height>170</Height>
-              <PosX>663</PosX>
-              <PosY>345</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <BorderThickness>0,0,0,0</BorderThickness>
-              <CornerRadius>12,12,12,12</CornerRadius>
-              <BackgroundBrush x:type="ColorBrush" Color="#FF131313" />
-            </Control>
-            <Control x:type="Button">
-              <Name>Skip Back</Name>
-              <Id>77</Id>
-              <Width>120</Width>
-              <Height>80</Height>
-              <PosX>668</PosX>
-              <PosY>349</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle>
-                <CornerRadius>12,0,0,0</CornerRadius>
-                <NoFocusBrush x:type="ColorBrush" Color="#FF272727" />
-                <NoFocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                <FocusBrush x:type="ColorBrush" Color="#FF272727" />
-                <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                <ShadeBrush x:type="GradientBrush">
-                  <Angle>Vertical</Angle>
-                  <GradientStops>
-                    <GradientStop Color="#1FF0F8FF" Offset="0" />
-                    <GradientStop Color="#00FFFFFF" Offset="0.59" />
-                    <GradientStop Color="#00FFFFFF" Offset="1" />
-                  </GradientStops>
-                </ShadeBrush>
-                <GlossBrush />
-                <EnableLabel>false</EnableLabel>
-                <FontType>Titan</FontType>
-                <FontSize>40</FontSize>
-                <FocusFontBrush x:type="ColorBrush" Color="#FFAFEEEE" />
-                <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-                <EnableImage>true</EnableImage>
-                <ImageStretch>None</ImageStretch>
-              </ButtonStyle>
-              <Image>\Remote\topbar_skipback.png</Image>
-              <LabelText>NewButton</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="ACTION_PREV_ITEM" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>Play/Pause</Name>
-              <Id>78</Id>
-              <Width>242</Width>
-              <Height>80</Height>
-              <PosX>790</PosX>
-              <PosY>349</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle>
-                <NoFocusBrush x:type="ColorBrush" Color="#FF272727" />
-                <NoFocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                <FocusBrush x:type="ColorBrush" Color="#FF272727" />
-                <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                <ShadeBrush x:type="GradientBrush">
-                  <Angle>Vertical</Angle>
-                  <GradientStops>
-                    <GradientStop Color="#1FF0F8FF" Offset="0" />
-                    <GradientStop Color="#00FFFFFF" Offset="0.59" />
-                    <GradientStop Color="#00FFFFFF" Offset="1" />
-                  </GradientStops>
-                </ShadeBrush>
-                <GlossBrush />
-                <EnableLabel>false</EnableLabel>
-                <FontType>Titan</FontType>
-                <FontSize>40</FontSize>
-                <FocusFontBrush x:type="ColorBrush" Color="#FFAFEEEE" />
-                <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-                <EnableImage>true</EnableImage>
-                <ImageStretch>None</ImageStretch>
-              </ButtonStyle>
-              <Image>\Remote\topbar_play.png</Image>
-              <LabelText>NewButton</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="ACTION_PAUSE" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>Skip Forward</Name>
-              <Id>79</Id>
-              <Width>120</Width>
-              <Height>80</Height>
-              <PosX>1034</PosX>
-              <PosY>349</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle>
-                <CornerRadius>0,12,0,0</CornerRadius>
-                <NoFocusBrush x:type="ColorBrush" Color="#FF272727" />
-                <NoFocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                <FocusBrush x:type="ColorBrush" Color="#FF272727" />
-                <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                <ShadeBrush x:type="GradientBrush">
-                  <Angle>Vertical</Angle>
-                  <GradientStops>
-                    <GradientStop Color="#1FF0F8FF" Offset="0" />
-                    <GradientStop Color="#00FFFFFF" Offset="0.59" />
-                    <GradientStop Color="#00FFFFFF" Offset="1" />
-                  </GradientStops>
-                </ShadeBrush>
-                <GlossBrush />
-                <EnableLabel>false</EnableLabel>
-                <FontType>Titan</FontType>
-                <FontSize>40</FontSize>
-                <FocusFontBrush x:type="ColorBrush" Color="#FFAFEEEE" />
-                <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-                <EnableImage>true</EnableImage>
-                <ImageStretch>None</ImageStretch>
-              </ButtonStyle>
-              <Image>\Remote\topbar_skipforward.png</Image>
-              <LabelText>NewButton</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="ACTION_NEXT_ITEM" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>Fast Rewind</Name>
-              <Id>80</Id>
-              <Width>120</Width>
-              <Height>80</Height>
-              <PosX>668</PosX>
-              <PosY>431</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle>
-                <CornerRadius>0,0,0,12</CornerRadius>
-                <NoFocusBrush x:type="ColorBrush" Color="#FF272727" />
-                <NoFocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                <FocusBrush x:type="ColorBrush" Color="#FF272727" />
-                <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                <ShadeBrush x:type="GradientBrush">
-                  <Angle>Vertical</Angle>
-                  <GradientStops>
-                    <GradientStop Color="#1FF0F8FF" Offset="0" />
-                    <GradientStop Color="Transparent" Offset="0.583" />
-                    <GradientStop Color="Transparent" Offset="1" />
-                  </GradientStops>
-                </ShadeBrush>
-                <EnableLabel>false</EnableLabel>
-                <FontType>Titan</FontType>
-                <FontSize>25</FontSize>
-                <FocusFontBrush x:type="ColorBrush" Color="#FF00FF00" />
-                <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-                <EnableImage>true</EnableImage>
-                <ImageStretch>None</ImageStretch>
-              </ButtonStyle>
-              <Image>\Remote\topbar_rew.png</Image>
-              <LabelText>NewButton</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="ACTION_REWIND" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>Stop</Name>
-              <Id>81</Id>
-              <Width>120</Width>
-              <Height>80</Height>
-              <PosX>790</PosX>
-              <PosY>431</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle>
-                <NoFocusBrush x:type="ColorBrush" Color="#FF272727" />
-                <NoFocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                <FocusBrush x:type="ColorBrush" Color="#FF272727" />
-                <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                <ShadeBrush x:type="GradientBrush">
-                  <Angle>Vertical</Angle>
-                  <GradientStops>
-                    <GradientStop Color="#1FF0F8FF" Offset="0" />
-                    <GradientStop Color="#00FFFFFF" Offset="0.59" />
-                    <GradientStop Color="#00FFFFFF" Offset="1" />
-                  </GradientStops>
-                </ShadeBrush>
-                <GlossBrush />
-                <EnableLabel>false</EnableLabel>
-                <FontType>Titan</FontType>
-                <FontSize>40</FontSize>
-                <FocusFontBrush x:type="ColorBrush" Color="#FFAFEEEE" />
-                <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-                <EnableImage>true</EnableImage>
-                <ImageStretch>None</ImageStretch>
-              </ButtonStyle>
-              <Image>\Remote\topbar_stop.png</Image>
-              <LabelText>NewButton</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="ACTION_STOP" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>Record</Name>
-              <Id>82</Id>
-              <Width>120</Width>
-              <Height>80</Height>
-              <PosX>912</PosX>
-              <PosY>431</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle>
-                <NoFocusBrush x:type="ColorBrush" Color="#FF272727" />
-                <NoFocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                <FocusBrush x:type="ColorBrush" Color="#FF272727" />
-                <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                <ShadeBrush x:type="GradientBrush">
-                  <Angle>Vertical</Angle>
-                  <GradientStops>
-                    <GradientStop Color="#1FF0F8FF" Offset="0" />
-                    <GradientStop Color="#00FFFFFF" Offset="0.59" />
-                    <GradientStop Color="#00FFFFFF" Offset="1" />
-                  </GradientStops>
-                </ShadeBrush>
-                <GlossBrush />
-                <EnableLabel>false</EnableLabel>
-                <FontType>Titan</FontType>
-                <FontSize>40</FontSize>
-                <FocusFontBrush x:type="ColorBrush" Color="#FFAFEEEE" />
-                <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-                <EnableImage>true</EnableImage>
-                <ImageStretch>None</ImageStretch>
-              </ButtonStyle>
-              <Image>\Settings\osd_is_recording2.png</Image>
-              <LabelText>NewButton</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="ACTION_RECORD" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>Fast Forward</Name>
-              <Id>83</Id>
-              <Width>120</Width>
-              <Height>80</Height>
-              <PosX>1034</PosX>
-              <PosY>431</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle>
-                <CornerRadius>0,0,12,0</CornerRadius>
-                <NoFocusBrush x:type="ColorBrush" Color="#FF272727" />
-                <NoFocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                <FocusBrush x:type="ColorBrush" Color="#FF272727" />
-                <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                <ShadeBrush x:type="GradientBrush">
-                  <Angle>Vertical</Angle>
-                  <GradientStops>
-                    <GradientStop Color="#1FF0F8FF" Offset="0" />
-                    <GradientStop Color="Transparent" Offset="0.583" />
-                    <GradientStop Color="Transparent" Offset="1" />
-                  </GradientStops>
-                </ShadeBrush>
-                <EnableLabel>false</EnableLabel>
-                <FontType>Titan</FontType>
-                <FontSize>25</FontSize>
-                <FocusFontBrush x:type="ColorBrush" Color="#FF00FF00" />
-                <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-                <EnableImage>true</EnableImage>
-                <ImageStretch>None</ImageStretch>
-              </ButtonStyle>
-              <Image>\Remote\topbar_FF.png</Image>
-              <LabelText>NewButton</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="ACTION_FORWARD" />
-              </Actions>
-            </Control>
-          </GroupControls>
-        </Control>
-        <Control x:type="Group">
-          <Name>Jog</Name>
-          <Id>63</Id>
-          <Width>1280</Width>
-          <Height>580</Height>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <GroupStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
-          </GroupStyle>
-          <GroupControls>
-            <Control x:type="Group">
-              <Name>NewGroup</Name>
-              <Id>109</Id>
-              <Width>1280</Width>
-              <Height>720</Height>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <GroupStyle>
-                <BorderThickness>0,0,0,0</BorderThickness>
-                <CornerRadius>0,0,0,0</CornerRadius>
-              </GroupStyle>
-              <GroupControls>
-                <Control x:type="Image">
-                  <Name>NewImage</Name>
-                  <Id>110</Id>
-                  <Width>303</Width>
-                  <Height>303</Height>
-                  <PosX>761</PosX>
-                  <PosY>16</PosY>
-                  <VisibleCondition />
-                  <Animations />
-                  <MediaPortalFocusControls />
-                  <ImageStyle>
-                    <BorderThickness>10,10,10,10</BorderThickness>
-                    <CornerRadius>200,200,200,200</CornerRadius>
-                    <BackgroundBrush x:type="GradientBrush">
-                      <Angle>Vertical</Angle>
-                      <GradientStops>
-                        <GradientStop Color="#1FF0F8FF" Offset="0" />
-                        <GradientStop Color="#00FFFFFF" Offset="0.583" />
-                        <GradientStop Color="Transparent" Offset="1" />
-                      </GradientStops>
-                    </BackgroundBrush>
-                    <BorderBrush x:type="ColorBrush" Color="#FF000000" />
-                  </ImageStyle>
-                  <ImageStretch>None</ImageStretch>
-                  <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-                </Control>
-                <Control x:type="Image">
-                  <Name>NewImage</Name>
-                  <Id>111</Id>
-                  <Width>150</Width>
-                  <Height>150</Height>
-                  <PosX>839</PosX>
-                  <PosY>90</PosY>
-                  <VisibleCondition />
-                  <Animations />
-                  <MediaPortalFocusControls />
-                  <ImageStyle>
-                    <BorderThickness>5,5,5,5</BorderThickness>
-                    <CornerRadius>200,200,200,200</CornerRadius>
-                    <BackgroundBrush x:type="GradientBrush">
-                      <Angle>Vertical</Angle>
-                      <GradientStops>
-                        <GradientStop Color="#1FF0F8FF" Offset="0" />
-                        <GradientStop Color="#00FFFFFF" Offset="0.583" />
-                        <GradientStop Color="Transparent" Offset="1" />
-                      </GradientStops>
-                    </BackgroundBrush>
-                    <BorderBrush x:type="ColorBrush" Color="#FF000000" />
-                  </ImageStyle>
-                  <ImageStretch>None</ImageStretch>
-                  <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-                </Control>
-              </GroupControls>
-            </Control>
-            <Control x:type="Button">
-              <Name>Up</Name>
-              <Id>91</Id>
-              <Width>140</Width>
-              <Height>100</Height>
-              <PosX>845</PosX>
-              <PosY>10</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle>
-                <NoFocusBrush x:type="ImageBrush" Image="\Remote\up_nf.png" Stretch="Uniform" />
-                <FocusBrush x:type="ImageBrush" Image="\Remote\up_f.png" Stretch="Uniform" />
-                <EnableLabel>false</EnableLabel>
-                <FontType>Titan</FontType>
-                <FocusFontBrush x:type="ColorBrush" Color="#FF00FF00" />
-                <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-                <EnableImage>true</EnableImage>
-              </ButtonStyle>
-              <LabelText>NewButton</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="ACTION_MOVE_UP" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>Down</Name>
-              <Id>92</Id>
-              <Width>140</Width>
-              <Height>100</Height>
-              <PosX>845</PosX>
-              <PosY>222</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle>
-                <NoFocusBrush x:type="ImageBrush" Image="\Remote\down_nf.png" Stretch="Uniform" />
-                <FocusBrush x:type="ImageBrush" Image="\Remote\down_f.png" Stretch="Uniform" />
-                <EnableLabel>false</EnableLabel>
-                <FontType>Titan</FontType>
-                <FocusFontBrush x:type="ColorBrush" Color="#FF00FF00" />
-                <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-                <EnableImage>true</EnableImage>
-              </ButtonStyle>
-              <LabelText>NewButton</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="ACTION_MOVE_DOWN" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>Left</Name>
-              <Id>93</Id>
-              <Width>140</Width>
-              <Height>100</Height>
-              <PosX>739</PosX>
-              <PosY>116</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle>
-                <NoFocusBrush x:type="ImageBrush" Image="\Remote\left_nf.png" Stretch="Uniform" />
-                <FocusBrush x:type="ImageBrush" Image="\Remote\left_f.png" Stretch="Uniform" />
-                <EnableLabel>false</EnableLabel>
-                <FontType>Titan</FontType>
-                <FocusFontBrush x:type="ColorBrush" Color="#FF00FF00" />
-                <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-                <EnableImage>true</EnableImage>
-              </ButtonStyle>
-              <LabelText>NewButton</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="ACTION_MOVE_LEFT" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>Right</Name>
-              <Id>94</Id>
-              <Width>140</Width>
-              <Height>100</Height>
-              <PosX>947</PosX>
-              <PosY>116</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle>
-                <NoFocusBrush x:type="ImageBrush" Image="\Remote\right_nf.png" Stretch="Uniform" />
-                <FocusBrush x:type="ImageBrush" Image="\Remote\right_f.png" Stretch="Uniform" />
-                <EnableLabel>false</EnableLabel>
-                <FontType>Titan</FontType>
-                <FocusFontBrush x:type="ColorBrush" Color="#FF00FF00" />
-                <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-                <EnableImage>true</EnableImage>
-              </ButtonStyle>
-              <LabelText>NewButton</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="ACTION_MOVE_RIGHT" />
-              </Actions>
-            </Control>
-            <Control x:type="Button">
-              <Name>OK</Name>
-              <Id>95</Id>
-              <Width>120</Width>
-              <Height>120</Height>
-              <PosX>854</PosX>
-              <PosY>106</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle>
-                <FontSize>45</FontSize>
-                <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-                <NoFocusFontBrush x:type="ColorBrush" Color="#FF4682B4" />
-              </ButtonStyle>
-              <LabelText>OK</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="ACTION_SELECT_ITEM" />
-              </Actions>
-            </Control>
-          </GroupControls>
         </Control>
       </GroupControls>
     </Control>
@@ -1624,41 +806,6 @@
       <LabelText>@Settings</LabelText>
       <Actions>
         <Action Action="ControlVisible" Param="9" />
-      </Actions>
-    </Control>
-    <Control x:type="Button">
-      <Name>Remote notActive</Name>
-      <Id>56</Id>
-      <Width>274</Width>
-      <Height>75</Height>
-      <PosX>350</PosX>
-      <PosY>603</PosY>
-      <VisibleCondition>!IsControlVisible(54)</VisibleCondition>
-      <Animations />
-      <MediaPortalFocusControls />
-      <ButtonStyle StyleId="MPDHome Button" />
-      <Image>\Settings\notactive.png</Image>
-      <LabelText>@Remote</LabelText>
-      <Actions>
-        <Action Action="ControlVisible" Param="54" />
-      </Actions>
-    </Control>
-    <Control x:type="Button">
-      <Name>Remote Active</Name>
-      <Id>57</Id>
-      <Width>274</Width>
-      <Height>75</Height>
-      <PosX>350</PosX>
-      <PosY>603</PosY>
-      <VisibleCondition>IsControlVisible(54)</VisibleCondition>
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
-      <Animations />
-      <MediaPortalFocusControls />
-      <ButtonStyle StyleId="MPDHome Button" />
-      <Image>\Settings\active.png</Image>
-      <LabelText>@Remote</LabelText>
-      <Actions>
-        <Action Action="ControlVisible" Param="54" />
       </Actions>
     </Control>
     <Control x:type="Button">

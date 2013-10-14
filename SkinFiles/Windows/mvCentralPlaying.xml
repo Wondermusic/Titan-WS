@@ -116,6 +116,7 @@
             <BorderBrush />
           </ImageStyle>
           <Image>#Play.Current.Video.Thumb</Image>
+          <DefaultImage>\defaultAudioBig.png</DefaultImage>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
@@ -346,8 +347,7 @@
       <Id>24</Id>
       <Width>1280</Width>
       <Height>130</Height>
-      <VisibleCondition>!IsPlayer(None)</VisibleCondition>
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
       <ButtonStyle>

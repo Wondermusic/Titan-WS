@@ -64,8 +64,9 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle StyleId="Music Cover" />
+          <ImageStyle StyleId="Logo_Image" />
           <Image>#Play.Current.Thumb</Image>
+          <DefaultImage>\defaultAudioBig.png</DefaultImage>
           <ImageStretch>Uniform</ImageStretch>
           <ImageCornerRadius>10</ImageCornerRadius>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
@@ -355,8 +356,7 @@
       <Id>15</Id>
       <Width>1280</Width>
       <Height>130</Height>
-      <VisibleCondition>!IsPlayer(None)</VisibleCondition>
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
       <ButtonStyle>

@@ -92,6 +92,7 @@
                 <BorderBrush />
               </ImageStyle>
               <Image>#selectedthumb</Image>
+              <DefaultImage>\defaultVideoBig.png</DefaultImage>
               <ImageStretch>Uniform</ImageStretch>
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
             </Control>
@@ -419,6 +420,7 @@
               <MediaPortalFocusControls />
               <ImageStyle StyleId="Logo_Image" />
               <Image>#TV.RecordedTV.thumb</Image>
+              <DefaultImage>\defaultVideoBig.png</DefaultImage>
               <ImageStretch>Uniform</ImageStretch>
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
             </Control>

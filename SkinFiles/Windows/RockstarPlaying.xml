@@ -249,6 +249,7 @@
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
           <Image>#Play.Current.Thumb</Image>
+          <DefaultImage>\defaultAudioBig.png</DefaultImage>
           <ImageStretch>Uniform</ImageStretch>
           <ImageCornerRadius>20</ImageCornerRadius>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
@@ -354,6 +355,31 @@
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
       </GroupControls>
+    </Control>
+    <Control x:type="Button">
+      <Name>Play_Menu</Name>
+      <Id>24</Id>
+      <Width>1280</Width>
+      <Height>130</Height>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <ButtonStyle>
+        <NoFocusBrush />
+        <NoFocusBorderBrush />
+        <FocusBrush />
+        <FocusBorderBrush />
+        <ShadeBrush />
+        <GlossBrush />
+        <EnableLabel>false</EnableLabel>
+        <FontType>Titan</FontType>
+        <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+        <NoFocusFontBrush x:type="ColorBrush" Color="#FF00B7FF" />
+      </ButtonStyle>
+      <LabelText>NewButton</LabelText>
+      <Actions>
+        <Action Action="OpenDialog" Param="904" />
+      </Actions>
     </Control>
   </WindowControls>
   <VisibleCondition>IsPlayer(Rockstar)</VisibleCondition>

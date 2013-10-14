@@ -321,35 +321,35 @@
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#MPD.SystemInfo.Number.CPU</SkinTag>
+      <SkinTag>#MP.SystemInfo.Number.CPU</SkinTag>
       <PropertyType>Number</PropertyType>
       <DesignerValue>50</DesignerValue>
       <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Number.CPU" />
+        <XmlMediaPortalTag Tag="#MP.SystemInfo.Number.CPU" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#MPD.SystemInfo.Number.VirtualPercent</SkinTag>
+      <SkinTag>#MP.SystemInfo.Number.PhysicalPercent</SkinTag>
       <PropertyType>Number</PropertyType>
       <DesignerValue>35</DesignerValue>
       <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Number.VirtualPercent" />
+        <XmlMediaPortalTag Tag="#MP.SystemInfo.Number.PhysicalPercent" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#MPD.SystemInfo.Number.Drive0.PercentFree</SkinTag>
+      <SkinTag>#MP.SystemInfo.Number.Drive0.PercentFree</SkinTag>
       <PropertyType>Number</PropertyType>
       <DesignerValue>75</DesignerValue>
       <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Number.Drive0.PercentFree" />
+        <XmlMediaPortalTag Tag="#MP.SystemInfo.Number.Drive0.PercentFree" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#MPD.SystemInfo.Number.Drive1.PercentFree</SkinTag>
+      <SkinTag>#MP.SystemInfo.Number.Drive1.PercentFree</SkinTag>
       <PropertyType>Number</PropertyType>
       <DesignerValue>90</DesignerValue>
       <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Number.Drive1.PercentFree" />
+        <XmlMediaPortalTag Tag="#MP.SystemInfo.Number.Drive1.PercentFree" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
@@ -1817,75 +1817,75 @@
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#MPD.SystemInfo.Label.Drive0.Name</SkinTag>
+      <SkinTag>#MP.SystemInfo.Label.Drive0.Name</SkinTag>
       <PropertyType>Label</PropertyType>
       <DesignerValue>C:\</DesignerValue>
       <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Label.Drive0.Name" />
+        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.Drive0.Name" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#MPD.SystemInfo.Label.Drive0.TotalSpace</SkinTag>
+      <SkinTag>#MP.SystemInfo.Label.Drive0.TotalSpace</SkinTag>
       <PropertyType>Label</PropertyType>
       <DesignerValue>120</DesignerValue>
       <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Label.Drive0.TotalSpace" />
+        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.Drive0.TotalSpace" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#MPD.SystemInfo.Label.Drive1.Name</SkinTag>
+      <SkinTag>#MP.SystemInfo.Label.Drive1.Name</SkinTag>
       <PropertyType>Label</PropertyType>
       <DesignerValue>D:\</DesignerValue>
       <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Label.Drive1.Name" />
+        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.Drive1.Name" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#MPD.SystemInfo.Label.Drive1.TotalSpace</SkinTag>
+      <SkinTag>#MP.SystemInfo.Label.Drive1.TotalSpace</SkinTag>
       <PropertyType>Label</PropertyType>
       <DesignerValue>500</DesignerValue>
       <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Label.Drive1.TotalSpace" />
+        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.Drive1.TotalSpace" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#MPD.SystemInfo.Label.OSFullName</SkinTag>
+      <SkinTag>#MP.SystemInfo.Label.OSFullName</SkinTag>
       <PropertyType>Label</PropertyType>
       <DesignerValue>Microsoft Windows 7 Ultimate</DesignerValue>
       <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Label.OSFullName" />
+        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.OSFullName" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#MPD.SystemInfo.Label.OSPlatform</SkinTag>
+      <SkinTag>#MP.SystemInfo.Label.OSPlatform</SkinTag>
       <PropertyType>Label</PropertyType>
       <DesignerValue>Win32NT</DesignerValue>
       <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Label.OSPlatform" />
+        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.OSPlatform" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#MPD.SystemInfo.Label.OSVersion</SkinTag>
+      <SkinTag>#MP.SystemInfo.Label.OSVersion</SkinTag>
       <PropertyType>Label</PropertyType>
       <DesignerValue>6.1.7601.65536</DesignerValue>
       <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Label.OSVersion" />
+        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.OSVersion" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#MPD.SystemInfo.Label.CPU</SkinTag>
+      <SkinTag>#MP.SystemInfo.Label.CPU</SkinTag>
       <PropertyType>Label</PropertyType>
       <DesignerValue>66 %</DesignerValue>
       <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Label.CPU" />
+        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.CPU" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#MPD.SystemInfo.Label.VirtualPercent</SkinTag>
+      <SkinTag>#MP.SystemInfo.Label.PhysicalPercent</SkinTag>
       <PropertyType>Label</PropertyType>
       <DesignerValue>33 %</DesignerValue>
       <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MPD.SystemInfo.Label.VirtualPercent" />
+        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.PhysicalPercent" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
@@ -1966,6 +1966,22 @@
       <DesignerValue>New....</DesignerValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.db.certification.value" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MP.SystemInfo.Label.Date2</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>13.10.2013</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.Date2" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MP.SystemInfo.Label.Time</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>16:54</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.Time" />
       </MediaPortalTags>
     </XmlProperty>
   </Properties>
