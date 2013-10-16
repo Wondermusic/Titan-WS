@@ -1533,7 +1533,7 @@
       <Image>\Remote\shutdown_button_focus.png</Image>
       <LabelText>NewButton</LabelText>
       <Actions>
-        <Action Action="ControlVisible" Param="27" />
+        <Action Action="ControlVisible" Param="36" />
       </Actions>
     </Control>
     <Control x:type="Button">
