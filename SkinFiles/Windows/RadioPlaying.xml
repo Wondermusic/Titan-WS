@@ -57,10 +57,10 @@
         <Control x:type="Image">
           <Name>Radio Thumb</Name>
           <Id>4</Id>
-          <Width>280</Width>
-          <Height>280</Height>
-          <PosX>500</PosX>
-          <PosY>140</PosY>
+          <Width>320</Width>
+          <Height>320</Height>
+          <PosX>480</PosX>
+          <PosY>90</PosY>
           <Center3DX>1</Center3DX>
           <VisibleCondition />
           <Animations />
@@ -81,7 +81,7 @@
           <Id>6</Id>
           <Width>1280</Width>
           <Height>320</Height>
-          <PosY>405</PosY>
+          <PosY>400</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
@@ -96,7 +96,7 @@
           <Width>1205</Width>
           <Height>90</Height>
           <PosX>38</PosX>
-          <PosY>411</PosY>
+          <PosY>417</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
@@ -129,7 +129,7 @@
           <Width>1205</Width>
           <Height>90</Height>
           <PosX>38</PosX>
-          <PosY>589</PosY>
+          <PosY>579</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
@@ -171,7 +171,7 @@
         <Control x:type="Label">
           <Name>Name of Window</Name>
           <Id>19</Id>
-          <Width>563</Width>
+          <Width>800</Width>
           <Height>60</Height>
           <PosX>68</PosX>
           <PosY>9</PosY>
@@ -196,42 +196,6 @@
           <MediaPortalFocusControls />
           <LabelStyle StyleId="Titan70" />
           <LabelText>#time</LabelText>
-          <LabelTextAlignment>Right</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-        </Control>
-        <Control x:type="Label">
-          <Name>Date</Name>
-          <Id>21</Id>
-          <Width>694</Width>
-          <Height>70</Height>
-          <PosX>580</PosX>
-          <PosY>60</PosY>
-          <VisibleCondition>!IsPluginEnabled(World Weather)</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan60" />
-          <LabelText>#date</LabelText>
-          <LabelTextAlignment>Right</LabelTextAlignment>
-          <IsScrollingEnabled>false</IsScrollingEnabled>
-          <ScrollSpeed>2</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-        </Control>
-        <Control x:type="Label">
-          <Name>Date</Name>
-          <Id>22</Id>
-          <Width>694</Width>
-          <Height>70</Height>
-          <PosX>580</PosX>
-          <PosY>60</PosY>
-          <VisibleCondition>IsPluginEnabled(World Weather)</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan60" />
-          <LabelText>#date+ | +#WorldWeather.TodayTemperature</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>

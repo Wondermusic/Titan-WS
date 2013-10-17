@@ -3,14 +3,26 @@
   <IsDefault>false</IsDefault>
   <Width>1280</Width>
   <Height>720</Height>
-  <Name>TVSeriesPlaying</Name>
-  <Id>32</Id>
+  <Name>RecordingsPlaying</Name>
+  <Id>36</Id>
   <BackgroundBrush />
   <WindowAnimations />
   <WindowControls>
+    <Control x:type="Image">
+      <Name>Background Image</Name>
+      <Id>1</Id>
+      <Width>1280</Width>
+      <Height>720</Height>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <ImageStyle StyleId="Background" />
+      <ImageStretch>None</ImageStretch>
+      <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+    </Control>
     <Control x:type="Group">
       <Name>Playing Screen</Name>
-      <Id>1</Id>
+      <Id>2</Id>
       <Width>1280</Width>
       <Height>720</Height>
       <VisibleCondition />
@@ -19,22 +31,22 @@
       <GroupStyle StyleId="Empty" />
       <GroupControls>
         <Control x:type="Image">
-          <Name>Fanart</Name>
-          <Id>2</Id>
+          <Name>Background</Name>
+          <Id>3</Id>
           <Width>1280</Width>
           <Height>720</Height>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>#MPD2.fanart.TVSeries</Image>
+          <Image>\Hovers\hover_my tv.jpg</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverImage StyleId="Background Play" />
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="Image">
           <Name>Overlay</Name>
-          <Id>3</Id>
+          <Id>4</Id>
           <Width>1280</Width>
           <Height>720</Height>
           <VisibleCondition />
@@ -47,7 +59,7 @@
         </Control>
         <Control x:type="Image">
           <Name>OSD</Name>
-          <Id>4</Id>
+          <Id>5</Id>
           <Width>1280</Width>
           <Height>320</Height>
           <PosY>400</PosY>
@@ -60,34 +72,17 @@
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="Label">
-          <Name>Series Title</Name>
-          <Id>5</Id>
+          <Name>Title</Name>
+          <Id>6</Id>
           <Width>1200</Width>
-          <Height>90</Height>
+          <Height>110</Height>
           <PosX>40</PosX>
-          <PosY>420</PosY>
+          <PosY>450</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan80" />
-          <LabelText>#TVSeries.Series.Pretty_Name</LabelText>
-          <LabelTextAlignment>Center</LabelTextAlignment>
-          <ScrollDelay>2</ScrollDelay>
-          <ScrollSpeed>4</ScrollSpeed>
-          <ScrollSeperator>   |   </ScrollSeperator>
-        </Control>
-        <Control x:type="Label">
-          <Name>Episode Title</Name>
-          <Id>23</Id>
-          <Width>1200</Width>
-          <Height>80</Height>
-          <PosX>40</PosX>
-          <PosY>503</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan70" />
-          <LabelText>#TVSeries.Episode.LocalEpisodeName</LabelText>
+          <LabelStyle StyleId="Titan90" />
+          <LabelText>#Play.Current.Title</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>4</ScrollSpeed>
@@ -95,11 +90,11 @@
         </Control>
         <Control x:type="Image">
           <Name>Cover</Name>
-          <Id>6</Id>
-          <Width>500</Width>
-          <Height>300</Height>
-          <PosX>390</PosX>
-          <PosY>107</PosY>
+          <Id>7</Id>
+          <Width>320</Width>
+          <Height>320</Height>
+          <PosX>480</PosX>
+          <PosY>90</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
@@ -109,14 +104,14 @@
             <BackgroundBrush />
             <BorderBrush />
           </ImageStyle>
-          <Image>#TVSeries.EpisodeImage</Image>
+          <Image>#TV.RecordedTV.thumb</Image>
           <DefaultImage>\defaultVideoBig.png</DefaultImage>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="ProgressBar">
           <Name>ProgressBar</Name>
-          <Id>7</Id>
+          <Id>8</Id>
           <Width>550</Width>
           <Height>27</Height>
           <PosX>365</PosX>
@@ -129,7 +124,7 @@
         </Control>
         <Control x:type="Label">
           <Name>Playtime</Name>
-          <Id>8</Id>
+          <Id>9</Id>
           <Width>325</Width>
           <Height>100</Height>
           <PosX>38</PosX>
@@ -145,7 +140,7 @@
         </Control>
         <Control x:type="Label">
           <Name>Duration</Name>
-          <Id>9</Id>
+          <Id>10</Id>
           <Width>325</Width>
           <Height>100</Height>
           <PosX>919</PosX>
@@ -162,7 +157,7 @@
         </Control>
         <Control x:type="Image">
           <Name>Video Codec</Name>
-          <Id>10</Id>
+          <Id>11</Id>
           <Width>89</Width>
           <Height>61</Height>
           <PosX>396</PosX>
@@ -177,7 +172,7 @@
         </Control>
         <Control x:type="Image">
           <Name>Resolution</Name>
-          <Id>11</Id>
+          <Id>12</Id>
           <Width>89</Width>
           <Height>61</Height>
           <PosX>496</PosX>
@@ -192,7 +187,7 @@
         </Control>
         <Control x:type="Image">
           <Name>Aspect Ratio</Name>
-          <Id>12</Id>
+          <Id>13</Id>
           <Width>89</Width>
           <Height>61</Height>
           <PosX>596</PosX>
@@ -207,7 +202,7 @@
         </Control>
         <Control x:type="Image">
           <Name>Audio Codec</Name>
-          <Id>13</Id>
+          <Id>14</Id>
           <Width>89</Width>
           <Height>61</Height>
           <PosX>696</PosX>
@@ -222,7 +217,7 @@
         </Control>
         <Control x:type="Image">
           <Name>Audio Channels</Name>
-          <Id>14</Id>
+          <Id>15</Id>
           <Width>89</Width>
           <Height>61</Height>
           <PosX>796</PosX>
@@ -262,8 +257,8 @@
             <BorderThickness>0,0,0,0</BorderThickness>
             <CornerRadius>0,0,0,0</CornerRadius>
           </ImageStyle>
-          <Image>\icon_series.png</Image>
-          <ImageStretch>None</ImageStretch>
+          <Image>\icon_tv.png</Image>
+          <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="Label">
@@ -277,7 +272,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="Titan50_White" />
-          <LabelText>@Series</LabelText>
+          <LabelText>Recordings</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -303,7 +298,7 @@
     </Control>
     <Control x:type="Button">
       <Name>Play_Menu</Name>
-      <Id>22</Id>
+      <Id>20</Id>
       <Width>1280</Width>
       <Height>130</Height>
       <VisibleCondition />
@@ -327,5 +322,5 @@
       </Actions>
     </Control>
   </WindowControls>
-  <VisibleCondition>IsPlayer(MPTVSeries)</VisibleCondition>
+  <VisibleCondition>IsPlayer(IsTVRecording)</VisibleCondition>
 </Window>
