@@ -1984,5 +1984,45 @@
         <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.Time" />
       </MediaPortalTags>
     </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#itemName</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>TV</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#itemName" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#toplabel2</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Radio</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#toplabel2" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#toplabel1</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Movies</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#toplabel1" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#bottomlabel1</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>OnlineVideos</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#bottomlabel1" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#bottomlabel2</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>TV Series</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#bottomlabel2" />
+      </MediaPortalTags>
+    </XmlProperty>
   </Properties>
 </XmlPropertyInfo>

@@ -609,5 +609,18 @@
       <ItemMargin>1,1,1,1</ItemMargin>
       <HorizontalAlignment>Right</HorizontalAlignment>
     </ControlStyle>
+    <ControlStyle x:type="ButtonStyle" StyleId="Clear">
+      <NoFocusBrush />
+      <FocusBrush />
+      <FocusBorderBrush />
+      <FontType>Titan</FontType>
+      <FontSize>35</FontSize>
+      <FocusFontBrush x:type="ColorBrush" Color="#FF4682B4" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <LabelMargin>0,0,0,5</LabelMargin>
+      <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+      <EnableImage>true</EnableImage>
+      <ImageStretch>None</ImageStretch>
+    </ControlStyle>
   </ControlStyles>
 </StyleCollection>
