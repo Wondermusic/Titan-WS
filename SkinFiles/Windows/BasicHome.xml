@@ -927,16 +927,22 @@
       <GroupControls>
         <Control x:type="Image">
           <Name>Background Image</Name>
-          <Id>63</Id>
+          <Id>163</Id>
           <Width>1280</Width>
           <Height>720</Height>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Background" />
-          <Image>#MPD2.fanartBH</Image>
+          <Image>\BasicHomeImages\Hovers\+#MPD2.fanartBH+.jpg</Image>
           <ImageStretch>Fill</ImageStretch>
-          <CoverImage />
+          <CoverImage x:type="GradientBrush">
+            <Angle>Vertical</Angle>
+            <GradientStops>
+              <GradientStop Color="#8A000000" Offset="0" />
+              <GradientStop Color="#3B000000" Offset="1" />
+            </GradientStops>
+          </CoverImage>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="Group">
@@ -962,6 +968,7 @@
               <ImageStyle StyleId="Logo_Image" />
               <Image>\BasicHomeImages\+#toplabel2+.png</Image>
               <ImageStretch>Fill</ImageStretch>
+              <ImageCornerRadius>18</ImageCornerRadius>
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
             </Control>
             <Control x:type="Button">
@@ -977,7 +984,8 @@
               <ButtonStyle StyleId="Clear" />
               <LabelText>#toplabel2</LabelText>
               <Actions>
-                <Action Action="MediaPortalWindow" Param="501" />
+                <Action Action="MediaPortalAction" Param="ACTION_MOVE_LEFT" />
+                <Action Action="MediaPortalAction" Param="ACTION_MOVE_LEFT" />
               </Actions>
             </Control>
             <Control x:type="Image">
@@ -993,6 +1001,7 @@
               <ImageStyle StyleId="Logo_Image" />
               <Image>\BasicHomeImages\+#toplabel1+.png</Image>
               <ImageStretch>Fill</ImageStretch>
+              <ImageCornerRadius>18</ImageCornerRadius>
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
             </Control>
             <Control x:type="Button">
@@ -1008,7 +1017,7 @@
               <ButtonStyle StyleId="Clear" />
               <LabelText>#toplabel1</LabelText>
               <Actions>
-                <Action Action="MediaPortalWindow" Param="1" />
+                <Action Action="MediaPortalAction" Param="ACTION_MOVE_LEFT" />
               </Actions>
             </Control>
             <Control x:type="Image">
@@ -1024,6 +1033,7 @@
               <ImageStyle StyleId="Logo_Image" />
               <Image>\BasicHomeImages\+#itemName+.png</Image>
               <ImageStretch>Fill</ImageStretch>
+              <ImageCornerRadius>18</ImageCornerRadius>
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
             </Control>
             <Control x:type="Button">
@@ -1034,13 +1044,31 @@
               <PosX>515</PosX>
               <PosY>340</PosY>
               <VisibleCondition />
-              <Animations />
+              <Animations>
+                <Animation x:type="Fade" Condition="PropertyChanging" Duration="100" From="100" To="0" />
+                <Animation x:type="Fade" Condition="PropertyChanged" Duration="100" />
+              </Animations>
               <MediaPortalFocusControls />
-              <ButtonStyle StyleId="Clear" />
+              <ButtonStyle>
+                <BorderThickness>4,4,4,4</BorderThickness>
+                <CornerRadius>12,12,12,12</CornerRadius>
+                <NoFocusBrush />
+                <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00B7FF" />
+                <FocusBrush />
+                <FocusBorderBrush x:type="ColorBrush" Color="#FF00B7FF" />
+                <FontType>Titan</FontType>
+                <FontSize>35</FontSize>
+                <FocusFontBrush x:type="ColorBrush" Color="#FF4682B4" />
+                <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                <LabelMargin>0,0,0,5</LabelMargin>
+                <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                <EnableImage>true</EnableImage>
+                <ImageStretch>None</ImageStretch>
+              </ButtonStyle>
               <Image>#homeitem+.png</Image>
               <LabelText>#itemName</LabelText>
               <Actions>
-                <Action Action="MediaPortalWindow" Param="6" />
+                <Action Action="MediaPortalAction" Param="ACTION_SELECT_ITEM" />
               </Actions>
             </Control>
             <Control x:type="Image">
@@ -1056,6 +1084,7 @@
               <ImageStyle StyleId="Logo_Image" />
               <Image>\BasicHomeImages\+#bottomlabel1+.png</Image>
               <ImageStretch>Fill</ImageStretch>
+              <ImageCornerRadius>18</ImageCornerRadius>
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
             </Control>
             <Control x:type="Button">
@@ -1072,7 +1101,7 @@
               <Image>#bottomitem1+.png</Image>
               <LabelText>#bottomlabel1</LabelText>
               <Actions>
-                <Action Action="MediaPortalWindow" Param="96742" />
+                <Action Action="MediaPortalAction" Param="ACTION_MOVE_RIGHT" />
               </Actions>
             </Control>
             <Control x:type="Image">
@@ -1080,7 +1109,7 @@
               <Id>74</Id>
               <Width>250</Width>
               <Height>150</Height>
-              <PosX>770</PosX>
+              <PosX>1025</PosX>
               <PosY>340</PosY>
               <VisibleCondition />
               <Animations />
@@ -1088,6 +1117,7 @@
               <ImageStyle StyleId="Logo_Image" />
               <Image>\BasicHomeImages\+#bottomlabel2+.png</Image>
               <ImageStretch>Fill</ImageStretch>
+              <ImageCornerRadius>18</ImageCornerRadius>
               <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
             </Control>
             <Control x:type="Button">
@@ -1104,7 +1134,8 @@
               <Image>#bottomitem2+.png</Image>
               <LabelText>#bottomlabel2</LabelText>
               <Actions>
-                <Action Action="MediaPortalWindow" Param="7986" />
+                <Action Action="MediaPortalAction" Param="ACTION_MOVE_RIGHT" />
+                <Action Action="MediaPortalAction" Param="ACTION_MOVE_RIGHT" />
               </Actions>
             </Control>
           </GroupControls>

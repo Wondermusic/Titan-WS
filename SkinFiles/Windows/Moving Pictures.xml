@@ -927,7 +927,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="Titan 40" />
-          <LabelText>Items: +#MovingPictures.general.itemcount</LabelText>
+          <LabelText>@items+: +#MovingPictures.general.itemcount</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
