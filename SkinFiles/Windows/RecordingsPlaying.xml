@@ -16,7 +16,7 @@
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
-      <ImageStyle StyleId="Background" />
+      <ImageStyle StyleId="Logo_Image" />
       <ImageStretch>None</ImageStretch>
       <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
     </Control>

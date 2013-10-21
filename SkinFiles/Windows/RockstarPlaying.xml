@@ -29,6 +29,7 @@
           <ImageStyle StyleId="Logo_Image" />
           <Image>\Hovers\hover_my radio.jpg</Image>
           <ImageStretch>Fill</ImageStretch>
+          <CoverImage x:type="ImageBrush" Image="\fanart_overlay.png" Stretch="Fill" />
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="Image">

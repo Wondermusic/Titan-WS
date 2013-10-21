@@ -32,7 +32,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle StyleId="Background" />
+          <ImageStyle StyleId="Logo_Image" />
           <Image>#MPD2.fanart.MovingPictures</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverImage StyleId="Background Play" />

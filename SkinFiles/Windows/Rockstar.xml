@@ -18,7 +18,7 @@
       <MediaPortalFocusControls />
       <ImageStyle StyleId="Background" />
       <ImageStretch>Fill</ImageStretch>
-      <CoverImage />
+      <CoverImage x:type="ImageBrush" Image="\fanart_overlay.png" Stretch="Fill" />
       <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
     </Control>
     <Control x:type="Group">

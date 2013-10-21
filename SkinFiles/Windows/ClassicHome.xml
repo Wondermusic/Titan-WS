@@ -9,7 +9,7 @@
   <WindowAnimations />
   <WindowControls>
     <Control x:type="Image">
-      <Name>Background</Name>
+      <Name>Background Image</Name>
       <Id>26</Id>
       <Width>1280</Width>
       <Height>720</Height>
@@ -17,8 +17,17 @@
       <Animations />
       <MediaPortalFocusControls />
       <ImageStyle StyleId="Background" />
-      <Image>#MPD2.fanartBH</Image>
+      <Image>BasicHomeImages\Hovers\+#MPD2.fanartBH+.jpg</Image>
       <ImageStretch>Fill</ImageStretch>
+      <CoverImage x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#50000000" Offset="0.309" />
+          <GradientStop Color="#85000000" Offset="0.101" />
+          <GradientStop Color="#50000000" Offset="0.611" />
+          <GradientStop Color="#BC000000" Offset="0.856" />
+        </GradientStops>
+      </CoverImage>
       <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
     </Control>
     <Control x:type="Group">
@@ -74,61 +83,6 @@
             <Width>34</Width>
             <Height>43</Height>
           </CoverFlowItemStyle>
-        </Control>
-      </GroupControls>
-    </Control>
-    <Control x:type="Group">
-      <Name>RSS-Ticker</Name>
-      <Id>10</Id>
-      <Width>1225</Width>
-      <Height>65</Height>
-      <PosX>28</PosX>
-      <PosY>650</PosY>
-      <VisibleCondition>IsPluginEnabled(InfoService)</VisibleCondition>
-      <Animations />
-      <MediaPortalFocusControls />
-      <GroupStyle>
-        <BorderThickness>0,0,0,0</BorderThickness>
-        <CornerRadius>0,0,0,0</CornerRadius>
-      </GroupStyle>
-      <GroupControls>
-        <Control x:type="Image">
-          <Name>Image</Name>
-          <Id>11</Id>
-          <Width>1225</Width>
-          <Height>77</Height>
-          <PosX>1</PosX>
-          <PosY>-13</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
-          </ImageStyle>
-          <Image>\count_bg.png</Image>
-          <ImageStretch>Fill</ImageStretch>
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
-        <Control x:type="Label">
-          <Name>Ticker</Name>
-          <Id>12</Id>
-          <Width>1180</Width>
-          <Height>70</Height>
-          <PosX>13</PosX>
-          <PosY>19</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle>
-            <FontType>Titan</FontType>
-            <FontSize>36</FontSize>
-            <FontBrush x:type="ColorBrush" Color="#FF000000" />
-          </LabelStyle>
-          <LabelText>#infoservice.feed.1.titles</LabelText>
-          <ScrollDelay>2</ScrollDelay>
-          <ScrollSpeed>8</ScrollSpeed>
-          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
       </GroupControls>
     </Control>
@@ -229,6 +183,60 @@
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+      </GroupControls>
+    </Control>
+    <Control x:type="Group">
+      <Name>RSS-Ticker</Name>
+      <Id>27</Id>
+      <Width>1270</Width>
+      <Height>65</Height>
+      <PosX>5</PosX>
+      <PosY>650</PosY>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <GroupStyle>
+        <BorderThickness>0,0,0,0</BorderThickness>
+        <CornerRadius>0,0,0,0</CornerRadius>
+      </GroupStyle>
+      <GroupControls>
+        <Control x:type="Image">
+          <Name>NewImage</Name>
+          <Id>28</Id>
+          <Width>1270</Width>
+          <Height>60</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>0,0,0,0</CornerRadius>
+          </ImageStyle>
+          <Image>\count_bg.png</Image>
+          <ImageStretch>Fill</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Label">
+          <Name>Ticker</Name>
+          <Id>29</Id>
+          <Width>1241</Width>
+          <Height>70</Height>
+          <PosX>13</PosX>
+          <PosY>15</PosY>
+          <VisibleCondition>IsPluginEnabled(InfoService)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle>
+            <FontType>Titan</FontType>
+            <FontSize>40</FontSize>
+            <FontBrush x:type="ColorBrush" Color="#FF000000" />
+          </LabelStyle>
+          <LabelText>#infoservice.feed.1.titles</LabelText>
+          <ScrollDelay>2</ScrollDelay>
+          <ScrollSpeed>8</ScrollSpeed>
+          <ScrollSeperator>  |  </ScrollSeperator>
         </Control>
       </GroupControls>
     </Control>

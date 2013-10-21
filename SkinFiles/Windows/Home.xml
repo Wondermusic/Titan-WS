@@ -522,7 +522,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="Titan60" />
-          <LabelText>#MP.SystemInfo.Label.Time</LabelText>
+          <LabelText>#MPD.SystemInfo.Label.Time</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
@@ -538,7 +538,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="Titan60" />
-          <LabelText>#MP.SystemInfo.Label.Date2</LabelText>
+          <LabelText>#MPD.SystemInfo.Label.Date2</LabelText>
           <LabelTextAlignment>Right</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
@@ -571,7 +571,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ProgressBarStyle StyleId="SysInfo Bar" />
-          <ProgressValue>#MP.SystemInfo.Number.CPU</ProgressValue>
+          <ProgressValue>#MPD.SystemInfo.Number.CPU</ProgressValue>
         </Control>
         <Control x:type="Label">
           <Name>CPU Load</Name>
@@ -584,7 +584,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="Titan40 White" />
-          <LabelText>#MP.SystemInfo.Label.CPU</LabelText>
+          <LabelText>#MPD.SystemInfo.Label.CPU</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -616,7 +616,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ProgressBarStyle StyleId="SysInfo Bar" />
-          <ProgressValue>#MP.SystemInfo.Number.PhysicalPercent</ProgressValue>
+          <ProgressValue>#MPD.SystemInfo.Number.PhysicalPercent</ProgressValue>
         </Control>
         <Control x:type="Label">
           <Name>RAM Load</Name>
@@ -629,7 +629,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="Titan40 White" />
-          <LabelText>#MP.SystemInfo.Label.PhysicalPercent</LabelText>
+          <LabelText>#MPD.SystemInfo.Label.PhysicalPercent</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -661,7 +661,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="Titan50_White" />
-          <LabelText>#MP.SystemInfo.Label.Drive0.Name+ - +#MP.SystemInfo.Label.Drive0.TotalSpace</LabelText>
+          <LabelText>#MPD.SystemInfo.Label.Drive0.Name+ - +#MPD.SystemInfo.Label.Drive0.TotalSpace</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -677,7 +677,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ProgressBarStyle StyleId="SysInfo Bar" />
-          <ProgressValue>#MP.SystemInfo.Number.Drive0.PercentFree</ProgressValue>
+          <ProgressValue>#MPD.SystemInfo.Number.Drive0.PercentFree</ProgressValue>
         </Control>
         <Control x:type="Label">
           <Name>Disk2 Label</Name>
@@ -706,7 +706,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="Titan50_White" />
-          <LabelText>#MP.SystemInfo.Label.Drive1.Name+ - +#MP.SystemInfo.Label.Drive1.TotalSpace</LabelText>
+          <LabelText>#MPD.SystemInfo.Label.Drive1.Name+ - +#MPD.SystemInfo.Label.Drive1.TotalSpace</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -722,7 +722,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <ProgressBarStyle StyleId="SysInfo Bar" />
-          <ProgressValue>#MP.SystemInfo.Number.Drive1.PercentFree</ProgressValue>
+          <ProgressValue>#MPD.SystemInfo.Number.Drive1.PercentFree</ProgressValue>
         </Control>
         <Control x:type="Label">
           <Name>OS Label</Name>
@@ -751,7 +751,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="Titan50_White" />
-          <LabelText>#MP.SystemInfo.Label.OSFullName+, +#MP.SystemInfo.Label.OSPlatform+, Version: +#MP.SystemInfo.Label.OSVersion</LabelText>
+          <LabelText>#MPD.SystemInfo.Label.OSFullName+, +#MPD.SystemInfo.Label.OSPlatform+, Version: +#MPD.SystemInfo.Label.OSVersion</LabelText>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>20</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>

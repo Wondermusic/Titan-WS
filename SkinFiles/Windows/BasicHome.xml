@@ -8,41 +8,252 @@
   <BackgroundBrush />
   <WindowAnimations />
   <WindowControls>
+    <Control x:type="Image">
+      <Name>Background Image</Name>
+      <Id>75</Id>
+      <Width>1280</Width>
+      <Height>720</Height>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <ImageStyle StyleId="Background" />
+      <Image>BasicHomeImages\Hovers\+#MPD2.fanartBH+.jpg</Image>
+      <ImageStretch>Fill</ImageStretch>
+      <CoverImage x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#50000000" Offset="0.309" />
+          <GradientStop Color="#85000000" Offset="0.101" />
+          <GradientStop Color="#50000000" Offset="0.611" />
+          <GradientStop Color="#BC000000" Offset="0.856" />
+        </GradientStops>
+      </CoverImage>
+      <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+    </Control>
+    <Control x:type="Group">
+      <Name>Extended Menu Style</Name>
+      <Id>1</Id>
+      <Width>1280</Width>
+      <Height>720</Height>
+      <VisibleCondition>IsSkinOptionEnabled(Extended)</VisibleCondition>
+      <Animations />
+      <MediaPortalFocusControls />
+      <GroupStyle StyleId="Empty" />
+      <GroupControls>
+        <Control x:type="Group">
+          <Name>Buttons</Name>
+          <Id>8</Id>
+          <Width>1280</Width>
+          <Height>200</Height>
+          <PosY>436</PosY>
+          <VisibleCondition>!IsControlVisible(36)</VisibleCondition>
+          <Animations>
+            <Animation x:type="Fade" Condition="VisibleTrue" Duration="200" Delay="500" Easing="EaseInOut" />
+            <Animation x:type="Fade" Condition="VisibleFalse" Duration="200" Easing="EaseInOut" From="100" To="0" />
+          </Animations>
+          <MediaPortalFocusControls />
+          <GroupStyle StyleId="Empty" />
+          <GroupControls>
+            <Control x:type="Image">
+              <Name>TopItem2 Image</Name>
+              <Id>64</Id>
+              <Width>250</Width>
+              <Height>176</Height>
+              <PosX>5</PosX>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>\BasicHomeImages\+#toplabel2+.png</Image>
+              <ImageStretch>Fill</ImageStretch>
+              <ImageCornerRadius>18</ImageCornerRadius>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Button">
+              <Name>TopItem2 Button</Name>
+              <Id>10</Id>
+              <Width>250</Width>
+              <Height>176</Height>
+              <PosX>5</PosX>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ButtonStyle StyleId="Clear" />
+              <LabelText>#toplabel2</LabelText>
+              <Actions>
+                <Action Action="MediaPortalAction" Param="ACTION_MOVE_LEFT" />
+                <Action Action="MediaPortalAction" Param="ACTION_MOVE_LEFT" />
+              </Actions>
+            </Control>
+            <Control x:type="Image">
+              <Name>TopItem1 Image</Name>
+              <Id>71</Id>
+              <Width>250</Width>
+              <Height>176</Height>
+              <PosX>260</PosX>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>\BasicHomeImages\+#toplabel1+.png</Image>
+              <ImageStretch>Fill</ImageStretch>
+              <ImageCornerRadius>18</ImageCornerRadius>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Button">
+              <Name>TopItem1 Button</Name>
+              <Id>11</Id>
+              <Width>250</Width>
+              <Height>176</Height>
+              <PosX>260</PosX>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ButtonStyle StyleId="Clear" />
+              <LabelText>#toplabel1</LabelText>
+              <Actions>
+                <Action Action="MediaPortalAction" Param="ACTION_MOVE_LEFT" />
+              </Actions>
+            </Control>
+            <Control x:type="Image">
+              <Name>HomeItem Image</Name>
+              <Id>72</Id>
+              <Width>250</Width>
+              <Height>176</Height>
+              <PosX>515</PosX>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>\BasicHomeImages\+#itemName+.png</Image>
+              <ImageStretch>Fill</ImageStretch>
+              <ImageCornerRadius>18</ImageCornerRadius>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Button">
+              <Name>HomeItem Button</Name>
+              <Id>12</Id>
+              <Width>250</Width>
+              <Height>176</Height>
+              <PosX>515</PosX>
+              <VisibleCondition />
+              <Animations>
+                <Animation x:type="Fade" Condition="PropertyChanging" Duration="100" From="100" To="0" />
+                <Animation x:type="Fade" Condition="PropertyChanged" Duration="100" />
+              </Animations>
+              <MediaPortalFocusControls />
+              <ButtonStyle>
+                <BorderThickness>4,4,4,4</BorderThickness>
+                <CornerRadius>12,12,12,12</CornerRadius>
+                <NoFocusBrush />
+                <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00B7FF" />
+                <FocusBrush />
+                <FocusBorderBrush x:type="ColorBrush" Color="#FF00B7FF" />
+                <FontType>Titan</FontType>
+                <FontSize>35</FontSize>
+                <FocusFontBrush x:type="ColorBrush" Color="#FF4682B4" />
+                <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+                <LabelMargin>0,0,0,5</LabelMargin>
+                <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+                <EnableImage>true</EnableImage>
+                <ImageStretch>None</ImageStretch>
+              </ButtonStyle>
+              <Image>#homeitem+.png</Image>
+              <LabelText>#itemName</LabelText>
+              <Actions>
+                <Action Action="MediaPortalAction" Param="ACTION_SELECT_ITEM" />
+              </Actions>
+            </Control>
+            <Control x:type="Image">
+              <Name>BottomItem1 Image</Name>
+              <Id>73</Id>
+              <Width>250</Width>
+              <Height>176</Height>
+              <PosX>770</PosX>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>\BasicHomeImages\+#bottomlabel1+.png</Image>
+              <ImageStretch>Fill</ImageStretch>
+              <ImageCornerRadius>18</ImageCornerRadius>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Button">
+              <Name>BottomItem1 Button</Name>
+              <Id>13</Id>
+              <Width>250</Width>
+              <Height>176</Height>
+              <PosX>770</PosX>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ButtonStyle StyleId="Clear" />
+              <Image>#bottomitem1+.png</Image>
+              <LabelText>#bottomlabel1</LabelText>
+              <Actions>
+                <Action Action="MediaPortalAction" Param="ACTION_MOVE_RIGHT" />
+              </Actions>
+            </Control>
+            <Control x:type="Image">
+              <Name>BottomItem2 Image</Name>
+              <Id>74</Id>
+              <Width>250</Width>
+              <Height>176</Height>
+              <PosX>1025</PosX>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>\BasicHomeImages\+#bottomlabel2+.png</Image>
+              <ImageStretch>Fill</ImageStretch>
+              <ImageCornerRadius>18</ImageCornerRadius>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Button">
+              <Name>BottomItem2 Button</Name>
+              <Id>14</Id>
+              <Width>250</Width>
+              <Height>176</Height>
+              <PosX>1025</PosX>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ButtonStyle StyleId="Clear" />
+              <Image>#bottomitem2+.png</Image>
+              <LabelText>#bottomlabel2</LabelText>
+              <Actions>
+                <Action Action="MediaPortalAction" Param="ACTION_MOVE_RIGHT" />
+                <Action Action="MediaPortalAction" Param="ACTION_MOVE_RIGHT" />
+              </Actions>
+            </Control>
+          </GroupControls>
+        </Control>
+      </GroupControls>
+    </Control>
     <Control x:type="Group">
       <Name>default Menu Style</Name>
       <Id>16</Id>
       <Width>1280</Width>
       <Height>720</Height>
-      <VisibleCondition>IsSkinOptionEnabled(Default)</VisibleCondition>
+      <VisibleCondition>IsSkinOptionEnabled(Default) ++ !IsControlVisible(36)</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations />
       <MediaPortalFocusControls />
       <GroupStyle StyleId="Empty" />
       <GroupControls>
-        <Control x:type="Image">
-          <Name>Background Image</Name>
-          <Id>17</Id>
-          <Width>1280</Width>
-          <Height>720</Height>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle StyleId="Background" />
-          <ImageStretch>None</ImageStretch>
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
         <Control x:type="Group">
           <Name>Menu 2</Name>
           <Id>28</Id>
           <Width>1275</Width>
           <Height>523</Height>
-          <PosX>4</PosX>
+          <PosX>25</PosX>
           <PosY>141</PosY>
           <VisibleCondition>IsMediaPortalControlFocused(200) || IsMediaPortalControlFocused(300) || IsMediaPortalControlFocused(400) || IsMediaPortalControlFocused(500) || IsMediaPortalControlFocused(600) || IsMediaPortalControlFocused(700)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations>
-            <Animation x:type="Slide" Condition="VisibleTrue" Duration="500" Easing="EaseInOut" StartX="1280" StartY="141" EndX="4" EndY="141" />
-            <Animation x:type="Slide" Condition="VisibleFalse" Duration="500" Easing="EaseInOut" StartX="4" StartY="141" EndX="1280" EndY="141" />
+            <Animation x:type="Slide" Condition="VisibleTrue" Duration="500" Easing="EaseInOut" StartX="1280" StartY="141" EndX="25" EndY="141" />
+            <Animation x:type="Slide" Condition="VisibleFalse" Duration="500" Easing="EaseInOut" StartX="25" StartY="141" EndX="1280" EndY="141" />
           </Animations>
           <MediaPortalFocusControls />
           <GroupStyle>
@@ -408,7 +619,7 @@
               <Id>35</Id>
               <Width>139</Width>
               <Height>170</Height>
-              <PosX>-52</PosX>
+              <PosX>-76</PosX>
               <PosY>161</PosY>
               <VisibleCondition />
               <Animations />
@@ -889,7 +1100,7 @@
               <Id>27</Id>
               <Width>139</Width>
               <Height>170</Height>
-              <PosX>1187</PosX>
+              <PosX>1193</PosX>
               <PosY>161</PosY>
               <VisibleCondition />
               <Animations />
@@ -908,233 +1119,6 @@
               </ButtonStyle>
               <LabelText>NewButton</LabelText>
               <Actions>
-                <Action Action="MediaPortalAction" Param="ACTION_MOVE_RIGHT" />
-              </Actions>
-            </Control>
-          </GroupControls>
-        </Control>
-      </GroupControls>
-    </Control>
-    <Control x:type="Group">
-      <Name>Extended Menu Style</Name>
-      <Id>1</Id>
-      <Width>1280</Width>
-      <Height>720</Height>
-      <VisibleCondition>IsSkinOptionEnabled(Extended)</VisibleCondition>
-      <Animations />
-      <MediaPortalFocusControls />
-      <GroupStyle StyleId="Empty" />
-      <GroupControls>
-        <Control x:type="Image">
-          <Name>Background Image</Name>
-          <Id>163</Id>
-          <Width>1280</Width>
-          <Height>720</Height>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle StyleId="Background" />
-          <Image>\BasicHomeImages\Hovers\+#MPD2.fanartBH+.jpg</Image>
-          <ImageStretch>Fill</ImageStretch>
-          <CoverImage x:type="GradientBrush">
-            <Angle>Vertical</Angle>
-            <GradientStops>
-              <GradientStop Color="#8A000000" Offset="0" />
-              <GradientStop Color="#3B000000" Offset="1" />
-            </GradientStops>
-          </CoverImage>
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
-        <Control x:type="Group">
-          <Name>Buttons</Name>
-          <Id>8</Id>
-          <Width>1280</Width>
-          <Height>720</Height>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <GroupStyle StyleId="Empty" />
-          <GroupControls>
-            <Control x:type="Image">
-              <Name>TopItem2 Image</Name>
-              <Id>64</Id>
-              <Width>250</Width>
-              <Height>150</Height>
-              <PosX>5</PosX>
-              <PosY>340</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ImageStyle StyleId="Logo_Image" />
-              <Image>\BasicHomeImages\+#toplabel2+.png</Image>
-              <ImageStretch>Fill</ImageStretch>
-              <ImageCornerRadius>18</ImageCornerRadius>
-              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-            </Control>
-            <Control x:type="Button">
-              <Name>TopItem2 Button</Name>
-              <Id>10</Id>
-              <Width>250</Width>
-              <Height>150</Height>
-              <PosX>5</PosX>
-              <PosY>340</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle StyleId="Clear" />
-              <LabelText>#toplabel2</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="ACTION_MOVE_LEFT" />
-                <Action Action="MediaPortalAction" Param="ACTION_MOVE_LEFT" />
-              </Actions>
-            </Control>
-            <Control x:type="Image">
-              <Name>TopItem1 Image</Name>
-              <Id>71</Id>
-              <Width>250</Width>
-              <Height>150</Height>
-              <PosX>260</PosX>
-              <PosY>340</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ImageStyle StyleId="Logo_Image" />
-              <Image>\BasicHomeImages\+#toplabel1+.png</Image>
-              <ImageStretch>Fill</ImageStretch>
-              <ImageCornerRadius>18</ImageCornerRadius>
-              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-            </Control>
-            <Control x:type="Button">
-              <Name>TopItem1 Button</Name>
-              <Id>11</Id>
-              <Width>250</Width>
-              <Height>150</Height>
-              <PosX>260</PosX>
-              <PosY>340</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle StyleId="Clear" />
-              <LabelText>#toplabel1</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="ACTION_MOVE_LEFT" />
-              </Actions>
-            </Control>
-            <Control x:type="Image">
-              <Name>HomeItem Image</Name>
-              <Id>72</Id>
-              <Width>250</Width>
-              <Height>150</Height>
-              <PosX>515</PosX>
-              <PosY>340</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ImageStyle StyleId="Logo_Image" />
-              <Image>\BasicHomeImages\+#itemName+.png</Image>
-              <ImageStretch>Fill</ImageStretch>
-              <ImageCornerRadius>18</ImageCornerRadius>
-              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-            </Control>
-            <Control x:type="Button">
-              <Name>HomeItem Button</Name>
-              <Id>12</Id>
-              <Width>250</Width>
-              <Height>150</Height>
-              <PosX>515</PosX>
-              <PosY>340</PosY>
-              <VisibleCondition />
-              <Animations>
-                <Animation x:type="Fade" Condition="PropertyChanging" Duration="100" From="100" To="0" />
-                <Animation x:type="Fade" Condition="PropertyChanged" Duration="100" />
-              </Animations>
-              <MediaPortalFocusControls />
-              <ButtonStyle>
-                <BorderThickness>4,4,4,4</BorderThickness>
-                <CornerRadius>12,12,12,12</CornerRadius>
-                <NoFocusBrush />
-                <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00B7FF" />
-                <FocusBrush />
-                <FocusBorderBrush x:type="ColorBrush" Color="#FF00B7FF" />
-                <FontType>Titan</FontType>
-                <FontSize>35</FontSize>
-                <FocusFontBrush x:type="ColorBrush" Color="#FF4682B4" />
-                <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-                <LabelMargin>0,0,0,5</LabelMargin>
-                <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
-                <EnableImage>true</EnableImage>
-                <ImageStretch>None</ImageStretch>
-              </ButtonStyle>
-              <Image>#homeitem+.png</Image>
-              <LabelText>#itemName</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="ACTION_SELECT_ITEM" />
-              </Actions>
-            </Control>
-            <Control x:type="Image">
-              <Name>BottomItem1 Image</Name>
-              <Id>73</Id>
-              <Width>250</Width>
-              <Height>150</Height>
-              <PosX>770</PosX>
-              <PosY>340</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ImageStyle StyleId="Logo_Image" />
-              <Image>\BasicHomeImages\+#bottomlabel1+.png</Image>
-              <ImageStretch>Fill</ImageStretch>
-              <ImageCornerRadius>18</ImageCornerRadius>
-              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-            </Control>
-            <Control x:type="Button">
-              <Name>BottomItem1 Button</Name>
-              <Id>13</Id>
-              <Width>250</Width>
-              <Height>150</Height>
-              <PosX>770</PosX>
-              <PosY>340</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle StyleId="Clear" />
-              <Image>#bottomitem1+.png</Image>
-              <LabelText>#bottomlabel1</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="ACTION_MOVE_RIGHT" />
-              </Actions>
-            </Control>
-            <Control x:type="Image">
-              <Name>BottomItem2 Image</Name>
-              <Id>74</Id>
-              <Width>250</Width>
-              <Height>150</Height>
-              <PosX>1025</PosX>
-              <PosY>340</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ImageStyle StyleId="Logo_Image" />
-              <Image>\BasicHomeImages\+#bottomlabel2+.png</Image>
-              <ImageStretch>Fill</ImageStretch>
-              <ImageCornerRadius>18</ImageCornerRadius>
-              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-            </Control>
-            <Control x:type="Button">
-              <Name>BottomItem2 Button</Name>
-              <Id>14</Id>
-              <Width>250</Width>
-              <Height>150</Height>
-              <PosX>1025</PosX>
-              <PosY>340</PosY>
-              <VisibleCondition />
-              <Animations />
-              <MediaPortalFocusControls />
-              <ButtonStyle StyleId="Clear" />
-              <Image>#bottomitem2+.png</Image>
-              <LabelText>#bottomlabel2</LabelText>
-              <Actions>
-                <Action Action="MediaPortalAction" Param="ACTION_MOVE_RIGHT" />
                 <Action Action="MediaPortalAction" Param="ACTION_MOVE_RIGHT" />
               </Actions>
             </Control>
@@ -1246,11 +1230,11 @@
     <Control x:type="Group">
       <Name>RSS-Ticker</Name>
       <Id>48</Id>
-      <Width>1225</Width>
+      <Width>1270</Width>
       <Height>65</Height>
-      <PosX>28</PosX>
+      <PosX>5</PosX>
       <PosY>650</PosY>
-      <VisibleCondition>IsPluginEnabled(InfoService)</VisibleCondition>
+      <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
       <GroupStyle>
@@ -1261,10 +1245,8 @@
         <Control x:type="Image">
           <Name>NewImage</Name>
           <Id>49</Id>
-          <Width>1225</Width>
-          <Height>77</Height>
-          <PosX>1</PosX>
-          <PosY>-13</PosY>
+          <Width>1270</Width>
+          <Height>60</Height>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
@@ -1273,22 +1255,23 @@
             <CornerRadius>0,0,0,0</CornerRadius>
           </ImageStyle>
           <Image>\count_bg.png</Image>
-          <ImageStretch>Uniform</ImageStretch>
+          <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="Label">
           <Name>Ticker</Name>
           <Id>50</Id>
-          <Width>1196</Width>
+          <Width>1241</Width>
           <Height>70</Height>
           <PosX>13</PosX>
-          <PosY>14</PosY>
-          <VisibleCondition />
+          <PosY>15</PosY>
+          <VisibleCondition>IsPluginEnabled(InfoService)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle>
             <FontType>Titan</FontType>
-            <FontSize>36</FontSize>
+            <FontSize>40</FontSize>
             <FontBrush x:type="ColorBrush" Color="#FF000000" />
           </LabelStyle>
           <LabelText>#infoservice.feed.1.titles</LabelText>
@@ -1462,9 +1445,9 @@
       <Id>51</Id>
       <Width>50</Width>
       <Height>50</Height>
-      <PosX>600</PosX>
-      <PosY>613</PosY>
-      <VisibleCondition />
+      <PosX>615</PosX>
+      <PosY>619</PosY>
+      <VisibleCondition>!IsControlVisible(36)</VisibleCondition>
       <Animations />
       <MediaPortalFocusControls />
       <ButtonStyle>
