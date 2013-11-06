@@ -171,7 +171,8 @@
           <Id>60</Id>
           <Width>60</Width>
           <Height>60</Height>
-          <VisibleCondition />
+          <VisibleCondition>!IsTvRecording</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle>
@@ -230,6 +231,26 @@
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Image">
+          <Name>Rec Indicator</Name>
+          <Id>68</Id>
+          <Width>60</Width>
+          <Height>60</Height>
+          <VisibleCondition>IsTvRecording</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations>
+            <Animation x:type="Fade" Condition="VisibleTrue" Duration="1500" Easing="EaseInOut" Reverse="true" Repeat="10000" />
+            <Animation x:type="Fade" Condition="VisibleFalse" Duration="500" Easing="EaseInOut" From="100" To="0" />
+          </Animations>
+          <MediaPortalFocusControls />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>0,0,0,0</CornerRadius>
+          </ImageStyle>
+          <Image>\rec.png</Image>
+          <ImageStretch>Uniform</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
       </GroupControls>
     </Control>
