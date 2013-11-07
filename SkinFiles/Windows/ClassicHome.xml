@@ -17,7 +17,7 @@
       <Animations />
       <MediaPortalFocusControls />
       <ImageStyle StyleId="Background" />
-      <Image>BasicHomeImages\Hovers\+#MPD2.fanartBH+.jpg</Image>
+      <Image>BasicHomeImages\Hovers\+#itemName+.jpg</Image>
       <ImageStretch>Fill</ImageStretch>
       <CoverImage x:type="GradientBrush">
         <Angle>Vertical</Angle>

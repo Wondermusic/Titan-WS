@@ -246,18 +246,6 @@
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#MPD2.fanartBH</SkinTag>
-      <PropertyType>Image</PropertyType>
-      <DesignerValue>New....</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#bottomlabel1" />
-        <XmlMediaPortalTag Tag="#bottomlabel2" />
-        <XmlMediaPortalTag Tag="#itemname" />
-        <XmlMediaPortalTag Tag="#toplabel1" />
-        <XmlMediaPortalTag Tag="#toplabel2" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay4IconImage</SkinTag>
       <PropertyType>Image</PropertyType>
       <DesignerValue>New....</DesignerValue>

@@ -21,53 +21,6 @@
       <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
     </Control>
     <Control x:type="Group">
-      <Name>EPG</Name>
-      <Id>19</Id>
-      <Width>1280</Width>
-      <Height>720</Height>
-      <VisibleCondition>IsMediaPortalWindow(600)</VisibleCondition>
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
-      <Animations />
-      <MediaPortalFocusControls />
-      <GroupStyle StyleId="Empty" />
-      <GroupControls>
-        <Control x:type="Image">
-          <Name>Fanart</Name>
-          <Id>20</Id>
-          <Width>1280</Width>
-          <Height>720</Height>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
-            <BackgroundBrush x:type="ImageBrush" Image="\Hovers\hover_my tv.jpg" Stretch="Fill" />
-            <BorderBrush />
-          </ImageStyle>
-          <Image>#MPD2.fanart.movie</Image>
-          <ImageStretch>Fill</ImageStretch>
-          <CoverImage x:type="ImageBrush" Image="\fanart_overlay.png" Stretch="Fill" />
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
-        <Control x:type="Label">
-          <Name>Information</Name>
-          <Id>21</Id>
-          <Width>1280</Width>
-          <Height>80</Height>
-          <PosY>550</PosY>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan70" />
-          <LabelText>@EPG Info</LabelText>
-          <LabelTextAlignment>Center</LabelTextAlignment>
-          <ScrollSpeed>10</ScrollSpeed>
-          <ScrollSeperator>  |  </ScrollSeperator>
-        </Control>
-      </GroupControls>
-    </Control>
-    <Control x:type="Group">
       <Name>Search Screen</Name>
       <Id>9</Id>
       <Width>1280</Width>
@@ -300,6 +253,51 @@
             <Width>135</Width>
             <Height>207</Height>
           </CoverFlowItemStyle>
+        </Control>
+      </GroupControls>
+    </Control>
+    <Control x:type="Group">
+      <Name>EPG</Name>
+      <Id>19</Id>
+      <Width>1280</Width>
+      <Height>720</Height>
+      <VisibleCondition>IsMediaPortalWindow(600)</VisibleCondition>
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <Animations />
+      <MediaPortalFocusControls />
+      <GroupStyle StyleId="Empty" />
+      <GroupControls>
+        <Control x:type="Image">
+          <Name>Fanart</Name>
+          <Id>20</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle StyleId="Background" />
+          <Image>#MPD2.fanart.movie</Image>
+          <ImageStretch>Fill</ImageStretch>
+          <CoverImage x:type="ImageBrush" Image="\fanart_overlay.png" Stretch="Fill" />
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Guide">
+          <Name>NewGuide</Name>
+          <Id>24</Id>
+          <Width>1258</Width>
+          <Height>600</Height>
+          <PosX>9</PosX>
+          <PosY>83</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <GuideStyle StyleId="GuideStyle">
+            <TimelineMarkerThickness>0</TimelineMarkerThickness>
+          </GuideStyle>
+          <ChannelListWidth>177</ChannelListWidth>
+          <TimelineMultiplier>7</TimelineMultiplier>
+          <ChannelStyle StyleId="GuideChannelStyle" />
+          <ProgramStyle StyleId="GuideProgramStyle" />
         </Control>
       </GroupControls>
     </Control>

@@ -71,7 +71,47 @@
       <ListControlStyle StyleId="empty" />
       <ListType>MediaPortalDialogList</ListType>
       <ListLayout>Auto</ListLayout>
-      <VerticalItemStyle StyleId="Dialog ListControl" />
+      <VerticalItemStyle>
+        <CornerRadius>15,15,15,15</CornerRadius>
+        <NoFocusBrush />
+        <NoFocusBorderBrush />
+        <FocusBrush x:type="ColorBrush" Color="#FF00B7FF" />
+        <FocusBorderBrush />
+        <ShadeBrush />
+        <EnableLabel>false</EnableLabel>
+        <FontType>Titan</FontType>
+        <FontSize>26</FontSize>
+        <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+        <NoFocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+        <LabelMargin>55,0,0,0</LabelMargin>
+        <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+        <LabelVerticalAlignment>Top</LabelVerticalAlignment>
+        <EnableImage>true</EnableImage>
+        <ImageMargin>3,3,3,3</ImageMargin>
+        <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
+        <ImageVerticalAlignment>Top</ImageVerticalAlignment>
+        <ImageCornerRadius>4</ImageCornerRadius>
+        <Width>630</Width>
+        <Height>59</Height>
+        <ItemMargin>1,1,1,1</ItemMargin>
+        <HorizontalAlignment>Left</HorizontalAlignment>
+        <EnableLabel2>true</EnableLabel2>
+        <Label2FontType>Titan</Label2FontType>
+        <Label2FontSize>26</Label2FontSize>
+        <Label2FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+        <Label2NoFocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+        <Label2Margin>0,0,10,0</Label2Margin>
+        <Label2HorizontalAlignment>Right</Label2HorizontalAlignment>
+        <Label2VerticalAlignment>Bottom</Label2VerticalAlignment>
+        <EnableLabel3>true</EnableLabel3>
+        <Label3FontType>Titan</Label3FontType>
+        <Label3FontSize>26</Label3FontSize>
+        <Label3FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+        <Label3NoFocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+        <Label3Margin>55,0,0,0</Label3Margin>
+        <Label3HorizontalAlignment>Left</Label3HorizontalAlignment>
+        <Label3VerticalAlignment>Top</Label3VerticalAlignment>
+      </VerticalItemStyle>
       <HorizontalItemStyle>
         <BorderThickness>1,1,1,1</BorderThickness>
         <CornerRadius>4,4,4,4</CornerRadius>

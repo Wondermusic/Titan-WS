@@ -7,11 +7,11 @@
   <BorderThickness>2</BorderThickness>
   <CornerRadius>25,25,25,25</CornerRadius>
   <BackgroundBrush x:type="GradientBrush">
+    <Angle>Vertical</Angle>
     <GradientStops>
       <GradientStop Color="#FF788282" Offset="1" />
       <GradientStop Color="#FF000000" Offset="0.216" />
     </GradientStops>
-    <Angle>Vertical</Angle>
   </BackgroundBrush>
   <BorderBrush x:type="ColorBrush" Color="#FF494949" />
   <DialogAnimations>
@@ -59,12 +59,12 @@
                 <BorderThickness>10,10,10,10</BorderThickness>
                 <CornerRadius>200,200,200,200</CornerRadius>
                 <BackgroundBrush x:type="GradientBrush">
+                  <Angle>Vertical</Angle>
                   <GradientStops>
                     <GradientStop Color="#1FF0F8FF" Offset="0" />
                     <GradientStop Color="#00FFFFFF" Offset="0.583" />
                     <GradientStop Color="Transparent" Offset="1" />
                   </GradientStops>
-                  <Angle>Vertical</Angle>
                 </BackgroundBrush>
                 <BorderBrush x:type="ColorBrush" Color="#FF000000" />
               </ImageStyle>
@@ -85,12 +85,12 @@
                 <BorderThickness>5,5,5,5</BorderThickness>
                 <CornerRadius>200,200,200,200</CornerRadius>
                 <BackgroundBrush x:type="GradientBrush">
+                  <Angle>Vertical</Angle>
                   <GradientStops>
                     <GradientStop Color="#1FF0F8FF" Offset="0" />
                     <GradientStop Color="#00FFFFFF" Offset="0.583" />
                     <GradientStop Color="Transparent" Offset="1" />
                   </GradientStops>
-                  <Angle>Vertical</Angle>
                 </BackgroundBrush>
                 <BorderBrush x:type="ColorBrush" Color="#FF000000" />
               </ImageStyle>
@@ -250,12 +250,12 @@
             <FocusBrush x:type="ColorBrush" Color="#FF272727" />
             <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
             <ShadeBrush x:type="GradientBrush">
+              <Angle>Vertical</Angle>
               <GradientStops>
                 <GradientStop Color="#1FF0F8FF" Offset="0" />
                 <GradientStop Color="#00FFFFFF" Offset="0.59" />
                 <GradientStop Color="#00FFFFFF" Offset="1" />
               </GradientStops>
-              <Angle>Vertical</Angle>
             </ShadeBrush>
             <GlossBrush />
             <EnableLabel>false</EnableLabel>
@@ -288,12 +288,12 @@
             <FocusBrush x:type="ColorBrush" Color="#FF272727" />
             <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
             <ShadeBrush x:type="GradientBrush">
+              <Angle>Vertical</Angle>
               <GradientStops>
                 <GradientStop Color="#1FF0F8FF" Offset="0" />
                 <GradientStop Color="#00FFFFFF" Offset="0.59" />
                 <GradientStop Color="#00FFFFFF" Offset="1" />
               </GradientStops>
-              <Angle>Vertical</Angle>
             </ShadeBrush>
             <GlossBrush />
             <EnableLabel>false</EnableLabel>
@@ -327,12 +327,12 @@
             <FocusBrush x:type="ColorBrush" Color="#FF272727" />
             <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
             <ShadeBrush x:type="GradientBrush">
+              <Angle>Vertical</Angle>
               <GradientStops>
                 <GradientStop Color="#1FF0F8FF" Offset="0" />
                 <GradientStop Color="#00FFFFFF" Offset="0.59" />
                 <GradientStop Color="#00FFFFFF" Offset="1" />
               </GradientStops>
-              <Angle>Vertical</Angle>
             </ShadeBrush>
             <GlossBrush />
             <EnableLabel>false</EnableLabel>
@@ -366,12 +366,12 @@
             <FocusBrush x:type="ColorBrush" Color="#FF272727" />
             <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
             <ShadeBrush x:type="GradientBrush">
+              <Angle>Vertical</Angle>
               <GradientStops>
                 <GradientStop Color="#1FF0F8FF" Offset="0" />
                 <GradientStop Color="Transparent" Offset="0.583" />
                 <GradientStop Color="Transparent" Offset="1" />
               </GradientStops>
-              <Angle>Vertical</Angle>
             </ShadeBrush>
             <EnableLabel>false</EnableLabel>
             <FontType>Titan</FontType>
@@ -403,12 +403,12 @@
             <FocusBrush x:type="ColorBrush" Color="#FF272727" />
             <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
             <ShadeBrush x:type="GradientBrush">
+              <Angle>Vertical</Angle>
               <GradientStops>
                 <GradientStop Color="#1FF0F8FF" Offset="0" />
                 <GradientStop Color="#00FFFFFF" Offset="0.59" />
                 <GradientStop Color="#00FFFFFF" Offset="1" />
               </GradientStops>
-              <Angle>Vertical</Angle>
             </ShadeBrush>
             <GlossBrush />
             <EnableLabel>false</EnableLabel>
@@ -441,12 +441,12 @@
             <FocusBrush x:type="ColorBrush" Color="#FF272727" />
             <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
             <ShadeBrush x:type="GradientBrush">
+              <Angle>Vertical</Angle>
               <GradientStops>
                 <GradientStop Color="#1FF0F8FF" Offset="0" />
                 <GradientStop Color="#00FFFFFF" Offset="0.59" />
                 <GradientStop Color="#00FFFFFF" Offset="1" />
               </GradientStops>
-              <Angle>Vertical</Angle>
             </ShadeBrush>
             <GlossBrush />
             <EnableLabel>false</EnableLabel>
@@ -480,12 +480,12 @@
             <FocusBrush x:type="ColorBrush" Color="#FF272727" />
             <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
             <ShadeBrush x:type="GradientBrush">
+              <Angle>Vertical</Angle>
               <GradientStops>
                 <GradientStop Color="#1FF0F8FF" Offset="0" />
                 <GradientStop Color="Transparent" Offset="0.583" />
                 <GradientStop Color="Transparent" Offset="1" />
               </GradientStops>
-              <Angle>Vertical</Angle>
             </ShadeBrush>
             <EnableLabel>false</EnableLabel>
             <FontType>Titan</FontType>
@@ -577,12 +577,12 @@
         <FocusBrush x:type="ColorBrush" Color="#FF272727" />
         <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
         <ShadeBrush x:type="GradientBrush">
+          <Angle>Vertical</Angle>
           <GradientStops>
             <GradientStop Color="#1FF0F8FF" Offset="0" />
             <GradientStop Color="#00FFFFFF" Offset="0.59" />
             <GradientStop Color="#00FFFFFF" Offset="1" />
           </GradientStops>
-          <Angle>Vertical</Angle>
         </ShadeBrush>
         <GlossBrush />
         <FontType>Titan</FontType>
@@ -612,12 +612,12 @@
         <FocusBrush x:type="ColorBrush" Color="#FF272727" />
         <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
         <ShadeBrush x:type="GradientBrush">
+          <Angle>Vertical</Angle>
           <GradientStops>
             <GradientStop Color="#1FF0F8FF" Offset="0" />
             <GradientStop Color="#00FFFFFF" Offset="0.59" />
             <GradientStop Color="#00FFFFFF" Offset="1" />
           </GradientStops>
-          <Angle>Vertical</Angle>
         </ShadeBrush>
         <GlossBrush />
         <FontType>Titan</FontType>
