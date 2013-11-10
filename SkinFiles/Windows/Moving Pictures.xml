@@ -496,7 +496,6 @@
       <Width>1280</Width>
       <Height>720</Height>
       <VisibleCondition>IsMediaPortalControlFocused(6) || IsMediaPortalControlFocused(700) || IsMediaPortalControlFocused(800)</VisibleCondition>
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations />
       <MediaPortalFocusControls />
       <GroupStyle>

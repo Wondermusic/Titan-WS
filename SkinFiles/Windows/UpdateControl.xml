@@ -28,28 +28,11 @@
       <Height>543</Height>
       <PosX>-16</PosX>
       <PosY>150</PosY>
-      <VisibleCondition>IsMediaPortalListLayout(Vertical)</VisibleCondition>
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
       <ImageStyle StyleId="Logo_Image" />
       <Image>\panel_list_music.png</Image>
-      <ImageStretch>Fill</ImageStretch>
-      <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-    </Control>
-    <Control x:type="Image">
-      <Name>Overlay CF+H</Name>
-      <Id>33</Id>
-      <Width>1311</Width>
-      <Height>543</Height>
-      <PosX>-16</PosX>
-      <PosY>150</PosY>
-      <VisibleCondition>!IsMediaPortalListLayout(Vertical)</VisibleCondition>
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
-      <Animations />
-      <MediaPortalFocusControls />
-      <ImageStyle StyleId="Logo_Image" />
-      <Image>\panel_thumbs_noinfo.png</Image>
       <ImageStretch>Fill</ImageStretch>
       <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
     </Control>
@@ -58,7 +41,7 @@
       <Id>17</Id>
       <Width>1280</Width>
       <Height>720</Height>
-      <VisibleCondition>!IsControlVisible(12)</VisibleCondition>
+      <VisibleCondition>IsMediaPortalControlFocused(50)</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations />
       <MediaPortalFocusControls />
@@ -141,7 +124,6 @@
       <Width>1280</Width>
       <Height>720</Height>
       <VisibleCondition>IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(3) || IsMediaPortalControlFocused(4) || IsMediaPortalControlFocused(5) || IsMediaPortalControlFocused(6) || IsMediaPortalControlFocused(7) || IsMediaPortalControlFocused(8)</VisibleCondition>
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations />
       <MediaPortalFocusControls />
       <GroupStyle StyleId="Empty" />
@@ -347,7 +329,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="Titan50_White" />
-          <LabelText>#currentmodule</LabelText>
+          <LabelText>Update Control</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -418,4 +400,5 @@
     </Control>
   </WindowControls>
   <VisibleCondition>IsMediaPortalWindow(7984)</VisibleCondition>
+  <DefaultMediaPortalFocusedControlId>2</DefaultMediaPortalFocusedControlId>
 </Window>

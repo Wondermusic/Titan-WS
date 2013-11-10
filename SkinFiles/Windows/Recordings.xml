@@ -68,12 +68,12 @@
           <Height>300</Height>
           <PosX>55</PosX>
           <PosY>140</PosY>
-          <VisibleCondition>IsControlVisible(40)</VisibleCondition>
+          <VisibleCondition>IsControlVisible(3)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>#TV.RecordedTV.thumb</Image>
+          <Image>#selectedthumb</Image>
           <DefaultImage>\defaultVideoBig.png</DefaultImage>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
@@ -134,7 +134,7 @@
           <Height>50</Height>
           <PosX>55</PosX>
           <PosY>433</PosY>
-          <VisibleCondition>IsControlVisible(40)</VisibleCondition>
+          <VisibleCondition>IsControlVisible(3)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
@@ -151,7 +151,7 @@
           <Height>164</Height>
           <PosX>55</PosX>
           <PosY>484</PosY>
-          <VisibleCondition>IsControlVisible(40)</VisibleCondition>
+          <VisibleCondition>IsControlVisible(3)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />

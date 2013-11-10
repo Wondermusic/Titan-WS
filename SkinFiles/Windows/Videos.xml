@@ -28,7 +28,6 @@
       <Width>1280</Width>
       <Height>720</Height>
       <VisibleCondition />
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations />
       <MediaPortalFocusControls />
       <GroupStyle StyleId="Empty" />
@@ -40,7 +39,6 @@
           <Height>600</Height>
           <PosY>100</PosY>
           <VisibleCondition>IsMediaPortalListLayout(Vertical)</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
@@ -70,7 +68,7 @@
           <Height>352</Height>
           <PosX>55</PosX>
           <PosY>140</PosY>
-          <VisibleCondition>IsControlVisible(73)</VisibleCondition>
+          <VisibleCondition>IsControlVisible(120)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
