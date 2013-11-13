@@ -17,6 +17,7 @@
       <Width>1280</Width>
       <Height>720</Height>
       <VisibleCondition />
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations />
       <MediaPortalFocusControls />
       <GroupStyle StyleId="Empty" />
@@ -503,6 +504,7 @@
       <Width>1280</Width>
       <Height>580</Height>
       <VisibleCondition />
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations />
       <MediaPortalFocusControls />
       <GroupStyle>
@@ -781,6 +783,7 @@
       <PosX>50</PosX>
       <PosY>603</PosY>
       <VisibleCondition>!IsControlVisible(9)</VisibleCondition>
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations />
       <MediaPortalFocusControls />
       <ButtonStyle StyleId="MPDHome Button" />
@@ -816,6 +819,7 @@
       <PosX>985</PosX>
       <PosY>603</PosY>
       <VisibleCondition />
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations />
       <MediaPortalFocusControls />
       <ButtonStyle StyleId="MPDHome Button" />
@@ -832,6 +836,7 @@
       <PosX>683</PosX>
       <PosY>603</PosY>
       <VisibleCondition>IsMediaPortalConnected</VisibleCondition>
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations />
       <MediaPortalFocusControls />
       <ButtonStyle StyleId="MPDHome Button" />
@@ -839,6 +844,63 @@
       <Actions>
         <Action Action="OpenWindow" Param="0" />
       </Actions>
+    </Control>
+    <Control x:type="Group">
+      <Name>for now</Name>
+      <Id>141</Id>
+      <Width>1280</Width>
+      <Height>720</Height>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <GroupStyle StyleId="Empty" />
+      <GroupControls>
+        <Control x:type="Image">
+          <Name>NewImage</Name>
+          <Id>142</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle StyleId="Logo_Image" />
+          <Image>\ErrorScreen.png</Image>
+          <ImageStretch>Uniform</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Button">
+          <Name>NewButton</Name>
+          <Id>143</Id>
+          <Width>400</Width>
+          <Height>69</Height>
+          <PosX>25</PosX>
+          <PosY>623</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ButtonStyle StyleId="Weather" />
+          <LabelText>Exit MPD++</LabelText>
+          <Actions>
+            <Action Action="Exit" />
+          </Actions>
+        </Control>
+        <Control x:type="Button">
+          <Name>NewButton</Name>
+          <Id>144</Id>
+          <Width>400</Width>
+          <Height>69</Height>
+          <PosX>855</PosX>
+          <PosY>623</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ButtonStyle StyleId="Weather" />
+          <LabelText>++Reconnect to Server</LabelText>
+          <Actions>
+            <Action Action="Connect" />
+          </Actions>
+        </Control>
+      </GroupControls>
     </Control>
   </WindowControls>
   <VisibleCondition>!IsMediaPortalConnected</VisibleCondition>

@@ -1997,5 +1997,13 @@
         <XmlMediaPortalTag Tag="#bottomlabel2" />
       </MediaPortalTags>
     </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.View.description</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... </DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.View.description" />
+      </MediaPortalTags>
+    </XmlProperty>
   </Properties>
 </XmlPropertyInfo>

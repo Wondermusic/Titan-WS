@@ -270,7 +270,6 @@
           <Width>60</Width>
           <Height>60</Height>
           <VisibleCondition>!IsTvRecording</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle>

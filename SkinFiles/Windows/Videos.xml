@@ -90,7 +90,7 @@
           <Height>518</Height>
           <PosX>38</PosX>
           <PosY>137</PosY>
-          <VisibleCondition />
+          <VisibleCondition>!IsControlVisible(131)</VisibleCondition>
           <Animations />
           <MediaPortalFocusControls />
           <ListControlStyle StyleId="empty" />
