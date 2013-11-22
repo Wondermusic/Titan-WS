@@ -34,6 +34,7 @@
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Background" />
           <Image>#MPD2.fanart.music</Image>
+          <DefaultImage>\BasicHomeImages\Hovers\Music.jpg</DefaultImage>
           <ImageStretch>Fill</ImageStretch>
           <CoverImage x:type="ImageBrush" Image="\fanart_overlay.png" Stretch="Fill" />
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>

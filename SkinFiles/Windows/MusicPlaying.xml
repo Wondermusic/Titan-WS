@@ -36,7 +36,8 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>#MPD2.fanart.music</Image>
+          <Image>#MPD2.fanart.musicplay</Image>
+          <DefaultImage>\BasicHomeImages\Hovers\Music.jpg</DefaultImage>
           <ImageStretch>Fill</ImageStretch>
           <CoverImage StyleId="Background Play" />
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>

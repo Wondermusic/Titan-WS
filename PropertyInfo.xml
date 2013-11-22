@@ -240,9 +240,6 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#fanarthandler.music.backdrop1.selected" />
         <XmlMediaPortalTag Tag="#fanarthandler.music.backdrop2.selected" />
-        <XmlMediaPortalTag Tag="#fanarthandler.music.backdrop1.play" />
-        <XmlMediaPortalTag Tag="#fanarthandler.music.backdrop2.play" />
-        <XmlMediaPortalTag Tag="#fanarthandler.music.overlay.play" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
@@ -259,6 +256,15 @@
       <DesignerValue>New....</DesignerValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TVSeries.EpisodeImage" />
+      </MediaPortalTags>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#MPD2.fanart.musicplay</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#fanarthandler.music.backdrop1.play" />
+        <XmlMediaPortalTag Tag="#fanarthandler.music.backdrop2.play" />
       </MediaPortalTags>
     </XmlProperty>
     <XmlProperty>
