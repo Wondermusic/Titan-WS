@@ -341,46 +341,6 @@
       <ItemMargin>1,1,1,1</ItemMargin>
       <HorizontalAlignment>Left</HorizontalAlignment>
     </ControlStyle>
-    <ControlStyle x:type="ListItemStyle" StyleId="MusicList Horizontal">
-      <BorderThickness>1,1,1,1</BorderThickness>
-      <CornerRadius>12,12,12,12</CornerRadius>
-      <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
-      <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
-      <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
-      <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-      <FontSize>20</FontSize>
-      <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
-      <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
-      <LabelMargin>3,3,3,3</LabelMargin>
-      <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
-      <EnableImage>true</EnableImage>
-      <ImageMargin>3,5,3,33</ImageMargin>
-      <ImageVerticalAlignment>Top</ImageVerticalAlignment>
-      <ImageCornerRadius>10</ImageCornerRadius>
-      <Width>228</Width>
-      <Height>369</Height>
-      <ItemMargin>1,1,1,1</ItemMargin>
-    </ControlStyle>
-    <ControlStyle x:type="ListItemStyle" StyleId="MusicList CoverFlow">
-      <BorderThickness>1,1,1,1</BorderThickness>
-      <CornerRadius>10,10,10,10</CornerRadius>
-      <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
-      <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
-      <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
-      <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-      <FontType>Titan</FontType>
-      <FontSize>20</FontSize>
-      <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
-      <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
-      <LabelMargin>3,3,3,3</LabelMargin>
-      <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
-      <EnableImage>true</EnableImage>
-      <ImageMargin>3,3,3,33</ImageMargin>
-      <ImageVerticalAlignment>Top</ImageVerticalAlignment>
-      <ImageCornerRadius>10</ImageCornerRadius>
-      <Width>219</Width>
-      <Height>300</Height>
-    </ControlStyle>
     <ControlStyle x:type="ButtonStyle" StyleId="MPDHome Button">
       <BorderThickness>4,4,4,4</BorderThickness>
       <CornerRadius>0,0,25,25</CornerRadius>
@@ -771,6 +731,49 @@
       <SelectionZoomX>120</SelectionZoomX>
       <SelectionZoomY>120</SelectionZoomY>
       <SelectionZoomDuration>200</SelectionZoomDuration>
+    </ControlStyle>
+    <ControlStyle x:type="ListItemStyle" StyleId="MusicList CoverFlow">
+      <BorderThickness>1,1,1,1</BorderThickness>
+      <CornerRadius>10,10,10,10</CornerRadius>
+      <NoFocusBrush />
+      <NoFocusBorderBrush />
+      <FocusBrush />
+      <FocusBorderBrush />
+      <EnableLabel>false</EnableLabel>
+      <FontType>Titan</FontType>
+      <FontSize>20</FontSize>
+      <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
+      <LabelMargin>3,3,3,3</LabelMargin>
+      <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+      <EnableImage>true</EnableImage>
+      <ImageCornerRadius>10</ImageCornerRadius>
+      <Width>299</Width>
+      <Height>299</Height>
+      <SelectionZoomX>140</SelectionZoomX>
+      <SelectionZoomY>140</SelectionZoomY>
+      <SelectionZoomDuration>200</SelectionZoomDuration>
+    </ControlStyle>
+    <ControlStyle x:type="ListItemStyle" StyleId="MusicList Horizontal">
+      <BorderThickness>1,1,1,1</BorderThickness>
+      <CornerRadius>12,12,12,12</CornerRadius>
+      <NoFocusBrush />
+      <NoFocusBorderBrush />
+      <FocusBrush />
+      <FocusBorderBrush />
+      <EnableLabel>false</EnableLabel>
+      <FontSize>20</FontSize>
+      <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
+      <LabelMargin>3,3,3,3</LabelMargin>
+      <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+      <EnableImage>true</EnableImage>
+      <ImageCornerRadius>10</ImageCornerRadius>
+      <Width>345</Width>
+      <Height>345</Height>
+      <ItemMargin>1,1,1,1</ItemMargin>
+      <SelectionZoomX>150</SelectionZoomX>
+      <SelectionZoomY>150</SelectionZoomY>
     </ControlStyle>
   </ControlStyles>
 </StyleCollection>

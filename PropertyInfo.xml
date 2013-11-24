@@ -10,6 +10,7 @@
         <XmlMediaPortalTag Tag="#fanarthandler.movie.backdrop1.selected" />
         <XmlMediaPortalTag Tag="#fanarthandler.movie.backdrop2.selected" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TV.RecordedTV.thumb</SkinTag>
@@ -18,6 +19,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.RecordedTV.thumb" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#RadioTime.Selected.Logo</SkinTag>
@@ -26,6 +28,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#RadioTime.Selected.Logo" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.logos_id2012</SkinTag>
@@ -34,6 +37,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.logos_id2012" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.picture</SkinTag>
@@ -42,6 +46,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.picture" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPD2.fanart.MyFilms</SkinTag>
@@ -51,6 +56,7 @@
         <XmlMediaPortalTag Tag="#myfilms.fanart" />
         <XmlMediaPortalTag Tag="#myfilms.fanart2" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Emulators2.CurrentItem.coverpath</SkinTag>
@@ -59,6 +65,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.coverpath" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPD2.fanart.Emu</SkinTag>
@@ -68,6 +75,7 @@
         <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.fanartpath" />
         <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.fanartpath2" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPD2.Thumb.Anime</SkinTag>
@@ -77,6 +85,7 @@
         <XmlMediaPortalTag Tag="#Anime3.Episode.Image" />
         <XmlMediaPortalTag Tag="#Anime3.GroupSeriesPoster" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Anime3.Fanart.1</SkinTag>
@@ -85,6 +94,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Anime3.Fanart.1" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Play.Current.Video.Thumb</SkinTag>
@@ -93,6 +103,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Play.Current.Video.Thumb" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Play.Current.Thumb</SkinTag>
@@ -101,6 +112,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Play.Current.Thumb" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPD2.fanart.MovingPictures</SkinTag>
@@ -110,6 +122,7 @@
         <XmlMediaPortalTag Tag="#MovingPictures.Backdrop" />
         <XmlMediaPortalTag Tag="#MovingPictures.Backdrop2" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.UserMovieSettings.watched</SkinTag>
@@ -118,6 +131,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.UserMovieSettings.watched" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.Coverart</SkinTag>
@@ -126,6 +140,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.Coverart" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPE.Selected.Icon</SkinTag>
@@ -134,6 +149,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MPE.Selected.Icon" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#selectedthumb</SkinTag>
@@ -142,6 +158,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#selectedthumb" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPDisplay.HoverImage</SkinTag>
@@ -150,6 +167,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="New...." />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TV.View.thumb</SkinTag>
@@ -158,6 +176,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.View.thumb" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPD2.fanart.TVSeries</SkinTag>
@@ -167,6 +186,7 @@
         <XmlMediaPortalTag Tag="#TVSeries.Fanart.1" />
         <XmlMediaPortalTag Tag="#TVSeries.Fanart.2" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPD2.Thumb.TVSeries</SkinTag>
@@ -176,6 +196,7 @@
         <XmlMediaPortalTag Tag="#TVSeries.SeriesPoster" />
         <XmlMediaPortalTag Tag="#TVSeries.SeasonPoster" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#UpdateControl.UpdateSeverityImage</SkinTag>
@@ -184,6 +205,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#UpdateControl.UpdateSeverityImage" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.TodayIconImage</SkinTag>
@@ -192,6 +214,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.TodayIconImage" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.LocationMoonPhaseImage</SkinTag>
@@ -200,6 +223,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.LocationMoonPhaseImage" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay0IconImage</SkinTag>
@@ -208,6 +232,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay0IconImage" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay1IconImage</SkinTag>
@@ -216,6 +241,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay1IconImage" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay2IconImage</SkinTag>
@@ -224,6 +250,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay2IconImage" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay3IconImage</SkinTag>
@@ -232,6 +259,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay3IconImage" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPD2.fanart.music</SkinTag>
@@ -241,6 +269,7 @@
         <XmlMediaPortalTag Tag="#fanarthandler.music.backdrop1.selected" />
         <XmlMediaPortalTag Tag="#fanarthandler.music.backdrop2.selected" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay4IconImage</SkinTag>
@@ -249,6 +278,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay4IconImage" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TVSeries.EpisodeImage</SkinTag>
@@ -257,6 +287,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TVSeries.EpisodeImage" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPD2.fanart.musicplay</SkinTag>
@@ -266,6 +297,7 @@
         <XmlMediaPortalTag Tag="#fanarthandler.music.backdrop1.play" />
         <XmlMediaPortalTag Tag="#fanarthandler.music.backdrop2.play" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#percentage</SkinTag>
@@ -274,6 +306,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#percentage" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TV.Record.percent3</SkinTag>
@@ -282,6 +315,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.Record.percent3" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TV.View.Percentage</SkinTag>
@@ -290,6 +324,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.View.Percentage" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TV.Record.percent2</SkinTag>
@@ -298,38 +333,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.Record.percent2" />
       </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MP.SystemInfo.Number.CPU</SkinTag>
-      <PropertyType>Number</PropertyType>
-      <DesignerValue>50</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MP.SystemInfo.Number.CPU" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MP.SystemInfo.Number.PhysicalPercent</SkinTag>
-      <PropertyType>Number</PropertyType>
-      <DesignerValue>35</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MP.SystemInfo.Number.PhysicalPercent" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MP.SystemInfo.Number.Drive0.PercentFree</SkinTag>
-      <PropertyType>Number</PropertyType>
-      <DesignerValue>75</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MP.SystemInfo.Number.Drive0.PercentFree" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MP.SystemInfo.Number.Drive1.PercentFree</SkinTag>
-      <PropertyType>Number</PropertyType>
-      <DesignerValue>90</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MP.SystemInfo.Number.Drive1.PercentFree" />
-      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Play.Current.VideoCodec.Texture</SkinTag>
@@ -338,6 +342,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Play.Current.VideoCodec.Texture" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPD2.TVSeries.RatingPath</SkinTag>
@@ -347,6 +352,7 @@
         <XmlMediaPortalTag Tag="#TVSeries.Episode.RatingPath" />
         <XmlMediaPortalTag Tag="#TVSeries.Series.RatingPath" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.SelectedMovie.score.rounded</SkinTag>
@@ -355,6 +361,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.score.rounded" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Rockstar.SelectedTrack.TrackDuration</SkinTag>
@@ -363,6 +370,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Rockstar.SelectedTrack.TrackDuration" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Rockstar.SelectedTrack.AlbumYear</SkinTag>
@@ -371,6 +379,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Rockstar.SelectedTrack.AlbumYear" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Play.Current.Album</SkinTag>
@@ -379,6 +388,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Play.Current.Album" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Rockstar.PluginName</SkinTag>
@@ -387,6 +397,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Rockstar.PluginName" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TV.RecordedTV.Description</SkinTag>
@@ -395,6 +406,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.RecordedTV.Description" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TV.RecordedTV.Time</SkinTag>
@@ -403,6 +415,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.RecordedTV.Time" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#RadioTime.Play.Description</SkinTag>
@@ -411,6 +424,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#RadioTime.Play.Description" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#RadioTime.Play.Location</SkinTag>
@@ -419,6 +433,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#RadioTime.Play.Location" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#RadioTime.Play.Station</SkinTag>
@@ -427,6 +442,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#RadioTime.Play.Station" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#RadioTime.Presets.Folder.Name</SkinTag>
@@ -435,6 +451,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#RadioTime.Presets.Folder.Name" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#RadioTime.Translation.Folders.Label</SkinTag>
@@ -443,6 +460,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#RadioTime.Translation.Folders.Label" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#RadioTime.Translation.Home.Label</SkinTag>
@@ -451,6 +469,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#RadioTime.Translation.Home.Label" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#RadioTime.Presets.10.Name</SkinTag>
@@ -459,6 +478,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#RadioTime.Presets.10.Name" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#RadioTime.Presets.9.Name</SkinTag>
@@ -467,6 +487,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#RadioTime.Presets.9.Name" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#RadioTime.Presets.8.Name</SkinTag>
@@ -475,6 +496,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#RadioTime.Presets.8.Name" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#RadioTime.Presets.7.Name</SkinTag>
@@ -483,6 +505,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#RadioTime.Presets.7.Name" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#RadioTime.Presets.6.Name</SkinTag>
@@ -491,6 +514,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#RadioTime.Presets.6.Name" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#RadioTime.Presets.5.Name</SkinTag>
@@ -499,6 +523,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#RadioTime.Presets.5.Name" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#RadioTime.Presets.4.Name</SkinTag>
@@ -507,6 +532,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#RadioTime.Presets.4.Name" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#RadioTime.Presets.3.Name</SkinTag>
@@ -515,6 +541,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#RadioTime.Presets.3.Name" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#RadioTime.Presets.2.Name</SkinTag>
@@ -523,6 +550,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#RadioTime.Presets.2.Name" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#RadioTime.Presets.1.Name</SkinTag>
@@ -531,6 +559,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#RadioTime.Presets.1.Name" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.db.framerate.value</SkinTag>
@@ -539,6 +568,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.db.framerate.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.db.url.value</SkinTag>
@@ -547,6 +577,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.db.url.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.db.size.value</SkinTag>
@@ -555,6 +586,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.db.size.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.db.audiobitrate.value</SkinTag>
@@ -563,6 +595,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.db.audiobitrate.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.db.resolution.value</SkinTag>
@@ -571,6 +604,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.db.resolution.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.db.videobitrate.value</SkinTag>
@@ -579,6 +613,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.db.videobitrate.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.db.comments.value</SkinTag>
@@ -587,6 +622,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.db.comments.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.db.actors.value</SkinTag>
@@ -595,6 +631,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.db.actors.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.user.item5.value</SkinTag>
@@ -603,6 +640,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.user.item5.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.user.item4.value</SkinTag>
@@ -611,6 +649,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.user.item4.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.user.item3.value</SkinTag>
@@ -619,6 +658,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.user.item3.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.user.item2.value</SkinTag>
@@ -627,6 +667,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.user.item2.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.user.item1.value</SkinTag>
@@ -635,6 +676,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.user.item1.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.db.director.value</SkinTag>
@@ -643,6 +685,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.db.director.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.db.length.value</SkinTag>
@@ -651,6 +694,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.db.length.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.db.year.value</SkinTag>
@@ -659,6 +703,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.db.year.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.db.rating.value</SkinTag>
@@ -667,6 +712,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.db.rating.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.db.audioformat.value</SkinTag>
@@ -675,6 +721,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.db.audioformat.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.db.calc.aspectratio.value</SkinTag>
@@ -683,6 +730,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.db.calc.aspectratio.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.db.videoformat.value</SkinTag>
@@ -691,6 +739,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.db.videoformat.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.db.description.value</SkinTag>
@@ -699,6 +748,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.db.description.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.db.rating.value</SkinTag>
@@ -707,6 +757,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.db.rating.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.view</SkinTag>
@@ -715,6 +766,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.view" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.user.mastertitle.value</SkinTag>
@@ -723,6 +775,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.user.mastertitle.value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Emulators2.CurrentItem.latestplaydate</SkinTag>
@@ -731,6 +784,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.latestplaydate" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Emulators2.CurrentItem.genre</SkinTag>
@@ -739,6 +793,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.genre" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Emulators2.CurrentItem.year</SkinTag>
@@ -747,6 +802,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.year" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Emulators2.CurrentItem.description</SkinTag>
@@ -755,6 +811,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.description" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Emulators2.CurrentItem.company</SkinTag>
@@ -763,6 +820,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.company" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Emulators2.CurrentItem.title</SkinTag>
@@ -771,6 +829,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.title" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Emulators2.CurrentItem.title</SkinTag>
@@ -779,6 +838,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Emulators2.CurrentItem.title" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Play.Current.AudioChannels</SkinTag>
@@ -787,6 +847,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Play.Current.AudioChannels" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Play.Current.AudioCodec.Texture</SkinTag>
@@ -795,6 +856,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Play.Current.AudioCodec.Texture" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Play.Current.AspectRatio</SkinTag>
@@ -803,6 +865,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Play.Current.AspectRatio" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Play.Current.VideoResolution</SkinTag>
@@ -811,6 +874,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Play.Current.VideoResolution" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPD2.myAnime.Description</SkinTag>
@@ -820,6 +884,7 @@
         <XmlMediaPortalTag Tag="#Anime3.Description" />
         <XmlMediaPortalTag Tag="#Anime3.Episode.Description" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPD2.myAnime.Rating</SkinTag>
@@ -829,6 +894,7 @@
         <XmlMediaPortalTag Tag="#Anime3.Episode.Rating" />
         <XmlMediaPortalTag Tag="#Anime3.SeriesGroup.Rating" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#selectedindex</SkinTag>
@@ -837,6 +903,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#selectedindex" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#mvCentral.LocalMedia.audiochannels</SkinTag>
@@ -845,6 +912,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#mvCentral.LocalMedia.audiochannels" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#mvCentral.LocalMedia.audiocodec</SkinTag>
@@ -853,6 +921,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#mvCentral.LocalMedia.audiocodec" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#mvCentral.LocalMedia.videoaspectratio</SkinTag>
@@ -861,6 +930,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#mvCentral.LocalMedia.videoaspectratio" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#mvCentral.LocalMedia.videoresolution</SkinTag>
@@ -869,6 +939,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#mvCentral.LocalMedia.videoresolution" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#mvCentral.LocalMedia.videocodec</SkinTag>
@@ -877,6 +948,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#mvCentral.LocalMedia.videocodec" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Play.Current.mvVideo</SkinTag>
@@ -885,6 +957,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Play.Current.mvVideo" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#mvCentral.ArtistName</SkinTag>
@@ -893,6 +966,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#mvCentral.ArtistName" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#mvCentral.Hierachy</SkinTag>
@@ -901,6 +975,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#mvCentral.Hierachy" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#itemtype</SkinTag>
@@ -909,6 +984,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#itemtype" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#mvCentral.ViewAs</SkinTag>
@@ -917,6 +993,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#mvCentral.ViewAs" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Play.Current.Duration</SkinTag>
@@ -925,6 +1002,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Play.Current.Duration" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Play.Next.Duration</SkinTag>
@@ -933,6 +1011,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Play.Next.Duration" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Play.Next.Title</SkinTag>
@@ -941,6 +1020,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Play.Next.Title" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Play.Next.Artist</SkinTag>
@@ -949,6 +1029,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Play.Next.Artist" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Play.Current.Title</SkinTag>
@@ -957,6 +1038,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Play.Current.Title" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Play.Current.Artist</SkinTag>
@@ -965,6 +1047,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Play.Current.Artist" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#itemcount</SkinTag>
@@ -973,6 +1056,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#itemcount" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#currentremaining</SkinTag>
@@ -981,6 +1065,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#currentremaining" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#currentplaytime</SkinTag>
@@ -989,6 +1074,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#currentplaytime" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.LocalMedia.videoheight</SkinTag>
@@ -997,6 +1083,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.videoheight" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.LocalMedia.videowidth</SkinTag>
@@ -1005,6 +1092,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.videowidth" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.SelectedMovie.details_url</SkinTag>
@@ -1013,6 +1101,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.details_url" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.SelectedMovie.date_added</SkinTag>
@@ -1021,6 +1110,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.date_added" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.LocalMedia.audiochannels</SkinTag>
@@ -1029,6 +1119,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.audiochannels" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.LocalMedia.audiocodec</SkinTag>
@@ -1037,6 +1128,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.audiocodec" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.LocalMedia.videoresolution</SkinTag>
@@ -1045,6 +1137,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.videoresolution" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.LocalMedia.videoframerate</SkinTag>
@@ -1053,6 +1146,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.videoframerate" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.LocalMedia.videocodec</SkinTag>
@@ -1061,6 +1155,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.videocodec" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.SelectedMovie.runtime.localized.long</SkinTag>
@@ -1069,6 +1164,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.runtime.localized.long" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.SelectedMovie.year</SkinTag>
@@ -1077,6 +1173,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.year" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.SelectedMovie.actors</SkinTag>
@@ -1085,6 +1182,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.actors" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.SelectedMovie.writers</SkinTag>
@@ -1093,6 +1191,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.writers" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.SelectedMovie.directors</SkinTag>
@@ -1101,6 +1200,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.directors" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.Translation.Votes.Label</SkinTag>
@@ -1109,6 +1209,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.Translation.Votes.Label" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.SelectedMovie.popularity.localized</SkinTag>
@@ -1117,6 +1218,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.popularity.localized" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.SelectedMovie.score.localized</SkinTag>
@@ -1125,6 +1227,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.score.localized" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.SelectedMovie.genres</SkinTag>
@@ -1133,6 +1236,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.genres" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPD2.Video.Subs</SkinTag>
@@ -1142,6 +1246,7 @@
         <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.Subtitles" />
         <XmlMediaPortalTag Tag="#Play.Current.HasSubtitles" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.SelectedMovie.summary</SkinTag>
@@ -1150,6 +1255,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.summary" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.SelectedMovie.score.localized</SkinTag>
@@ -1158,6 +1264,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.score.localized" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.general.itemcount</SkinTag>
@@ -1166,6 +1273,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.general.itemcount" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.SelectedMovie.title</SkinTag>
@@ -1174,6 +1282,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.SelectedMovie.title" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#selecteditem2</SkinTag>
@@ -1182,6 +1291,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#selecteditem2" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#selecteditem</SkinTag>
@@ -1190,6 +1300,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#selecteditem" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPE.Selected.Description</SkinTag>
@@ -1198,6 +1309,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MPE.Selected.Description" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPE.Selected.Id</SkinTag>
@@ -1206,6 +1318,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MPE.Selected.Id" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPE.Selected.ReleaseDate</SkinTag>
@@ -1214,6 +1327,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MPE.Selected.ReleaseDate" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPE.Selected.Author</SkinTag>
@@ -1222,6 +1336,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MPE.Selected.Author" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPE.Selected.Version</SkinTag>
@@ -1230,6 +1345,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MPE.Selected.Version" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPE.Selected.Name</SkinTag>
@@ -1238,6 +1354,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MPE.Selected.Name" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.TodayTemperature</SkinTag>
@@ -1246,6 +1363,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.TodayTemperature" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#currentmodule</SkinTag>
@@ -1254,6 +1372,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#currentmodule" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Dialog.Label1</SkinTag>
@@ -1262,6 +1381,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Dialog.Label1" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Dialog.Label2</SkinTag>
@@ -1270,6 +1390,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Dialog.Label2" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Dialog.Label3</SkinTag>
@@ -1278,6 +1399,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Dialog.Label62" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Dialog.Label4</SkinTag>
@@ -1286,6 +1408,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Dialog.Label6" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Dialog.Label5</SkinTag>
@@ -1294,6 +1417,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Dialog.Label5" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Dialog.Label6</SkinTag>
@@ -1302,6 +1426,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Dialog.Label4" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#infoservice.feed.1.titles</SkinTag>
@@ -1310,6 +1435,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#infoservice.feed.1.titles" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#highlightedbutton</SkinTag>
@@ -1318,6 +1444,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#highlightedbutton" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#date</SkinTag>
@@ -1326,6 +1453,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#date" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#time</SkinTag>
@@ -1334,6 +1462,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#time" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TV.Search.Title</SkinTag>
@@ -1342,6 +1471,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.Search.Title" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TV.Search.Time</SkinTag>
@@ -1350,6 +1480,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.Search.Time" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TV.Search.Description</SkinTag>
@@ -1358,6 +1489,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.Search.Description" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TV.View.title</SkinTag>
@@ -1366,6 +1498,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.View.title" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TV.View.channel</SkinTag>
@@ -1374,6 +1507,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.View.channel" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TV.View.genre</SkinTag>
@@ -1382,6 +1516,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.View.genre" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TV.Next.start</SkinTag>
@@ -1390,6 +1525,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.Next.start" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TV.Next.stop</SkinTag>
@@ -1398,6 +1534,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.Next.stop" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TV.Next.title</SkinTag>
@@ -1406,6 +1543,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.Next.title" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TV.View.start</SkinTag>
@@ -1414,6 +1552,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.View.start" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TV.View.stop</SkinTag>
@@ -1422,6 +1561,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.View.stop" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TV.Next.genre</SkinTag>
@@ -1430,6 +1570,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.Next.genre" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TVSeries.CurrentView</SkinTag>
@@ -1438,6 +1579,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TVSeries.CurrentView" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPD2.TVSeries.Rating</SkinTag>
@@ -1447,6 +1589,7 @@
         <XmlMediaPortalTag Tag="#TVSeries.Episode.InfoPanelLine1Value" />
         <XmlMediaPortalTag Tag="#TVSeries.Series.InfoPanelLine1Value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPD2.TVSeries.Rating2</SkinTag>
@@ -1456,6 +1599,7 @@
         <XmlMediaPortalTag Tag="#TVSeries.Episode.InfoPanelLine8Value" />
         <XmlMediaPortalTag Tag="#TVSeries.Series.InfoPanelLine9Value" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#UpdateControl.UpdateTitle</SkinTag>
@@ -1464,6 +1608,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#UpdateControl.UpdateTitle" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#UpdateControl.UpdateSize</SkinTag>
@@ -1472,6 +1617,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#UpdateControl.UpdateSize" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#UpdateControl.UpdateSeverity</SkinTag>
@@ -1480,6 +1626,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#UpdateControl.UpdateSeverity" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#UpdateControl.UpdateDescription</SkinTag>
@@ -1488,6 +1635,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#UpdateControl.UpdateDescription" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#UpdateControl.Action</SkinTag>
@@ -1496,6 +1644,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#UpdateControl.Action" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#UpdateControl.DownloadOverallProgress</SkinTag>
@@ -1504,6 +1653,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#UpdateControl.DownloadOverallProgress" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#UpdateControl.InstallOverallProgress</SkinTag>
@@ -1512,6 +1662,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#UpdateControl.InstallOverallProgress" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.TodayCondition</SkinTag>
@@ -1520,6 +1671,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.TodayCondition" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.TodayWindDirection</SkinTag>
@@ -1528,6 +1680,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.TodayWindDirection" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.TodayWindDirectionDegree</SkinTag>
@@ -1536,6 +1689,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.TodayWindDirectionDegree" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.TodayWindSpeed</SkinTag>
@@ -1544,6 +1698,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.TodayWindSpeed" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.LocationSunriseTime</SkinTag>
@@ -1552,6 +1707,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.LocationSunriseTime" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.LocationSunsetTime</SkinTag>
@@ -1560,6 +1716,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.LocationSunsetTime" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.LocationMoonPhase</SkinTag>
@@ -1568,6 +1725,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.LocationMoonPhase" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay0Day</SkinTag>
@@ -1576,6 +1734,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay0Day" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay0High</SkinTag>
@@ -1584,6 +1743,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay0High" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay0Low</SkinTag>
@@ -1592,6 +1752,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay0Low" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay0Condition</SkinTag>
@@ -1600,6 +1761,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay0Condition" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay1Day</SkinTag>
@@ -1608,6 +1770,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay1Day" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay1High</SkinTag>
@@ -1616,6 +1779,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay1High" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay1Low</SkinTag>
@@ -1624,6 +1788,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay1Low" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay1Condition</SkinTag>
@@ -1632,6 +1797,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay1Condition" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay2Day</SkinTag>
@@ -1640,6 +1806,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay2Day" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay2High</SkinTag>
@@ -1648,6 +1815,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay2High" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay2Low</SkinTag>
@@ -1656,6 +1824,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay2Low" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay2Condition</SkinTag>
@@ -1664,6 +1833,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay2Condition" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay3Day</SkinTag>
@@ -1672,6 +1842,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay3Day" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay3High</SkinTag>
@@ -1680,6 +1851,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay3High" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay3Low</SkinTag>
@@ -1688,6 +1860,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay3Low" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay3Condition</SkinTag>
@@ -1696,6 +1869,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay3Condition" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay4Day</SkinTag>
@@ -1704,6 +1878,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay4Day" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay4High</SkinTag>
@@ -1712,6 +1887,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay4High" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay4Low</SkinTag>
@@ -1720,6 +1896,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay4Low" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.ForecastDay4Condition</SkinTag>
@@ -1728,6 +1905,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.ForecastDay4Condition" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPD2.BrowseStatus</SkinTag>
@@ -1737,6 +1915,7 @@
         <XmlMediaPortalTag Tag="#webbrowser.status" />
         <XmlMediaPortalTag Tag="#btWeb.status" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPD2.Browseurl</SkinTag>
@@ -1746,6 +1925,7 @@
         <XmlMediaPortalTag Tag="#webbrowser.shorturl" />
         <XmlMediaPortalTag Tag="#btWeb.linkid" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TVSeries.Episode.LocalEpisodeName</SkinTag>
@@ -1754,6 +1934,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TVSeries.Episode.LocalEpisodeName" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MPE.Selected.VersionDescription</SkinTag>
@@ -1762,6 +1943,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MPE.Selected.VersionDescription" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#duration</SkinTag>
@@ -1770,6 +1952,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#duration" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Rockstar.CurrentModule</SkinTag>
@@ -1778,6 +1961,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Rockstar.CurrentModule" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Dialog.Label10</SkinTag>
@@ -1786,6 +1970,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Dialog.Label10" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Dialog.Label11</SkinTag>
@@ -1794,78 +1979,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Dialog.Label11" />
       </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MP.SystemInfo.Label.Drive0.Name</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>C:\</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.Drive0.Name" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MP.SystemInfo.Label.Drive0.TotalSpace</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>120</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.Drive0.TotalSpace" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MP.SystemInfo.Label.Drive1.Name</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>D:\</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.Drive1.Name" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MP.SystemInfo.Label.Drive1.TotalSpace</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>500</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.Drive1.TotalSpace" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MP.SystemInfo.Label.OSFullName</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>Microsoft Windows 7 Ultimate</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.OSFullName" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MP.SystemInfo.Label.OSPlatform</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>Win32NT</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.OSPlatform" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MP.SystemInfo.Label.OSVersion</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>6.1.7601.65536</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.OSVersion" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MP.SystemInfo.Label.CPU</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>66 %</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.CPU" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MP.SystemInfo.Label.PhysicalPercent</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>33 %</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.PhysicalPercent" />
-      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TVSeries.Description</SkinTag>
@@ -1874,6 +1988,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TVSeries.Description" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TVSeries.Series.Pretty_Name</SkinTag>
@@ -1882,6 +1997,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TVSeries.Series.Pretty_Name" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#MovingPictures.LocalMedia.videoaspectratio</SkinTag>
@@ -1890,6 +2006,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#MovingPictures.LocalMedia.videoaspectratio" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Play.Current.mvArtist</SkinTag>
@@ -1898,6 +2015,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Play.Current.mvArtist" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#Play.Current.mvAlbum</SkinTag>
@@ -1906,6 +2024,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#Play.Current.mvAlbum" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#WorldWeather.Location</SkinTag>
@@ -1914,6 +2033,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#WorldWeather.Location" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#header.label</SkinTag>
@@ -1922,6 +2042,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#header.label" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#RadioTime.Selected.Subtext</SkinTag>
@@ -1930,6 +2051,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#RadioTime.Selected.Subtext" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#RadioTime.Selected.Format</SkinTag>
@@ -1938,6 +2060,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#RadioTime.Selected.Format" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#myfilms.db.certification.value</SkinTag>
@@ -1946,22 +2069,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#myfilms.db.certification.value" />
       </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MP.SystemInfo.Label.Date2</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>13.10.2013</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.Date2" />
-      </MediaPortalTags>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#MP.SystemInfo.Label.Time</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>16:54</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#MP.SystemInfo.Label.Time" />
-      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#itemName</SkinTag>
@@ -1970,6 +2078,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#itemName" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#toplabel2</SkinTag>
@@ -1978,6 +2087,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#toplabel2" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#toplabel1</SkinTag>
@@ -1986,6 +2096,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#toplabel1" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#bottomlabel1</SkinTag>
@@ -1994,6 +2105,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#bottomlabel1" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#bottomlabel2</SkinTag>
@@ -2002,6 +2114,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#bottomlabel2" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
       <SkinTag>#TV.View.description</SkinTag>
@@ -2010,6 +2123,7 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.View.description" />
       </MediaPortalTags>
+      <IsInternal>false</IsInternal>
     </XmlProperty>
   </Properties>
 </XmlPropertyInfo>
