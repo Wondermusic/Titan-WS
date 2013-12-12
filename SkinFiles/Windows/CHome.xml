@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Window xmlns:x="http://www.w3.org/2001/XMLSchema-instance" x:type="MediaPortalWindow">
-  <IsDefault>false</IsDefault>
+  <IsDefault>true</IsDefault>
   <Width>1280</Width>
   <Height>720</Height>
-  <Name>ClassicHome</Name>
-  <Id>2</Id>
+  <Name>CHome</Name>
+  <Id>37</Id>
   <BackgroundBrush />
   <WindowAnimations />
   <WindowControls>
     <Control x:type="Image">
       <Name>Background Image</Name>
-      <Id>26</Id>
+      <Id>1</Id>
       <Width>1280</Width>
       <Height>720</Height>
       <VisibleCondition />
@@ -32,7 +32,7 @@
     </Control>
     <Control x:type="Group">
       <Name>Menu</Name>
-      <Id>8</Id>
+      <Id>2</Id>
       <Width>1225</Width>
       <Height>118</Height>
       <PosX>28</PosX>
@@ -47,7 +47,7 @@
       <GroupControls>
         <Control x:type="List">
           <Name>List</Name>
-          <Id>9</Id>
+          <Id>3</Id>
           <Width>1225</Width>
           <Height>118</Height>
           <VisibleCondition />
@@ -88,7 +88,7 @@
     </Control>
     <Control x:type="Group">
       <Name>Window Name</Name>
-      <Id>2</Id>
+      <Id>4</Id>
       <Width>1280</Width>
       <Height>156</Height>
       <VisibleCondition />
@@ -101,7 +101,7 @@
       <GroupControls>
         <Control x:type="Image">
           <Name>Icon</Name>
-          <Id>3</Id>
+          <Id>5</Id>
           <Width>60</Width>
           <Height>60</Height>
           <VisibleCondition>!IsTvRecording</VisibleCondition>
@@ -118,7 +118,7 @@
         </Control>
         <Control x:type="Label">
           <Name>Name of Window</Name>
-          <Id>4</Id>
+          <Id>6</Id>
           <Width>563</Width>
           <Height>60</Height>
           <PosX>68</PosX>
@@ -134,7 +134,7 @@
         </Control>
         <Control x:type="Label">
           <Name>Time</Name>
-          <Id>5</Id>
+          <Id>7</Id>
           <Width>426</Width>
           <Height>110</Height>
           <PosX>855</PosX>
@@ -151,7 +151,7 @@
         </Control>
         <Control x:type="Label">
           <Name>Date</Name>
-          <Id>6</Id>
+          <Id>8</Id>
           <Width>694</Width>
           <Height>70</Height>
           <PosX>580</PosX>
@@ -169,7 +169,7 @@
         </Control>
         <Control x:type="Label">
           <Name>Date</Name>
-          <Id>7</Id>
+          <Id>9</Id>
           <Width>694</Width>
           <Height>70</Height>
           <PosX>580</PosX>
@@ -187,7 +187,7 @@
         </Control>
         <Control x:type="Image">
           <Name>Rec Indicator</Name>
-          <Id>30</Id>
+          <Id>10</Id>
           <Width>60</Width>
           <Height>60</Height>
           <VisibleCondition>IsTvRecording</VisibleCondition>
@@ -209,12 +209,12 @@
     </Control>
     <Control x:type="Group">
       <Name>RSS-Ticker</Name>
-      <Id>27</Id>
+      <Id>11</Id>
       <Width>1270</Width>
       <Height>65</Height>
       <PosX>5</PosX>
       <PosY>650</PosY>
-      <VisibleCondition />
+      <VisibleCondition>IsPluginEnabled(InfoService)</VisibleCondition>
       <Animations />
       <MediaPortalFocusControls />
       <GroupStyle>
@@ -224,7 +224,7 @@
       <GroupControls>
         <Control x:type="Image">
           <Name>NewImage</Name>
-          <Id>28</Id>
+          <Id>12</Id>
           <Width>1270</Width>
           <Height>60</Height>
           <VisibleCondition />
@@ -240,7 +240,7 @@
         </Control>
         <Control x:type="Label">
           <Name>Ticker</Name>
-          <Id>29</Id>
+          <Id>13</Id>
           <Width>1241</Width>
           <Height>70</Height>
           <PosX>13</PosX>
@@ -263,7 +263,7 @@
     </Control>
     <Control x:type="Button">
       <Name>MPD++ Remote Button</Name>
-      <Id>13</Id>
+      <Id>14</Id>
       <Width>640</Width>
       <Height>150</Height>
       <PosX>640</PosX>
@@ -288,7 +288,7 @@
     </Control>
     <Control x:type="Button">
       <Name>Menu</Name>
-      <Id>25</Id>
+      <Id>15</Id>
       <Width>640</Width>
       <Height>150</Height>
       <VisibleCondition>IsSkinOptionEnabled(Default) || IsSkinOptionEnabled(Extended)</VisibleCondition>
@@ -313,7 +313,7 @@
     </Control>
     <Control x:type="Group">
       <Name>Action Menu</Name>
-      <Id>18</Id>
+      <Id>16</Id>
       <Width>1280</Width>
       <Height>200</Height>
       <PosY>303</PosY>
@@ -331,7 +331,7 @@
       <GroupControls>
         <Control x:type="Button">
           <Name>Background</Name>
-          <Id>24</Id>
+          <Id>17</Id>
           <Width>1260</Width>
           <Height>100</Height>
           <PosX>10</PosX>
@@ -359,7 +359,7 @@
         </Control>
         <Control x:type="Button">
           <Name>Restart Button</Name>
-          <Id>20</Id>
+          <Id>18</Id>
           <Width>70</Width>
           <Height>70</Height>
           <PosX>660</PosX>
@@ -389,7 +389,7 @@
         </Control>
         <Control x:type="Button">
           <Name>Shutdown Button</Name>
-          <Id>21</Id>
+          <Id>19</Id>
           <Width>70</Width>
           <Height>70</Height>
           <PosX>810</PosX>
@@ -419,7 +419,7 @@
         </Control>
         <Control x:type="Button">
           <Name>Close Button</Name>
-          <Id>22</Id>
+          <Id>20</Id>
           <Width>70</Width>
           <Height>70</Height>
           <PosX>960</PosX>
@@ -449,7 +449,7 @@
         </Control>
         <Control x:type="Label">
           <Name>Info</Name>
-          <Id>23</Id>
+          <Id>21</Id>
           <Width>574</Width>
           <Height>70</Height>
           <PosX>50</PosX>
@@ -471,5 +471,5 @@
       </GroupControls>
     </Control>
   </WindowControls>
-  <VisibleCondition>(IsMediaPortalWindow(0) || IsMediaPortalWindow(34)) ++ (IsSkinOptionEnabled(Default) || IsSkinOptionEnabled(Extended))</VisibleCondition>
+  <VisibleCondition>(IsMediaPortalWindow(0) || IsMediaPortalWindow(34)) ++ (IsSkinOptionEnabled(ClassicHome) || IsSkinOptionEnabled(ClassicHome_Extended))</VisibleCondition>
 </Window>

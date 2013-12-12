@@ -12,6 +12,83 @@
   </WindowAnimations>
   <WindowControls>
     <Control x:type="Group">
+      <Name>Basic Screen</Name>
+      <Id>141</Id>
+      <Width>1280</Width>
+      <Height>720</Height>
+      <VisibleCondition />
+      <Animations>
+        <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" Easing="EaseIn" StartY="720" />
+        <Animation x:type="Slide" Condition="VisibleFalse" Duration="1000" Easing="EaseOut" EndY="720" />
+      </Animations>
+      <MediaPortalFocusControls />
+      <GroupStyle StyleId="Empty" />
+      <GroupControls>
+        <Control x:type="Image">
+          <Name>NewImage</Name>
+          <Id>142</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle StyleId="Logo_Image" />
+          <Image>\ErrorScreen.png</Image>
+          <ImageStretch>Uniform</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Button">
+          <Name>NewButton</Name>
+          <Id>143</Id>
+          <Width>400</Width>
+          <Height>69</Height>
+          <PosX>25</PosX>
+          <PosY>623</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ButtonStyle StyleId="Weather" />
+          <LabelText>Exit MPD++</LabelText>
+          <Actions>
+            <Action Action="Exit" />
+          </Actions>
+        </Control>
+        <Control x:type="Button">
+          <Name>NewButton</Name>
+          <Id>144</Id>
+          <Width>400</Width>
+          <Height>69</Height>
+          <PosX>855</PosX>
+          <PosY>623</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ButtonStyle StyleId="Weather" />
+          <LabelText>++Reconnect to Server</LabelText>
+          <Actions>
+            <Action Action="Connect" />
+          </Actions>
+        </Control>
+        <Control x:type="Button">
+          <Name>NewButton</Name>
+          <Id>150</Id>
+          <Width>300</Width>
+          <Height>69</Height>
+          <PosX>490</PosX>
+          <PosY>623</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ButtonStyle StyleId="Weather" />
+          <LabelText>+System Info</LabelText>
+          <Actions>
+            <Action Action="ControlVisible" Param="122" />
+            <Action Action="ControlVisible" Param="141" />
+          </Actions>
+        </Control>
+      </GroupControls>
+    </Control>
+    <Control x:type="Group">
       <Name>Main Window</Name>
       <Id>1</Id>
       <Width>1280</Width>
@@ -232,20 +309,20 @@
           <CornerRadius>0,0,0,0</CornerRadius>
           <BackgroundBrush />
           <ShadeBrush x:type="GradientBrush">
-            <Angle>Horizontal</Angle>
             <GradientStops>
               <GradientStop Color="Transparent" Offset="0.36" />
               <GradientStop Color="#FFC0C0C0" Offset="0.475" />
               <GradientStop Color="Transparent" Offset="0.626" />
             </GradientStops>
+            <Angle>Horizontal</Angle>
           </ShadeBrush>
           <GlossBrush x:type="GradientBrush">
-            <Angle>Vertical</Angle>
             <GradientStops>
               <GradientStop Color="Transparent" Offset="0" />
               <GradientStop Color="#FFC0C0C0" Offset="0.468" />
               <GradientStop Color="Transparent" Offset="1" />
             </GradientStops>
+            <Angle>Vertical</Angle>
           </GlossBrush>
         </Control>
         <Control x:type="Label">
@@ -336,20 +413,20 @@
           <CornerRadius>0,0,0,0</CornerRadius>
           <BackgroundBrush />
           <ShadeBrush x:type="GradientBrush">
-            <Angle>Horizontal</Angle>
             <GradientStops>
               <GradientStop Color="Transparent" Offset="0.36" />
               <GradientStop Color="#FFC0C0C0" Offset="0.475" />
               <GradientStop Color="Transparent" Offset="0.626" />
             </GradientStops>
+            <Angle>Horizontal</Angle>
           </ShadeBrush>
           <GlossBrush x:type="GradientBrush">
-            <Angle>Vertical</Angle>
             <GradientStops>
               <GradientStop Color="Transparent" Offset="0" />
               <GradientStop Color="#FFC0C0C0" Offset="0.468" />
               <GradientStop Color="Transparent" Offset="1" />
             </GradientStops>
+            <Angle>Vertical</Angle>
           </GlossBrush>
         </Control>
         <Control x:type="Label">
@@ -505,7 +582,10 @@
       <Height>580</Height>
       <VisibleCondition />
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
-      <Animations />
+      <Animations>
+        <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" Easing="EaseOut" StartY="-720" />
+        <Animation x:type="Slide" Condition="VisibleFalse" Duration="1000" Easing="EaseIn" EndY="-720" />
+      </Animations>
       <MediaPortalFocusControls />
       <GroupStyle>
         <BorderThickness>0,0,0,0</BorderThickness>
@@ -515,6 +595,22 @@
         <GlossBrush />
       </GroupStyle>
       <GroupControls>
+        <Control x:type="Image">
+          <Name>Main Background</Name>
+          <Id>151</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>0,0,0,0</CornerRadius>
+          </ImageStyle>
+          <Image>\Settings\MainBackground.png</Image>
+          <ImageStretch>Uniform</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
         <Control x:type="Label">
           <Name>Time</Name>
           <Id>123</Id>
@@ -775,129 +871,87 @@
         </Control>
       </GroupControls>
     </Control>
-    <Control x:type="Button">
-      <Name>Settings notActive</Name>
-      <Id>115</Id>
-      <Width>274</Width>
-      <Height>75</Height>
-      <PosX>50</PosX>
-      <PosY>603</PosY>
-      <VisibleCondition>!IsControlVisible(9)</VisibleCondition>
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
-      <Animations />
-      <MediaPortalFocusControls />
-      <ButtonStyle StyleId="MPDHome Button" />
-      <Image>\Settings\notactive.png</Image>
-      <LabelText>@Settings</LabelText>
-      <Actions>
-        <Action Action="ControlVisible" Param="9" />
-      </Actions>
-    </Control>
-    <Control x:type="Button">
-      <Name>Settings Active</Name>
-      <Id>114</Id>
-      <Width>274</Width>
-      <Height>75</Height>
-      <PosX>50</PosX>
-      <PosY>603</PosY>
-      <VisibleCondition>IsControlVisible(9)</VisibleCondition>
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
-      <Animations />
-      <MediaPortalFocusControls />
-      <ButtonStyle StyleId="MPDHome Button" />
-      <Image>\Settings\active.png</Image>
-      <LabelText>@Settings</LabelText>
-      <Actions>
-        <Action Action="ControlVisible" Param="9" />
-      </Actions>
-    </Control>
-    <Control x:type="Button">
-      <Name>Exit Button</Name>
-      <Id>36</Id>
-      <Width>274</Width>
-      <Height>78</Height>
-      <PosX>985</PosX>
-      <PosY>603</PosY>
-      <VisibleCondition />
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
-      <Animations />
-      <MediaPortalFocusControls />
-      <ButtonStyle StyleId="MPDHome Button" />
-      <LabelText>@Exit</LabelText>
-      <Actions>
-        <Action Action="Exit" Param="C:\Program Files\MPDisplay++\MPDisplay.exe" />
-      </Actions>
-    </Control>
-    <Control x:type="Button">
-      <Name>MP Button</Name>
-      <Id>140</Id>
-      <Width>274</Width>
-      <Height>78</Height>
-      <PosX>683</PosX>
-      <PosY>603</PosY>
-      <VisibleCondition>IsMediaPortalConnected</VisibleCondition>
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
-      <Animations />
-      <MediaPortalFocusControls />
-      <ButtonStyle StyleId="MPDHome Button" />
-      <LabelText>MediaPortal</LabelText>
-      <Actions>
-        <Action Action="OpenWindow" Param="0" />
-      </Actions>
-    </Control>
     <Control x:type="Group">
-      <Name>for now</Name>
-      <Id>141</Id>
+      <Name>Button Group</Name>
+      <Id>145</Id>
       <Width>1280</Width>
-      <Height>720</Height>
-      <VisibleCondition />
-      <Animations />
+      <Height>117</Height>
+      <PosY>603</PosY>
+      <VisibleCondition>IsControlVisible(9) || IsControlVisible(122)</VisibleCondition>
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <Animations>
+        <Animation x:type="Slide" Condition="VisibleTrue" Duration="1000" Easing="EaseOut" StartY="-117" EndY="603" />
+        <Animation x:type="Slide" Condition="VisibleFalse" Duration="1000" Easing="EaseIn" StartY="603" EndY="-117" />
+      </Animations>
       <MediaPortalFocusControls />
-      <GroupStyle StyleId="Empty" />
+      <GroupStyle>
+        <BorderThickness>0,0,0,0</BorderThickness>
+        <CornerRadius>0,0,0,0</CornerRadius>
+      </GroupStyle>
       <GroupControls>
-        <Control x:type="Image">
-          <Name>NewImage</Name>
-          <Id>142</Id>
-          <Width>1280</Width>
-          <Height>720</Height>
-          <VisibleCondition />
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle StyleId="Logo_Image" />
-          <Image>\ErrorScreen.png</Image>
-          <ImageStretch>Uniform</ImageStretch>
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
         <Control x:type="Button">
-          <Name>NewButton</Name>
-          <Id>143</Id>
-          <Width>400</Width>
-          <Height>69</Height>
-          <PosX>25</PosX>
-          <PosY>623</PosY>
-          <VisibleCondition />
+          <Name>Settings notActive</Name>
+          <Id>146</Id>
+          <Width>274</Width>
+          <Height>75</Height>
+          <PosX>50</PosX>
+          <VisibleCondition>!IsControlVisible(9)</VisibleCondition>
           <Animations />
           <MediaPortalFocusControls />
-          <ButtonStyle StyleId="Weather" />
-          <LabelText>Exit MPD++</LabelText>
+          <ButtonStyle StyleId="MPDHome Button" />
+          <Image>\Settings\notactive.png</Image>
+          <LabelText>@Settings</LabelText>
           <Actions>
-            <Action Action="Exit" />
+            <Action Action="ControlVisible" Param="9" />
           </Actions>
         </Control>
         <Control x:type="Button">
-          <Name>NewButton</Name>
-          <Id>144</Id>
-          <Width>400</Width>
-          <Height>69</Height>
-          <PosX>855</PosX>
-          <PosY>623</PosY>
+          <Name>Settings Active</Name>
+          <Id>147</Id>
+          <Width>274</Width>
+          <Height>75</Height>
+          <PosX>50</PosX>
+          <VisibleCondition>IsControlVisible(9)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <ButtonStyle StyleId="MPDHome Button" />
+          <Image>\Settings\active.png</Image>
+          <LabelText>@Settings</LabelText>
+          <Actions>
+            <Action Action="ControlVisible" Param="9" />
+          </Actions>
+        </Control>
+        <Control x:type="Button">
+          <Name>Exit Button</Name>
+          <Id>148</Id>
+          <Width>274</Width>
+          <Height>78</Height>
+          <PosX>985</PosX>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <ButtonStyle StyleId="Weather" />
-          <LabelText>++Reconnect to Server</LabelText>
+          <ButtonStyle StyleId="MPDHome Button" />
+          <LabelText>@Exit</LabelText>
           <Actions>
-            <Action Action="Connect" />
+            <Action Action="ControlVisible" Param="122" />
+            <Action Action="ControlVisible" Param="141" />
+          </Actions>
+        </Control>
+        <Control x:type="Button">
+          <Name>MP Button</Name>
+          <Id>149</Id>
+          <Width>274</Width>
+          <Height>78</Height>
+          <PosX>683</PosX>
+          <VisibleCondition>IsMediaPortalConnected</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <ButtonStyle StyleId="MPDHome Button" />
+          <LabelText>MediaPortal</LabelText>
+          <Actions>
+            <Action Action="OpenWindow" Param="0" />
           </Actions>
         </Control>
       </GroupControls>

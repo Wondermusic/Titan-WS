@@ -218,7 +218,7 @@
       <Id>23</Id>
       <Width>1280</Width>
       <Height>130</Height>
-      <VisibleCondition />
+      <VisibleCondition>IsSkinOptionEnabled(Default) || IsSkinOptionEnabled(Extended)</VisibleCondition>
       <Animations />
       <MediaPortalFocusControls />
       <ButtonStyle>
@@ -245,7 +245,7 @@
       <Height>605</Height>
       <PosX>-15</PosX>
       <PosY>76</PosY>
-      <VisibleCondition>!IsMediaPortalControlFocused(50)</VisibleCondition>
+      <VisibleCondition>!IsMediaPortalControlFocused(50) ++ (IsSkinOptionEnabled(Default) || IsSkinOptionEnabled(Extended))</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations>
         <Animation x:type="Slide" Condition="VisibleTrue" Duration="400" Easing="EaseOut" StartX="-400" StartY="76" EndX="-15" EndY="76" />

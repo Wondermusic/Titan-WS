@@ -196,11 +196,11 @@
             <BarCornerRadius>15,15,15,15</BarCornerRadius>
             <BarBorderBrush x:type="ColorBrush" Color="#FFC0C0C0" />
             <BarBackgroundBrush x:type="GradientBrush">
-              <Angle>Vertical</Angle>
               <GradientStops>
                 <GradientStop Color="#FFFF8C00" Offset="0.434" />
                 <GradientStop Color="#FFFFA500" Offset="1" />
               </GradientStops>
+              <Angle>Vertical</Angle>
             </BarBackgroundBrush>
           </ProgressBarStyle>
           <ProgressValue>#TV.View.Percentage</ProgressValue>
@@ -227,11 +227,11 @@
             <BarCornerRadius>15,15,15,15</BarCornerRadius>
             <BarBorderBrush x:type="ColorBrush" Color="#FFC0C0C0" />
             <BarBackgroundBrush x:type="GradientBrush">
-              <Angle>Vertical</Angle>
               <GradientStops>
                 <GradientStop Color="#FF4169E1" Offset="0.304" />
                 <GradientStop Color="#FF00BFFF" Offset="1" />
               </GradientStops>
+              <Angle>Vertical</Angle>
             </BarBackgroundBrush>
           </ProgressBarStyle>
           <ProgressValue>#TV.Record.percent2</ProgressValue>
@@ -343,7 +343,7 @@
       <Id>23</Id>
       <Width>1280</Width>
       <Height>130</Height>
-      <VisibleCondition />
+      <VisibleCondition>IsSkinOptionEnabled(Default) || IsSkinOptionEnabled(Extended)</VisibleCondition>
       <Animations />
       <MediaPortalFocusControls />
       <ButtonStyle>

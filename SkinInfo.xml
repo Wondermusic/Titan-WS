@@ -3,7 +3,7 @@
   <SkinWidth>1280</SkinWidth>
   <SkinHeight>720</SkinHeight>
   <CurrentStyle>Default</CurrentStyle>
-  <CurrentLanguage>Deutsch</CurrentLanguage>
+  <CurrentLanguage>English</CurrentLanguage>
   <TextEnableScrolling>false</TextEnableScrolling>
   <TextHorizontalScrollDelay>3</TextHorizontalScrollDelay>
   <TextHorizontalScrollSpeed>20</TextHorizontalScrollSpeed>
@@ -14,8 +14,12 @@
   <TextVerticalScrollWrap>true</TextVerticalScrollWrap>
   <TextVerticalScrollSeperator>---------------------------------</TextVerticalScrollSeperator>
   <SkinOptions>
-    <SkinOption Name="Default" Group="BasicHome" IsPreviewImageEnabled="true" PreviewImage="\Preview_Default.png" />
-    <SkinOption Name="Extended" Group="BasicHome" IsEnabled="true" IsPreviewImageEnabled="true" PreviewImage="\Preview_Extended.png" Description="Attention: You have to rename the Pictures in C:\ProgramData\MPDisplay++\Skin\Titan-WS\Images\BasicHomeImages as you name your Menu Items in Titan BasicHome Editor." />
+    <SkinOption Name="Default" Group="BasicHome" IsEnabled="true" IsPreviewImageEnabled="true" PreviewImage="\Preview_Default.png" Description="Default BasicHome Layout" />
+    <SkinOption Name="Extended" Group="BasicHome" IsPreviewImageEnabled="true" PreviewImage="\Preview_Extended.png" Description="Extended BasicHome Layout. Attention: You have to rename the Pictures in C:\ProgramData\MPDisplay++\Skin\Titan-WS\Images\BasicHomeImages as you name your Menu Items in Titan BasicHome Editor." />
+    <SkinOption Name="Default_NoTouch" Group="BasicHome" IsPreviewImageEnabled="true" PreviewImage="\Preview_Default_NoTouch.png" Description="BasicHome Default Layout without Action Menu's" />
+    <SkinOption Name="Extended_NoTouch" Group="BasicHome" IsPreviewImageEnabled="true" PreviewImage="\Preview_Extended_NoTouch.png" Description="BasicHome Extended Layout without Action Menu's" />
+    <SkinOption Name="ClassicHome" Group="BasicHome" Description="Sets ClassicHome Screen as Default" />
+    <SkinOption Name="ClassicHome_Extended" Group="BasicHome" Description="Sets BasicHome Screen as Default and when switched to BasicHome it will use the Extended Menu" />
   </SkinOptions>
   <SkinName>Titan-WS</SkinName>
   <Author>Wondermusic</Author>

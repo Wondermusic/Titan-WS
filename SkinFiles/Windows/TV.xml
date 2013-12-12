@@ -211,8 +211,7 @@
       <Id>29</Id>
       <Width>1280</Width>
       <Height>130</Height>
-      <VisibleCondition>IsPlayer(None)</VisibleCondition>
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <VisibleCondition>IsSkinOptionEnabled(Default) || IsSkinOptionEnabled(Extended)</VisibleCondition>
       <Animations />
       <MediaPortalFocusControls />
       <ButtonStyle>

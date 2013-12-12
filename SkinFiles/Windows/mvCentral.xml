@@ -259,8 +259,7 @@
       <Id>67</Id>
       <Width>1280</Width>
       <Height>130</Height>
-      <VisibleCondition>IsPlayer(None)</VisibleCondition>
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <VisibleCondition>IsSkinOptionEnabled(Default) || IsSkinOptionEnabled(Extended)</VisibleCondition>
       <Animations />
       <MediaPortalFocusControls />
       <ButtonStyle>
@@ -287,7 +286,7 @@
       <Height>605</Height>
       <PosX>-15</PosX>
       <PosY>76</PosY>
-      <VisibleCondition>(IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(5) || IsMediaPortalControlFocused(3) || IsMediaPortalControlFocused(6) || IsMediaPortalControlFocused(7) || IsMediaPortalControlFocused(8) || IsMediaPortalControlFocused(9) || IsMediaPortalControlFocused(10) || IsMediaPortalControlFocused(11) || IsMediaPortalControlFocused(15)) ++ (IsMediaPortalWindow(112011) || IsMediaPortalWindow(112012) || IsMediaPortalWindow(112015))</VisibleCondition>
+      <VisibleCondition>(IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(5) || IsMediaPortalControlFocused(3) || IsMediaPortalControlFocused(6) || IsMediaPortalControlFocused(7) || IsMediaPortalControlFocused(8) || IsMediaPortalControlFocused(9) || IsMediaPortalControlFocused(10) || IsMediaPortalControlFocused(11) || IsMediaPortalControlFocused(15)) ++ (IsMediaPortalWindow(112011) || IsMediaPortalWindow(112012) || IsMediaPortalWindow(112015)) ++ (IsSkinOptionEnabled(Default) || IsSkinOptionEnabled(Extended))</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations />
       <MediaPortalFocusControls />

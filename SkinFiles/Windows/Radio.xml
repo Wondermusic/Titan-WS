@@ -124,7 +124,6 @@
             <NoFocusBrush />
             <NoFocusBorderBrush />
             <FocusBrush x:type="GradientBrush">
-              <Angle>Horizontal</Angle>
               <GradientStops>
                 <GradientStop Color="#FF00B7FF" Offset="0" />
                 <GradientStop Color="#63000000" Offset="0.021" />
@@ -134,6 +133,7 @@
                 <GradientStop Color="#8400B7FF" Offset="0.209" />
                 <GradientStop Color="#1A00B7FF" Offset="1" />
               </GradientStops>
+              <Angle>Horizontal</Angle>
             </FocusBrush>
             <FocusBorderBrush />
             <ShadeBrush />
@@ -609,8 +609,7 @@
       <Id>83</Id>
       <Width>1280</Width>
       <Height>130</Height>
-      <VisibleCondition>IsPlayer(None)</VisibleCondition>
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <VisibleCondition>IsSkinOptionEnabled(Default) || IsSkinOptionEnabled(Extended)</VisibleCondition>
       <Animations />
       <MediaPortalFocusControls />
       <ButtonStyle>
@@ -637,7 +636,7 @@
       <Height>605</Height>
       <PosX>-15</PosX>
       <PosY>76</PosY>
-      <VisibleCondition>IsControlVisible(9) ++ (IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(3) || IsMediaPortalControlFocused(6) || IsMediaPortalControlFocused(7) || IsMediaPortalControlFocused(8) || IsMediaPortalControlFocused(9) || IsMediaPortalControlFocused(10) || IsMediaPortalControlFocused(11) || IsMediaPortalControlFocused(1142))</VisibleCondition>
+      <VisibleCondition>IsControlVisible(9) ++ (IsMediaPortalControlFocused(2) || IsMediaPortalControlFocused(3) || IsMediaPortalControlFocused(6) || IsMediaPortalControlFocused(7) || IsMediaPortalControlFocused(8) || IsMediaPortalControlFocused(9) || IsMediaPortalControlFocused(10) || IsMediaPortalControlFocused(11) || IsMediaPortalControlFocused(1142)) ++ (IsSkinOptionEnabled(Default) || IsSkinOptionEnabled(Extended))</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations />
       <MediaPortalFocusControls />

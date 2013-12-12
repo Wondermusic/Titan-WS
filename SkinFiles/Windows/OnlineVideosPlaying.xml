@@ -104,11 +104,11 @@
             <BarCornerRadius>11,11,11,11</BarCornerRadius>
             <BarBorderBrush x:type="ColorBrush" Color="#FFC0C0C0" />
             <BarBackgroundBrush x:type="GradientBrush">
-              <Angle>Vertical</Angle>
               <GradientStops>
                 <GradientStop Color="#FF556B2F" Offset="0.194" />
                 <GradientStop Color="#FF32CD32" Offset="1" />
               </GradientStops>
+              <Angle>Vertical</Angle>
             </BarBackgroundBrush>
           </ProgressBarStyle>
           <ProgressValue>#TV.Record.percent3</ProgressValue>
@@ -342,7 +342,7 @@
       <Id>23</Id>
       <Width>1280</Width>
       <Height>130</Height>
-      <VisibleCondition />
+      <VisibleCondition>IsSkinOptionEnabled(Default) || IsSkinOptionEnabled(Extended)</VisibleCondition>
       <Animations />
       <MediaPortalFocusControls />
       <ButtonStyle>

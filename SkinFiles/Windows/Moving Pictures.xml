@@ -105,7 +105,6 @@
             <NoFocusBrush />
             <NoFocusBorderBrush />
             <FocusBrush x:type="GradientBrush">
-              <Angle>Horizontal</Angle>
               <GradientStops>
                 <GradientStop Color="#FF00B7FF" Offset="0" />
                 <GradientStop Color="#63000000" Offset="0.021" />
@@ -115,6 +114,7 @@
                 <GradientStop Color="#8400B7FF" Offset="0.209" />
                 <GradientStop Color="#1A00B7FF" Offset="1" />
               </GradientStops>
+              <Angle>Horizontal</Angle>
             </FocusBrush>
             <FocusBorderBrush />
             <ShadeBrush />
@@ -1517,8 +1517,7 @@
       <Id>232</Id>
       <Width>1280</Width>
       <Height>130</Height>
-      <VisibleCondition>IsPlayer(None)</VisibleCondition>
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <VisibleCondition>IsSkinOptionEnabled(Default) || IsSkinOptionEnabled(Extended)</VisibleCondition>
       <Animations />
       <MediaPortalFocusControls />
       <ButtonStyle>
@@ -1545,7 +1544,7 @@
       <Height>605</Height>
       <PosX>-15</PosX>
       <PosY>76</PosY>
-      <VisibleCondition>IsMediaPortalControlFocused(999) || IsMediaPortalControlFocused(3) || IsMediaPortalControlFocused(4) || IsMediaPortalControlFocused(14) || IsMediaPortalControlFocused(15) || IsMediaPortalControlFocused(19) || IsMediaPortalControlFocused(66610) || IsMediaPortalControlFocused(66612) || IsMediaPortalControlFocused(66613)</VisibleCondition>
+      <VisibleCondition>(IsMediaPortalControlFocused(999) || IsMediaPortalControlFocused(3) || IsMediaPortalControlFocused(4) || IsMediaPortalControlFocused(14) || IsMediaPortalControlFocused(15) || IsMediaPortalControlFocused(19) || IsMediaPortalControlFocused(66610) || IsMediaPortalControlFocused(66612) || IsMediaPortalControlFocused(66613)) ++ (IsSkinOptionEnabled(Default) || IsSkinOptionEnabled(Extended))</VisibleCondition>
       <IsWindowOpenVisible>false</IsWindowOpenVisible>
       <Animations />
       <MediaPortalFocusControls />

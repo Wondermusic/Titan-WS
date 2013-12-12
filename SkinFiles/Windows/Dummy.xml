@@ -163,7 +163,7 @@
       <Id>10</Id>
       <Width>640</Width>
       <Height>150</Height>
-      <VisibleCondition />
+      <VisibleCondition>IsSkinOptionEnabled(Default) || IsSkinOptionEnabled(Extended)</VisibleCondition>
       <Animations />
       <MediaPortalFocusControls />
       <ButtonStyle>
