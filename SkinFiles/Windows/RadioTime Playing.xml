@@ -70,7 +70,7 @@
             <BackgroundBrush />
             <BorderBrush />
           </ImageStyle>
-          <Image>#RadioTime.Selected.Logo</Image>
+          <Image>#Play.Current.Thumb</Image>
           <DefaultImage>\DefaultMyradioBig.png</DefaultImage>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>

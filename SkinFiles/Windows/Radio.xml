@@ -291,7 +291,9 @@
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
           <Image>#RadioTime.Selected.Logo</Image>
-          <ImageStretch>None</ImageStretch>
+          <DefaultImage>\DefaultMyradioBig.png</DefaultImage>
+          <ImageStretch>Fill</ImageStretch>
+          <ImageCornerRadius>10</ImageCornerRadius>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="Button">
@@ -538,7 +540,7 @@
           <Height>60</Height>
           <PosX>68</PosX>
           <PosY>9</PosY>
-          <VisibleCondition>IsMediaPortalWindow(25650)</VisibleCondition>
+          <VisibleCondition>IsMediaPortalWindow(25650) || IsMediaPortalWindow(25653)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />

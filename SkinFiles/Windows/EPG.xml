@@ -285,9 +285,9 @@
           <Name>NewGuide</Name>
           <Id>24</Id>
           <Width>1258</Width>
-          <Height>600</Height>
+          <Height>324</Height>
           <PosX>9</PosX>
-          <PosY>83</PosY>
+          <PosY>386</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
@@ -298,6 +298,52 @@
           <TimelineMultiplier>7</TimelineMultiplier>
           <ChannelStyle StyleId="GuideChannelStyle" />
           <ProgramStyle StyleId="GuideProgramStyle" />
+        </Control>
+        <Control x:type="Rectangle">
+          <Name>NewRectangle</Name>
+          <Id>25</Id>
+          <Width>1260</Width>
+          <Height>280</Height>
+          <PosX>10</PosX>
+          <PosY>80</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <BorderThickness>0,0,0,0</BorderThickness>
+          <CornerRadius>25,25,25,25</CornerRadius>
+          <BackgroundBrush x:type="ColorBrush" Color="#B9000000" />
+        </Control>
+        <Control x:type="Image">
+          <Name>TVGuide Thumb</Name>
+          <Id>26</Id>
+          <Width>220</Width>
+          <Height>220</Height>
+          <PosX>40</PosX>
+          <PosY>110</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle>
+            <BorderThickness>0,0,0,0</BorderThickness>
+            <CornerRadius>10,10,10,10</CornerRadius>
+          </ImageStyle>
+          <Image>#TV.Guide.thumb</Image>
+          <DefaultImage>\defaultTVBig.png</DefaultImage>
+          <ImageStretch>UniformToFill</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Label">
+          <Name>NewLabel</Name>
+          <Id>27</Id>
+          <Width>450</Width>
+          <Height>40</Height>
+          <PosX>270</PosX>
+          <PosY>110</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan50_White" />
+          <LabelText>#TV.Guide.Title</LabelText>
         </Control>
       </GroupControls>
     </Control>

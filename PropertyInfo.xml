@@ -13,11 +13,11 @@
       <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#TV.RecordedTV.thumb</SkinTag>
+      <SkinTag>#TV.Record.thumb</SkinTag>
       <PropertyType>Image</PropertyType>
       <DesignerValue>New....</DesignerValue>
       <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#TV.RecordedTV.thumb" />
+        <XmlMediaPortalTag Tag="#TV.Record.thumb" />
       </MediaPortalTags>
       <IsInternal>false</IsInternal>
     </XmlProperty>
@@ -296,6 +296,23 @@
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#fanarthandler.music.backdrop1.play" />
         <XmlMediaPortalTag Tag="#fanarthandler.music.backdrop2.play" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#thumb" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.Guide.thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.Guide.thumb" />
       </MediaPortalTags>
       <IsInternal>false</IsInternal>
     </XmlProperty>
@@ -2072,6 +2089,42 @@
       <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
+      <SkinTag>#toplabel2</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Videos</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#toplabel2" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#toplabel1</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>TV Series</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#toplabel1" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#bottomlabel1</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Settings</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#bottomlabel1" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#bottomlabel2</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>OnlineVideos</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#bottomlabel2" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
       <SkinTag>#itemName</SkinTag>
       <PropertyType>Label</PropertyType>
       <DesignerValue>TV</DesignerValue>
@@ -2081,47 +2134,154 @@
       <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
-      <SkinTag>#toplabel2</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>Radio</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#toplabel2" />
-      </MediaPortalTags>
-      <IsInternal>false</IsInternal>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#toplabel1</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>Movies</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#toplabel1" />
-      </MediaPortalTags>
-      <IsInternal>false</IsInternal>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#bottomlabel1</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>OnlineVideos</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#bottomlabel1" />
-      </MediaPortalTags>
-      <IsInternal>false</IsInternal>
-    </XmlProperty>
-    <XmlProperty>
-      <SkinTag>#bottomlabel2</SkinTag>
-      <PropertyType>Label</PropertyType>
-      <DesignerValue>TV Series</DesignerValue>
-      <MediaPortalTags>
-        <XmlMediaPortalTag Tag="#bottomlabel2" />
-      </MediaPortalTags>
-      <IsInternal>false</IsInternal>
-    </XmlProperty>
-    <XmlProperty>
       <SkinTag>#TV.View.description</SkinTag>
       <PropertyType>Label</PropertyType>
       <DesignerValue>New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... New.... </DesignerValue>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.View.description" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#thumb</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#thumb" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>2 Fast 2 Furious</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#title" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#plot</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Former cop Brian O'Conner who teams up with his ex-con pal Roman Pearce to transport a shipment of 'dirty' money for shady Miami-based import-export dealer Carter Verone, while actually working with undercover agent Monica Fuentes to bring Verone down.</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#plot" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#year</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>2003</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#year" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#runtime</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>0 Min (0:00)</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#runtime" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#genre</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Action, Crime, Thriller</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#genre" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#director</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>John Singleton</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#director" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#credits</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Gary Scott Thompson (characters), Michael Brandt (story)</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#credits" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#studios</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Universal Pictures, Original Film, Mikona Productions GmbH &amp; Co. KG</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#studios" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#VideoCodec</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>MPEG VIDEO VERSION 1</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#VideoCodec" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#VideoResolution</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>SD</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#VideoResolution" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#AspectRatio</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>widescreen</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#AspectRatio" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#AudioCodec</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>MPEG AUDIO VERSION 1 LAYER 2</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#AudioCodec" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#AudioChannels</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>stereo</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#AudioChannels" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#mpaarating</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>16</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#mpaarating" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.Guide.Title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.Guide.Title" />
       </MediaPortalTags>
       <IsInternal>false</IsInternal>
     </XmlProperty>

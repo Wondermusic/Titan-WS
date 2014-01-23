@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:x="http://www.w3.org/2001/XMLSchema-instance">
   <LanguageEntries>
     <LanguageEntry Tag="@Files">
@@ -6,6 +6,7 @@
         <LanguageValue Language="Deutsch" Value="Dateien" />
         <LanguageValue Language="English" Value="Files" />
         <LanguageValue Language="Francais" Value="Files" />
+        <LanguageValue Language="Swedish" Value="Filer" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@items">
@@ -13,6 +14,7 @@
         <LanguageValue Language="Deutsch" Value="Dateien" />
         <LanguageValue Language="English" Value="Items" />
         <LanguageValue Language="Francais" Value="Items" />
+        <LanguageValue Language="Swedish" Value="Innehåll" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@scheduled">
@@ -20,6 +22,7 @@
         <LanguageValue Language="Deutsch" Value="geplante Aufnahmen" />
         <LanguageValue Language="English" Value="scheduled Recordings" />
         <LanguageValue Language="Francais" Value="scheduled Recordings" />
+        <LanguageValue Language="Swedish" Value="Schemalagda inspelningar" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@EPG">
@@ -27,6 +30,7 @@
         <LanguageValue Language="Deutsch" Value="EPG" />
         <LanguageValue Language="English" Value="TV Guide" />
         <LanguageValue Language="Francais" Value="TV Guide" />
+        <LanguageValue Language="Swedish" Value="TV Guide" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Recordings">
@@ -34,6 +38,7 @@
         <LanguageValue Language="Deutsch" Value="Aufnahmen" />
         <LanguageValue Language="English" Value="Recordings" />
         <LanguageValue Language="Francais" Value="Recordings" />
+        <LanguageValue Language="Swedish" Value="Inspelningar" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@SystemTime">
@@ -41,6 +46,7 @@
         <LanguageValue Language="Deutsch" Value="Uhrzeit" />
         <LanguageValue Language="English" Value="Time" />
         <LanguageValue Language="Francais" Value="Time" />
+        <LanguageValue Language="Swedish" Value="Tid" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Exit">
@@ -48,6 +54,7 @@
         <LanguageValue Language="Deutsch" Value="Ausgang" />
         <LanguageValue Language="English" Value="Exit" />
         <LanguageValue Language="Francais" Value="Quitter" />
+        <LanguageValue Language="Swedish" Value="Avsluta" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Remote">
@@ -55,6 +62,7 @@
         <LanguageValue Language="Deutsch" Value="Steuerung" />
         <LanguageValue Language="English" Value="Remote" />
         <LanguageValue Language="Francais" Value="Telecommande" />
+        <LanguageValue Language="Swedish" Value="Fjärrkontroll" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Moonphase">
@@ -62,6 +70,7 @@
         <LanguageValue Language="Deutsch" Value="Mondphase" />
         <LanguageValue Language="English" Value="Moonphase" />
         <LanguageValue Language="Francais" Value="Plein lune" />
+        <LanguageValue Language="Swedish" Value="Månfas" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Sundial">
@@ -69,6 +78,7 @@
         <LanguageValue Language="Deutsch" Value="Sonnenuhr" />
         <LanguageValue Language="English" Value="Sundial" />
         <LanguageValue Language="Francais" Value="Horloge Solaire" />
+        <LanguageValue Language="Swedish" Value="Soltimmar" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Wind">
@@ -76,6 +86,7 @@
         <LanguageValue Language="Deutsch" Value="Wind" />
         <LanguageValue Language="English" Value="Wind" />
         <LanguageValue Language="Francais" Value="Vent" />
+        <LanguageValue Language="Swedish" Value="Vind" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Condition">
@@ -83,6 +94,7 @@
         <LanguageValue Language="Deutsch" Value="Wetterlage" />
         <LanguageValue Language="English" Value="Condition" />
         <LanguageValue Language="Francais" Value="Condition" />
+        <LanguageValue Language="Swedish" Value="Översikt" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Temperature">
@@ -90,6 +102,7 @@
         <LanguageValue Language="Deutsch" Value="Temperatur" />
         <LanguageValue Language="English" Value="Temperature" />
         <LanguageValue Language="Francais" Value="Température" />
+        <LanguageValue Language="Swedish" Value="Temperatur" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Clean Installation directory">
@@ -97,6 +110,7 @@
         <LanguageValue Language="Deutsch" Value="Lösche Install. Verz." />
         <LanguageValue Language="English" Value="Clean Installation directory" />
         <LanguageValue Language="Francais" Value="Supprimer le répertoire d'installation" />
+        <LanguageValue Language="Swedish" Value="Ren installationskatalog" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Reboot">
@@ -104,6 +118,7 @@
         <LanguageValue Language="Deutsch" Value="Neustart" />
         <LanguageValue Language="English" Value="Reboot" />
         <LanguageValue Language="Francais" Value="Redémarrer" />
+        <LanguageValue Language="Swedish" Value="Omstart" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Filter Updates">
@@ -111,6 +126,7 @@
         <LanguageValue Language="Deutsch" Value="Updates filtern" />
         <LanguageValue Language="English" Value="Filter Updates" />
         <LanguageValue Language="Francais" Value="Filtrer les MAJ" />
+        <LanguageValue Language="Swedish" Value="Uppdatera filter" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Restore Point">
@@ -118,6 +134,7 @@
         <LanguageValue Language="Deutsch" Value="Wiederherstellungspunkt" />
         <LanguageValue Language="English" Value="Restore Point" />
         <LanguageValue Language="Francais" Value="Point de restauration" />
+        <LanguageValue Language="Swedish" Value="Återställningspunkt" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Installed Updates">
@@ -125,6 +142,7 @@
         <LanguageValue Language="Deutsch" Value="installierte Updates" />
         <LanguageValue Language="English" Value="Installed Updates" />
         <LanguageValue Language="Francais" Value="MAJ installées" />
+        <LanguageValue Language="Swedish" Value="Installerade uppdateringar" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Search for Updates">
@@ -132,6 +150,7 @@
         <LanguageValue Language="Deutsch" Value="Updatesuche" />
         <LanguageValue Language="English" Value="Search for Updates" />
         <LanguageValue Language="Francais" Value="Rechercher les MAJ" />
+        <LanguageValue Language="Swedish" Value="Sök uppdateringar" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Show installed Updates">
@@ -139,6 +158,7 @@
         <LanguageValue Language="Deutsch" Value="Zeige install. Updates" />
         <LanguageValue Language="English" Value="Show installed Updates" />
         <LanguageValue Language="Francais" Value="Show installed Updates" />
+        <LanguageValue Language="Swedish" Value="Visa installerade uppdateringar" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Duration">
@@ -146,6 +166,7 @@
         <LanguageValue Language="Deutsch" Value="Spielzeit" />
         <LanguageValue Language="English" Value="Duration" />
         <LanguageValue Language="Francais" Value="Durée" />
+        <LanguageValue Language="Swedish" Value="Speltid" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Filesize">
@@ -153,6 +174,7 @@
         <LanguageValue Language="Deutsch" Value="Dateigröße" />
         <LanguageValue Language="English" Value="Filesize" />
         <LanguageValue Language="Francais" Value="Taille" />
+        <LanguageValue Language="Swedish" Value="Filstorlek" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Audio Bitrate">
@@ -160,6 +182,7 @@
         <LanguageValue Language="Deutsch" Value="Audio Bitrate" />
         <LanguageValue Language="English" Value="Audio Bitrate" />
         <LanguageValue Language="Francais" Value="Bitrate Audio" />
+        <LanguageValue Language="Swedish" Value="Ljud Bitrate" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Video Bitrate">
@@ -167,6 +190,7 @@
         <LanguageValue Language="Deutsch" Value="Video Bitrate" />
         <LanguageValue Language="English" Value="Video Bitrate" />
         <LanguageValue Language="Francais" Value="Bitrate Video" />
+        <LanguageValue Language="Swedish" Value="Bild Bitrate" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Date">
@@ -174,6 +198,7 @@
         <LanguageValue Language="Deutsch" Value="Datum" />
         <LanguageValue Language="English" Value="Date" />
         <LanguageValue Language="Francais" Value="Date" />
+        <LanguageValue Language="Swedish" Value="Datum" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Producer">
@@ -181,6 +206,7 @@
         <LanguageValue Language="Deutsch" Value="Produzent" />
         <LanguageValue Language="English" Value="Producer" />
         <LanguageValue Language="Francais" Value="Producteur" />
+        <LanguageValue Language="Swedish" Value="Producent" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Country">
@@ -188,6 +214,7 @@
         <LanguageValue Language="Deutsch" Value="Land" />
         <LanguageValue Language="English" Value="Country" />
         <LanguageValue Language="Francais" Value="Pays" />
+        <LanguageValue Language="Swedish" Value="Land" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Options">
@@ -195,6 +222,7 @@
         <LanguageValue Language="Deutsch" Value="Optionen" />
         <LanguageValue Language="English" Value="Options" />
         <LanguageValue Language="Francais" Value="Options" />
+        <LanguageValue Language="Swedish" Value="Optioner" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Technical Details">
@@ -202,6 +230,7 @@
         <LanguageValue Language="Deutsch" Value="Technische Details" />
         <LanguageValue Language="English" Value="Technical Details" />
         <LanguageValue Language="Francais" Value="Détails Techniques" />
+        <LanguageValue Language="Swedish" Value="Tekniska detaljer" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Comments">
@@ -209,6 +238,7 @@
         <LanguageValue Language="Deutsch" Value="Kommentare" />
         <LanguageValue Language="English" Value="Comments" />
         <LanguageValue Language="Francais" Value="Commentaire" />
+        <LanguageValue Language="Swedish" Value="Kommentarer" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Overview">
@@ -216,6 +246,7 @@
         <LanguageValue Language="Deutsch" Value="Übersicht" />
         <LanguageValue Language="English" Value="Overview" />
         <LanguageValue Language="Francais" Value="Aperçu" />
+        <LanguageValue Language="Swedish" Value="Översikt" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Last Played">
@@ -223,6 +254,7 @@
         <LanguageValue Language="Deutsch" Value="zuletzt gespielt" />
         <LanguageValue Language="English" Value="Last Played" />
         <LanguageValue Language="Francais" Value="Dernier lu" />
+        <LanguageValue Language="Swedish" Value="Senast spelad" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Genre">
@@ -230,6 +262,7 @@
         <LanguageValue Language="Deutsch" Value="Genre" />
         <LanguageValue Language="English" Value="Genre" />
         <LanguageValue Language="Francais" Value="Genre" />
+        <LanguageValue Language="Swedish" Value="Genre" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Next">
@@ -237,6 +270,7 @@
         <LanguageValue Language="Deutsch" Value="Nächste" />
         <LanguageValue Language="English" Value="Next" />
         <LanguageValue Language="Francais" Value="Suivant" />
+        <LanguageValue Language="Swedish" Value="Nästa" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@FPS">
@@ -244,6 +278,7 @@
         <LanguageValue Language="Deutsch" Value="BPS" />
         <LanguageValue Language="English" Value="FPS" />
         <LanguageValue Language="Francais" Value="FPS" />
+        <LanguageValue Language="Swedish" Value="FPS" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Info URL">
@@ -251,6 +286,7 @@
         <LanguageValue Language="Deutsch" Value="Info Adresse" />
         <LanguageValue Language="English" Value="Info URL" />
         <LanguageValue Language="Francais" Value="Info URL" />
+        <LanguageValue Language="Swedish" Value="Info URL" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Date added">
@@ -258,6 +294,7 @@
         <LanguageValue Language="Deutsch" Value="Hinzugefügt am" />
         <LanguageValue Language="English" Value="Date added" />
         <LanguageValue Language="Francais" Value="Date d'ajout" />
+        <LanguageValue Language="Swedish" Value="Datum tillagd" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Audio Channels">
@@ -265,6 +302,7 @@
         <LanguageValue Language="Deutsch" Value="Audio Kanäle" />
         <LanguageValue Language="English" Value="Audio Channels" />
         <LanguageValue Language="Francais" Value="Channel Audio" />
+        <LanguageValue Language="Swedish" Value="Ljud kanaler" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Audio Format">
@@ -272,6 +310,7 @@
         <LanguageValue Language="Deutsch" Value="Audio Format" />
         <LanguageValue Language="English" Value="Audio Format" />
         <LanguageValue Language="Francais" Value="Format Audio" />
+        <LanguageValue Language="Swedish" Value="Ljud format" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Resolution">
@@ -279,6 +318,7 @@
         <LanguageValue Language="Deutsch" Value="Auflösung" />
         <LanguageValue Language="English" Value="Resolution" />
         <LanguageValue Language="Francais" Value="Définition" />
+        <LanguageValue Language="Swedish" Value="Upplösning" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Video Framerate">
@@ -286,6 +326,7 @@
         <LanguageValue Language="Deutsch" Value="Bildwiederholrate" />
         <LanguageValue Language="English" Value="Video Framerate" />
         <LanguageValue Language="Francais" Value="Fréquence Vidéo" />
+        <LanguageValue Language="Swedish" Value="Bild frekvens" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Video Format">
@@ -293,6 +334,7 @@
         <LanguageValue Language="Deutsch" Value="Video Format" />
         <LanguageValue Language="English" Value="Video Format" />
         <LanguageValue Language="Francais" Value="Format Vidéo" />
+        <LanguageValue Language="Swedish" Value="Bild format" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Description">
@@ -300,6 +342,7 @@
         <LanguageValue Language="Deutsch" Value="Beschreibung" />
         <LanguageValue Language="English" Value="Description" />
         <LanguageValue Language="Francais" Value="Description" />
+        <LanguageValue Language="Swedish" Value="Beskrivning" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Runtime">
@@ -307,6 +350,7 @@
         <LanguageValue Language="Deutsch" Value="Laufzeit" />
         <LanguageValue Language="English" Value="Runtime" />
         <LanguageValue Language="Francais" Value="Durée" />
+        <LanguageValue Language="Swedish" Value="Längd" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Year">
@@ -314,6 +358,7 @@
         <LanguageValue Language="Deutsch" Value="Jahr" />
         <LanguageValue Language="English" Value="Year" />
         <LanguageValue Language="Francais" Value="Année" />
+        <LanguageValue Language="Swedish" Value="År" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Actors">
@@ -321,6 +366,7 @@
         <LanguageValue Language="Deutsch" Value="Darsteller" />
         <LanguageValue Language="English" Value="Actors" />
         <LanguageValue Language="Francais" Value="Acteurs" />
+        <LanguageValue Language="Swedish" Value="Skådespelare" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Writer">
@@ -328,6 +374,7 @@
         <LanguageValue Language="Deutsch" Value="Autor" />
         <LanguageValue Language="English" Value="Writer" />
         <LanguageValue Language="Francais" Value="Ecrivain" />
+        <LanguageValue Language="Swedish" Value="Författare" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Director">
@@ -335,6 +382,7 @@
         <LanguageValue Language="Deutsch" Value="Regisseur" />
         <LanguageValue Language="English" Value="Director" />
         <LanguageValue Language="Francais" Value="Directeur" />
+        <LanguageValue Language="Swedish" Value="Regissör" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@ID">
@@ -342,6 +390,7 @@
         <LanguageValue Language="Deutsch" Value="ID" />
         <LanguageValue Language="English" Value="ID" />
         <LanguageValue Language="Francais" Value="ID" />
+        <LanguageValue Language="Swedish" Value="ID" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Release Date">
@@ -349,6 +398,7 @@
         <LanguageValue Language="Deutsch" Value="Veröffentlichung" />
         <LanguageValue Language="English" Value="Release Date" />
         <LanguageValue Language="Francais" Value="Date de Sortie" />
+        <LanguageValue Language="Swedish" Value="Utgivningsdatum" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Author">
@@ -356,6 +406,7 @@
         <LanguageValue Language="Deutsch" Value="Autor" />
         <LanguageValue Language="English" Value="Author" />
         <LanguageValue Language="Francais" Value="Autheurs" />
+        <LanguageValue Language="Swedish" Value="Författare" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Version">
@@ -363,6 +414,7 @@
         <LanguageValue Language="Deutsch" Value="Version" />
         <LanguageValue Language="English" Value="Version" />
         <LanguageValue Language="Francais" Value="Version" />
+        <LanguageValue Language="Swedish" Value="Version" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Screenshots">
@@ -370,6 +422,7 @@
         <LanguageValue Language="Deutsch" Value="Schnappschuss" />
         <LanguageValue Language="English" Value="Screenshots" />
         <LanguageValue Language="Francais" Value="Capture d'écran" />
+        <LanguageValue Language="Swedish" Value="Bilder" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Changes">
@@ -377,6 +430,7 @@
         <LanguageValue Language="Deutsch" Value="Änderungen" />
         <LanguageValue Language="English" Value="Changes" />
         <LanguageValue Language="Francais" Value="Changes ???" />
+        <LanguageValue Language="Swedish" Value="Ändringar" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Deinstall Extension">
@@ -384,6 +438,7 @@
         <LanguageValue Language="Deutsch" Value="Deinstallieren" />
         <LanguageValue Language="English" Value="Deinstall Extension" />
         <LanguageValue Language="Francais" Value="Désinstaller l'Extension" />
+        <LanguageValue Language="Swedish" Value="Avinstallera tillägg" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@EPG Info">
@@ -391,6 +446,7 @@
         <LanguageValue Language="Deutsch" Value="EPG folgt in einer späteren Version" />
         <LanguageValue Language="English" Value="Display of EPG will follow in later Versions" />
         <LanguageValue Language="Francais" Value="EPG indisponible dans cette version" />
+        <LanguageValue Language="Swedish" Value="EPG kommer i en senare version" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@notavailable">
@@ -398,6 +454,7 @@
         <LanguageValue Language="Deutsch" Value="Diese Funktion gibt es leider nicht..." />
         <LanguageValue Language="English" Value="This function is not available..." />
         <LanguageValue Language="Francais" Value="Cette fonction n'est pas disponible" />
+        <LanguageValue Language="Swedish" Value="Denna funktion stöds ej" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Extensions">
@@ -405,6 +462,7 @@
         <LanguageValue Language="Deutsch" Value="Erweiterungen" />
         <LanguageValue Language="English" Value="Extensions" />
         <LanguageValue Language="Francais" Value="Extensions" />
+        <LanguageValue Language="Swedish" Value="Tillägg" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Plugins">
@@ -412,6 +470,7 @@
         <LanguageValue Language="Deutsch" Value="Module" />
         <LanguageValue Language="English" Value="Plugins" />
         <LanguageValue Language="Francais" Value="Plugins" />
+        <LanguageValue Language="Swedish" Value="Plugins" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@OnlineVideos">
@@ -419,6 +478,7 @@
         <LanguageValue Language="Deutsch" Value="OnlineVideos" />
         <LanguageValue Language="English" Value="OnlineVideos" />
         <LanguageValue Language="Francais" Value="OnlineVidéos" />
+        <LanguageValue Language="Swedish" Value="OnlineVideos" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@InfoService">
@@ -426,6 +486,7 @@
         <LanguageValue Language="Deutsch" Value="InfoService" />
         <LanguageValue Language="English" Value="InfoService" />
         <LanguageValue Language="Francais" Value="InfoService" />
+        <LanguageValue Language="Swedish" Value="InfoService" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Settings">
@@ -433,6 +494,7 @@
         <LanguageValue Language="Deutsch" Value="Einstellungen" />
         <LanguageValue Language="English" Value="Settings" />
         <LanguageValue Language="Francais" Value="Configurations" />
+        <LanguageValue Language="Swedish" Value="Inställningar" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Series">
@@ -440,6 +502,7 @@
         <LanguageValue Language="Deutsch" Value="Serien" />
         <LanguageValue Language="English" Value="Series" />
         <LanguageValue Language="Francais" Value="Series" />
+        <LanguageValue Language="Swedish" Value="Serier" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Pictures">
@@ -447,6 +510,7 @@
         <LanguageValue Language="Deutsch" Value="Bilder" />
         <LanguageValue Language="English" Value="Pictures" />
         <LanguageValue Language="Francais" Value="Photos" />
+        <LanguageValue Language="Swedish" Value="Bilder" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Radio">
@@ -454,6 +518,7 @@
         <LanguageValue Language="Deutsch" Value="Radio" />
         <LanguageValue Language="English" Value="Radio" />
         <LanguageValue Language="Francais" Value="Radio" />
+        <LanguageValue Language="Swedish" Value="Radio" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Movies">
@@ -461,6 +526,7 @@
         <LanguageValue Language="Deutsch" Value="Filme" />
         <LanguageValue Language="English" Value="Movies" />
         <LanguageValue Language="Francais" Value="Films" />
+        <LanguageValue Language="Swedish" Value="Film" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@TV">
@@ -468,6 +534,7 @@
         <LanguageValue Language="Deutsch" Value="Fernsehen" />
         <LanguageValue Language="English" Value="TV" />
         <LanguageValue Language="Francais" Value="TV" />
+        <LanguageValue Language="Swedish" Value="TV" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Music">
@@ -475,6 +542,7 @@
         <LanguageValue Language="Deutsch" Value="Musik" />
         <LanguageValue Language="English" Value="Music" />
         <LanguageValue Language="Francais" Value="Musique" />
+        <LanguageValue Language="Swedish" Value="Musik" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Language">
@@ -482,6 +550,7 @@
         <LanguageValue Language="Deutsch" Value="Sprache" />
         <LanguageValue Language="English" Value="Language" />
         <LanguageValue Language="Francais" Value="Language" />
+        <LanguageValue Language="Swedish" Value="Språk" />
       </Values>
     </LanguageEntry>
     <LanguageEntry Tag="@Shutdown">
@@ -489,6 +558,7 @@
         <LanguageValue Language="Deutsch" Value="Herunterfahren" />
         <LanguageValue Language="English" Value="Shutdown" />
         <LanguageValue Language="Francais" Value="Eteindre" />
+        <LanguageValue Language="Swedish" Value="Stäng av" />
       </Values>
     </LanguageEntry>
   </LanguageEntries>

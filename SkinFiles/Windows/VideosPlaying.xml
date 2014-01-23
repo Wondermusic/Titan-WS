@@ -92,7 +92,7 @@
             <BackgroundBrush />
             <BorderBrush />
           </ImageStyle>
-          <Image>#Play.Current.Thumb</Image>
+          <Image>#thumb</Image>
           <DefaultImage>\defaultVideoBig.png</DefaultImage>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
