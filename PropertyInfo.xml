@@ -317,6 +317,14 @@
       <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
+      <SkinTag>#fanarthandler.music.overlay.play</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#fanarthandler.music.overlay.play" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
       <SkinTag>#percentage</SkinTag>
       <PropertyType>Number</PropertyType>
       <DesignerValue>25</DesignerValue>
@@ -2282,6 +2290,51 @@
       <PropertyType>Label</PropertyType>
       <MediaPortalTags>
         <XmlMediaPortalTag Tag="#TV.Guide.Title" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#stream.description</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Test test test test test test test test test</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#stream.description" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#stream.country</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Deutschland</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#stream.country" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#stream.city</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Wuppertal</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#stream.city" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#active.Station</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Radio Wuppertal</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#active.Station" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#Play.Current.Genre</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>test</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#Play.Current.Genre" />
       </MediaPortalTags>
       <IsInternal>false</IsInternal>
     </XmlProperty>
