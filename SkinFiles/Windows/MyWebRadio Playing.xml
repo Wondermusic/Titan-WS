@@ -9,7 +9,7 @@
   <WindowAnimations />
   <WindowControls>
     <Control x:type="Group">
-      <Name>RadioTime Playing</Name>
+      <Name>Playing</Name>
       <Id>15</Id>
       <Width>1280</Width>
       <Height>720</Height>

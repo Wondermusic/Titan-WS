@@ -775,5 +775,18 @@
       <SelectionZoomX>150</SelectionZoomX>
       <SelectionZoomY>150</SelectionZoomY>
     </ControlStyle>
+    <ControlStyle x:type="ButtonStyle" StyleId="Button">
+      <BorderThickness>1,1,1,1</BorderThickness>
+      <CornerRadius>12,12,12,12</CornerRadius>
+      <NoFocusBrush />
+      <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00B7FF" />
+      <FocusBrush x:type="ColorBrush" Color="#FF00B7FF" />
+      <FocusBorderBrush />
+      <ShadeBrush />
+      <GlossBrush />
+      <FontType>Titan</FontType>
+      <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FF00B7FF" />
+    </ControlStyle>
   </ControlStyles>
 </StyleCollection>
