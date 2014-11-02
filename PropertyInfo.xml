@@ -2338,5 +2338,14 @@
       </MediaPortalTags>
       <IsInternal>false</IsInternal>
     </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TVSeries.Title</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Dr. House</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TVSeries.Title" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
   </Properties>
 </XmlPropertyInfo>

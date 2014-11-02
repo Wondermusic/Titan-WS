@@ -86,7 +86,8 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="Titan 40" />
-          <LabelText>#highlightedbutton</LabelText>
+          <LabelText>#TVSeries.Title</LabelText>
+          <LabelTextAlignment>Center</LabelTextAlignment>
           <ScrollDelay>2</ScrollDelay>
           <ScrollSpeed>10</ScrollSpeed>
           <ScrollSeperator>   |   </ScrollSeperator>
