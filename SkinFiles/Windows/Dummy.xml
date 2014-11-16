@@ -72,7 +72,7 @@
           <Id>5</Id>
           <Width>563</Width>
           <Height>60</Height>
-          <PosX>68</PosX>
+          <PosX>85</PosX>
           <PosY>9</PosY>
           <VisibleCondition />
           <Animations />
@@ -139,8 +139,8 @@
         <Control x:type="Image">
           <Name>Rec Indicator</Name>
           <Id>11</Id>
-          <Width>60</Width>
-          <Height>60</Height>
+          <Width>85</Width>
+          <Height>85</Height>
           <VisibleCondition>IsTvRecording</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations>
