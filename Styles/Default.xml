@@ -405,7 +405,7 @@
       <NoFocusBorderBrush />
       <FocusBrush x:type="ColorBrush" Color="#ABF40D10" />
       <FocusBorderBrush />
-      <FontType>Roboto</FontType>
+      <FontType>Titan</FontType>
       <FontSize>18</FontSize>
       <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
       <NoFocusFontBrush x:type="ColorBrush" Color="#FF000000" />
@@ -789,6 +789,7 @@
       <FocusBrush />
       <FocusBorderBrush />
       <EnableLabel>false</EnableLabel>
+      <FontType>Titan</FontType>
       <FontSize>20</FontSize>
       <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
       <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
