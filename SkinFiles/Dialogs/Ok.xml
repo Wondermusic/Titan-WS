@@ -178,6 +178,7 @@
         <Width>600</Width>
         <Height>50</Height>
       </VerticalItemStyle>
+      <VerticalIconItemStyle />
       <HorizontalItemStyle>
         <CornerRadius>15,15,15,15</CornerRadius>
         <NoFocusBrush />

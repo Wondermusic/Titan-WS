@@ -42,8 +42,6 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
             <BackgroundBrush />
             <BorderBrush />
           </ImageStyle>
@@ -82,6 +80,7 @@
           <ListType>MediaPortalListControl</ListType>
           <ListLayout>Auto</ListLayout>
           <VerticalItemStyle StyleId="MusicList" />
+          <VerticalIconItemStyle />
           <HorizontalItemStyle StyleId="MusicList Horizontal" />
           <CoverFlowItemStyle StyleId="MusicList CoverFlow" />
         </Control>
@@ -136,10 +135,7 @@
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
-      <GroupStyle>
-        <BorderThickness>0,0,0,0</BorderThickness>
-        <CornerRadius>0,0,0,0</CornerRadius>
-      </GroupStyle>
+      <GroupStyle />
       <GroupControls>
         <Control x:type="Image">
           <Name>Icon</Name>
@@ -150,10 +146,7 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
-          </ImageStyle>
+          <ImageStyle />
           <Image>\icon_plugin.png</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
@@ -203,10 +196,7 @@
             <Animation x:type="Fade" Condition="VisibleFalse" Duration="500" Easing="EaseInOut" From="100" To="0" />
           </Animations>
           <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
-          </ImageStyle>
+          <ImageStyle />
           <Image>\rec.png</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
@@ -269,6 +259,7 @@
           <ListType>MediaPortalButtonGroup</ListType>
           <ListLayout>Auto</ListLayout>
           <VerticalItemStyle StyleId="ActionMenu ListControl" />
+          <VerticalIconItemStyle />
           <HorizontalItemStyle />
           <CoverFlowItemStyle />
         </Control>

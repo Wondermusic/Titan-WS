@@ -27,13 +27,9 @@
       <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
     </ControlStyle>
     <ControlStyle x:type="ImageStyle" StyleId="Background">
-      <BorderThickness>0,0,0,0</BorderThickness>
-      <CornerRadius>0,0,0,0</CornerRadius>
       <BackgroundBrush x:type="ImageBrush" Image="\background_blue.png" Stretch="Fill" />
     </ControlStyle>
     <ControlStyle x:type="ImageStyle" StyleId="Logo_Image">
-      <BorderThickness>0,0,0,0</BorderThickness>
-      <CornerRadius>0,0,0,0</CornerRadius>
       <BackgroundBrush />
       <BorderBrush />
     </ControlStyle>
@@ -53,14 +49,11 @@
       <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
     </ControlStyle>
     <ControlStyle x:type="ListStyle" StyleId="empty">
-      <BorderThickness>0,0,0,0</BorderThickness>
-      <CornerRadius>0,0,0,0</CornerRadius>
       <BackgroundBrush />
       <BorderBrush />
       <GlossBrush />
     </ControlStyle>
     <ControlStyle x:type="ImageStyle" StyleId="Music Cover">
-      <BorderThickness>0,0,0,0</BorderThickness>
       <CornerRadius>10,10,10,10</CornerRadius>
       <BackgroundBrush x:type="ImageBrush" Image="\defaultAudioBig.png" Stretch="Uniform" />
       <BorderBrush />
@@ -84,7 +77,6 @@
       <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
     </ControlStyle>
     <ControlStyle x:type="ImageStyle" StyleId="VideoCover">
-      <BorderThickness>0,0,0,0</BorderThickness>
       <CornerRadius>10,10,10,10</CornerRadius>
       <BackgroundBrush x:type="ImageBrush" Image="\defaultVideoBig.png" />
       <BorderBrush />
@@ -96,8 +88,6 @@
       <FontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
     </ControlStyle>
     <ControlStyle x:type="GroupStyle" StyleId="Empty">
-      <BorderThickness>0,0,0,0</BorderThickness>
-      <CornerRadius>0,0,0,0</CornerRadius>
       <BackgroundBrush />
       <BorderBrush />
       <GlossBrush />
@@ -108,7 +98,6 @@
       <FontBrush x:type="ColorBrush" Color="#FF87CEEB" />
     </ControlStyle>
     <ControlStyle x:type="ImageStyle" StyleId="Radio Cover">
-      <BorderThickness>0,0,0,0</BorderThickness>
       <CornerRadius>10,10,10,10</CornerRadius>
       <BackgroundBrush x:type="ImageBrush" Image="\DefaultMyradioBig.png" Stretch="Uniform" />
       <BorderBrush />
@@ -275,7 +264,6 @@
       <ItemMargin>1,1,1,1</ItemMargin>
     </ControlStyle>
     <ControlStyle x:type="ImageStyle" StyleId="TV Logo">
-      <BorderThickness>0,0,0,0</BorderThickness>
       <CornerRadius>10,10,10,10</CornerRadius>
       <BackgroundBrush x:type="ImageBrush" Image="\defaultVideoBig.png" Stretch="Uniform" />
       <BorderBrush />
@@ -316,8 +304,6 @@
       <HorizontalAlignment>Left</HorizontalAlignment>
     </ControlStyle>
     <ControlStyle x:type="GroupStyle" StyleId="ActionMenu BG">
-      <BorderThickness>0,0,0,0</BorderThickness>
-      <CornerRadius>0,0,0,0</CornerRadius>
       <BackgroundBrush x:type="ImageBrush" Image="\menu_bg.png" Stretch="Uniform" />
       <BorderBrush />
       <GlossBrush />
@@ -606,8 +592,6 @@
       <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
     </ControlStyle>
     <ControlStyle x:type="GuideStyle" StyleId="GuideStyle">
-      <BorderThickness>0,0,0,0</BorderThickness>
-      <CornerRadius>0,0,0,0</CornerRadius>
       <BackgroundBrush />
       <BorderBrush />
       <ChannelListBackgroundBrush x:type="GradientBrush">
@@ -787,6 +771,18 @@
       <FontType>Titan</FontType>
       <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
       <NoFocusFontBrush x:type="ColorBrush" Color="#FF00B7FF" />
+    </ControlStyle>
+    <ControlStyle x:type="ListItemStyle" StyleId="Vertical Icon TVSeries">
+      <BorderThickness>5,5,5,5</BorderThickness>
+      <CornerRadius>10,10,10,10</CornerRadius>
+      <FocusBorderBrush x:type="ColorBrush" Color="#FF1E90FF" />
+      <EnableImage>true</EnableImage>
+      <ImageStretch>Fill</ImageStretch>
+      <ImageCornerRadius>5</ImageCornerRadius>
+      <Width>570</Width>
+      <Height>118</Height>
+      <ItemMargin>2,2,2,2</ItemMargin>
+      <HorizontalAlignment>Right</HorizontalAlignment>
     </ControlStyle>
   </ControlStyles>
 </StyleCollection>

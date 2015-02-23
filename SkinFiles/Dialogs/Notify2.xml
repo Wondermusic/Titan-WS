@@ -119,10 +119,7 @@
         <Animation x:type="Rotate" Condition="WindowOpen" Duration="4000" Repeat="1000" Pos3DZTo="-360" />
       </Animations>
       <MediaPortalFocusControls />
-      <ImageStyle>
-        <BorderThickness>0,0,0,0</BorderThickness>
-        <CornerRadius>0,0,0,0</CornerRadius>
-      </ImageStyle>
+      <ImageStyle />
       <Image>\common.waiting.1.png</Image>
       <ImageStretch>Fill</ImageStretch>
       <CoverCornerRadius>0,0,0,0</CoverCornerRadius>

@@ -40,10 +40,7 @@
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
-      <GroupStyle>
-        <BorderThickness>0,0,0,0</BorderThickness>
-        <CornerRadius>0,0,0,0</CornerRadius>
-      </GroupStyle>
+      <GroupStyle />
       <GroupControls>
         <Control x:type="List">
           <Name>List</Name>
@@ -54,8 +51,6 @@
           <Animations />
           <MediaPortalFocusControls />
           <ListControlStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
             <BackgroundBrush />
             <BorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
             <GlossBrush />
@@ -66,6 +61,7 @@
             <BorderThickness>1,1,1,1</BorderThickness>
             <CornerRadius>2,2,2,2</CornerRadius>
           </VerticalItemStyle>
+          <VerticalIconItemStyle />
           <HorizontalItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
             <CornerRadius>8,8,8,8</CornerRadius>
@@ -94,10 +90,7 @@
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
-      <GroupStyle>
-        <BorderThickness>0,0,0,0</BorderThickness>
-        <CornerRadius>0,0,0,0</CornerRadius>
-      </GroupStyle>
+      <GroupStyle />
       <GroupControls>
         <Control x:type="Image">
           <Name>Icon</Name>
@@ -108,10 +101,7 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
-          </ImageStyle>
+          <ImageStyle />
           <Image>\icon_home.png</Image>
           <ImageStretch>None</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
@@ -197,10 +187,7 @@
             <Animation x:type="Fade" Condition="VisibleFalse" Duration="500" Easing="EaseInOut" From="100" To="0" />
           </Animations>
           <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
-          </ImageStyle>
+          <ImageStyle />
           <Image>\rec.png</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
@@ -217,10 +204,7 @@
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
-      <GroupStyle>
-        <BorderThickness>0,0,0,0</BorderThickness>
-        <CornerRadius>0,0,0,0</CornerRadius>
-      </GroupStyle>
+      <GroupStyle />
       <GroupControls>
         <Control x:type="Image">
           <Name>NewImage</Name>
@@ -230,10 +214,7 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
-          </ImageStyle>
+          <ImageStyle />
           <Image>\count_bg.png</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
@@ -324,10 +305,7 @@
         <Animation x:type="Slide" Condition="VisibleFalse" Duration="500" Easing="EaseIn" StartY="303" EndY="720" />
       </Animations>
       <MediaPortalFocusControls />
-      <GroupStyle>
-        <BorderThickness>0,0,0,0</BorderThickness>
-        <CornerRadius>0,0,0,0</CornerRadius>
-      </GroupStyle>
+      <GroupStyle />
       <GroupControls>
         <Control x:type="Button">
           <Name>Background</Name>

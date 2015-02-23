@@ -72,6 +72,7 @@
       <ListType>MediaPortalDialogList</ListType>
       <ListLayout>Auto</ListLayout>
       <VerticalItemStyle StyleId="Dialog ListControl" />
+      <VerticalIconItemStyle />
       <HorizontalItemStyle>
         <BorderThickness>1,1,1,1</BorderThickness>
         <CornerRadius>4,4,4,4</CornerRadius>

@@ -156,6 +156,7 @@
       <ListType>MediaPortalDialogList</ListType>
       <ListLayout>Auto</ListLayout>
       <VerticalItemStyle StyleId="DialogList Vertical" />
+      <VerticalIconItemStyle />
       <HorizontalItemStyle>
         <CornerRadius>15,15,15,15</CornerRadius>
         <NoFocusBrush />

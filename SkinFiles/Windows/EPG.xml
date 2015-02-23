@@ -40,8 +40,6 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
             <BackgroundBrush x:type="ImageBrush" Image="\Hovers\hover_my tv.jpg" Stretch="Fill" />
             <BorderBrush />
           </ImageStyle>
@@ -94,6 +92,7 @@
           <ListType>MediaPortalListControl</ListType>
           <ListLayout>Auto</ListLayout>
           <VerticalItemStyle StyleId="VideoList" />
+          <VerticalIconItemStyle />
           <HorizontalItemStyle StyleId="VideoList Horizontal" />
           <CoverFlowItemStyle />
         </Control>
@@ -208,6 +207,7 @@
             <ItemMargin>1,1,1,1</ItemMargin>
             <HorizontalAlignment>Right</HorizontalAlignment>
           </VerticalItemStyle>
+          <VerticalIconItemStyle />
           <HorizontalItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
             <CornerRadius>12,12,12,12</CornerRadius>
@@ -298,6 +298,8 @@
           <TimelineMultiplier>7</TimelineMultiplier>
           <ChannelStyle StyleId="GuideChannelStyle" />
           <ProgramStyle StyleId="GuideProgramStyle" />
+          <CreateDialogId>2000</CreateDialogId>
+          <CancelDialogId>2001</CancelDialogId>
         </Control>
         <Control x:type="Rectangle">
           <Name>NewRectangle</Name>
@@ -309,7 +311,6 @@
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
-          <BorderThickness>0,0,0,0</BorderThickness>
           <CornerRadius>25,25,25,25</CornerRadius>
           <BackgroundBrush x:type="ColorBrush" Color="#B9000000" />
         </Control>
@@ -324,19 +325,18 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
             <CornerRadius>10,10,10,10</CornerRadius>
           </ImageStyle>
           <Image>#TV.Guide.thumb</Image>
           <DefaultImage>\defaultTVBig.png</DefaultImage>
-          <ImageStretch>UniformToFill</ImageStretch>
+          <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
         <Control x:type="Label">
-          <Name>NewLabel</Name>
+          <Name>Title</Name>
           <Id>27</Id>
-          <Width>450</Width>
-          <Height>40</Height>
+          <Width>985</Width>
+          <Height>60</Height>
           <PosX>270</PosX>
           <PosY>110</PosY>
           <VisibleCondition />
@@ -344,6 +344,21 @@
           <MediaPortalFocusControls />
           <LabelStyle StyleId="Titan50_White" />
           <LabelText>#TV.Guide.Title</LabelText>
+        </Control>
+        <Control x:type="Label">
+          <Name>Description</Name>
+          <Id>28</Id>
+          <Width>985</Width>
+          <Height>179</Height>
+          <PosX>270</PosX>
+          <PosY>170</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan40 White" />
+          <LabelText>#TV.Guide.Description</LabelText>
+          <IsVertical>true</IsVertical>
+          <ScrollSeperator>---------------------------</ScrollSeperator>
         </Control>
       </GroupControls>
     </Control>
@@ -355,10 +370,7 @@
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
-      <GroupStyle>
-        <BorderThickness>0,0,0,0</BorderThickness>
-        <CornerRadius>0,0,0,0</CornerRadius>
-      </GroupStyle>
+      <GroupStyle />
       <GroupControls>
         <Control x:type="Image">
           <Name>Icon</Name>
@@ -369,10 +381,7 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
-          </ImageStyle>
+          <ImageStyle />
           <Image>\icon_tv.png</Image>
           <ImageStretch>None</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
@@ -422,10 +431,7 @@
             <Animation x:type="Fade" Condition="VisibleFalse" Duration="500" Easing="EaseInOut" From="100" To="0" />
           </Animations>
           <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
-          </ImageStyle>
+          <ImageStyle />
           <Image>\rec.png</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>

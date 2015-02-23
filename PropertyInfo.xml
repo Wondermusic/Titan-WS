@@ -2347,5 +2347,14 @@
       </MediaPortalTags>
       <IsInternal>false</IsInternal>
     </XmlProperty>
+    <XmlProperty>
+      <SkinTag>#TV.Guide.Description</SkinTag>
+      <PropertyType>Label</PropertyType>
+      <DesignerValue>Test Test Test</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.Guide.Description" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
   </Properties>
 </XmlPropertyInfo>

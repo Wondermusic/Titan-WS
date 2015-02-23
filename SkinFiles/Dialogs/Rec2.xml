@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dialog xmlns:x="http://www.w3.org/2001/XMLSchema-instance" x:type="MPDisplayDialog">
+  <Name>Rec2</Name>
+  <Id>2001</Id>
+  <Width>979</Width>
+  <Height>550</Height>
+  <PosX>150</PosX>
+  <PosY>85</PosY>
+  <BorderThickness>2</BorderThickness>
+  <CornerRadius>5</CornerRadius>
+  <BackgroundBrush x:type="ImageBrush" Image="\dialog_background.png" Stretch="Uniform" />
+  <BorderBrush />
+  <DialogAnimations>
+    <Animation x:type="Fade" Condition="WindowClose" Duration="300" Easing="EaseInOut" From="100" To="0" />
+    <Animation x:type="Fade" Condition="WindowOpen" Duration="300" Easing="EaseInOut" />
+  </DialogAnimations>
+  <DialogControls>
+    <Control x:type="Button">
+      <Name>NewButton</Name>
+      <Id>2</Id>
+      <Width>290</Width>
+      <Height>60</Height>
+      <PosX>503</PosX>
+      <PosY>396</PosY>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <ButtonStyle StyleId="Weather" />
+      <LabelText>@no</LabelText>
+      <Actions>
+        <Action Action="OpenDialog" Param="2001" />
+      </Actions>
+    </Control>
+    <Control x:type="Button">
+      <Name>NewButton</Name>
+      <Id>3</Id>
+      <Width>290</Width>
+      <Height>60</Height>
+      <PosX>180</PosX>
+      <PosY>396</PosY>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <ButtonStyle StyleId="Weather" />
+      <LabelText>@yes</LabelText>
+      <Actions>
+        <Action Action="ScheduleEPGAction" />
+        <Action Action="OpenDialog" Param="2001" />
+      </Actions>
+    </Control>
+    <Control x:type="Label">
+      <Name>NewLabel</Name>
+      <Id>4</Id>
+      <Width>472</Width>
+      <Height>174</Height>
+      <PosX>254</PosX>
+      <PosY>132</PosY>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <LabelStyle>
+        <FontType>Titan</FontType>
+        <FontWeight>Black</FontWeight>
+        <FontSize>50</FontSize>
+        <FontBrush x:type="ColorBrush" Color="#FF000000" />
+      </LabelStyle>
+      <LabelText>@Rec2</LabelText>
+      <LabelTextAlignment>Center</LabelTextAlignment>
+      <IsVertical>true</IsVertical>
+      <IsScrollingEnabled>false</IsScrollingEnabled>
+      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+    </Control>
+  </DialogControls>
+</Dialog>

@@ -17,8 +17,6 @@
       <Animations />
       <MediaPortalFocusControls />
       <GroupStyle>
-        <BorderThickness>0,0,0,0</BorderThickness>
-        <CornerRadius>0,0,0,0</CornerRadius>
         <BackgroundBrush />
         <BorderBrush />
         <GlossBrush />
@@ -120,6 +118,16 @@
           <ListType>MediaPortalListControl</ListType>
           <ListLayout>Auto</ListLayout>
           <VerticalItemStyle StyleId="MusicList" />
+          <VerticalIconItemStyle>
+            <BorderThickness>5,5,5,5</BorderThickness>
+            <CornerRadius>10,10,10,10</CornerRadius>
+            <FocusBorderBrush x:type="ColorBrush" Color="#FF1E90FF" />
+            <EnableImage>true</EnableImage>
+            <ImageStretch>Fill</ImageStretch>
+            <Width>200</Width>
+            <Height>200</Height>
+            <ItemMargin>5,5,5,5</ItemMargin>
+          </VerticalIconItemStyle>
           <HorizontalItemStyle StyleId="MusicList Horizontal" />
           <CoverFlowItemStyle StyleId="MusicList CoverFlow" />
         </Control>
@@ -151,10 +159,7 @@
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
-      <GroupStyle>
-        <BorderThickness>0,0,0,0</BorderThickness>
-        <CornerRadius>0,0,0,0</CornerRadius>
-      </GroupStyle>
+      <GroupStyle />
       <GroupControls>
         <Control x:type="Image">
           <Name>Icon</Name>
@@ -165,10 +170,7 @@
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
-          </ImageStyle>
+          <ImageStyle />
           <Image>\icon_music.png</Image>
           <ImageStretch>None</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
@@ -218,10 +220,7 @@
             <Animation x:type="Fade" Condition="VisibleFalse" Duration="500" Easing="EaseInOut" From="100" To="0" />
           </Animations>
           <MediaPortalFocusControls />
-          <ImageStyle>
-            <BorderThickness>0,0,0,0</BorderThickness>
-            <CornerRadius>0,0,0,0</CornerRadius>
-          </ImageStyle>
+          <ImageStyle />
           <Image>\rec.png</Image>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
@@ -265,8 +264,6 @@
       <Animations />
       <MediaPortalFocusControls />
       <GroupStyle>
-        <BorderThickness>0,0,0,0</BorderThickness>
-        <CornerRadius>0,0,0,0</CornerRadius>
         <BackgroundBrush x:type="ImageBrush" Image="\menu_bg.png" Stretch="Uniform" />
         <BorderBrush />
         <GlossBrush />
@@ -286,6 +283,7 @@
           <ListType>MediaPortalButtonGroup</ListType>
           <ListLayout>Auto</ListLayout>
           <VerticalItemStyle StyleId="ActionMenu ListControl" />
+          <VerticalIconItemStyle />
           <HorizontalItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
             <CornerRadius>4,4,4,4</CornerRadius>

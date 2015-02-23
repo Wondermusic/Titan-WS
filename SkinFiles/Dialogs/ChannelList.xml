@@ -112,6 +112,7 @@
         <Label3HorizontalAlignment>Left</Label3HorizontalAlignment>
         <Label3VerticalAlignment>Top</Label3VerticalAlignment>
       </VerticalItemStyle>
+      <VerticalIconItemStyle />
       <HorizontalItemStyle>
         <BorderThickness>1,1,1,1</BorderThickness>
         <CornerRadius>4,4,4,4</CornerRadius>
