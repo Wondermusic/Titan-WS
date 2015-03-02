@@ -494,7 +494,7 @@
           <ListType>MediaPortalListControl</ListType>
           <ListLayout>Auto</ListLayout>
           <VerticalItemStyle StyleId="MusicList" />
-          <VerticalIconItemStyle />
+          <VerticalIconItemStyle StyleId="Empty List" />
           <HorizontalItemStyle StyleId="MusicList Horizontal" />
           <CoverFlowItemStyle StyleId="MusicList CoverFlow" />
         </Control>

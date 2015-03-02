@@ -57,28 +57,10 @@
           </ListControlStyle>
           <ListType>MediaPortalMenuControl</ListType>
           <ListLayout>Horizontal</ListLayout>
-          <VerticalItemStyle>
-            <BorderThickness>1,1,1,1</BorderThickness>
-            <CornerRadius>2,2,2,2</CornerRadius>
-          </VerticalItemStyle>
-          <VerticalIconItemStyle />
-          <HorizontalItemStyle>
-            <BorderThickness>1,1,1,1</BorderThickness>
-            <CornerRadius>8,8,8,8</CornerRadius>
-            <NoFocusBrush />
-            <FocusBrush />
-            <FontType>Titan</FontType>
-            <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-            <NoFocusFontBrush x:type="ColorBrush" Color="#FF4682B4" />
-            <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
-            <ImageVerticalAlignment>Top</ImageVerticalAlignment>
-            <Width>216</Width>
-            <Height>53</Height>
-          </HorizontalItemStyle>
-          <CoverFlowItemStyle>
-            <Width>34</Width>
-            <Height>43</Height>
-          </CoverFlowItemStyle>
+          <VerticalItemStyle StyleId="Empty List" />
+          <VerticalIconItemStyle StyleId="Empty List" />
+          <HorizontalItemStyle StyleId="CHome Horizontal" />
+          <CoverFlowItemStyle StyleId="Empty List" />
         </Control>
       </GroupControls>
     </Control>

@@ -118,16 +118,7 @@
           <ListType>MediaPortalListControl</ListType>
           <ListLayout>Auto</ListLayout>
           <VerticalItemStyle StyleId="MusicList" />
-          <VerticalIconItemStyle>
-            <BorderThickness>5,5,5,5</BorderThickness>
-            <CornerRadius>10,10,10,10</CornerRadius>
-            <FocusBorderBrush x:type="ColorBrush" Color="#FF1E90FF" />
-            <EnableImage>true</EnableImage>
-            <ImageStretch>Fill</ImageStretch>
-            <Width>200</Width>
-            <Height>200</Height>
-            <ItemMargin>5,5,5,5</ItemMargin>
-          </VerticalIconItemStyle>
+          <VerticalIconItemStyle StyleId="Empty List" />
           <HorizontalItemStyle StyleId="MusicList Horizontal" />
           <CoverFlowItemStyle StyleId="MusicList CoverFlow" />
         </Control>

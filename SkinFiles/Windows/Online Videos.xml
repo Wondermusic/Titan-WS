@@ -93,7 +93,7 @@
           <ListType>MediaPortalListControl</ListType>
           <ListLayout>Auto</ListLayout>
           <VerticalItemStyle StyleId="VideoList" />
-          <VerticalIconItemStyle />
+          <VerticalIconItemStyle StyleId="Empty List" />
           <HorizontalItemStyle StyleId="VideoList Horizontal" />
           <CoverFlowItemStyle StyleId="VideoList CoverFlow" />
         </Control>

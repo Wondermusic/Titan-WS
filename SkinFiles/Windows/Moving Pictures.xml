@@ -129,7 +129,7 @@
             <ItemMargin>1,1,1,1</ItemMargin>
             <HorizontalAlignment>Right</HorizontalAlignment>
           </VerticalItemStyle>
-          <VerticalIconItemStyle />
+          <VerticalIconItemStyle StyleId="Empty List" />
           <HorizontalItemStyle>
             <BorderThickness>1,1,1,1</BorderThickness>
             <CornerRadius>4,4,4,4</CornerRadius>
@@ -288,7 +288,7 @@
           <ListType>MediaPortalListControl</ListType>
           <ListLayout>Auto</ListLayout>
           <VerticalItemStyle StyleId="VideoList" />
-          <VerticalIconItemStyle />
+          <VerticalIconItemStyle StyleId="Empty List" />
           <HorizontalItemStyle StyleId="VideoList Horizontal" />
           <CoverFlowItemStyle StyleId="VideoList CoverFlow" />
         </Control>

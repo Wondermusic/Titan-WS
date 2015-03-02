@@ -150,7 +150,7 @@
             <ItemMargin>1,1,1,1</ItemMargin>
             <HorizontalAlignment>Right</HorizontalAlignment>
           </VerticalItemStyle>
-          <VerticalIconItemStyle />
+          <VerticalIconItemStyle StyleId="Empty List" />
           <HorizontalItemStyle StyleId="MusicList Horizontal" />
           <CoverFlowItemStyle StyleId="MusicList CoverFlow" />
         </Control>
@@ -681,7 +681,7 @@
             <ItemMargin>1,1,1,1</ItemMargin>
             <HorizontalAlignment>Right</HorizontalAlignment>
           </VerticalItemStyle>
-          <VerticalIconItemStyle />
+          <VerticalIconItemStyle StyleId="Empty List" />
           <HorizontalItemStyle StyleId="MusicList Horizontal" />
           <CoverFlowItemStyle StyleId="MusicList CoverFlow" />
         </Control>
@@ -895,7 +895,7 @@
             <ItemMargin>1,1,1,1</ItemMargin>
             <HorizontalAlignment>Right</HorizontalAlignment>
           </VerticalItemStyle>
-          <VerticalIconItemStyle />
+          <VerticalIconItemStyle StyleId="Empty List" />
           <HorizontalItemStyle StyleId="MusicList Horizontal" />
           <CoverFlowItemStyle StyleId="MusicList CoverFlow" />
         </Control>
@@ -955,7 +955,7 @@
             <ItemMargin>1,1,1,1</ItemMargin>
             <HorizontalAlignment>Right</HorizontalAlignment>
           </VerticalItemStyle>
-          <VerticalIconItemStyle />
+          <VerticalIconItemStyle StyleId="Empty List" />
           <HorizontalItemStyle StyleId="MusicList Horizontal" />
           <CoverFlowItemStyle StyleId="MusicList CoverFlow" />
         </Control>
@@ -1015,7 +1015,7 @@
             <ItemMargin>1,1,1,1</ItemMargin>
             <HorizontalAlignment>Right</HorizontalAlignment>
           </VerticalItemStyle>
-          <VerticalIconItemStyle />
+          <VerticalIconItemStyle StyleId="Empty List" />
           <HorizontalItemStyle StyleId="MusicList Horizontal" />
           <CoverFlowItemStyle StyleId="MusicList CoverFlow" />
         </Control>

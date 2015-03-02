@@ -2,7 +2,7 @@
 <XmlSkinInfo xmlns:x="http://www.w3.org/2001/XMLSchema-instance">
   <SkinWidth>1280</SkinWidth>
   <SkinHeight>720</SkinHeight>
-  <CurrentStyle>Blue</CurrentStyle>
+  <CurrentStyle>Default</CurrentStyle>
   <CurrentLanguage>Deutsch</CurrentLanguage>
   <TextEnableScrolling>false</TextEnableScrolling>
   <TextHorizontalScrollDelay>3</TextHorizontalScrollDelay>
@@ -14,8 +14,8 @@
   <TextVerticalScrollWrap>true</TextVerticalScrollWrap>
   <TextVerticalScrollSeperator>---------------------------------</TextVerticalScrollSeperator>
   <SkinOptions>
-    <SkinOption Name="Default" Group="BasicHome" IsPreviewImageEnabled="true" PreviewImage="\Preview_Default.png" Description="Default BasicHome Layout" />
-    <SkinOption Name="Extended" Group="BasicHome" IsEnabled="true" IsPreviewImageEnabled="true" PreviewImage="\Preview_Extended.png" Description="Extended BasicHome Layout. Attention: You have to rename the Pictures in C:\ProgramData\MPDisplay++\Skin\Titan-WS\Images\BasicHomeImages as you name your Menu Items in Titan BasicHome Editor." />
+    <SkinOption Name="Default" Group="BasicHome" IsEnabled="true" IsPreviewImageEnabled="true" PreviewImage="\Preview_Default.png" Description="Default BasicHome Layout" />
+    <SkinOption Name="Extended" Group="BasicHome" IsPreviewImageEnabled="true" PreviewImage="\Preview_Extended.png" Description="Extended BasicHome Layout. Attention: You have to rename the Pictures in C:\ProgramData\MPDisplay++\Skin\Titan-WS\Images\BasicHomeImages as you name your Menu Items in Titan BasicHome Editor." />
     <SkinOption Name="Default_NoTouch" Group="BasicHome" IsPreviewImageEnabled="true" PreviewImage="\Preview_Default_NoTouch.png" Description="BasicHome Default Layout without Action Menu's" />
     <SkinOption Name="Extended_NoTouch" Group="BasicHome" IsPreviewImageEnabled="true" PreviewImage="\Preview_Extended_NoTouch.png" Description="BasicHome Extended Layout without Action Menu's" />
     <SkinOption Name="ClassicHome" Group="BasicHome" Description="Sets ClassicHome Screen as Default" />
