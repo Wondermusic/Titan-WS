@@ -3,7 +3,7 @@
   <IsDefault>false</IsDefault>
   <Width>1280</Width>
   <Height>720</Height>
-  <Name>RadioTime Playing</Name>
+  <Name>TuneIn Playing</Name>
   <Id>34</Id>
   <BackgroundBrush />
   <WindowAnimations />
@@ -235,7 +235,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="Titan50_White" />
-          <LabelText>RadioTime</LabelText>
+          <LabelText>TuneIn</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -302,5 +302,5 @@
       </Actions>
     </Control>
   </WindowControls>
-  <VisibleCondition>IsPlayer(RadioTime)</VisibleCondition>
+  <VisibleCondition>IsPlayer(TuneIn)</VisibleCondition>
 </Window>

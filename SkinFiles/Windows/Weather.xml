@@ -992,9 +992,9 @@
         <Height>50</Height>
         <ItemMargin>1,1,1,1</ItemMargin>
       </VerticalItemStyle>
-      <VerticalIconItemStyle StyleId="Empty List" />
-      <HorizontalItemStyle StyleId="Empty List" />
-      <CoverFlowItemStyle StyleId="Empty List" />
+      <VerticalIconItemStyle StyleId="EmptyList" />
+      <HorizontalItemStyle StyleId="EmptyList" />
+      <CoverFlowItemStyle StyleId="EmptyList" />
     </Control>
   </WindowControls>
   <VisibleCondition>IsMediaPortalWindow(7977)</VisibleCondition>

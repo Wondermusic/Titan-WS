@@ -57,10 +57,10 @@
           </ListControlStyle>
           <ListType>MediaPortalMenuControl</ListType>
           <ListLayout>Horizontal</ListLayout>
-          <VerticalItemStyle StyleId="Empty List" />
-          <VerticalIconItemStyle StyleId="Empty List" />
-          <HorizontalItemStyle StyleId="CHome Horizontal" />
-          <CoverFlowItemStyle StyleId="Empty List" />
+          <VerticalItemStyle StyleId="EmptyList" />
+          <VerticalIconItemStyle StyleId="EmptyList" />
+          <HorizontalItemStyle StyleId="CHome" />
+          <CoverFlowItemStyle StyleId="EmptyList" />
         </Control>
       </GroupControls>
     </Control>

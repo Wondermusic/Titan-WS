@@ -150,7 +150,7 @@
             <ItemMargin>1,1,1,1</ItemMargin>
             <HorizontalAlignment>Right</HorizontalAlignment>
           </VerticalItemStyle>
-          <VerticalIconItemStyle StyleId="Empty List" />
+          <VerticalIconItemStyle StyleId="EmptyList" />
           <HorizontalItemStyle StyleId="MusicList Horizontal" />
           <CoverFlowItemStyle StyleId="MusicList CoverFlow" />
         </Control>
@@ -263,51 +263,16 @@
               <ListType>MediaPortalButtonGroup</ListType>
               <ListLayout>Auto</ListLayout>
               <VerticalItemStyle StyleId="ActionMenu ListControl" />
-              <VerticalIconItemStyle />
-              <HorizontalItemStyle>
-                <BorderThickness>1,1,1,1</BorderThickness>
-                <CornerRadius>4,4,4,4</CornerRadius>
-                <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
-                <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
-                <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
-                <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                <FontSize>18</FontSize>
-                <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
-                <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
-                <LabelMargin>3,3,3,3</LabelMargin>
-                <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
-                <EnableImage>true</EnableImage>
-                <ImageMargin>3,3,3,33</ImageMargin>
-                <ImageVerticalAlignment>Top</ImageVerticalAlignment>
-                <Width>135</Width>
-                <Height>207</Height>
-                <ItemMargin>1,1,1,1</ItemMargin>
-              </HorizontalItemStyle>
-              <CoverFlowItemStyle>
-                <BorderThickness>1,1,1,1</BorderThickness>
-                <CornerRadius>4,4,4,4</CornerRadius>
-                <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
-                <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
-                <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
-                <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                <FontSize>18</FontSize>
-                <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
-                <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
-                <LabelMargin>3,3,3,3</LabelMargin>
-                <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
-                <EnableImage>true</EnableImage>
-                <ImageMargin>3,3,3,33</ImageMargin>
-                <ImageVerticalAlignment>Top</ImageVerticalAlignment>
-                <Width>135</Width>
-                <Height>207</Height>
-              </CoverFlowItemStyle>
+              <VerticalIconItemStyle StyleId="EmptyList" />
+              <HorizontalItemStyle StyleId="EmptyList" />
+              <CoverFlowItemStyle StyleId="EmptyList" />
             </Control>
           </GroupControls>
         </Control>
       </GroupControls>
     </Control>
     <Control x:type="Group">
-      <Name>RadioTime Presets</Name>
+      <Name>TuneIn Presets</Name>
       <Id>48</Id>
       <Width>1280</Width>
       <Height>720</Height>
@@ -681,7 +646,7 @@
             <ItemMargin>1,1,1,1</ItemMargin>
             <HorizontalAlignment>Right</HorizontalAlignment>
           </VerticalItemStyle>
-          <VerticalIconItemStyle StyleId="Empty List" />
+          <VerticalIconItemStyle StyleId="EmptyList" />
           <HorizontalItemStyle StyleId="MusicList Horizontal" />
           <CoverFlowItemStyle StyleId="MusicList CoverFlow" />
         </Control>
@@ -776,44 +741,9 @@
               <ListType>MediaPortalButtonGroup</ListType>
               <ListLayout>Auto</ListLayout>
               <VerticalItemStyle StyleId="ActionMenu ListControl" />
-              <VerticalIconItemStyle />
-              <HorizontalItemStyle>
-                <BorderThickness>1,1,1,1</BorderThickness>
-                <CornerRadius>4,4,4,4</CornerRadius>
-                <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
-                <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
-                <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
-                <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                <FontSize>18</FontSize>
-                <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
-                <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
-                <LabelMargin>3,3,3,3</LabelMargin>
-                <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
-                <EnableImage>true</EnableImage>
-                <ImageMargin>3,3,3,33</ImageMargin>
-                <ImageVerticalAlignment>Top</ImageVerticalAlignment>
-                <Width>135</Width>
-                <Height>207</Height>
-                <ItemMargin>1,1,1,1</ItemMargin>
-              </HorizontalItemStyle>
-              <CoverFlowItemStyle>
-                <BorderThickness>1,1,1,1</BorderThickness>
-                <CornerRadius>4,4,4,4</CornerRadius>
-                <NoFocusBrush x:type="ColorBrush" Color="#FF000000" />
-                <NoFocusBorderBrush x:type="ColorBrush" Color="#FF00BFFF" />
-                <FocusBrush x:type="ColorBrush" Color="#FF00BFFF" />
-                <FocusBorderBrush x:type="ColorBrush" Color="#FF000000" />
-                <FontSize>18</FontSize>
-                <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
-                <NoFocusFontBrush x:type="ColorBrush" Color="#FF00BFFF" />
-                <LabelMargin>3,3,3,3</LabelMargin>
-                <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
-                <EnableImage>true</EnableImage>
-                <ImageMargin>3,3,3,33</ImageMargin>
-                <ImageVerticalAlignment>Top</ImageVerticalAlignment>
-                <Width>135</Width>
-                <Height>207</Height>
-              </CoverFlowItemStyle>
+              <VerticalIconItemStyle StyleId="EmptyList" />
+              <HorizontalItemStyle StyleId="EmptyList" />
+              <CoverFlowItemStyle StyleId="EmptyList" />
             </Control>
           </GroupControls>
         </Control>
@@ -895,7 +825,7 @@
             <ItemMargin>1,1,1,1</ItemMargin>
             <HorizontalAlignment>Right</HorizontalAlignment>
           </VerticalItemStyle>
-          <VerticalIconItemStyle StyleId="Empty List" />
+          <VerticalIconItemStyle StyleId="EmptyList" />
           <HorizontalItemStyle StyleId="MusicList Horizontal" />
           <CoverFlowItemStyle StyleId="MusicList CoverFlow" />
         </Control>
@@ -955,7 +885,7 @@
             <ItemMargin>1,1,1,1</ItemMargin>
             <HorizontalAlignment>Right</HorizontalAlignment>
           </VerticalItemStyle>
-          <VerticalIconItemStyle StyleId="Empty List" />
+          <VerticalIconItemStyle StyleId="EmptyList" />
           <HorizontalItemStyle StyleId="MusicList Horizontal" />
           <CoverFlowItemStyle StyleId="MusicList CoverFlow" />
         </Control>
@@ -1015,7 +945,7 @@
             <ItemMargin>1,1,1,1</ItemMargin>
             <HorizontalAlignment>Right</HorizontalAlignment>
           </VerticalItemStyle>
-          <VerticalIconItemStyle StyleId="Empty List" />
+          <VerticalIconItemStyle StyleId="EmptyList" />
           <HorizontalItemStyle StyleId="MusicList Horizontal" />
           <CoverFlowItemStyle StyleId="MusicList CoverFlow" />
         </Control>
@@ -1057,7 +987,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="Titan50_White" />
-          <LabelText>RadioTime</LabelText>
+          <LabelText>TuneIn</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>

@@ -92,9 +92,9 @@
           <ListType>MediaPortalListControl</ListType>
           <ListLayout>Auto</ListLayout>
           <VerticalItemStyle StyleId="VideoList" />
-          <VerticalIconItemStyle StyleId="Empty List" />
+          <VerticalIconItemStyle StyleId="EmptyList" />
           <HorizontalItemStyle StyleId="VideoList Horizontal" />
-          <CoverFlowItemStyle StyleId="Empty List" />
+          <CoverFlowItemStyle StyleId="EmptyList" />
         </Control>
         <Control x:type="Label">
           <Name>Title</Name>

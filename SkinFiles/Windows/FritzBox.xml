@@ -80,7 +80,7 @@
           <ListType>MediaPortalListControl</ListType>
           <ListLayout>Auto</ListLayout>
           <VerticalItemStyle StyleId="MusicList" />
-          <VerticalIconItemStyle StyleId="Empty List" />
+          <VerticalIconItemStyle StyleId="EmptyList" />
           <HorizontalItemStyle StyleId="MusicList Horizontal" />
           <CoverFlowItemStyle StyleId="MusicList CoverFlow" />
         </Control>
@@ -259,9 +259,9 @@
           <ListType>MediaPortalButtonGroup</ListType>
           <ListLayout>Auto</ListLayout>
           <VerticalItemStyle StyleId="ActionMenu ListControl" />
-          <VerticalIconItemStyle />
-          <HorizontalItemStyle />
-          <CoverFlowItemStyle />
+          <VerticalIconItemStyle StyleId="EmptyList" />
+          <HorizontalItemStyle StyleId="EmptyList" />
+          <CoverFlowItemStyle StyleId="EmptyList" />
         </Control>
       </GroupControls>
     </Control>

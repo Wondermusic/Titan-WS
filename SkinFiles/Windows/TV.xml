@@ -80,9 +80,9 @@
           <ListType>MediaPortalButtonGroup</ListType>
           <ListLayout>Auto</ListLayout>
           <VerticalItemStyle StyleId="MusicList" />
-          <VerticalIconItemStyle StyleId="Empty List" />
-          <HorizontalItemStyle StyleId="Empty List" />
-          <CoverFlowItemStyle StyleId="Empty List" />
+          <VerticalIconItemStyle StyleId="EmptyList" />
+          <HorizontalItemStyle StyleId="EmptyList" />
+          <CoverFlowItemStyle StyleId="EmptyList" />
         </Control>
       </GroupControls>
     </Control>

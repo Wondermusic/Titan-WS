@@ -813,5 +813,16 @@
       <ItemMargin>2,2,2,2</ItemMargin>
       <HorizontalAlignment>Right</HorizontalAlignment>
     </ControlStyle>
+    <ControlStyle x:type="ListItemStyle" StyleId="EmptyList">
+      <EnableLabel>false</EnableLabel>
+    </ControlStyle>
+    <ControlStyle x:type="ListItemStyle" StyleId="CHome">
+      <FontType>Titan</FontType>
+      <FontSize>50</FontSize>
+      <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FF5E9BE0" />
+      <Width>400</Width>
+      <Height>70</Height>
+    </ControlStyle>
   </ControlStyles>
 </StyleCollection>
