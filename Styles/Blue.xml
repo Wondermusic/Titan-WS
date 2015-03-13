@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StyleCollection xmlns:x="http://www.w3.org/2001/XMLSchema-instance">
   <BrushStyles>
-    <Brush x:type="ImageBrush" StyleId="Background Play" Image="\filmstrip_overlay_recordings (blue).png" Stretch="Fill" />
+    <Brush x:type="ImageBrush" StyleId="Background Play" Image="\filmstrip_overlay (blue).png" Stretch="Fill" />
   </BrushStyles>
   <ControlStyles>
     <ControlStyle x:type="LabelStyle" StyleId="Titan100">
@@ -783,24 +783,6 @@
       <Height>118</Height>
       <ItemMargin>2,2,2,2</ItemMargin>
       <HorizontalAlignment>Right</HorizontalAlignment>
-    </ControlStyle>
-    <ControlStyle x:type="ListItemStyle" StyleId="Empty List">
-      <BorderThickness>1,1,1,1</BorderThickness>
-      <CornerRadius>2,2,2,2</CornerRadius>
-      <EnableLabel>false</EnableLabel>
-    </ControlStyle>
-    <ControlStyle x:type="ListItemStyle" StyleId="CHome Horizontal">
-      <BorderThickness>1,1,1,1</BorderThickness>
-      <CornerRadius>8,8,8,8</CornerRadius>
-      <NoFocusBrush />
-      <FocusBrush />
-      <FontType>Titan</FontType>
-      <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
-      <NoFocusFontBrush x:type="ColorBrush" Color="#FF4682B4" />
-      <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
-      <ImageVerticalAlignment>Top</ImageVerticalAlignment>
-      <Width>216</Width>
-      <Height>53</Height>
     </ControlStyle>
   </ControlStyles>
 </StyleCollection>
