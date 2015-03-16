@@ -106,7 +106,7 @@
       </Actions>
     </Control>
     <Control x:type="Button">
-      <Name>RadioTime</Name>
+      <Name>TuneIn</Name>
       <Id>4</Id>
       <Width>200</Width>
       <Height>100</Height>
@@ -126,7 +126,7 @@
         <ImageStretch>None</ImageStretch>
       </ButtonStyle>
       <Image>\icon_radio.png</Image>
-      <LabelText>RadioTime</LabelText>
+      <LabelText>TuneIn</LabelText>
       <Actions>
         <Action Action="MediaPortalWindow" Param="25650" />
         <Action Action="OpenDialog" Param="20000" />
