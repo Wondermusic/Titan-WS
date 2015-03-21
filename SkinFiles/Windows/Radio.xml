@@ -769,7 +769,6 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Background" />
-          <Image>\Hovers\hover_my radio.jpg</Image>
           <ImageStretch>Fill</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>

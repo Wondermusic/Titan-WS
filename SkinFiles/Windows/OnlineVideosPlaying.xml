@@ -285,7 +285,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="Titan50_White" />
-          <LabelText>#currentmodule</LabelText>
+          <LabelText>Online Videos</LabelText>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>

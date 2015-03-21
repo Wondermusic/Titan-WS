@@ -4,8 +4,8 @@
   <Id>2000</Id>
   <Width>979</Width>
   <Height>550</Height>
-  <PosX>111</PosX>
-  <PosY>92</PosY>
+  <PosX>150</PosX>
+  <PosY>85</PosY>
   <BorderThickness>2</BorderThickness>
   <CornerRadius>5</CornerRadius>
   <BackgroundBrush x:type="ImageBrush" Image="\dialog_background.png" Stretch="Uniform" />

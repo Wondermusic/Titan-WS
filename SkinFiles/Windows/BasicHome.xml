@@ -289,7 +289,6 @@
                 <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
                 <ImageStretch>None</ImageStretch>
               </ButtonStyle>
-              <Image>basichome_button_settings</Image>
               <LabelText>@Settings</LabelText>
               <Actions>
                 <Action Action="MediaPortalWindow" Param="4" />
@@ -325,7 +324,6 @@
                 <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
                 <ImageStretch>None</ImageStretch>
               </ButtonStyle>
-              <Image>basichome_button_infoservice</Image>
               <LabelText>@InfoService</LabelText>
               <Actions>
                 <Action Action="MediaPortalWindow" Param="16000" />
@@ -361,7 +359,6 @@
                 <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
                 <ImageStretch>None</ImageStretch>
               </ButtonStyle>
-              <Image>basichome_button_onlinevideos</Image>
               <LabelText>@OnlineVideos</LabelText>
               <Actions>
                 <Action Action="MediaPortalWindow" Param="4755" />
@@ -396,7 +393,6 @@
                 <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
                 <ImageStretch>None</ImageStretch>
               </ButtonStyle>
-              <Image>basichome_button_plugins</Image>
               <LabelText>@Plugins</LabelText>
               <Actions>
                 <Action Action="MediaPortalWindow" Param="34" />
@@ -421,8 +417,8 @@
               <ButtonStyle>
                 <BorderThickness>4,4,4,4</BorderThickness>
                 <CornerRadius>24,24,24,24</CornerRadius>
-                <NoFocusBrush x:type="ImageBrush" Image="\basichome_button_dummy.png" Stretch="Fill" />
-                <FocusBrush x:type="ImageBrush" Image="\basichome_button_dummy.png" Stretch="Fill" />
+                <NoFocusBrush x:type="ImageBrush" Image="\BasicHomeImages\Trakt.png" Stretch="Fill" />
+                <FocusBrush x:type="ImageBrush" Image="\BasicHomeImages\Trakt.png" Stretch="Fill" />
                 <FocusBorderBrush x:type="ColorBrush" Color="#FF00B7FF" />
                 <EnableLabel>false</EnableLabel>
                 <FontType>Titan</FontType>
@@ -433,7 +429,6 @@
                 <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
                 <ImageStretch>None</ImageStretch>
               </ButtonStyle>
-              <Image>basichome_button_dummy</Image>
               <LabelText>NewButton</LabelText>
               <Actions>
                 <Action Action="MediaPortalWindow" Param="87258" />
@@ -469,7 +464,6 @@
                 <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
                 <ImageStretch>None</ImageStretch>
               </ButtonStyle>
-              <Image>basichome_button_extensions</Image>
               <LabelText>@Extensions</LabelText>
               <Actions>
                 <Action Action="MediaPortalWindow" Param="801" />
@@ -503,7 +497,6 @@
                 <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
                 <ImageStretch>None</ImageStretch>
               </ButtonStyle>
-              <Image>basichome_button_dummy</Image>
               <LabelText>NewButton</LabelText>
               <Actions />
             </Control>
@@ -538,7 +531,6 @@
                 <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
                 <ImageStretch>None</ImageStretch>
               </ButtonStyle>
-              <Image>basichome_button_dummy</Image>
               <LabelText>NewButton</LabelText>
               <Actions />
             </Control>
@@ -573,7 +565,6 @@
                 <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
                 <ImageStretch>None</ImageStretch>
               </ButtonStyle>
-              <Image>basichome_button_dummy</Image>
               <LabelText>NewButton</LabelText>
               <Actions />
             </Control>
@@ -608,7 +599,6 @@
                 <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
                 <ImageStretch>None</ImageStretch>
               </ButtonStyle>
-              <Image>basichome_button_dummy</Image>
               <LabelText>NewButton</LabelText>
               <Actions />
             </Control>
@@ -686,7 +676,6 @@
                 <EnableImage>true</EnableImage>
                 <ImageStretch>None</ImageStretch>
               </ButtonStyle>
-              <Image>basichome_button_music</Image>
               <LabelText>@Music</LabelText>
               <Actions>
                 <Action Action="MediaPortalWindow" Param="501" />
@@ -722,7 +711,6 @@
                 <EnableImage>true</EnableImage>
                 <ImageStretch>None</ImageStretch>
               </ButtonStyle>
-              <Image>basichome_button_movies</Image>
               <LabelText>@Movies</LabelText>
               <Actions>
                 <Action Action="MediaPortalWindow" Param="6" />
@@ -758,7 +746,6 @@
                 <EnableImage>true</EnableImage>
                 <ImageStretch>None</ImageStretch>
               </ButtonStyle>
-              <Image>basichome_button_radio</Image>
               <LabelText>@Radio</LabelText>
               <Actions>
                 <Action Action="MediaPortalWindow" Param="30" />
@@ -794,7 +781,6 @@
                 <EnableImage>true</EnableImage>
                 <ImageStretch>None</ImageStretch>
               </ButtonStyle>
-              <Image>basichome_button_pictures</Image>
               <LabelText>@Pictures</LabelText>
               <Actions>
                 <Action Action="MediaPortalWindow" Param="2" />
@@ -830,7 +816,6 @@
                 <EnableImage>true</EnableImage>
                 <ImageStretch>None</ImageStretch>
               </ButtonStyle>
-              <Image>basichome_button_series</Image>
               <LabelText>@Series</LabelText>
               <Actions>
                 <Action Action="MediaPortalWindow" Param="9811" />
@@ -866,7 +851,6 @@
                 <EnableImage>true</EnableImage>
                 <ImageStretch>None</ImageStretch>
               </ButtonStyle>
-              <Image>basichome_button_movies</Image>
               <LabelText>@Movies</LabelText>
               <Actions>
                 <Action Action="MediaPortalWindow" Param="96742" />
@@ -902,7 +886,6 @@
                 <EnableImage>true</EnableImage>
                 <ImageStretch>None</ImageStretch>
               </ButtonStyle>
-              <Image>basichome_button_movies</Image>
               <LabelText>@Movies</LabelText>
               <Actions>
                 <Action Action="MediaPortalWindow" Param="7986" />
@@ -1050,7 +1033,6 @@
                 <EnableImage>true</EnableImage>
                 <ImageStretch>None</ImageStretch>
               </ButtonStyle>
-              <Image>basichome_button_tv</Image>
               <LabelText>@TV</LabelText>
               <Actions>
                 <Action Action="ControlVisible" Param="63" />
@@ -1086,7 +1068,6 @@
                 <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
                 <ImageStretch>None</ImageStretch>
               </ButtonStyle>
-              <Image>basichome_button_dummy</Image>
               <LabelText>NewButton</LabelText>
               <Actions />
             </Control>

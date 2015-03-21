@@ -425,7 +425,7 @@
       <FocusBorderBrush />
       <ShadeBrush />
       <GlossBrush />
-      <FontType>Roboto</FontType>
+      <FontType>Titan</FontType>
       <FocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
       <NoFocusFontBrush x:type="ColorBrush" Color="#FF000000" />
       <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
