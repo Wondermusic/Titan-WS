@@ -779,7 +779,7 @@
           <Height>610</Height>
           <PosX>10</PosX>
           <PosY>70</PosY>
-          <VisibleCondition>IsControlVisible(90)</VisibleCondition>
+          <VisibleCondition>IsControlVisible(116)</VisibleCondition>
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle>
@@ -835,7 +835,7 @@
           <Height>610</Height>
           <PosX>350</PosX>
           <PosY>70</PosY>
-          <VisibleCondition>IsControlVisible(90)</VisibleCondition>
+          <VisibleCondition>IsControlVisible(116)</VisibleCondition>
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle>
@@ -895,7 +895,7 @@
           <Height>610</Height>
           <PosX>680</PosX>
           <PosY>70</PosY>
-          <VisibleCondition>IsControlVisible(90)</VisibleCondition>
+          <VisibleCondition>IsControlVisible(116)</VisibleCondition>
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle>
