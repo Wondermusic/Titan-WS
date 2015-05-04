@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Dialog xmlns:x="http://www.w3.org/2001/XMLSchema-instance" x:type="MPDisplayDialog">
   <Name>Rec2</Name>
-  <Id>2001</Id>
+  <Id>20002</Id>
   <Width>979</Width>
   <Height>550</Height>
   <PosX>150</PosX>

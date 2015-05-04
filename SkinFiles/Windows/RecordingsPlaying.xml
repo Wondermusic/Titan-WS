@@ -91,9 +91,9 @@
         <Control x:type="Image">
           <Name>Cover</Name>
           <Id>7</Id>
-          <Width>320</Width>
+          <Width>1207</Width>
           <Height>320</Height>
-          <PosX>480</PosX>
+          <PosX>40</PosX>
           <PosY>90</PosY>
           <VisibleCondition />
           <Animations />
@@ -103,7 +103,7 @@
             <BackgroundBrush />
             <BorderBrush />
           </ImageStyle>
-          <Image>#TV.RecordedTV.thumb</Image>
+          <Image>#Play.Current.Thumb</Image>
           <DefaultImage>\defaultVideoBig.png</DefaultImage>
           <ImageStretch>Uniform</ImageStretch>
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>

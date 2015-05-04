@@ -298,8 +298,8 @@
           <TimelineMultiplier>7</TimelineMultiplier>
           <ChannelStyle StyleId="GuideChannelStyle" />
           <ProgramStyle StyleId="GuideProgramStyle" />
-          <CreateDialogId>2000</CreateDialogId>
-          <CancelDialogId>2001</CancelDialogId>
+          <CreateDialogId>20001</CreateDialogId>
+          <CancelDialogId>20002</CancelDialogId>
         </Control>
         <Control x:type="Rectangle">
           <Name>NewRectangle</Name>

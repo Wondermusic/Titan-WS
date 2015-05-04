@@ -126,7 +126,7 @@
           <Animations />
           <MediaPortalFocusControls />
           <LabelStyle StyleId="Titan40 White" />
-          <LabelText>#MovingPictures.LocalMedia.videoheight+x+#MovingPictures.LocalMedia.videowidth</LabelText>
+          <LabelText>#MovingPictures.LocalMedia.videowidth+x+#MovingPictures.LocalMedia.videoheight</LabelText>
           <LabelTextAlignment>Center</LabelTextAlignment>
           <IsScrollingEnabled>false</IsScrollingEnabled>
           <ScrollSpeed>2</ScrollSpeed>

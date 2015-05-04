@@ -100,48 +100,6 @@
       <ScrollSpeed>2</ScrollSpeed>
       <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
     </Control>
-    <Control x:type="Label">
-      <Name>TextArea3</Name>
-      <Id>5</Id>
-      <Width>668</Width>
-      <Height>60</Height>
-      <PosX>61</PosX>
-      <PosY>263</PosY>
-      <VisibleCondition />
-      <Animations />
-      <MediaPortalFocusControls />
-      <LabelStyle>
-        <FontType>Titan</FontType>
-        <FontWeight>Black</FontWeight>
-        <FontSize>34</FontSize>
-        <FontBrush x:type="ColorBrush" Color="#FF000000" />
-      </LabelStyle>
-      <LabelText>#Dialog.Label4</LabelText>
-      <IsScrollingEnabled>false</IsScrollingEnabled>
-      <ScrollSpeed>2</ScrollSpeed>
-      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-    </Control>
-    <Control x:type="Label">
-      <Name>TextArea4</Name>
-      <Id>6</Id>
-      <Width>668</Width>
-      <Height>60</Height>
-      <PosX>61</PosX>
-      <PosY>326</PosY>
-      <VisibleCondition />
-      <Animations />
-      <MediaPortalFocusControls />
-      <LabelStyle>
-        <FontType>Titan</FontType>
-        <FontWeight>Black</FontWeight>
-        <FontSize>34</FontSize>
-        <FontBrush x:type="ColorBrush" Color="#FF000000" />
-      </LabelStyle>
-      <LabelText>#Dialog.Label5</LabelText>
-      <IsScrollingEnabled>false</IsScrollingEnabled>
-      <ScrollSpeed>2</ScrollSpeed>
-      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
-    </Control>
     <Control x:type="List">
       <Name>NewList</Name>
       <Id>7</Id>

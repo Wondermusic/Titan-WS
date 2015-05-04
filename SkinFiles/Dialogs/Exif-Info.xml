@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dialog xmlns:x="http://www.w3.org/2001/XMLSchema-instance" x:type="MediaPortalDialog">
+  <Name>Exif-Info</Name>
+  <Id>2014</Id>
+  <Width>1280</Width>
+  <Height>720</Height>
+  <BorderThickness>2</BorderThickness>
+  <CornerRadius>5</CornerRadius>
+  <BackgroundBrush x:type="ImageBrush" Image="\dialog_background.png" Stretch="Fill" />
+  <BorderBrush />
+  <DialogAnimations />
+  <DialogControls>
+    <Control x:type="Group">
+      <Name>EXIF- Info</Name>
+      <Id>1</Id>
+      <Width>1280</Width>
+      <Height>720</Height>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <GroupStyle>
+        <BackgroundBrush x:type="ImageBrush" Image="\dialog_background.png" Stretch="Fill" />
+      </GroupStyle>
+      <GroupControls>
+        <Control x:type="Group">
+          <Name>Info</Name>
+          <Id>2</Id>
+          <Width>1080</Width>
+          <Height>445</Height>
+          <PosX>100</PosX>
+          <PosY>100</PosY>
+          <VisibleCondition>!IsControlVisible(27)</VisibleCondition>
+          <Animations />
+          <MediaPortalFocusControls />
+          <GroupStyle />
+          <GroupControls>
+            <Control x:type="Group">
+              <Name>Fixed Labels</Name>
+              <Id>3</Id>
+              <Width>300</Width>
+              <Height>445</Height>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <GroupStyle />
+              <GroupControls>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>4</Id>
+                  <Width>300</Width>
+                  <Height>40</Height>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>@Image_dimesion</LabelText>
+                </Control>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>5</Id>
+                  <Width>300</Width>
+                  <Height>40</Height>
+                  <PosY>40</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>@Resolution+:</LabelText>
+                </Control>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>6</Id>
+                  <Width>300</Width>
+                  <Height>40</Height>
+                  <PosY>80</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>@Flash</LabelText>
+                </Control>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>7</Id>
+                  <Width>300</Width>
+                  <Height>40</Height>
+                  <PosY>120</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>@Metering_Mode</LabelText>
+                </Control>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>8</Id>
+                  <Width>300</Width>
+                  <Height>40</Height>
+                  <PosY>160</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>@Compensation</LabelText>
+                </Control>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>9</Id>
+                  <Width>300</Width>
+                  <Height>40</Height>
+                  <PosY>200</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>@Shutter_Speed</LabelText>
+                </Control>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>10</Id>
+                  <Width>300</Width>
+                  <Height>40</Height>
+                  <PosY>240</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>@Date_taken</LabelText>
+                </Control>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>11</Id>
+                  <Width>300</Width>
+                  <Height>40</Height>
+                  <PosY>280</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>@F-stop</LabelText>
+                </Control>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>12</Id>
+                  <Width>300</Width>
+                  <Height>40</Height>
+                  <PosY>320</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>@Exposure_time</LabelText>
+                </Control>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>13</Id>
+                  <Width>300</Width>
+                  <Height>40</Height>
+                  <PosY>360</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>@Camera_Model</LabelText>
+                </Control>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>14</Id>
+                  <Width>300</Width>
+                  <Height>40</Height>
+                  <PosY>400</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>@Equipment_make</LabelText>
+                </Control>
+              </GroupControls>
+            </Control>
+            <Control x:type="Group">
+              <Name>DynamicLabels</Name>
+              <Id>15</Id>
+              <Width>765</Width>
+              <Height>445</Height>
+              <PosX>300</PosX>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <GroupStyle />
+              <GroupControls>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>16</Id>
+                  <Width>760</Width>
+                  <Height>40</Height>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>#Picture.Exif.ImageDimensionsX+x+#Picture.Exif.ImageDimensionsY</LabelText>
+                </Control>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>17</Id>
+                  <Width>760</Width>
+                  <Height>40</Height>
+                  <PosY>40</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>#Picture.Exif.ResolutionX+x+#Picture.Exif.ResolutionY</LabelText>
+                </Control>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>18</Id>
+                  <Width>760</Width>
+                  <Height>40</Height>
+                  <PosY>80</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>#Picture.Exif.Flash</LabelText>
+                </Control>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>19</Id>
+                  <Width>760</Width>
+                  <Height>40</Height>
+                  <PosY>120</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>#Picture.Exif.MeteringMode</LabelText>
+                </Control>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>20</Id>
+                  <Width>760</Width>
+                  <Height>40</Height>
+                  <PosY>160</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>#Picture.Exif.ExposureBias</LabelText>
+                </Control>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>21</Id>
+                  <Width>760</Width>
+                  <Height>40</Height>
+                  <PosY>200</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                </Control>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>22</Id>
+                  <Width>760</Width>
+                  <Height>40</Height>
+                  <PosY>240</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>#Picture.Exif.DatePictureTaken</LabelText>
+                </Control>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>23</Id>
+                  <Width>760</Width>
+                  <Height>40</Height>
+                  <PosY>280</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>#Picture.Exif.Fstop</LabelText>
+                </Control>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>24</Id>
+                  <Width>760</Width>
+                  <Height>40</Height>
+                  <PosY>320</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>#Picture.Exif.ExposureTime</LabelText>
+                </Control>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>25</Id>
+                  <Width>760</Width>
+                  <Height>40</Height>
+                  <PosY>360</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>#Picture.Exif.CameraModel</LabelText>
+                </Control>
+                <Control x:type="Label">
+                  <Name>NewLabel</Name>
+                  <Id>26</Id>
+                  <Width>760</Width>
+                  <Height>40</Height>
+                  <PosY>400</PosY>
+                  <VisibleCondition />
+                  <Animations />
+                  <MediaPortalFocusControls />
+                  <LabelStyle>
+                    <FontType>Titan</FontType>
+                    <FontSize>30</FontSize>
+                    <FontBrush x:type="ColorBrush" Color="#FF000000" />
+                  </LabelStyle>
+                  <LabelText>#Picture.Exif.EquipmentMake</LabelText>
+                </Control>
+              </GroupControls>
+            </Control>
+          </GroupControls>
+        </Control>
+        <Control x:type="Group">
+          <Name>GoogleMaps</Name>
+          <Id>27</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <GroupStyle />
+          <GroupControls>
+            <Control x:type="Image">
+              <Name>NewImage</Name>
+              <Id>28</Id>
+              <Width>1015</Width>
+              <Height>435</Height>
+              <PosX>130</PosX>
+              <PosY>100</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle />
+              <Image>#Picture.Exif.MapData</Image>
+              <DefaultImage>#Picture.Slideshow.Thumb</DefaultImage>
+              <ImageStretch>Uniform</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+              <ShowMapControls>true</ShowMapControls>
+            </Control>
+          </GroupControls>
+        </Control>
+        <Control x:type="Button">
+          <Name>GoogleMapsButton</Name>
+          <Id>29</Id>
+          <Width>350</Width>
+          <Height>50</Height>
+          <PosX>115</PosX>
+          <PosY>552</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ButtonStyle StyleId="Weather" />
+          <LabelText>open GoogleMaps</LabelText>
+          <Actions>
+            <Action Action="ControlVisible" Param="27" />
+          </Actions>
+        </Control>
+        <Control x:type="Button">
+          <Name>GoogleMapsButton</Name>
+          <Id>30</Id>
+          <Width>350</Width>
+          <Height>50</Height>
+          <PosX>115</PosX>
+          <PosY>552</PosY>
+          <VisibleCondition>IsControlVisible(40)</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <ButtonStyle StyleId="Weather" />
+          <LabelText>close GoogleMaps</LabelText>
+          <Actions>
+            <Action Action="ControlVisible" Param="27" />
+          </Actions>
+        </Control>
+      </GroupControls>
+    </Control>
+  </DialogControls>
+  <VisibleCondition>IsMediaPortalDialog(2014)</VisibleCondition>
+</Dialog>

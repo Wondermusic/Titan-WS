@@ -545,7 +545,9 @@
       <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
       <LabelMargin>40,8,2,8</LabelMargin>
       <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+      <EnableImage>true</EnableImage>
       <ImageMargin>5,5,5,5</ImageMargin>
+      <ImageHorizontalAlignment>Left</ImageHorizontalAlignment>
     </ControlStyle>
     <ControlStyle x:type="GuideProgram" StyleId="GuideProgramStyle">
       <BorderThickness>1,1,1,1</BorderThickness>
@@ -794,6 +796,71 @@
       <NoFocusFontBrush x:type="ColorBrush" Color="#FF5E9BE0" />
       <Width>400</Width>
       <Height>70</Height>
+    </ControlStyle>
+    <ControlStyle x:type="ButtonStyle" StyleId="Settings">
+      <CornerRadius>12,12,12,12</CornerRadius>
+      <NoFocusBrush x:type="ColorBrush" Color="#2DFFFFFF" />
+      <NoFocusBorderBrush />
+      <FocusBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#FF00BFFF" Offset="0" />
+          <GradientStop Color="#FF6494ED" Offset="0.518" />
+          <GradientStop Color="#FF6494ED" Offset="1" />
+        </GradientStops>
+      </FocusBrush>
+      <FocusBorderBrush />
+      <ShadeBrush />
+      <GlossBrush />
+      <FontType>Titan</FontType>
+      <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <LabelMargin>5,0,0,0</LabelMargin>
+      <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+    </ControlStyle>
+    <ControlStyle x:type="ButtonStyle" StyleId="Settings2">
+      <BorderThickness>1,1,1,1</BorderThickness>
+      <CornerRadius>12,12,12,12</CornerRadius>
+      <NoFocusBrush x:type="ColorBrush" Color="#14FFFFFF" />
+      <NoFocusBorderBrush x:type="ColorBrush" Color="#6E00B7FF" />
+      <FocusBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#FF00BFFF" Offset="0" />
+          <GradientStop Color="#FF6493ED" Offset="0.504" />
+          <GradientStop Color="#FF6493ED" Offset="1" />
+        </GradientStops>
+      </FocusBrush>
+      <FocusBorderBrush />
+      <ShadeBrush />
+      <GlossBrush />
+      <FontType>Titan</FontType>
+      <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <LabelMargin>5,0,0,0</LabelMargin>
+      <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
+    </ControlStyle>
+    <ControlStyle x:type="ButtonStyle" StyleId="Settings3">
+      <BorderThickness>1,1,1,1</BorderThickness>
+      <CornerRadius>12,12,12,12</CornerRadius>
+      <NoFocusBrush x:type="ColorBrush" Color="#14FFFFFF" />
+      <NoFocusBorderBrush x:type="ColorBrush" Color="#6E00B7FF" />
+      <FocusBrush x:type="GradientBrush">
+        <Angle>Vertical</Angle>
+        <GradientStops>
+          <GradientStop Color="#FFFF0000" Offset="0" />
+          <GradientStop Color="#FF800000" Offset="0.504" />
+          <GradientStop Color="#FF800000" Offset="1" />
+        </GradientStops>
+      </FocusBrush>
+      <FocusBorderBrush />
+      <ShadeBrush />
+      <GlossBrush />
+      <FontType>Titan</FontType>
+      <FocusFontBrush x:type="ColorBrush" Color="#FF000000" />
+      <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+      <LabelMargin>5,0,0,0</LabelMargin>
+      <LabelHorizontalAlignment>Left</LabelHorizontalAlignment>
     </ControlStyle>
   </ControlStyles>
 </StyleCollection>

@@ -65,7 +65,7 @@
           <Width>1280</Width>
           <Height>600</Height>
           <PosY>100</PosY>
-          <VisibleCondition>!IsMediaPortalListLayout(Vertical)</VisibleCondition>
+          <VisibleCondition>IsMediaPortalListLayout(Horizontal) || IsMediaPortalListLayout(CoverFlow)</VisibleCondition>
           <IsWindowOpenVisible>false</IsWindowOpenVisible>
           <Animations />
           <MediaPortalFocusControls />

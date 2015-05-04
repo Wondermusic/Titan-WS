@@ -25,7 +25,7 @@
         <FontSize>50</FontSize>
         <FontBrush x:type="ColorBrush" Color="#FF000000" />
       </LabelStyle>
-      <LabelText>#Dialog.Label4</LabelText>
+      <LabelText>#Dialog.Label3</LabelText>
       <IsScrollingEnabled>false</IsScrollingEnabled>
       <ScrollSpeed>2</ScrollSpeed>
       <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
@@ -62,23 +62,60 @@
       <Name>Dialog</Name>
       <Id>3</Id>
       <Width>668</Width>
-      <Height>341</Height>
+      <Height>55</Height>
       <PosX>61</PosX>
-      <PosY>137</PosY>
+      <PosY>170</PosY>
       <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
       <LabelStyle>
         <FontType>Titan</FontType>
         <FontWeight>Black</FontWeight>
-        <FontSize>34</FontSize>
+        <FontSize>40</FontSize>
         <FontBrush x:type="ColorBrush" Color="#FF000000" />
       </LabelStyle>
-      <LabelText>#Dialog.Label5</LabelText>
+      <LabelText>#TV.View.title</LabelText>
       <IsVertical>true</IsVertical>
       <IsScrollingEnabled>false</IsScrollingEnabled>
       <ScrollSpeed>2</ScrollSpeed>
       <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+    </Control>
+    <Control x:type="Label">
+      <Name>Dialog</Name>
+      <Id>5</Id>
+      <Width>668</Width>
+      <Height>55</Height>
+      <PosX>61</PosX>
+      <PosY>220</PosY>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <LabelStyle>
+        <FontType>Titan</FontType>
+        <FontWeight>Black</FontWeight>
+        <FontSize>40</FontSize>
+        <FontBrush x:type="ColorBrush" Color="#FF000000" />
+      </LabelStyle>
+      <LabelText>#TV.View.start+ - +#TV.View.stop</LabelText>
+      <IsVertical>true</IsVertical>
+      <IsScrollingEnabled>false</IsScrollingEnabled>
+      <ScrollSpeed>2</ScrollSpeed>
+      <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+    </Control>
+    <Control x:type="Image">
+      <Name>NewImage</Name>
+      <Id>4</Id>
+      <Width>200</Width>
+      <Height>200</Height>
+      <PosX>72</PosX>
+      <PosY>284</PosY>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <ImageStyle StyleId="Logo_Image" />
+      <Image>#Dialog.Image5</Image>
+      <ImageStretch>Uniform</ImageStretch>
+      <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
     </Control>
   </DialogControls>
   <VisibleCondition>IsMediaPortalDialog(2016)</VisibleCondition>
