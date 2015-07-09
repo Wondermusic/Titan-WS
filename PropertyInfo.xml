@@ -341,6 +341,15 @@
       <IsInternal>false</IsInternal>
     </XmlProperty>
     <XmlProperty>
+      <SkinTag>#TV.RecordedTV.thumb</SkinTag>
+      <PropertyType>Image</PropertyType>
+      <DesignerValue>New....</DesignerValue>
+      <MediaPortalTags>
+        <XmlMediaPortalTag Tag="#TV.RecordedTV.thumb" />
+      </MediaPortalTags>
+      <IsInternal>false</IsInternal>
+    </XmlProperty>
+    <XmlProperty>
       <SkinTag>#percentage</SkinTag>
       <PropertyType>Number</PropertyType>
       <DesignerValue>25</DesignerValue>

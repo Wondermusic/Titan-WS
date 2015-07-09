@@ -778,6 +778,7 @@
       <BorderThickness>5,5,5,5</BorderThickness>
       <CornerRadius>10,10,10,10</CornerRadius>
       <FocusBorderBrush x:type="ColorBrush" Color="#FF1E90FF" />
+      <EnableLabel>false</EnableLabel>
       <EnableImage>true</EnableImage>
       <ImageStretch>Fill</ImageStretch>
       <ImageCornerRadius>5</ImageCornerRadius>

@@ -185,33 +185,128 @@
           <Animations />
           <MediaPortalFocusControls />
           <ImageStyle StyleId="Logo_Image" />
-          <Image>#Picture.Slideshow.Thumb</Image>
           <DefaultImage>\BasicHomeImages\Hovers\Pictures.jpg</DefaultImage>
           <ImageStretch>UniformToFill</ImageStretch>
           <CoverImage x:type="ImageBrush" Image="\fanart_overlay.png" Stretch="Fill" />
           <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
         </Control>
-        <Control x:type="Label">
-          <Name>selecteditem</Name>
-          <Id>31</Id>
+        <Control x:type="Group">
+          <Name>Some Infos</Name>
+          <Id>75</Id>
           <Width>1280</Width>
-          <Height>75</Height>
-          <PosY>640</PosY>
-          <VisibleCondition />
+          <Height>720</Height>
+          <VisibleCondition>!IsControlVisible(37)</VisibleCondition>
           <Animations />
           <MediaPortalFocusControls />
-          <LabelStyle StyleId="Titan60" />
-          <LabelText>#selecteditem</LabelText>
-          <LabelTextAlignment>Center</LabelTextAlignment>
-          <ScrollDelay>2</ScrollDelay>
-          <ScrollSpeed>20</ScrollSpeed>
-          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+          <GroupStyle />
+          <GroupControls>
+            <Control x:type="Image">
+              <Name>NewImage</Name>
+              <Id>76</Id>
+              <Width>1280</Width>
+              <Height>720</Height>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle>
+                <BackgroundBrush x:type="ColorBrush" Color="#B1000000" />
+              </ImageStyle>
+              <ImageStretch>None</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+            </Control>
+            <Control x:type="Label">
+              <Name>selecteditem</Name>
+              <Id>77</Id>
+              <Width>1280</Width>
+              <Height>75</Height>
+              <PosY>640</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan60" />
+              <LabelText>#selecteditem</LabelText>
+              <LabelTextAlignment>Center</LabelTextAlignment>
+              <ScrollDelay>2</ScrollDelay>
+              <ScrollSpeed>20</ScrollSpeed>
+              <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+            </Control>
+            <Control x:type="Image">
+              <Name>NewImage</Name>
+              <Id>78</Id>
+              <Width>422</Width>
+              <Height>317</Height>
+              <PosX>11</PosX>
+              <PosY>165</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <ImageStyle StyleId="Logo_Image" />
+              <Image>#Picture.Slideshow.Thumb</Image>
+              <ImageStretch>Uniform</ImageStretch>
+              <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+              <MapData>#Picture.Exif.MapData</MapData>
+            </Control>
+            <Control x:type="Label">
+              <Name>NewLabel</Name>
+              <Id>79</Id>
+              <Width>400</Width>
+              <Height>60</Height>
+              <PosX>450</PosX>
+              <PosY>160</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan50_White" />
+              <LabelText>#Picture.Exif.EquipmentMake</LabelText>
+            </Control>
+            <Control x:type="Label">
+              <Name>NewLabel</Name>
+              <Id>80</Id>
+              <Width>760</Width>
+              <Height>60</Height>
+              <PosX>450</PosX>
+              <PosY>220</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan50_White" />
+              <LabelText>#Picture.Exif.CameraModel</LabelText>
+            </Control>
+            <Control x:type="Label">
+              <Name>NewLabel</Name>
+              <Id>81</Id>
+              <Width>760</Width>
+              <Height>60</Height>
+              <PosX>450</PosX>
+              <PosY>280</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan50_White" />
+              <LabelText>#Picture.Exif.ImageDimensionsX+x+#Picture.Exif.ImageDimensionsY</LabelText>
+            </Control>
+            <Control x:type="Label">
+              <Name>NewLabel</Name>
+              <Id>82</Id>
+              <Width>1234</Width>
+              <Height>60</Height>
+              <PosX>18</PosX>
+              <PosY>490</PosY>
+              <VisibleCondition />
+              <Animations />
+              <MediaPortalFocusControls />
+              <LabelStyle StyleId="Titan50_White" />
+              <LabelText>#Picture.Exif.DatePictureTaken</LabelText>
+            </Control>
+          </GroupControls>
         </Control>
         <Control x:type="Button">
           <Name>Exif- Button</Name>
           <Id>38</Id>
-          <Width>1280</Width>
-          <Height>720</Height>
+          <Width>800</Width>
+          <Height>500</Height>
+          <PosX>455</PosX>
+          <PosY>105</PosY>
           <VisibleCondition />
           <Animations />
           <MediaPortalFocusControls />
@@ -646,10 +741,9 @@
                   <Animations />
                   <MediaPortalFocusControls />
                   <ImageStyle />
-                  <Image>#Picture.Exif.MapData</Image>
-                  <DefaultImage>#Picture.Slideshow.Thumb</DefaultImage>
                   <ImageStretch>Uniform</ImageStretch>
                   <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+                  <MapData>#Picture.Exif.MapData</MapData>
                   <ShowMapControls>true</ShowMapControls>
                 </Control>
               </GroupControls>

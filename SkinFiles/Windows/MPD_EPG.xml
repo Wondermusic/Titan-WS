@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window xmlns:x="http://www.w3.org/2001/XMLSchema-instance" x:type="MPDisplayWindow">
+  <IsDefault>false</IsDefault>
+  <Width>1280</Width>
+  <Height>720</Height>
+  <Name>MPD_EPG</Name>
+  <Id>9999</Id>
+  <BackgroundBrush />
+  <WindowAnimations />
+  <WindowControls>
+    <Control x:type="Image">
+      <Name>Background Image</Name>
+      <Id>1</Id>
+      <Width>1280</Width>
+      <Height>720</Height>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <ImageStyle StyleId="Background" />
+      <ImageStretch>None</ImageStretch>
+      <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+    </Control>
+    <Control x:type="Group">
+      <Name>EPG</Name>
+      <Id>2</Id>
+      <Width>1280</Width>
+      <Height>720</Height>
+      <VisibleCondition>IsMediaPortalWindow(600)</VisibleCondition>
+      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <Animations />
+      <MediaPortalFocusControls />
+      <GroupStyle StyleId="Empty" />
+      <GroupControls>
+        <Control x:type="Image">
+          <Name>Fanart</Name>
+          <Id>3</Id>
+          <Width>1280</Width>
+          <Height>720</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle StyleId="Background" />
+          <Image>#MPD2.fanart.movie</Image>
+          <ImageStretch>Fill</ImageStretch>
+          <CoverImage x:type="ImageBrush" Image="\fanart_overlay.png" Stretch="Fill" />
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Guide">
+          <Name>NewGuide</Name>
+          <Id>4</Id>
+          <Width>1258</Width>
+          <Height>408</Height>
+          <PosX>9</PosX>
+          <PosY>80</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <GuideStyle StyleId="GuideStyle">
+            <TimelineMarkerThickness>0</TimelineMarkerThickness>
+          </GuideStyle>
+          <ChannelListWidth>177</ChannelListWidth>
+          <TimelineMultiplier>7</TimelineMultiplier>
+          <ChannelStyle StyleId="GuideChannelStyle" />
+          <ProgramStyle StyleId="GuideProgramStyle" />
+          <CreateDialogId>20001</CreateDialogId>
+          <CancelDialogId>20002</CancelDialogId>
+        </Control>
+        <Control x:type="Rectangle">
+          <Name>NewRectangle</Name>
+          <Id>5</Id>
+          <Width>1260</Width>
+          <Height>210</Height>
+          <PosX>10</PosX>
+          <PosY>495</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <CornerRadius>25,25,25,25</CornerRadius>
+          <BackgroundBrush x:type="ColorBrush" Color="#B9000000" />
+        </Control>
+        <Control x:type="Image">
+          <Name>TVGuide Thumb</Name>
+          <Id>6</Id>
+          <Width>180</Width>
+          <Height>180</Height>
+          <PosX>20</PosX>
+          <PosY>508</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle>
+            <CornerRadius>10,10,10,10</CornerRadius>
+          </ImageStyle>
+          <Image>#TV.Guide.thumb</Image>
+          <DefaultImage>\defaultTVBig.png</DefaultImage>
+          <ImageStretch>Uniform</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Label">
+          <Name>Title</Name>
+          <Id>7</Id>
+          <Width>985</Width>
+          <Height>60</Height>
+          <PosX>270</PosX>
+          <PosY>500</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan50_White" />
+          <LabelText>#TV.Guide.Title</LabelText>
+        </Control>
+        <Control x:type="Label">
+          <Name>Description</Name>
+          <Id>8</Id>
+          <Width>985</Width>
+          <Height>148</Height>
+          <PosX>270</PosX>
+          <PosY>560</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan40 White" />
+          <LabelText>#TV.Guide.Description</LabelText>
+          <IsVertical>true</IsVertical>
+          <ScrollSeperator>---------------------------</ScrollSeperator>
+        </Control>
+      </GroupControls>
+    </Control>
+    <Control x:type="Group">
+      <Name>Window Name</Name>
+      <Id>9</Id>
+      <Width>1280</Width>
+      <Height>156</Height>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <GroupStyle />
+      <GroupControls>
+        <Control x:type="Image">
+          <Name>Icon</Name>
+          <Id>10</Id>
+          <Width>60</Width>
+          <Height>60</Height>
+          <VisibleCondition>!IsTvRecording</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations />
+          <MediaPortalFocusControls />
+          <ImageStyle />
+          <Image>\icon_tv.png</Image>
+          <ImageStretch>None</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Label">
+          <Name>Name of Window</Name>
+          <Id>11</Id>
+          <Width>800</Width>
+          <Height>60</Height>
+          <PosX>85</PosX>
+          <PosY>9</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan50_White" />
+          <LabelText>MPDisplay EPG</LabelText>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Label">
+          <Name>Time</Name>
+          <Id>12</Id>
+          <Width>426</Width>
+          <Height>110</Height>
+          <PosX>855</PosX>
+          <PosY>-10</PosY>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <LabelStyle StyleId="Titan70" />
+          <LabelText>#time</LabelText>
+          <LabelTextAlignment>Right</LabelTextAlignment>
+          <IsScrollingEnabled>false</IsScrollingEnabled>
+          <ScrollSpeed>2</ScrollSpeed>
+          <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
+        </Control>
+        <Control x:type="Image">
+          <Name>Rec Indicator</Name>
+          <Id>13</Id>
+          <Width>85</Width>
+          <Height>85</Height>
+          <VisibleCondition>IsTvRecording</VisibleCondition>
+          <IsWindowOpenVisible>false</IsWindowOpenVisible>
+          <Animations>
+            <Animation x:type="Fade" Condition="VisibleTrue" Duration="1500" Easing="EaseInOut" Reverse="true" Repeat="10000" />
+            <Animation x:type="Fade" Condition="VisibleFalse" Duration="500" Easing="EaseInOut" From="100" To="0" />
+          </Animations>
+          <MediaPortalFocusControls />
+          <ImageStyle />
+          <Image>\rec.png</Image>
+          <ImageStretch>Uniform</ImageStretch>
+          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
+        </Control>
+        <Control x:type="Button">
+          <Name>NewButton</Name>
+          <Id>14</Id>
+          <Width>80</Width>
+          <Height>80</Height>
+          <VisibleCondition />
+          <Animations />
+          <MediaPortalFocusControls />
+          <ButtonStyle>
+            <EnableLabel>false</EnableLabel>
+          </ButtonStyle>
+          <LabelText>NewButton</LabelText>
+          <Actions>
+            <Action Action="CloseWindow" />
+          </Actions>
+        </Control>
+      </GroupControls>
+    </Control>
+  </WindowControls>
+</Window>

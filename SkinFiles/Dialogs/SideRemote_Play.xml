@@ -3,7 +3,7 @@
   <Name>SideRemote_Play</Name>
   <Id>904</Id>
   <Width>520</Width>
-  <Height>576</Height>
+  <Height>652</Height>
   <BorderThickness>2</BorderThickness>
   <CornerRadius>25,25,25,25</CornerRadius>
   <BackgroundBrush x:type="GradientBrush">
@@ -621,6 +621,34 @@
       <LabelText>Ch. Dwn</LabelText>
       <Actions>
         <Action Action="MediaPortalAction" Param="ACTION_PREV_CHANNEL" />
+      </Actions>
+    </Control>
+    <Control x:type="Button">
+      <Name>ShortCutMenu</Name>
+      <Id>23</Id>
+      <Width>337</Width>
+      <Height>100</Height>
+      <PosX>92</PosX>
+      <PosY>543</PosY>
+      <VisibleCondition />
+      <Animations />
+      <MediaPortalFocusControls />
+      <ButtonStyle>
+        <NoFocusBrush />
+        <FocusBrush />
+        <FocusBorderBrush />
+        <FontType>Titan</FontType>
+        <FontSize>32</FontSize>
+        <FocusFontBrush x:type="ColorBrush" Color="#FF4682B4" />
+        <NoFocusFontBrush x:type="ColorBrush" Color="#FFFFFFFF" />
+        <LabelMargin>0,0,0,5</LabelMargin>
+        <LabelVerticalAlignment>Bottom</LabelVerticalAlignment>
+        <EnableImage>true</EnableImage>
+      </ButtonStyle>
+      <Image>\Settings\Remote text.png</Image>
+      <Actions>
+        <Action Action="OpenDialog" Param="903" />
+        <Action Action="OpenDialog" Param="20000" />
       </Actions>
     </Control>
   </DialogControls>

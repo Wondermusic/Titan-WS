@@ -28,7 +28,7 @@
       <ButtonStyle StyleId="Weather" />
       <LabelText>@no</LabelText>
       <Actions>
-        <Action Action="OpenDialog" Param="2001" />
+        <Action Action="OpenDialog" Param="20002" />
       </Actions>
     </Control>
     <Control x:type="Button">
@@ -45,7 +45,7 @@
       <LabelText>@yes</LabelText>
       <Actions>
         <Action Action="ScheduleEPGAction" />
-        <Action Action="OpenDialog" Param="2001" />
+        <Action Action="OpenDialog" Param="20002" />
       </Actions>
     </Control>
     <Control x:type="Label">
