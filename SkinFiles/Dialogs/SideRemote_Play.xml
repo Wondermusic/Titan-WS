@@ -647,7 +647,7 @@
       </ButtonStyle>
       <Image>\Settings\Remote text.png</Image>
       <Actions>
-        <Action Action="OpenDialog" Param="903" />
+        <Action Action="OpenDialog" Param="904" />
         <Action Action="OpenDialog" Param="20000" />
       </Actions>
     </Control>

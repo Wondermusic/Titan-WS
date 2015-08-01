@@ -25,8 +25,7 @@
       <Id>2</Id>
       <Width>1280</Width>
       <Height>720</Height>
-      <VisibleCondition>IsMediaPortalWindow(600)</VisibleCondition>
-      <IsWindowOpenVisible>false</IsWindowOpenVisible>
+      <VisibleCondition />
       <Animations />
       <MediaPortalFocusControls />
       <GroupStyle StyleId="Empty" />
@@ -136,20 +135,6 @@
       <MediaPortalFocusControls />
       <GroupStyle />
       <GroupControls>
-        <Control x:type="Image">
-          <Name>Icon</Name>
-          <Id>10</Id>
-          <Width>60</Width>
-          <Height>60</Height>
-          <VisibleCondition>!IsTvRecording</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
-          <Animations />
-          <MediaPortalFocusControls />
-          <ImageStyle />
-          <Image>\icon_tv.png</Image>
-          <ImageStretch>None</ImageStretch>
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
         <Control x:type="Label">
           <Name>Name of Window</Name>
           <Id>11</Id>
@@ -183,23 +168,6 @@
           <ScrollSpeed>2</ScrollSpeed>
           <IsScrollWrapEnabled>false</IsScrollWrapEnabled>
         </Control>
-        <Control x:type="Image">
-          <Name>Rec Indicator</Name>
-          <Id>13</Id>
-          <Width>85</Width>
-          <Height>85</Height>
-          <VisibleCondition>IsTvRecording</VisibleCondition>
-          <IsWindowOpenVisible>false</IsWindowOpenVisible>
-          <Animations>
-            <Animation x:type="Fade" Condition="VisibleTrue" Duration="1500" Easing="EaseInOut" Reverse="true" Repeat="10000" />
-            <Animation x:type="Fade" Condition="VisibleFalse" Duration="500" Easing="EaseInOut" From="100" To="0" />
-          </Animations>
-          <MediaPortalFocusControls />
-          <ImageStyle />
-          <Image>\rec.png</Image>
-          <ImageStretch>Uniform</ImageStretch>
-          <CoverCornerRadius>0,0,0,0</CoverCornerRadius>
-        </Control>
         <Control x:type="Button">
           <Name>NewButton</Name>
           <Id>14</Id>
@@ -209,6 +177,8 @@
           <Animations />
           <MediaPortalFocusControls />
           <ButtonStyle>
+            <NoFocusBrush x:type="ImageBrush" Image="\Remote\left_nf.png" Stretch="Uniform" />
+            <FocusBrush x:type="ImageBrush" Image="\Remote\left_f.png" Stretch="Uniform" />
             <EnableLabel>false</EnableLabel>
           </ButtonStyle>
           <LabelText>NewButton</LabelText>
@@ -219,4 +189,5 @@
       </GroupControls>
     </Control>
   </WindowControls>
+  <AutoCloseWindow>false</AutoCloseWindow>
 </Window>
